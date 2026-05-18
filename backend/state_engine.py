@@ -248,7 +248,7 @@ def compute_scores(state: dict) -> dict:
     evasion = 0.5 * (1 - K) + 0.3 * abs(V - 0.5) * 2 + 0.2 * P
     realism_raw = 1.0 - 0.3 * (abs(C - 0.5) * 2) - 0.3 * (abs(K - 0.5) * 2) - 0.4 * (max(0, P - 0.8) * 5)
     realism = max(0, realism_raw)
-    adversarial = 0.4 * (1 - K) + 0.3 * A + 0.2 * R + 0.1 * (1 - C)
+    adversarial = 0.4 * (1 - K) + 0.3 * (1 - A) + 0.2 * R + 0.1 * (1 - C)
 
     return {
         "consistency": round(consistency, 3),

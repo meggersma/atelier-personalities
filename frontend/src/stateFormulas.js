@@ -52,7 +52,7 @@ export function computeScores(state) {
   const evasion = 0.5 * (1 - K) + 0.3 * Math.abs(V - 0.5) * 2 + 0.2 * P
   const realism_raw = 1.0 - 0.3 * (Math.abs(C - 0.5) * 2) - 0.3 * (Math.abs(K - 0.5) * 2) - 0.4 * (Math.max(0, P - 0.8) * 5)
   const realism = Math.max(0, realism_raw)
-  const adversarial = 0.4 * (1 - K) + 0.3 * A + 0.2 * R + 0.1 * (1 - C)
+  const adversarial = 0.4 * (1 - K) + 0.3 * (1 - A) + 0.2 * R + 0.1 * (1 - C)
   return {
     consistency: Math.round(consistency * 1000) / 1000,
     evasion: Math.round(evasion * 1000) / 1000,
