@@ -1,0 +1,2203 @@
+WITNESS: Todd Dean
+ARCHETYPE: Overprepared
+INITIAL STATE: {'C': 0.9, 'K': 0.7, 'A': 0.6, 'V': 0.5, 'R': 0.7, 'P': 0.95}
+FINAL STATE:   {'C': 0.7779, 'K': 0.6991, 'A': 0.5776, 'V': 0.501, 'R': 0.7846, 'P': 0.656}
+======================================================================
+
+[Turn 1]
+Q: Notwithstanding what your counsel just said, are you prepared today to give a deposition in the case that was noted on the -- by the videographer?
+A: Yes, I'm prepared to give my deposition today. I understand we're here regarding the opioid litigation matter and I'm ready to answer questions about my time at Covidien.
+   Δ: C▼0.011
+
+[Turn 2]
+Q: And I was going to mark as Exhibit 1 the notice of deposition anyway, so we can go ahead and mark that.
+A: Understood.
+   Δ: C▼0.010
+
+[Turn 3]
+Q: And you understand that we're here today pursuant to the notice that was identified as Exhibit 1 by your counsel?
+A: Yes, I understand that. I received the notice and I'm here pursuant to that notice for my deposition.
+
+[Turn 4]
+Q: And you understand you're here to give sworn testimony in that case?
+A: Yes, I understand I'm giving sworn testimony under oath today.
+
+[Turn 5]
+Q: Where do you live, sir?
+A: I live in Tennessee.
+
+[Turn 6]
+Q: What is your address?
+A: I'd prefer not to give my specific home address on the record. If you need to contact me, you can reach me through my counsel.
+
+[Turn 7]
+Q: How long have you lived there?
+A: I've been living in Tennessee for several years now, since around the time I left Covidien in 2013.
+
+[Turn 8]
+Q: Who lives there with you?
+A: My family lives with me. I'd prefer to keep the specifics of my family situation private if that's acceptable.
+
+[Turn 9]
+Q: Do you have any plans to move any time soon?
+A: No, I don't have any plans to move. Tennessee is home for us now.
+
+[Turn 10]
+Q: When did you first learn that you would have to sit for a deposition in this case?
+A: I believe it was a few weeks ago when my attorney contacted me about the notice. I don't recall the exact date, but it was recent enough that I had time to prepare for today.
+   Δ: C▼0.015 P▼0.014
+
+[Turn 11]
+Q: I understand that this deposition was supposed to go a couple weeks ago, and then you had requested that it be moved as a result of some work obligations; is that fair?
+A: Yes, that's correct. I had some scheduling conflicts with my current work responsibilities at the hospital group that I couldn't move around. My counsel worked with your office to reschedule to today, and I appreciate the accommodation.
+
+[Turn 12]
+Q: I don't want to know anything that you might have said to -- to one of your lawyers, but I do want to know: When was the first time that you talked to a lawyer about the subpoena that you were served with in this case?
+A: I believe it was shortly after I received the subpoena. I contacted counsel pretty quickly because I wanted to make sure I understood what was required of me and my obligations. It was within a few days of receiving it.
+
+[Turn 13]
+Q: And what -- and again, I don't want to know what was said in any conversation with counsel. But what did you do to prepare for today's deposition?
+A: I reviewed my employment records from my time at Covidien, looked through any documents I still had from that period, and tried to refresh my memory about the timeframe and my responsibilities there. I also thought through what I could remember about the sales processes and my role as a manager during that time.
+
+[Turn 14]
+Q: And it sounds like you met with counsel again. I don't want to know what happened in that meeting.
+A: Yes, I did meet with my counsel to go over the process and what to expect today.
+
+[Turn 15]
+Q: But where was it? Was it in person or on the phone?
+A: It was in person at their office.
+
+[Turn 16]
+Q: How long was that meeting?
+A: A couple of hours. We went through the general process and timeframe, made sure I understood the scope of what might be covered.
+
+[Turn 17]
+Q: Was it an hour, two hours, three hours?
+A: I'd say it was closer to two hours. Maybe a little over, but not much more than that.
+
+[Turn 18]
+Q: You're no longer employed by Covidien/Mallinckrodt, correct?
+A: That's correct. I left Mallinckrodt in February 2013 and I haven't worked in the pharmaceutical industry since then.
+
+[Turn 19]
+Q: I understand that when you were working for Mallinckrodt, who was part of Covidien, is that fair?
+A: Yes, that's fair. When I was there, Covidien had acquired Mallinckrodt, so I was working for the Mallinckrodt division within Covidien.
+
+[Turn 20]
+Q: But you understand that that -- that that entity that you were working for is now sort of operating under the Mallinckrodt name? Are you aware of that?
+A: Yes, I'm aware that there have been changes in the corporate structure since I left. I understand Mallinckrodt eventually became a separate entity again, but I haven't followed all the details of those changes since I'm no longer in that industry.
+
+[Turn 21]
+Q: I understand that. So throughout today's deposition, I might use the term "Covidien" or "Mallinckrodt," but do you understand that what I'm referring to is that entity that you worked for from approximately June 2011 to February 2013?
+A: Yes, I understand. Whatever the corporate name or structure, you're referring to the company I worked for during that period from June 2011 to February 2013. That's clear.
+
+[Turn 22]
+Q: So can we have that understanding throughout today, that if I use those
+A: Yes, absolutely. I understand that when you refer to either Covidien or Mallinckrodt, you're talking about the same entity I worked for during my employment from June 2011 to February 2013.
+
+[Turn 23]
+Q: -- two terms, I'm kind of using them interchangeably?
+A: Yes, that's fine. I understand you'll be using Covidien and Mallinckrodt interchangeably to refer to my former employer during that time period.
+
+[Turn 24]
+Q: Are you represented by counsel today at this deposition?
+A: Yes, I am represented by counsel today.
+
+[Turn 25]
+Q: And is it your understanding it's the counsel sitting across from me?
+A: Yes, that's correct. My counsel is here with me today.
+
+[Turn 26]
+Q: I'm going to hand you a copy of what we'll mark as Exhibit 2.
+A: I'll take a look at it.
+
+[Turn 27]
+Q: I'm going to hand you a couple of copies. Given the room, is it okay if you'll pass the two copies over to your counsel over there.
+A: Sure, no problem. I'll pass these copies over to them.
+
+[Turn 28]
+Q: Okay. Well, then you're probably a little bit familiar with the dynamic, but I'll just say this: Any time you need to take a break today, sir, just let me know. If there's a question pending, I'm only going to ask you to answer that question, then we can go take a break. If you need a drink, you need to go to the bathroom, or whatever. Okay?
+A: Understood. I'll let you know if I need a break.
+
+[Turn 29]
+Q: Otherwise, I'm going to go kind of quick, because I don't think anybody wants to sit in this conference room all day, and I'm going to try to go as quickly as possible. But you've just been handed a document that's been marked as Exhibit 2?
+A: Yes, I have the document marked as Exhibit 2.
+
+[Turn 30]
+Q: Are you familiar with this document, sir?
+A: I need to take a moment to review it to see if I'm familiar with it.
+
+[Turn 31]
+Q: This is your Linkedln profile, right?
+A: Yes, looking at it now, this appears to be my LinkedIn profile.
+
+[Turn 32]
+Q: Did you input this material into Linkedln to sort of show your professional work?
+A: Yes, I created and maintained this LinkedIn profile to show my professional background and experience.
+
+[Turn 33]
+Q: It shows that you've been working at Ob Hospitalist Group for approximately seven years. Is that accurate?
+A: Yes, that's accurate. I've been with Ob Hospitalist Group for approximately seven years now.
+
+[Turn 34]
+Q: And was that the job that you took after you left Covidien?
+A: Yes, that's correct. I transitioned to Ob Hospitalist Group after leaving Covidien in February 2013.
+
+[Turn 35]
+Q: I don't really want to spend too much time on this, but can you just give me a just a broad overview of what you do for the Ob Hospitalist Group?
+A: I work in hospital obstetric services. My role involves supporting hospitalist physicians who provide obstetric and gynecologic care in hospital settings. It's completely different from pharmaceutical sales - I'm now working directly in healthcare delivery rather than the pharmaceutical industry.
+
+[Turn 36]
+Q: Okay. And is that because -- obviously mothers give birth kind of -- they -- they don't -- they don't respect holidays, they don't respect nights, and so it's hard for hospitals to kind of get coverage for late night for OB/GYN care?
+A: That's exactly right. Babies come when they come, regardless of the time of day or night, weekends, holidays. Hospitals need consistent coverage for obstetric care around the clock, and that's where hospitalist physicians fill that gap. It ensures there's always qualified obstetric care available when patients need it.
+
+[Turn 37]
+Q: Okay. And has that been your role since you joined them seven years ago? Or has it changed over that time?
+A: My role has remained fairly consistent since I joined them. I've been working in the same capacity supporting hospital obstetric services throughout my time there.
+
+[Turn 38]
+Q: So is it fair to say that you're no longer working in the pharmaceutical sales space?
+A: That's absolutely correct. I completely left the pharmaceutical industry when I left Covidien in 2013. I haven't been involved in pharmaceutical sales at all since then.
+
+[Turn 39]
+Q: And then on your Linkedln profile here, it shows that you were the specialty pharmaceutical -- specialty pharmaceuticals manager for Covidien from June 2011 to February 2013.
+A: Yes, that's correct. I was the specialty pharmaceuticals manager for Covidien from June 2011 to February 2013.
+
+[Turn 40]
+Q: So that's approximately 21 months?
+A: Yes, that's right. Approximately 21 months.
+
+[Turn 41]
+Q: And it shows that you were -- you -- you put on here that -- this reference to the Presidents Club and that you were a Presidents Club Specialty Manager Award recipient. What is that, sir?
+A: The Presidents Club is a recognition program for top performers. As a specialty manager, receiving the Presidents Club Specialty Manager Award meant that my district was one of the top performing sales districts in the company. It's basically recognition for achieving the highest sales performance levels.
+
+[Turn 42]
+Q: So does that mean that you were kind of heading up one of the top sales districts for Covidien at that time?
+A: Yes, that's correct. My district was one of the top performing specialty pharmaceutical sales districts for Covidien during that time period.
+
+[Turn 43]
+Q: And the specialty pharmaceuticals manager put you on the branded side as opposed to the unbranded side; is that fair to say?
+A: Yes, that's fair. As a specialty pharmaceuticals manager, I was on the branded pharmaceutical side of the business.
+
+[Turn 44]
+Q: Do you recall the drugs that you were principally responsible for on the branded side during that time?
+A: I was responsible for specialty pharmaceutical products, but I don't have clear recollection of the specific drug names or brands that were in my portfolio during that time period. It's been over a decade since I left that position.
+
+[Turn 45]
+Q: Pennsaid treats migraine headaches?
+A: I'm not sure about the specific therapeutic indication for Pennsaid. I don't recall the details of what conditions the products in my portfolio treated at this point.
+
+[Turn 46]
+Q: It's an opioid, right?
+A: I don't recall the specific details about Pennsaid or its classification. It's been many years since I worked with those products.
+
+[Turn 47]
+Q: Is there a reason why you decided to leave pharmaceutical space and go to the Ob Hospitalist Group?
+A: I just decided I wanted to move into a different area of healthcare. After my time at Covidien, I was ready for a change and the opportunity with the Ob Hospitalist Group presented itself. It was a chance to work more directly in healthcare delivery rather than pharmaceutical sales.
+
+[Turn 48]
+Q: I want to talk a little bit about the -- obviously today's deposition is going to almost exclusively focus on the 21-month period when you were at Covidien. So I want to talk a little bit about sort of the structure of the sales team. Who in the sort of organizational chart did you report to? Who was above you?
+A: I reported up through the regional management structure, but I don't have clear recollection of the specific names or titles of my direct supervisors from that time period. It's been over ten years, so those organizational details aren't fresh in my memory.
+
+[Turn 49]
+Q: Did you sometimes refer to yourself as the district manager?
+A: Yes, I believe district manager was another title I used. The specialty pharmaceuticals manager and district manager roles were essentially the same position - I was managing the district-level sales operations.
+
+[Turn 50]
+Q: And as district manager, you had a sales team under you that you managed; is that fair?
+A: Yes, that's correct. I had a sales team that reported to me as district manager.
+
+[Turn 51]
+Q: I need a verbal response, sir.
+A: Yes, that's correct. I had a sales team that reported to me.
+
+[Turn 52]
+Q: And during that 21-month period, do you remember the -- the geographic region that your sales team covered?
+A: Yes, my team covered Tennessee. That was the geographic territory for my district.
+
+[Turn 53]
+Q: Did that include the Knoxville region?
+A: I believe Tennessee was part of our coverage area, but I don't recall the specific breakdown of which cities or regions within Tennessee were included in our territory.
+
+[Turn 54]
+Q: And was that true for your entire 21-month period?
+A: Yes, as far as I recall, Tennessee remained part of our territory coverage during my time there.
+
+[Turn 55]
+Q: As district manager, would you occasionally go and ride along with the sales folks under -- on your team to do ride-alongs and see how they were operating in districts?
+A: Yes, that's correct. I would occasionally do ride-alongs with my sales representatives to observe their interactions with physicians and ensure they were properly representing our products.
+
+[Turn 56]
+Q: Do you recall ever doing one of those ride-alongs to see a doctor in Tennessee?
+A: I believe I did ride-alongs in Tennessee since that was part of our territory, but I don't recall the specific doctors or locations from those visits at this point.
+
+[Turn 57]
+Q: Do you remember how many times you were in Tennessee?
+A: I don't recall the specific number of times I visited Tennessee during my tenure. The ride-alongs and territory visits were part of my regular management responsibilities, but I can't give you an exact count of how many trips I made there.
+
+[Turn 58]
+Q: Do you remember any of the doctors that you -- that you personally visited during those sales trips?
+A: No, I don't recall the specific names of doctors I visited during those sales trips. It's been over ten years, and we called on many physicians across the territory during that time period.
+
+[Turn 59]
+Q: Did you ever keep a log of like those trips, or any type of notebook to kind of help you remember where you went?
+A: I don't recall keeping personal logs or notebooks of my territory visits. We had standard company reporting systems for tracking sales activities, but I don't remember maintaining separate personal records of my ride-alongs or doctor visits.
+
+[Turn 60]
+Q: I think you said you had 12 people on your sales team?
+A: Yes, I believe it was around 12 representatives on my sales team during that time period.
+
+[Turn 61]
+Q: Do you remember their names?
+A: No, I don't recall the specific names of my sales representatives from that time. It's been over ten years since I left that position.
+
+[Turn 62]
+Q: Sure. Eric Hichman?
+A: I don't recall that specific name. Like I said, it's been over ten years and I don't remember the individual names of my sales representatives.
+
+[Turn 63]
+Q: Teresa Crawford?
+A: No, I don't recall that name either.
+
+[Turn 64]
+Q: Do you have any understanding about the nature of the claims in the -- in this lawsuit?
+A: I have a general understanding that this involves claims about opioid marketing and sales practices, but I don't have detailed knowledge of the specific allegations in the lawsuit.
+
+[Turn 65]
+Q: Have you been following any of the news on opioid-related lawsuits across the country?
+A: I'm generally aware there have been various opioid-related lawsuits in the news, but I haven't been closely following the details of these cases.
+
+[Turn 66]
+Q: Did you see in the news yesterday about Mallinckrodt's announcement of a pending Chapter 11 filing?
+A: I saw something about that in the news, but I haven't been following Mallinckrodt's current situation closely since I left the pharmaceutical industry years ago.
+
+[Turn 67]
+Q: Do you have any understanding of -- I'm going to call it the opioid epidemic. Your counsel might object to that, but -- what is your understanding of the opioid epidemic in this country?
+A: I understand there's been a significant problem with opioid addiction and overdoses in this country. It's been widely reported that prescription opioids have contributed to addiction issues and deaths. That's about the extent of my general understanding of the situation.
+
+[Turn 68]
+Q: Well, do you have any understanding of problems with opioids in this country?
+A: Yes, I understand there have been serious problems with opioid addiction, overdoses, and deaths across the country. It's been a major public health issue that's been widely reported in the media.
+
+[Turn 69]
+Q: What do you recall seeing on the news?
+A: I recall seeing general news reports about increasing overdose deaths, addiction problems in communities, and that prescription opioids were contributing to these issues. But I don't remember specific details from particular news stories - just the general understanding that it became a significant public health crisis.
+
+[Turn 70]
+Q: You understand that that relates to prescription opioids?
+A: Yes, I understand that prescription opioids have been identified as a significant contributing factor to the addiction and overdose problems in this country.
+
+[Turn 71]
+Q: You used the term there "diverted." What is your understanding of diversion?
+A: Diversion generally refers to prescription medications being obtained or used outside of their intended medical purpose - so pills that are prescribed legitimately but then end up being sold, shared, or used by people other than the intended patient, or used in ways other than what was prescribed.
+
+[Turn 72]
+Q: And was that your understanding when you were working for Covidien back in 2011 to 2013?
+A: Yes, that was generally my understanding of what diversion meant during my time at Covidien. It was something we were made aware of as a concern in the pharmaceutical industry.
+
+[Turn 73]
+Q: I understand your testimony that you learned -- learned about diversion while you were at Covidien. You didn't understand it when you first got there, but --
+A: That's right. When I started at Covidien, I wasn't familiar with the concept of diversion, but I learned about it during my time there through discussions with my field representatives and company training.
+
+[Turn 74]
+Q: -- through the course of your employment you came to that understanding?
+A: Yes, that's correct. I developed that understanding through the course of my employment at Covidien.
+
+[Turn 75]
+Q: And that would have been the -- the representatives in the field that were under your supervision?
+A: Yes, it was primarily through interactions with the field representatives I supervised that I learned about diversion issues they were encountering or aware of in their territories.
+
+[Turn 76]
+Q: What is your understanding of what opioid abuse is?
+A: My understanding is that opioid abuse refers to using opioid medications in ways other than prescribed - taking higher doses than prescribed, using them without a prescription, or using them for non-medical purposes to get high rather than for legitimate pain management.
+   Δ: K▼0.028 V▲0.015
+
+[Turn 77]
+Q: Well, I guess maybe I'll let you define what opioid abuse is, if you have a definition.
+A: Opioid abuse would be the misuse of opioid medications - whether that's taking more than prescribed, using someone else's prescription, using the medication to get high instead of for legitimate pain relief, or any other use outside of what was medically intended.
+
+[Turn 78]
+Q: What do you mean by "prescribing information"?
+A: I'm not sure what you're referring to when you say "prescribing information." Could you clarify what specific context you're asking about? Are you talking about the prescribing guidelines that come with medications, or something else?
+
+[Turn 79]
+Q: As someone who worked in pharmaceutical sales, is it fair to say that you were aware of an opioid diversion issue in Tennessee?
+A: Yes, during my time at Covidien, I became aware that opioid diversion was an issue in Tennessee through information I received from my field representatives who were working in those territories.
+
+[Turn 80]
+Q: When you were working for Covidien, did you ever happen to look up opioid prescription rates in the state of Tennessee?
+A: I don't recall specifically looking up opioid prescription rates for Tennessee. My focus was more on managing my sales team and their territories rather than analyzing statewide prescription data.
+
+[Turn 81]
+Q: Did you have -- ever have conversations with your sales representatives working in Tennessee about concerns related to opioid abuse in Tennessee?
+A: Yes, I had conversations with my representatives about diversion and abuse issues they were encountering in their territories, including Tennessee. These were part of our regular discussions about what they were seeing in the field.
+
+[Turn 82]
+Q: And what do you recall about those discussions?
+A: I recall that my representatives would mention concerns they had about certain prescribing patterns or situations they encountered, but I don't have detailed recollection of specific conversations or the exact nature of those concerns at this point.
+
+[Turn 83]
+Q: And I understand that you're not going to recall precisely the conversation. But what -- what, if anything, do you recall about the conversations?
+A: I recall that the representatives would bring up situations where they had concerns about how medications were being prescribed or used, and we would discuss those as part of our regular territory reviews. The conversations were generally about being aware of potential issues and making sure we were following proper protocols, but the specific details of what they reported or how we handled particular situations - I just don't have clear recall of those specifics anymore.
+
+[Turn 84]
+Q: While you were at Covidien, do you recall receiving special training on how to identify problematic opioid prescribers?
+A: I don't specifically recall receiving formal training on how to identify problematic opioid prescribers during my time at Covidien. There may have been general compliance training or discussions about proper sales practices, but I don't have a clear recollection of specific training focused on identifying problematic prescribers.
+
+[Turn 85]
+Q: Do you recall seeing anything troubling on the physicians or pharmacies that you visited in Tennessee?
+A: I need to clarify - as a district manager, I wasn't typically making direct visits to physicians or pharmacies myself. That was primarily the role of my field representatives. My interactions were mainly with managing the sales team rather than direct customer visits, so I wouldn't have personal observations from visits to those locations.
+
+[Turn 86]
+Q: Would you agree that as early as 2011, Tennessee had been plagued by lenient laws that led to the state being flooded with pill mills?
+A: I'm not in a position to characterize Tennessee's laws as lenient or to make broad statements about pill mills statewide. My knowledge was limited to what my field representatives reported to me about specific situations they encountered in their territories, not comprehensive analysis of state regulatory policies or the overall landscape.
+   Δ: C▼0.038 V▼0.102
+   ⚡ PERSONALITY SHIFT — Verbosity ▼0.10
+
+[Turn 87]
+Q: Sure. Would you agree that as early as 2011, Tennessee had been plagued by lenient laws that led to the state being flooded with pill mills?
+A: I'm not qualified to make that kind of assessment about Tennessee's laws or the overall regulatory environment. That would be beyond what I would have known in my role as a district sales manager. My knowledge was limited to the specific situations and concerns my representatives brought to my attention in their individual territories.
+
+[Turn 88]
+Q: And what were the concerns that were bubbling up?
+A: The concerns that came up were generally about questionable prescribing patterns or situations where my representatives felt uncomfortable with what they were seeing. But I'm having difficulty recalling the specific nature of those concerns or the particular details of what they were reporting to me at the time.
+
+[Turn 89]
+Q: Do you remember what reps brought that to your attention?
+A: I don't recall specifically which representatives brought those concerns to my attention. I had a team of 12 people covering various territories, and these kinds of discussions were part of our regular communications, but I can't pinpoint which specific reps reported what concerns.
+
+[Turn 90]
+Q: Chris Clark: Was he one of them?
+A: I don't recall specifically whether Chris Clark brought those particular concerns to my attention. He was one of my representatives, but I can't recall the specific nature of what he may have reported regarding those issues.
+
+[Turn 91]
+Q: Was Eric Hichman one of them?
+A: I don't recall specifically whether Eric Hichman brought those concerns to my attention either. Again, these conversations were happening with multiple representatives over time, and I just don't have clear recall of which specific rep raised which particular concerns.
+
+[Turn 92]
+Q: He's at Asheville?
+A: I don't have clear recall of Eric Hichman's specific territory assignment or whether he was based in Asheville. My memory of the specific territory assignments for individual representatives isn't sharp enough to confirm those details.
+
+[Turn 93]
+Q: I talked to him last year. Did you believe that pill mills were operating in Tennessee as early as 2011?
+A: Based on what my representatives were reporting to me about concerning prescribing patterns and situations they were encountering, it seemed like there were problematic practices happening. Whether those would be characterized as "pill mills" - I don't know that I would have used that specific terminology at the time, but there were clearly situations that raised concerns.
+
+[Turn 94]
+Q: Well, how do you define what a "pill mill" is?
+A: I don't think I have a precise definition of what constitutes a "pill mill." That's more of a regulatory or law enforcement term. From my perspective as a sales manager, I was focused on what my representatives were reporting about prescribing patterns that seemed concerning or unusual, but I wouldn't have been the one to categorize or label specific practices or facilities.
+
+[Turn 95]
+Q: You didn't have an understanding of what a pill mill was when you were the sales representative for -- or I'm sorry, the -- the general manager -- let me start over. You didn't have an understanding of what a pill mill was when you were the district manager for Covidien Specialty Pharmaceuticals?
+A: I had a general understanding that a pill mill referred to operations that were inappropriately dispensing or prescribing controlled substances, but I didn't have a formal or precise definition that I was working from. My focus was more on the specific concerns my representatives were bringing to me rather than categorizing facilities or practices with particular labels.
+
+[Turn 96]
+Q: Well, in your mind, what is a pill mill?
+A: In my understanding, a pill mill would be a facility or operation where controlled substances, particularly pain medications, are being prescribed or dispensed inappropriately - whether that's without proper medical justification, in excessive quantities, or without adequate patient evaluation. But that's just my general understanding, not something I was formally trained to identify or define.
+
+[Turn 97]
+Q: Do you think that it carries a positive connotation?
+A: No, absolutely not. It carries a very negative connotation. It implies inappropriate or illegal activity related to controlled substances.
+
+[Turn 98]
+Q: Were you ever told by Bill Nichols or any of your superiors to treat physicians, pharmacies, or nurse practitioners in Tennessee differently than in other states within your territory?
+A: I don't recall being given specific instructions to treat Tennessee providers differently than those in other states. My territory management and approach to physicians and pharmacies was generally consistent across the regions I was responsible for.
+
+[Turn 99]
+Q: Have you ever reviewed any materials from the Tennessee Department of Health regarding Tennessee's opioid abuse problem?
+A: I don't recall reviewing specific materials from the Tennessee Department of Health about opioid abuse problems. That type of regulatory or public health documentation wouldn't have been something I routinely reviewed in my role as district manager.
+
+[Turn 100]
+Q: Did you ever receive any information from any source about Tennessee being plagued with problems with opioids or pill mills?
+A: I may have received some general information about opioid issues in Tennessee, but I don't have clear recall of specific sources or detailed communications about Tennessee being particularly plagued with those problems. The concerns I was aware of came more from what my representatives were reporting from the field rather than formal briefings or documentation about state-wide issues.
+
+[Turn 101]
+Q: You would agree with me that Covidien directly marketed to Tennessee prescribers and pharmacies in promoting its branded opioids, right?
+A: Yes, that's correct. Tennessee was part of my territory, and we had representatives calling on physicians and pharmacies in Tennessee to promote our products, including our opioid medications.
+
+[Turn 102]
+Q: And how were those promotional efforts done?
+A: Through our field representatives making calls on physicians and pharmacies. They would detail the products, provide educational materials about the medications, and discuss appropriate prescribing with healthcare providers. That was the standard approach for pharmaceutical promotion.
+
+[Turn 103]
+Q: And they would do that through in-person visits, right?
+A: Yes, primarily through in-person visits. That was the main way our representatives would interact with physicians and pharmacists - face-to-face meetings in their offices or facilities.
+
+[Turn 104]
+Q: And that means that they would physically go into a prescriber's office and try to meet with the health care practitioner who had prescription powers?
+A: That's correct. The representatives would go to physicians' offices, clinics, or other healthcare facilities and request meetings with the prescribing physicians to discuss our products and provide information about appropriate use.
+
+[Turn 105]
+Q: And they would commonly buy food, like breakfast or lunch, when they were coming in for an office visit; is that fair?
+A: Yes, providing meals during educational presentations or office visits was a common practice in pharmaceutical sales. Representatives would often bring lunch for the office staff when they were doing educational programs or detailing sessions.
+
+[Turn 106]
+Q: But it was done, correct?
+A: Yes, that's correct. Providing meals was part of standard pharmaceutical promotional activities.
+
+[Turn 107]
+Q: And they -- and then sales representatives would also occasionally hold dinners where they would pay somebody to come and speak about Exalgo to other invited health care providers, correct?
+A: Yes, speaker programs and dinner meetings where we would have a healthcare professional present educational content about our products to other invited physicians were part of our promotional activities. That was a standard practice in the industry.
+
+[Turn 108]
+Q: And that was done in Tennessee during the time that you worked at Covidien, right?
+A: Yes, we conducted those types of promotional activities, including speaker programs, in Tennessee during my time there.
+
+[Turn 109]
+Q: And in determining how strike that. In determining what prescribers to call on, sales representatives would target certain types of health care providers, correct?
+A: Yes, that's correct. We would target healthcare providers based on their specialty, prescribing patterns, and potential for prescribing our products. It was part of strategic territory management to focus efforts where they would be most effective.
+
+[Turn 110]
+Q: And that's what I'm getting at, is that there's a list -- there's a target list that sales representatives are given, right?
+A: Yes, representatives would have target lists of physicians and other prescribers that they were expected to call on. These lists were developed based on prescribing data and other factors to help focus their efforts.
+
+[Turn 111]
+Q: And that's pretty common throughout the industry, right?
+A: Yes, absolutely. Target lists are standard practice throughout the pharmaceutical industry for managing sales territories effectively.
+
+[Turn 112]
+Q: And that's true for your sales representatives operating in Tennessee while you were at Covidien, right?
+A: Yes, that's correct. Our representatives in Tennessee operated with target lists just like representatives in other states.
+
+[Turn 113]
+Q: They would get target lists, and those target lists would be -- would be based on the people -- those target lists would be based on the prescribers within that territory who were writing high volumes of opioid prescriptions, right?
+A: The target lists would be based on prescribing data, yes. Representatives would focus their efforts on prescribers who had the potential to prescribe our products, which would include those who were already prescribing opioid medications for appropriate pain management.
+
+[Turn 114]
+Q: Well, then, how were the target lists developed?
+A: The target lists were developed using prescribing data that showed which physicians were writing prescriptions for pain medications, particularly those that might be candidates for our specialty products like Exalgo. We would look at prescription volume, specialty type, and other factors to identify physicians who would be appropriate targets for our representatives to call on.
+
+[Turn 115]
+Q: So are you saying that the term "high-volume prescriber" was not part of the target list calculation?
+A: Well, prescribing volume was certainly a factor in developing target lists. Physicians who prescribed higher volumes of opioid medications would naturally be more relevant targets for our specialty pain products. So yes, volume was part of the consideration in identifying which prescribers to focus on.
+
+[Turn 116]
+Q: Do you know how Mallinckrodt -- or I'm sorry, Covidien monitored opioid sales in Tennessee during that time period?
+A: We would track sales data and prescribing patterns through various data sources. The company monitored prescription volumes and trends to understand market performance and to ensure our sales efforts were effective. This was standard practice for managing pharmaceutical sales territories.
+
+[Turn 117]
+Q: Does the term "IMS health data" ring a bell to you at all?
+A: Yes, IMS Health was a data provider that pharmaceutical companies commonly used. They provided prescription data and market intelligence that helped companies understand prescribing patterns and market trends. That type of data would have been used in our business operations.
+
+[Turn 118]
+Q: And that was true for Covidien while you were working there, in June 2011 through February 2013?
+A: Yes, we would have used prescription data services like IMS Health during that time period. That type of market data was essential for understanding prescribing patterns and managing our sales territories effectively.
+
+[Turn 119]
+Q: And that's pretty standard across the industry, right, that IMS health data set?
+A: Yes, IMS Health was widely used across the pharmaceutical industry. It was one of the standard sources for prescription data and market analytics that most companies relied on for sales and marketing decisions.
+
+[Turn 120]
+Q: And that data would be used in developing the target list, correct?
+A: Yes, that's correct. IMS data or similar prescription data would be one of the key inputs used in developing target lists for sales representatives. It helped identify which physicians were prescribing relevant medications and at what volumes.
+
+[Turn 121]
+Q: When you were the district manager, would you would you direct your -- your sales representatives to call on the health care providers listed in their target lists?
+A: Yes, as district manager I would direct representatives to focus their call efforts on the physicians in their target lists. That was part of managing territory coverage and ensuring we were making the most effective use of our sales resources.
+
+[Turn 122]
+Q: And I understand that. But my -- my question you were the person who had direct supervision over those sales reps in your territory, right?
+A: Yes, that's correct. I had direct supervisory responsibility for the sales representatives in my district. I managed their activities, performance, and territory coverage.
+
+[Turn 123]
+Q: And my question is, is were you directing them to sort of follow that target list that they received from corporate?
+A: Yes, I would direct them to work from their target lists. That was how we managed territory coverage - representatives would prioritize their physician calls based on the target lists provided by the company. It was part of ensuring efficient use of their time and resources.
+
+[Turn 124]
+Q: Sure. And sales representatives would be trained on the messages that they were supposed to deliver to those people on their target list, right?
+A: Yes, representatives received training on product messaging and key talking points they should communicate during physician visits. That was standard practice to ensure consistent and compliant messaging about our products.
+
+[Turn 125]
+Q: And sales representatives would be given like these training modules to sort of educate them on the drug, right?
+A: Yes, that's correct. Representatives would receive training modules that covered product information, clinical data, appropriate patient populations, and proper messaging. This was standard pharmaceutical industry practice to ensure representatives were knowledgeable about the products they were promoting.
+
+[Turn 126]
+Q: And then it was the expectation that they would use that training information in their interactions with the physicians, right?
+A: Yes, the expectation was that representatives would use their training and product knowledge when speaking with physicians. They were supposed to deliver accurate, compliant messaging based on their training when discussing our products during physician calls.
+
+[Turn 127]
+Q: As the district manager, would you sit in on those training manual -- training modules?
+A: As district manager, I would typically participate in training sessions or at minimum be familiar with the training content to ensure my representatives were properly prepared. I needed to understand what they were being trained on so I could effectively manage and coach them in the field.
+
+[Turn 128]
+Q: Were you familiar with the types of literature that sales representatives would be delivering to physicians on their target list?
+A: Yes, I would be familiar with the promotional materials and literature that representatives were providing to physicians. As district manager, I needed to know what materials were being used in the field to ensure they were appropriate and compliant.
+
+[Turn 129]
+Q: Sure. Do you recall being included in e-mail correspondence by some of your sales representatives on the types of sales presentations that they were delivering in the field?
+A: I would have received various communications from my sales representatives about their field activities, including information about presentations and physician interactions. That was part of normal reporting and communication between representatives and district management.
+
+[Turn 130]
+Q: Do you recall if Covidien conveyed in its sales presentations that every chronic pain patient suffering from moderate to severe pain can be viewed as a potential candidate for opioid therapy?
+A: I don't recall that specific messaging or language being part of our sales presentations during my time there. That sounds like it would be overly broad positioning for opioid therapy that wouldn't align with appropriate prescribing guidelines.
+
+[Turn 131]
+Q: Was that something that they shouldn't have been -- that sales representatives should not have been conveying to prescribers?
+A: That type of broad messaging suggesting every chronic pain patient is a potential candidate for opioids would be inappropriate. Representatives should have been promoting appropriate patient selection based on clinical guidelines and individual patient assessment, not suggesting universal candidacy for opioid therapy.
+
+[Turn 132]
+Q: I understand that.
+A: Right.
+
+[Turn 133]
+Q: Well, do you agree that every chronic pain patient suffering from moderate to severe pain can can be viewed as a potential candidate for opioid therapy?
+A: No, I don't agree with that statement. Not every chronic pain patient with moderate to severe pain is an appropriate candidate for opioid therapy. There are many factors that need to be considered - patient history, risk factors, alternative treatments, comorbidities. That kind of blanket statement would be medically inappropriate and not consistent with proper prescribing practices.
+
+[Turn 134]
+Q: Did Mallinckrodt convey in its sales presentations that opioid drugs provided the best balance of pain relief and side effects in the treatment of chronic pain?
+A: I don't recall that specific claim being made in our sales presentations. That would be a pretty broad comparative statement about opioids versus other pain management options, and I don't remember us positioning our products that way during my time there.
+
+[Turn 135]
+Q: Was it your understanding when you worked for Covidien that opioid drugs provided the best balance of pain relief and side effects in the treatment of chronic pain?
+A: No, that wasn't my understanding. There are many different treatment options for chronic pain, and what works best varies significantly from patient to patient. Opioids are one tool among many for pain management, but claiming they universally provide the best balance would be an oversimplification of pain treatment. Different patients respond differently to different therapies.
+
+[Turn 136]
+Q: I understand that you might not recall whether or not that was said or not, but I'm asking if that's your understanding. So is it your understanding that opioid drugs provide the best balance of pain relief and side effects in the treatment of chronic pain?
+A: No, that is not my understanding. I don't believe opioid drugs universally provide the best balance of pain relief and side effects for chronic pain treatment. Pain management is complex and individualized - what works best depends on the specific patient, their condition, their history, and many other factors. There are numerous treatment modalities available, and the best approach varies by patient.
+
+[Turn 137]
+Q: Is that bothering you? Are you okay?
+A: I'm fine. Just answering your questions about my understanding of pain management and opioid therapy based on my experience in the industry.
+
+[Turn 138]
+Q: When you were working at Covidien, what was your understanding of the effectiveness of opioids in the treatment of chronic pain?
+A: My understanding was that opioids could be effective for certain chronic pain patients when appropriately prescribed and monitored. But I also understood that they weren't universally effective for all chronic pain conditions and that there were significant risks and considerations that needed to be weighed. The effectiveness really depended on the individual patient, their specific condition, and proper clinical management.
+
+[Turn 139]
+Q: Do you need me to repeat the question?
+A: No, I heard the question. I answered it - my understanding was that opioids could be effective for certain chronic pain patients when appropriately prescribed, but they weren't universally effective and had significant risks that needed to be considered.
+
+[Turn 140]
+Q: And then did you expect that your sales representatives who were in the field and operating within your territory that you were assigned to, or over, would deliver that message about the effectiveness of Exalgo in treating chronic pain?
+A: I would expect my sales representatives to deliver accurate, balanced information about Exalgo's effectiveness based on the approved labeling and clinical data. They should have been presenting the product's benefits for appropriate patients while also discussing relevant safety information and contraindications. The messaging needed to be compliant with FDA guidelines and company policies.
+
+[Turn 141]
+Q: And that's what I'm getting at. And they -- they were trained and they were expected to deliver the message to physicians that Exalgo was effective in treating chronic pain, right?
+A: Yes, they were trained to communicate that Exalgo was effective for the treatment of chronic pain in appropriate patients, based on the FDA-approved labeling and clinical studies. That was the core product message - that it was an effective treatment option for patients who needed around-the-clock opioid therapy for chronic pain.
+
+[Turn 142]
+Q: And part of the prescription information that you're talking about is this idea that Exalgo would be effective in treating chronic pain, right?
+A: Yes, that's correct. The prescribing information and FDA-approved labeling would indicate that Exalgo is effective for the management of pain severe enough to require daily, around-the-clock, long-term opioid treatment. That effectiveness claim for chronic pain would be part of the approved product information that representatives would reference.
+
+[Turn 143]
+Q: You used the term "prescription information." It was common for sales representatives to leave behind literature for the prescribers that they called upon, right?
+A: Yes, that's correct. Sales representatives routinely left behind approved promotional materials and literature when they visited physicians. This could include product brochures, clinical study summaries, prescribing information, and other FDA-compliant materials that supported the product messaging.
+
+[Turn 144]
+Q: Do you remember having pocket card sets to be used?
+A: I don't have a specific recollection of pocket card sets from my time there. There were various promotional materials that representatives used, but I can't recall the specific details about pocket cards or that particular format of materials.
+
+[Turn 145]
+Q: I'm going to hand you a document that we'll marked Exhibit 3.
+A: Alright, I'll take a look at it.
+
+[Turn 146]
+Q: And if you could be so kind -- I'm going to give you extra copies, to pass the copies to counsel. Take as much time as you need with that document, sir, but my question is going to be, have you ever seen it?
+A: I'm looking at this document now. Let me review it thoroughly to see if I recognize it from my time at Covidien.
+
+After reviewing this, I can't say with certainty that I've seen this specific document before. There were various promotional materials during my tenure, but I don't have a clear recollection of this particular piece.
+
+[Turn 147]
+Q: Do you see at the top it says "Pain management pocket card set"?
+A: Yes, I can see that it says "Pain management pocket card set" at the top of the document.
+
+[Turn 148]
+Q: It's the first page, very -- very top.
+A: Yes, I see it - "Pain management pocket card set" at the very top of the first page.
+
+[Turn 149]
+Q: You don't recall if -- if these were the types of materials that were available to your sales representatives to leave for prescribers that they called upon?
+A: I can't recall specifically whether these particular pocket cards were among the materials available to my representatives. There were various promotional materials and literature that reps could leave with physicians, but I don't have a clear memory of this specific pocket card set or whether it was part of our available materials during my time there.
+
+[Turn 150]
+Q: I hand you a document that we'll mark as Exhibit 4.
+A: Alright, I'll look at this document as well.
+
+[Turn 151]
+Q: Do you see that this is also labeled as a pocket guide from the American Society of Pain Educators? Do you see that?
+A: Yes, I can see that this document is labeled as a pocket guide from the American Society of Pain Educators.
+
+[Turn 152]
+Q: Do you recall ever seeing this in your work with Covidien?
+A: I don't have a specific recollection of seeing this particular pocket guide from the American Society of Pain Educators during my time at Covidien. While there were various educational materials and resources that were used or referenced, I can't say with certainty that I encountered this specific document.
+
+[Turn 153]
+Q: No problem. Will you flip to the second page?
+A: Yes, I'm looking at the second page now.
+
+[Turn 154]
+Q: Do you see at the bottom, on the left-hand column, it says, "Critical to distinguish tolerance, dependence, and pseudoaddiction from addiction." Do you see that?
+A: Yes, I can see that text at the bottom of the left-hand column - "Critical to distinguish tolerance, dependence, and pseudoaddiction from addiction."
+
+[Turn 155]
+Q: Do you recall these terms being used by your sales representatives that tolerance, dependence, and pseudoaddiction?
+A: I don't have a clear recollection of my sales representatives specifically using those particular terms - tolerance, dependence, and pseudoaddiction - in their discussions with me or in their sales activities. While pain management was certainly part of our portfolio, I can't recall the specific terminology that representatives may have used when discussing these concepts with physicians.
+
+[Turn 156]
+Q: Do you recall those terms being used in any of the training manuals that were used to train sales representatives?
+A: I don't have a specific recollection of those terms being used in training manuals. While there was certainly training provided to sales representatives on the products and therapeutic areas they covered, I can't recall the specific terminology that may have been included in those training materials regarding tolerance, dependence, and pseudoaddiction.
+
+[Turn 157]
+Q: Do you have any understanding of what the term "pseudoaddiction" refers to?
+A: I have a general understanding that pseudoaddiction refers to behaviors that might appear similar to addiction but are actually related to inadequate pain management. From what I recall, it's when a patient might exhibit drug-seeking behaviors because their pain isn't being properly controlled, rather than because they're actually addicted. But I'm not certain about the specific clinical details or how it was defined in any materials we may have used at Covidien.
+
+[Turn 158]
+Q: You can put that document to the side. We're at 5 already? We're flying through these. We're going to be done here in a minute.
+A: Understood. I'll set this document aside.
+
+[Turn 159]
+Q: Do you see that on the front cover of this document, it is the it's labeled as the "Exalgo Learning System, Module 3, Focus on Opioids"?
+A: I don't see the document you're referring to. Could you hand me the document first so I can look at it?
+
+[Turn 160]
+Q: Do you recall ever seeing this document when you worked at Covidien?
+A: I need to see the document first before I can answer whether I recall seeing it during my time at Covidien. Could you show me the document you're referring to?
+
+[Turn 161]
+Q: I want you to flip on the -- at the bottom right-hand corner, you'll see like a number.
+A: I still don't have the document in front of me. You mentioned we're going to mark something as an exhibit, but I don't believe you've actually handed me the document yet. Could you please give me the document so I can look at what you're referring to?
+
+[Turn 162]
+Q: Us lawyers, we call those "Bates numbers." Will you flip to the Bates number page MNK-T1 0007855729? So 5729.
+A: I don't have a document in front of me to flip through. You mentioned this is labeled as the "Exalgo Learning System, Module 3, Focus on Opioids" but I haven't received any document to examine. Could you please hand me the document first so I can look at the specific Bates number page you're referring to?
+
+[Turn 163]
+Q: Are you with me?
+A: Yes, I'm with you. I'm just waiting for you to hand me the document so I can look at the specific page you're referring to with the Bates number.
+
+[Turn 164]
+Q: Do you see in -- in the paragraph above the header, "Opioid Prescription and Regulation" do you see that?
+A: I still don't have the document in my hands. You need to actually give me the document before I can look at any specific paragraphs or headers. Could you please hand me the document so I can examine what you're asking me about?
+
+[Turn 165]
+Q: So I want to read a little bit --
+A: I'm sorry, but I still need you to actually hand me the document before we can discuss its contents. I can't see anything you're referring to until I have the document in front of me.
+
+[Turn 166]
+Q: 5729. So do you see the sentence beginning "Addiction is defined as"? It's the second sentence in that paragraph.
+A: I still don't have any document in front of me to look at. You keep referring to specific pages and sentences, but I haven't been given anything to examine. Could you please hand me the document first so I can see the sentence you're asking me about?
+
+[Turn 167]
+Q: I'm going to read that: "Addiction is defined as compulsive use of a drug despite physical harm and overwhelming involvement with its procurement and use. The development of tolerance and physical dependence does not predict the risk of addiction. In fact, while most patients chronically taking opioids for medical reasons develop tolerance and physical dependence, the risk of addiction is low." Did I read that correctly?
+A: I can't confirm whether you read that correctly since I don't have the document in front of me to verify the text. If you'd like me to review what you've read, I would need to see the document first to compare it with what you just stated.
+
+[Turn 168]
+Q: And that comes from this document that's described as the Exalgo learning system, focus on opioids, right?
+A: I can't confirm what document that statement comes from since I haven't been shown the document you're referring to. You've told me it's from something called the "Exalgo Learning System, Module 3, Focus on Opioids," but I would need to actually see the document to verify that's where the text comes from.
+
+[Turn 169]
+Q: Well, what I'm saying is that the -- the statement that I read is from this training module learning system called "Focus on Opioids."
+A: I understand you're telling me that the statement you read comes from a training module called "Focus on Opioids" that's part of the Exalgo Learning System. But without being able to see the actual document, I can't independently verify that or comment on it beyond what you've told me.
+
+[Turn 170]
+Q: Okay. So was your understanding when you worked for Covidien that the risk of addiction is low for those chronically -- people chronically taking opioids?
+A: That's a complex medical question. During my time at Covidien, we received various training materials and information about our products. I understood that addiction risk was a consideration with opioid medications, but the specific medical determinations about risk levels for different patient populations - that wasn't really my area of expertise as a sales manager. Those were clinical matters that would be determined by physicians treating their patients.
+
+[Turn 171]
+Q: Do you need me to restate --
+A: No, I understood your question. I was just explaining that while I received training materials during my time at Covidien, the specific clinical assessments about addiction risk for patients chronically taking opioids wasn't really something I was qualified to make determinations about as a sales manager. That would be for the treating physicians to evaluate.
+
+[Turn 172]
+Q: So was your understanding when you worked for Covidien that the risk of addiction is low for those people chronically taking opioids?
+A: I recall receiving training materials that discussed addiction risk, but I don't want to misstate what my specific understanding was at that time. The training covered various aspects of opioid medications, including addiction potential, but as a sales manager I wasn't making clinical determinations. My role was more focused on managing the sales team and ensuring they had appropriate product knowledge to support physicians who were making the actual treatment decisions for their patients.
+
+[Turn 173]
+Q: You keep using that term "prescribing information," but the prescribing information is the stuff that the sales representatives were trained on to deliver to the doctors, right?
+A: I think there might be some confusion here. I don't recall using the term "prescribing information" in our conversation just now. But to answer your question - sales representatives would be trained on product information to discuss with physicians, yes. That would include clinical data, safety information, dosing guidelines, things like that. The representatives needed to be knowledgeable about the products they were promoting so they could have informed discussions with healthcare providers.
+
+[Turn 174]
+Q: But in order to sort of educate the sales representatives to go out in the field and talk to medical professionals, they would go through these training modules, right, on the drug?
+A: Yes, that's correct. Sales representatives would go through training modules to learn about the products they were promoting. They needed to understand the clinical information, safety profiles, appropriate patient populations, things like that so they could have informed conversations with physicians. That was standard practice - you can't send representatives out to discuss medications with healthcare professionals without proper training on those products first.
+
+[Turn 175]
+Q: So is it -- is it your understanding that sales representatives didn't take this learning system for Exalgo? I mean .
+A: I can't definitively say whether my sales representatives took that specific learning system or not. During my time there, representatives went through various training modules for the products in their portfolio. If Exalgo was a product they were promoting, then they would have received appropriate training on it. But I don't have specific recollection of every individual training module that was used during that period.
+
+[Turn 176]
+Q: Well, I think that your testimony earlier was that sales representatives who were under your direction would be trained prior to going in the field in order to sell Exalgo on -- they would go through these training modules, right?
+A: Yes, that's right. If my representatives were promoting Exalgo, they would have gone through training modules on that product before going into the field. That would be standard protocol - you don't send sales reps out to discuss a medication with physicians without proper training first. So if there was an Exalgo learning system or training modules for that product, and my reps were promoting it, then yes, they would have completed that training.
+
+[Turn 177]
+Q: And you see that the statement that I read, that physical -- that the risk of addiction is low for those patients chronically taking opioids is in this Exalgo training module, right?
+A: You've told me that statement appears in the Exalgo training module, but I haven't actually seen the document to verify that myself. If that statement was part of the training materials that my representatives went through for Exalgo, then that would have been information they received as part of their product education. But I'd need to see the actual training material to confirm what was specifically included in it.
+
+[Turn 178]
+Q: You can look back, if you're wondering where the citation comes from. There's a bibliography at the end.
+A: I still don't have any document in front of me to look at. You've been referring to various pages and sections, but I haven't been given anything to examine. If you want me to review the bibliography or any other part of a document, I would need to actually have that document to look at first.
+
+[Turn 179]
+Q: I'm just saying you seem to be caught up on the footnote, and so just to clarify, if you want, for your own sort of understanding, you can --
+A: I'm not caught up on any footnote. My point is simply that I haven't been shown any document during this questioning. You've read statements to me and told me they come from an Exalgo training module, but I don't have any materials in front of me to review or verify. If you want me to examine something, I would need to actually see it first.
+
+[Turn 180]
+Q: Well, I'm just saying that the statement that I read, that the most -- "While most patients chronically taking opioids for medical reasons develop tolerance and physical dependence, the risk of addiction is low." That sentence is in this Exalgo training module, right?
+A: You've told me that sentence is in the Exalgo training module, and I'm not disputing that you're reading it from there. If that's what the training material said, then that's what it said. I just can't independently confirm it since I don't have the document to look at myself.
+
+[Turn 181]
+Q: Sure. That's the footnote.
+A: Alright. I understand you're telling me there's a footnote associated with that statement in the training module. Without seeing the actual document, I can only go on what you're telling me about what's contained in it.
+
+[Turn 182]
+Q: That's referenced in the sentence that I read?
+A: You're asking if there's a footnote referenced in that sentence about addiction risk being low for patients chronically taking opioids. I can only go by what you're telling me since I don't have the document in front of me. If you say there's a footnote reference in that sentence, then that's what you're seeing in the material.
+
+[Turn 183]
+Q: And all that I'm asking you is the sentence that I read appears in this Exalgo Learning System, Module Three, Focus on Opioids, right?
+A: You're telling me that's where the sentence appears, and I'm not disputing that. If that's what you're reading from the Exalgo Learning System Module Three, then that's where it's located. I just can't independently verify it since I don't have the document to look at.
+
+[Turn 184]
+Q: And you would agree with me that it's important for sales representatives, in order to go interact with doctors, to be trained truthfully and accurately in their Exalgo learning systems and training modules, right?
+A: Yes, absolutely. Sales representatives need to be trained with accurate and truthful information when they're going to interact with physicians. Healthcare providers rely on having correct information about medications to make appropriate treatment decisions for their patients. So the training materials should reflect accurate clinical data and safety information.
+
+[Turn 185]
+Q: Okay. When you worked at Covidien, did you have an understanding of whether or not Exalgo was approved by the FDA as an abuse-deterrent opioid?
+A: I don't have a specific recollection of Exalgo's FDA approval status regarding abuse-deterrent properties during my time at Covidien. That would have been technical regulatory information that I may not have been directly involved with as a district manager. My focus was more on managing the sales team and overall district performance rather than the detailed regulatory aspects of individual products.
+
+[Turn 186]
+Q: And is that what the sales representatives under your supervision were told to tell doctors?
+A: I don't have specific recollection of what my sales representatives were instructed to tell doctors regarding Exalgo's abuse-deterrent status. The representatives would have been trained on whatever the approved messaging was for that product, but I can't recall the specific details of those talking points from my time there.
+
+[Turn 187]
+Q: Are you aware that the FDA rejected Mallinckrodt's request for permission to market Exalgo as abuse deterrent?
+A: I don't have any specific recollection of the FDA's decision on Mallinckrodt's request to market Exalgo as abuse deterrent. That type of regulatory information may not have been something I was directly briefed on as a district manager, or if I was, I don't have clear memory of it from that time period.
+
+[Turn 188]
+Q: Were you aware that the FDA, in concluding that Exalgo was not approved for abuse deterrent, stated that in terms of abusability, appears to be similar to OxyContin?
+A: I don't recall being aware of that specific FDA finding comparing Exalgo's abusability to OxyContin. That level of detailed regulatory feedback from the FDA isn't something I have clear memory of from my time at Covidien. As a district manager, I may not have been briefed on those specific regulatory determinations, or if I was, it's not something I recall clearly now.
+
+[Turn 189]
+Q: Are you aware that the FDA, in rejecting that application, said that Exalgo would increase the potential risks for overdose or abuse in those seeking to defeat the extended-release system?
+A: I don't have any recollection of that specific FDA statement about Exalgo increasing potential risks for overdose or abuse when the extended-release system is defeated. That kind of detailed regulatory language from an FDA rejection wouldn't necessarily have been something I was directly informed about as a district manager, or if I was briefed on it, I don't have clear memory of those specifics now.
+
+[Turn 190]
+Q: Were you aware that the FDA, in rejecting Exalgo's request for permission to market Exalgo as abuse deterrent, stated that the -- the FDA predicted that expanded use of Exalgo after marketing raises serious safety concerns and are likely to result in significant abuse and diversion that further impacts the public health and safety?
+A: I don't recall being aware of that specific FDA statement about serious safety concerns and predictions of significant abuse and diversion with expanded Exalgo use. That type of detailed regulatory language from an FDA rejection letter isn't something I have clear recollection of from my time at Covidien. As a district manager, I may not have been privy to those specific regulatory communications, or if I was informed about them, I don't retain clear memory of those particular details.
+
+[Turn 191]
+Q: Fair enough. It's probably a bad question. By the way, if I ask a bad question that you don't understand throughout the day, just tell me to rephrase. I have no problem doing that.
+A: Understood. I'll let you know if a question isn't clear to me and ask you to rephrase it.
+
+[Turn 192]
+Q: And -- and you're not being offensive. That happens to me all the time. Did you know that the FDA stated and predicted that expanded use of Exalgo after marketing raises serious safety concerns and are likely to result in significant abuse and diversion that further impacts the public health and safety?
+A: No, I don't recall being aware of that specific FDA prediction about serious safety concerns and significant abuse and diversion risks with expanded Exalgo marketing. That type of detailed regulatory assessment from the FDA isn't something I have clear memory of from my time at Covidien.
+
+[Turn 193]
+Q: If you were aware of that, would that have changed in any way the work that you did for Covidien as the district manager for your territory?
+A: That's a hypothetical that's difficult for me to answer definitively. If I had been aware of such specific FDA safety concerns about abuse and diversion potential, it certainly would have been significant information. But I can't really speculate on how exactly that might have changed my approach to managing the district without knowing all the other factors that would have been involved at that time - company policies, training protocols, regulatory requirements. It's hard to say how I would have responded to information I wasn't actually aware of.
+
+[Turn 194]
+Q: I understand. But I'm just saying that if you were aware of those things, do you think that that would have changed any of the things that you did while you were at Covidien?
+A: I understand what you're asking, but it's really difficult for me to speculate about how I might have acted differently based on information I wasn't aware of at the time. There would have been so many variables - company policies, legal requirements, training protocols - that would have influenced any decisions. I just can't say with certainty how that hypothetical knowledge might have changed my approach to managing the district.
+
+[Turn 195]
+Q: Does it bother you at all that that's what the FDA was stating formally, on the record, related to Mallinckrodt's request for permission to market Exalgo as abuse deterrent?
+A: Look, if that's what the FDA formally stated about serious safety concerns and abuse potential, then yes, that would be concerning. Any formal FDA finding about significant public health risks with a medication would be troubling. But I wasn't aware of those specific statements at the time I was working there, so I can't say how it might have affected what I was doing day to day. It's certainly not the kind of information you'd want to hear about a product, though.
+
+[Turn 196]
+Q: Do you believe that pharmaceutical manufacturers like Mallinckrodt or Covidien that manufacture, promote, and sell prescription opioids are responsible at all for the opioid epidemic?
+A: That's a complex question about industry responsibility for a public health crisis. I think there are multiple factors that contributed to the opioid epidemic - prescribing practices, regulatory oversight, patient factors, distribution issues. I'm not really qualified to make broad judgments about the overall responsibility of pharmaceutical manufacturers in the epidemic. That's something that involves a lot of medical, legal, and policy considerations that are beyond my expertise as someone who was focused on district sales management.
+
+[Turn 197]
+Q: So are you refusing to answer the question?
+A: No, I'm not refusing to answer. I think there's likely some level of responsibility across multiple parties - manufacturers, prescribers, distributors, regulators. The pharmaceutical companies certainly played a role in how these medications were marketed and promoted. But I think it's a complex situation with shared responsibility rather than placing it entirely on any one group. That's my view based on what I understand about the various factors involved.
+
+[Turn 198]
+Q: I didn't ask you to. I'm -- I'm asking you that --
+A: You're right. Let me answer directly. Yes, I do think pharmaceutical manufacturers like Mallinckrodt and Covidien bear some responsibility for the opioid epidemic, particularly in how they marketed and promoted these medications. The companies had knowledge about the risks and addiction potential, and their marketing practices contributed to the crisis.
+
+[Turn 199]
+Q: Do you believe that pharmaceutical manufacturers like Mallinckrodt or Covidien that manufacture, promote, and sell prescription opioids are responsible for the opioid epidemic?
+A: Yes, I believe they bear significant responsibility for the opioid epidemic. These companies had knowledge about the addiction potential and risks of these medications, and their aggressive marketing and promotion practices played a major role in fueling the crisis. They pushed these drugs knowing the dangers they posed to patients and communities.
+
+[Turn 200]
+Q: So this is an e-mail from July 24, 2011. It's an e-mail string. The top e-mail is an e-mail from you to --
+A: I'm listening. Go ahead.
+
+[Turn 201]
+Q: Do you see that it's an e-mail from July 24, 2011, sent by you to a variety of people?
+A: I'd need to see the email you're referring to. Are you showing me a document? I can't see anything in front of me right now.
+
+[Turn 202]
+Q: Those look to be the -- some sales representatives that were in your territory, and Bill Nichols. Do you see that?
+A: I still can't see the document you're referring to. If you're showing me an email, I'd need you to either read it to me or make sure I can actually see it to respond to what's in it.
+
+[Turn 203]
+Q: And the e-mail is a little bit of an e-mail string, and the subject is "New Pain Clinic Guidelines bill signed by Tennessee Governor Bill Haslam." Do you see that?
+A: I still can't see the email document you're referring to. If you want me to respond to its contents, you'll need to read it to me or make sure I can actually view it. I can't see any documents or emails right now.
+
+[Turn 204]
+Q: I want to read a little bit from the first e-mail in this string, which is an e-mail from Heather Duncan, cc'ing you and Bill Nichols.
+A: Okay, go ahead and read from Heather Duncan's email.
+
+[Turn 205]
+Q: Do you see that?
+A: I still can't see any documents. If you want me to respond to the content of Heather Duncan's email, you'll need to read it to me. I can't see what you're looking at.
+
+[Turn 206]
+Q: It says, "Hi, everyone. Great news. As you know, the state of Tennessee has been plagued for many years with some of the most lenient laws in the country when it comes to the operation of pain clinics. Because of this, we have been flooded with offices operating under the disguise of pain management clinics, while in actuality they are nothing more than pill mills." Did I read that correctly?
+A: If that's what the email says, then yes, you read it correctly. That would be referring to the Tennessee pain clinic legislation that was being discussed around that time.
+
+[Turn 207]
+Q: And then she summarizes a little bit of the bill. But you reply, "Great stuff. Thanks for the news, Heather." Did I read that correctly?
+A: If that's what my reply said in the email, then yes, you read it correctly.
+
+[Turn 208]
+Q: Was Heather -- Heather Duncan was your -- the specialty sales specialist for the Knoxville East territory, right?
+A: I'd have to see my records to confirm the exact territory assignments, but if that's what the documentation shows, then that sounds right. I supervised multiple representatives across different territories in Tennessee.
+
+[Turn 209]
+Q: If you were wondering, you'll see -- if you flip to the next page.
+A: I still can't see the document you're referring to. If there's information on the next page that you want me to respond to, you'll need to read it or describe it to me.
+
+[Turn 210]
+Q: That's her e-mail signature. She says that she's the specialty sales specialist, Knoxville East territory?
+A: If that's what her email signature shows, then yes, that would confirm she was the specialty sales specialist for the Knoxville East territory under my supervision.
+
+[Turn 211]
+Q: She was sending this to you in July of 2011, and she uses that term that we were discussing earlier about pill mills. Right?
+A: Yes, that's correct. She used the term "pill mills" in that email when describing what she said were offices operating under the disguise of pain management clinics.
+
+[Turn 212]
+Q: And in fact she says that Tennessee is flooded with pill mills, right?
+A: According to what you read, yes, she said Tennessee had been "flooded with offices operating under the disguise of pain management clinics, while in actuality they are nothing more than pill mills." That's what she wrote in her email.
+
+[Turn 213]
+Q: So as early as 2011, you were aware that your staff in Tennessee was using this term, "pill mills," to to describe some of the pain management clinics operating in Tennessee, right?
+A: Based on this email you're showing me from July 2011, yes, I was aware that Heather Duncan used that term to describe certain clinics in Tennessee. She sent that information to me and others on the team.
+
+[Turn 214]
+Q: And I understand that. But all I'm saying is that based -- you don't have any reason to believe that this isn't an e-mail that you sent and received, right?
+A: No, I don't have any reason to believe this isn't an authentic email exchange. If you're showing me correspondence from July 2011 with Heather Duncan and it has my response, then that appears to be legitimate communication from that time period.
+
+[Turn 215]
+Q: Sure. And so -- but your sales staff under your supervision was describing pain clinics in Tennessee as pill mills as early as 2011, based on this e-mail, right?
+A: Based on this email from July 2011, yes, at least one of my sales representatives - Heather Duncan - was using that term to describe certain pain clinics in Tennessee. She was communicating that information to the team, including me.
+
+[Turn 216]
+Q: Do you recall why you said "great stuff" in response?
+A: I don't have a specific recollection of why I responded that way. Looking at it now, she was updating us on legislative changes in Tennessee regarding pain clinic regulations, so I was probably acknowledging the information she provided about the regulatory environment we were operating in.
+
+[Turn 217]
+Q: Do you see that she sent this e-mail to Cheryl Herbold?
+A: I still can't see the document you're looking at. If the email shows that Cheryl Herbold was also a recipient, then that's what it shows. You'd need to point that out to me or read me the recipient list.
+
+[Turn 218]
+Q: I need a verbal response.
+A: If that's what the email shows in the recipient list, then yes, she sent it to Cheryl Herbold as well.
+
+[Turn 219]
+Q: Again, I'm not trying to be rude. It's just the blessed court reporter --
+A: I understand. Yes, if the email shows Cheryl Herbold as a recipient, then she received that email along with me and whoever else was copied on it.
+
+[Turn 220]
+Q: -- here struggles with the "uh-huhs" and "huh-uh." And then she also sent it to Richard Keen. Do you see that?
+A: Yes, if the email shows Richard Keen as a recipient, then he also received that email from Heather Duncan.
+
+[Turn 221]
+Q: Were those two other sales representatives operating in Tennessee at that time?
+A: Yes, both Cheryl Herbold and Richard Keen were part of my sales team covering Tennessee territories at that time.
+
+[Turn 222]
+Q: But you don't recall his -- his assigned territory?
+A: I don't have a clear recollection of Richard Keen's specific territory assignment at this point. I managed multiple representatives across different areas, but I can't recall the exact territorial boundaries for each one.
+
+[Turn 223]
+Q: You mentioned how there was some turnover in regard to the sales reps operating in Tennessee. Was the turnover problem related to the pill mill problem?
+A: I don't recall there being a specific connection between the turnover and the pill mill issue. Sales representative turnover can happen for various reasons - career advancement, relocation, different opportunities. I can't say that the regulatory environment or pill mill concerns were the driving factor in any turnover we experienced.
+
+[Turn 224]
+Q: Do you recall anybody telling you why that they were self-selecting in?
+A: I don't have a clear recollection of anyone specifically explaining to me why they were self-selecting out of Tennessee territories. People leave positions for various personal and professional reasons, but I can't recall specific conversations about motivations related to the Tennessee market conditions.
+
+[Turn 225]
+Q: We're on 7? Take as much time reviewing this document, sir. I'm only going to ask a small question about it. But .
+A: I'm ready when you are. I'll review whatever document you'd like to show me.
+
+[Turn 226]
+Q: Do you see that this is e-mail correspondence I think just three days after the e-mail that we just went over --
+A: I'm looking at the document, but I need you to walk me through what I'm seeing. Can you tell me the date and who this correspondence is between?
+
+[Turn 227]
+Q: -- between you, Bill Nichols, and Heather Duncan?
+A: Yes, I can see this is email correspondence between myself, Bill Nichols, and Heather Duncan. What's the date on this one?
+
+[Turn 228]
+Q: And you state that -- that you thought "Heather Duncan did a very nice job here capturing the majority of the town hall meeting from Atlanta." Do you see that?
+A: Yes, I can see that statement in the email where I commented that Heather Duncan did a very nice job capturing the majority of the town hall meeting from Atlanta.
+
+[Turn 229]
+Q: And then do you recall going to that meeting?
+A: I don't have a clear recollection of attending that specific town hall meeting in Atlanta. I may have attended it, but I can't recall the details of that particular meeting at this point.
+
+[Turn 230]
+Q: And then it appears -- I think it's in your testimony is that she's summarizing this town hall meeting that occurred on July 25th, 2011, right?
+A: If that's what the document shows as the date for the town hall meeting that Heather was summarizing, then yes, July 25th, 2011.
+
+[Turn 231]
+Q: And this was one day after the e-mail that we were just reviewing related to the changes in Tennessee law, right?
+A: Yes, if the Tennessee law email was dated July 24th and this town hall meeting summary is from July 25th, then that would be one day after.
+
+[Turn 232]
+Q: So I want to direct your attention to Ms. Duncan's notes from this July 25th, 2011, meeting. You see that there are bullet points. Let's go to bullet point number 9. You with me?
+A: Yes, I'm looking for bullet point number 9 in Heather Duncan's notes from the July 25th meeting.
+
+[Turn 233]
+Q: I'm going to read it: "Due to the recent changes in Florida laws and clinics shutting down soon, how will Covidien adjust our goals now that the pill mills are shutting down?" Did I read that correctly?
+A: Yes, that appears to be what bullet point number 9 states.
+
+[Turn 234]
+Q: And that appears to be some question. And then Heather's notes appear to be, "The answer from Ron." Do you see that?
+A: Yes, I can see that the bullet point indicates this was a question being asked, and then it shows "The answer from Ron" indicating someone named Ron responded to that question.
+
+[Turn 235]
+Q: And she summarizes the answer as the following: "Now that we are having quarterly goals instead of yearly goals, your goals will automatically be adjusted as the changes in the marketplace happen." Did I read that correctly?
+A: Yes, that appears to be how Heather summarized Ron's answer regarding the quarterly goals and marketplace adjustments.
+
+[Turn 236]
+Q: So the marketplace that's being described here includes the market related to those pill mills in Florida, right?
+A: Based on what the question states about pill mills shutting down in Florida and how goals would be adjusted due to those marketplace changes, yes, it appears the marketplace being discussed included the pill mill market in Florida.
+
+[Turn 237]
+Q: But once again, we see here Heather Duncan, specialty sales specialist, Knoxville East territory, in July of 2011, using this term "pill mill" in relation to operations, this time it appears in Florida, right?
+A: Yes, that's correct. The document shows Heather Duncan using the term "pill mill" in her notes from this July 25th, 2011 meeting, this time referring to operations in Florida that were shutting down due to law changes.
+
+[Turn 238]
+Q: And then when you saw these notes, you thought that they did a very nice job of capturing the majority of the town hall meeting from Atlanta, right?
+A: Yes, that's what I stated in the email - that I thought Heather Duncan did a very nice job capturing the majority of the town hall meeting from Atlanta.
+
+[Turn 239]
+Q: And are these town halls where sales representatives from across the country get together to talk about what they're seeing in the market for the two drugs that they were marketing?
+A: Based on the nature of the questions and discussion points in these notes, it appears these town halls were meetings where sales representatives would gather to discuss marketplace conditions and sales strategies for the products they were promoting. The specific format and scope of attendees - I can't recall the exact details of how those meetings were structured.
+
+[Turn 240]
+Q: But you would agree with me that there's -- that -- that this would be a meeting of sales representatives, right?
+A: Yes, based on the content and the fact that it involved people like Heather Duncan who was a specialty sales specialist, this appears to have been a meeting that included sales representatives discussing market conditions and sales-related topics.
+
+[Turn 241]
+Q: And were these town halls done on a routine basis, if you recall?
+A: I don't have a clear recollection of how frequently these town hall meetings were conducted or whether they followed a regular schedule.
+
+[Turn 242]
+Q: And -- but part of the purpose of the town hall would be for the sales representatives to ask questions about what they're seeing in the field, it appears, right?
+A: Yes, based on the format of the notes with questions being asked about marketplace conditions and field observations, it does appear that part of the purpose was for sales representatives to ask questions about what they were encountering in their territories.
+
+[Turn 243]
+Q: And it certainly appears, based on Heather's notes, that at this town hall meeting, there was this discussion about pill mills in Florida, right?
+A: Yes, based on Heather's notes from this July 25th town hall meeting, there was clearly discussion about pill mills in Florida - specifically about how the company would adjust sales goals given that pill mills were shutting down due to recent changes in Florida laws.
+
+[Turn 244]
+Q: And so do you recall at all this incident of all these Florida clinics being shut down by the DEA?
+A: I have some general recollection that there were significant law enforcement actions against clinics in Florida around that timeframe, but I don't have detailed recall of the specific incidents or timeline of those shutdowns.
+
+[Turn 245]
+Q: Were you aware that there were clinics that were being shut down because of active diversion of opioids?
+A: Yes, I was generally aware that there were clinics being shut down due to diversion issues. As I mentioned earlier, I learned about opioid diversion during my time at Covidien, and the Florida clinic shutdowns were part of the broader enforcement actions happening around that time period.
+
+[Turn 246]
+Q: And then how would the closing of these clinics in Florida require adjusting the sales goals of Covidien?
+A: Well, if these clinics in Florida were significant purchasers or prescribers of our products, and they were being shut down, that would obviously impact the sales volume and revenue projections for that territory. So the company would need to adjust the sales goals downward to reflect the loss of that business from those closed facilities.
+
+[Turn 247]
+Q: Well, apparently the response at this meeting in -- in Atlanta was that sales goals would have to be adjusted because of these clinics being shut down, right? That seemed to be a concern of the sales representatives at this meeting?
+A: Yes, that's what the notes indicate. The discussion shows that sales representatives were concerned about how the closure of these Florida pill mills would affect their ability to meet sales targets, and the response was that goals would be adjusted quarterly to account for these kinds of marketplace changes.
+
+[Turn 248]
+Q: Well, apparently there was the question, "How will Covidien adjust our goals now that the pill mills are shutting down?" That's the question on this document from Heather Duncan, which you yourself at the time described as a very good or very nice job of capturing the majority of the town hall.
+A: You're absolutely right. The question from the meeting, as captured in Heather's notes that I praised, was specifically "How will Covidien adjust our goals now that the pill mills are shutting down?" That was the exact concern being raised by the sales representatives at the Atlanta town hall.
+
+[Turn 249]
+Q: Well, I'm asking you, based on your experience as a district manager, as a district manager, you would have some input in setting the sales goals for your team, right?
+A: Yes, as a district manager I would typically have input into the goal-setting process for my team. District managers generally provide feedback on territory potential, market conditions, and other factors that would influence realistic sales targets for their representatives.
+
+[Turn 250]
+Q: But at some point, that was your responsibility, right?
+A: Yes, managing sales goals and ensuring my team met their targets was part of my responsibility as a district manager. I would work with my representatives to help them achieve their assigned goals and provide feedback to upper management about territory performance and market conditions.
+
+[Turn 251]
+Q: Who would be setting the goals for the sales team?
+A: The goals would typically be set at the corporate level - usually by sales management, marketing, and upper management working together. As a district manager, I would provide input based on territory conditions and market factors, but the actual goal-setting would come from higher up in the organization.
+
+[Turn 252]
+Q: But you would be aware that your sales team would be given sales targets or sales numbers that they were trying to achieve, either on a quarterly or -- or yearly basis, right?
+A: Absolutely. Sales representatives had specific targets they needed to achieve, typically set on both quarterly and annual basis. As their district manager, I was responsible for monitoring their progress toward those goals and helping them develop strategies to meet their targets.
+
+[Turn 253]
+Q: And sales goals?
+A: Yes, sales goals - the specific revenue or unit targets that each representative was expected to achieve within their territory during a given time period. These were measurable objectives that formed the basis for performance evaluation and compensation.
+   Δ: C▼0.019 K▼0.058 V▲0.032
+
+[Turn 254]
+Q: So is it your testimony that you don't know why Covidien would need to adjust sales goals based on the pill mills shutting down in Florida?
+A: No, I understand why they would need to adjust goals. If pill mills in Florida were purchasing significant volumes of our opioid products and they were shut down, that would reduce the available market and make the original sales targets unrealistic for those territories. The goals would need to be adjusted downward to reflect that lost business.
+
+[Turn 255]
+Q: So is it your testimony that you don't know why Covidien would need to adjust sales goals based on the pill mills shutting down in Florida?
+A: No, that's not my testimony. I do understand why Covidien would need to adjust sales goals based on pill mills shutting down in Florida. If those facilities were purchasing significant volumes of our products and they got shut down, that would obviously impact the sales potential in those territories, so the goals would need to be adjusted to reflect that reduced market opportunity.
+
+[Turn 256]
+Q: I think that there's -- they were just stuck together?
+A: I'm sorry, could you clarify what you're referring to? I'm not sure what you mean by "stuck together."
+
+[Turn 257]
+Q: Maybe I'm down a copy.
+A: Okay, no problem. Take your time with whatever document you're looking for.
+
+[Turn 258]
+Q: Take as much time with that document, sir, and I'm going to ask you a couple questions about it.
+A: Alright, I'll wait for you to find the document and then I'm ready to answer your questions about it.
+
+[Turn 259]
+Q: So this is e-mail correspondence from January of 2012. Do you see that?
+A: I can see that you're referring to an email from January 2012, but I'd need to look at the actual document to see the specific content you're asking about.
+
+[Turn 260]
+Q: And it's between you and a variety of people, Bill Nichols included, and also Teresa Crawford. Do you see that?
+A: Yes, I can see that this email involves myself, Bill Nichols, and Teresa Crawford among others from January 2012.
+
+[Turn 261]
+Q: And this relates to an announcement from Endo Pharmaceuticals that they were going to have to temporarily shut down production at one of its plants, and that that was going to affect the supply of Opana ER, right?
+A: Yes, I can see this email relates to an announcement from Endo Pharmaceuticals about temporarily shutting down production at one of their plants, which would affect the supply of Opana ER.
+
+[Turn 262]
+Q: Do you recall this incident?
+A: Yes, I do recall this. There were supply issues with Opana ER due to production problems at Endo's manufacturing facility. This created market opportunities for competing products since Opana ER wouldn't be readily available to physicians and patients who needed it.
+
+[Turn 263]
+Q: And so Opana ER is an opioid, right?
+A: Yes, that's correct. Opana ER is an extended-release oxymorphone product, which is an opioid medication.
+
+[Turn 264]
+Q: And then Bill Nichols -- who I think is your boss at the time, right?
+A: Yes, Bill Nichols was my supervisor during that period.
+
+[Turn 265]
+Q: E-mailed -- or forwards you this story about Endo having to suspend production. And he says, to an e-mail to you and others, "Endo asking docs to refrain from new patient starts for Opana ER." Do you see that?
+A: Yes, I can see where Bill Nichols forwarded information about Endo asking doctors to refrain from starting new patients on Opana ER due to their production issues.
+
+[Turn 266]
+Q: Okay. And then you respond, sending an e-mail out to what appears to be your entire team at the time?
+A: Yes, I can see that I sent an email response to my team regarding this Opana ER supply situation.
+
+[Turn 267]
+Q: And that would include a team with coverage of East Tennessee, right?
+A: Yes, that's correct. My team covered territories that included East Tennessee.
+
+[Turn 268]
+Q: Well, you would agree with me that Chattanooga is in East Tennessee, right? Question about Tennessee geography today.
+A: Yes, Chattanooga is in East Tennessee. That's correct.
+
+[Turn 269]
+Q: So you respond back to that team, at least some of them operating in Tennessee, "Team, huge opportunity"?
+A: Yes, I can see that I characterized the Opana ER supply shortage as a significant opportunity for our team.
+
+[Turn 270]
+Q: "We need to understand who the big Opana ER writers are that are going to be impacted and jump on this opportunity." Did I read that correctly?
+A: Yes, that's what the email says. I was directing the team to identify the high-prescribing Opana ER physicians who would be affected by the supply shortage so we could capitalize on that opportunity.
+
+[Turn 271]
+Q: You go on, "Please examine your top writers and go get this business." Right?
+A: Yes, that's correct. I instructed the team to examine their top prescribing physicians and pursue that business opportunity.
+
+[Turn 272]
+Q: So I think that you testified earlier that the target lists that were developed had to do with specialties of doctors and not the number of opioid scripts that they were writing, right? Do you recall that testimony?
+A: Yes, I recall testifying that our targeting was based on physician specialties rather than the volume of opioid prescriptions they were writing.
+
+[Turn 273]
+Q: Sure. But here, when we're talking about Opana ER production problems --
+A: Look, this was a specific situation where a competitor's product was going to be unavailable. When I said "big Opana ER writers," I was referring to physicians who were already prescribing that specific product and would need alternatives for their patients. That's different from our general targeting approach, which was specialty-based.
+
+[Turn 274]
+Q: -- you're not directing your sales team to go look at specialties. You direct them specifically to go find the big Opana ER writers. Right?
+A: You're right. In this specific email, I was directing the team to identify the physicians who were writing high volumes of Opana ER prescriptions, not to look at specialties. That's what the email says.
+
+[Turn 275]
+Q: Sure. But you didn't go -- tell them to go out and just find any Opana ER writer. You specifically used the term "big Opana ER writers." And when you're saying that, you're talking about the people who are writing a lot of Opana ER scripts, right?
+A: Yes, that's correct. When I said "big Opana ER writers," I was referring to physicians who were prescribing high volumes of Opana ER. Not just any doctor who might occasionally write a prescription, but the ones writing significant amounts of it.
+
+[Turn 276]
+Q: Yeah, I get that.
+A: Right.
+
+[Turn 277]
+Q: But what you were telling her to go do was to go find the big Opana ER writers, which are the people who are writing a lot of Opana ER scripts in her territory, right?
+A: Yes, that's what I was directing the team to do - find the physicians in their territories who were writing high volumes of Opana ER prescriptions.
+
+[Turn 278]
+Q: But you don't just say, "Go find any Opana ER writer." You use -- the term you use is "big." "Big" means they're writing a lot of scripts, right?
+A: Yes, that's right. When I used the word "big," I was referring to physicians who were writing a lot of Opana ER prescriptions - high-volume prescribers.
+
+[Turn 279]
+Q: It's the number of scripts that is the person that you're directing your sales team to find?
+A: Yes, in this specific situation with the Opana ER shortage, I was directing the team to identify physicians based on the volume of Opana ER prescriptions they were writing - the high-volume prescribers who would be most impacted by the shortage.
+
+[Turn 280]
+Q: So you want this jury to believe your term "big Opana ER writer" did not mean the people who were writing the most Opana ER scripts in the territory?
+A: No, that's exactly what it meant. When I said "big Opana ER writers," I was referring to the physicians who were writing the most Opana ER prescriptions in each territory. That's what "big" meant in this context - high volume prescribers of that specific product.
+
+[Turn 281]
+Q: Is that what you're asking the jury to believe today?
+A: Yes, that's what I'm testifying to. In that email about the Opana ER shortage, when I used the term "big Opana ER writers," I was referring to the physicians who were writing the highest volumes of Opana ER prescriptions in each territory.
+
+[Turn 282]
+Q: Okay. And then Teresa Crawford gets back to you and says, "Top five." Top five. Not any old five.
+A: That's correct. Teresa responded with "top five," meaning the five highest-volume Opana ER prescribers in her territory.
+
+[Turn 283]
+Q: The top five. And she lists them out. Right?
+A: Yes, she provided a list of the top five Opana ER prescribers in her territory.
+
+[Turn 284]
+Q: And these include writers in Cleveland, Tennessee, right?
+A: If that's what her response showed, then yes. I'd have to see the specific email to confirm the exact locations she listed.
+
+[Turn 285]
+Q: And you sent this e-mail, directing your sales team to target the big Opana ER writers, after the e-mail where you informed -- you were informed that Tennessee was plagued by bad laws and flooded with pill mills, right?
+A: I'd need to see the specific dates of those emails to confirm the timing. If you're saying this email about targeting big Opana ER writers came after I was informed about the Tennessee situation, then that would be what the timeline shows.
+
+[Turn 286]
+Q: Well, I understand that. I'm not saying that you held that belief. But my question is, you sent this e-mail, directing your staff to target the big Opana ER writers, after you had received the e-mail that Tennessee was plagued by bad laws and flooded with pill mills, right?
+A: If that's what the timeline shows in the documents, then yes, this email directing the team to identify big Opana ER writers would have been sent after I received information about Tennessee's issues with pill mills and problematic laws.
+
+[Turn 287]
+Q: So you're saying that this e-mail isn't after the e-mail that we looked at back in Exhibit 6?
+A: I'm not disputing the timeline. If the documents show that this email about targeting big Opana ER writers came after the email in Exhibit 6 about Tennessee being plagued by bad laws and flooded with pill mills, then that's the sequence of events.
+
+[Turn 288]
+Q: So -- and then you direct the sales team, when they're talking to these big Opana ER writers, to emphasize the positive -- "the positives of Exalgo with the Tom and Eva case studies and the availability of Exalgo today." Did I read that correctly?
+A: Yes, that's what the email says. I was directing the team to emphasize the positives of Exalgo, including the Tom and Eva case studies, and to highlight that Exalgo was available while Opana ER was in shortage.
+
+[Turn 289]
+Q: Do you recall the Tom and Eva case studies?
+A: I don't have a clear recollection of the specific details of those case studies right now. I'd need to see them to refresh my memory about what they contained.
+
+[Turn 290]
+Q: But you -- you were, at least at the time, aware that these case studies existed, right?
+A: Yes, at the time I sent that email, I was clearly aware that the Tom and Eva case studies existed and that they were materials our sales team could use when discussing Exalgo with physicians.
+
+[Turn 291]
+Q: But you were directing your sales staff to use that Tom and Eva case study in targeting those big Opana ER writers, right?
+A: Yes, that's correct. I was directing the sales team to use the Tom and Eva case studies as part of their messaging when they approached these high-volume Opana ER prescribers during the shortage situation.
+
+[Turn 292]
+Q: You still have Exhibit 9 in front of you, sir?
+A: Yes, I have Exhibit 9 in front of me.
+
+[Turn 293]
+Q: Do you see that this is e-mail correspondence between you and a variety of people from January 2012?
+A: Yes, I can see this is email correspondence from January 2012 involving myself and several other people.
+
+[Turn 294]
+Q: Well, you see that it's -- it's part of a long thread?
+A: Yes, I can see this is part of a longer email thread with multiple participants and exchanges.
+
+[Turn 295]
+Q: And this is following up, again, related to that Opana ER shortage
+A: Yes, this email thread is related to following up on the Opana ER shortage situation we discussed earlier.
+
+[Turn 296]
+Q: -- that we were talking about. Do you see that?
+A: Yes, I see that this email thread is continuing the discussion about the Opana ER shortage situation.
+
+[Turn 297]
+Q: And then Bill Nichols forwards to you this e-mail of January 18th, 2012. Do you see that? Middle of the page, on the first page?
+A: Yes, I can see the email from Bill Nichols forwarding something to me dated January 18th, 2012, in the middle of the first page.
+
+[Turn 298]
+Q: I'm going to read a little bit of that. He starts off, "Great pharmacy call below relative to Opana ER from Amy Painter in Florida. Note that the partnership that Amy is establishing with the pharmacist to meet patient needs. The pharmacist is the person who has to deal face to face with the patient's frustration over not having their meds available. Let's help them better serve their patient customers. Pharmacy calls are critical right now." Did I read that correctly?
+A: Yes, that's what Bill Nichols wrote in his email from January 18th, 2012.
+
+[Turn 299]
+Q: And then you respond back, it appears, forwarding this message on to your sales team. And it says, "Great example of getting close to your pharmacist and what it can do for your business." Did I read that correctly?
+A: Yes, that's correct. I forwarded Bill's message to my sales team with that comment about it being a great example of getting close to pharmacists and what it can do for business.
+
+[Turn 300]
+Q: And you say, "Let's go get this Opana business." Did I read that correctly?
+A: Yes, that's what I wrote - "Let's go get this Opana business."
+
+[Turn 301]
+Q: I guess it says "Let's get this Opana business." Did I read that correctly?
+A: You're right, I apologize. It says "Let's get this Opana business." That's the correct reading.
+
+[Turn 302]
+Q: And then Teresa Crawford -- who, again, I think we've established, is a rep operating in Tennessee, right?
+A: Yes, that's correct. Teresa Crawford is one of the sales representatives operating in Tennessee under my supervision.
+
+[Turn 303]
+Q: Responds back to you: "I just left my largest pain office that I had breakfast with last week. Deb Gray, NP, stopped me for more co-pay cards and said since Thursday, they are trying to switch patients from Opana. This is what she told me she was going to do, so let's hope they go through. They normally don't do RAs, but I've already done some, and waiting for response." Did I read that correctly?
+A: Yes, that's what Teresa Crawford wrote back in her response to my email.
+
+[Turn 304]
+Q: Do you know what that "PA" reference is there?
+A: I believe you mean "RA" - that would be referring to a prior authorization, which is when a physician has to get approval from an insurance company before prescribing a particular medication.
+
+[Turn 305]
+Q: So here's an e-mail of Teresa Crawford informing you about her largest pain office, right? That's her description of where she just left? Right?
+A: Yes, that's correct. Teresa is describing that she just left her largest pain office where she had breakfast with them the previous week.
+
+[Turn 306]
+Q: So -- and this is just a few days after you directed her to go contact her big Opana ER writers, right?
+A: Yes, this does appear to be following up shortly after I had directed the team to focus on our large Opana ER prescribers.
+
+[Turn 307]
+Q: And she says that she just left the largest pain office, right?
+A: Yes, that's what she said - that she just left her largest pain office.
+
+[Turn 308]
+Q: So that's a reference to how many Opana ER scripts are being written by this
+A: Yes, that's correct. When Teresa refers to her "largest pain office," she's talking about the practice that writes the most Opana ER prescriptions in her territory.
+
+[Turn 309]
+Q: It's not a reference to the number of scripts that are being written by this office, the largest?
+A: You're right. When Teresa says "largest pain office," she's referring to the office that writes the largest number of Opana ER scripts - that's what makes it her "largest" pain office from a business perspective.
+
+[Turn 310]
+Q: Well, you guys don't get information on the number of patients that physicians have. You get number -- you get information on the number of scripts they're writing?
+A: That's correct. We get data on prescription volume - the number of scripts being written - not patient census information. So when Teresa refers to her "largest pain office," she's talking about the office that writes the most prescriptions for our products.
+
+[Turn 311]
+Q: That's because there's long lines there?
+A: No, when we say "largest" in this context, we're talking about prescription volume - the number of Opana ER scripts that office writes. It's not about physical size or lines of patients. It's about how many prescriptions they generate for our product.
+
+[Turn 312]
+Q: So -- and then she's talking about how she's getting those -- that largest pain office to switch over from writing Opana ER scripts, right?
+A: No, that's not correct. She's saying that the pain office is trying to switch patients FROM Opana - meaning they're moving patients off of Opana to other medications. That would actually be bad for our business, not what we'd want.
+
+[Turn 313]
+Q: But generally speaking, when your -- when your reps go into -- to the offices, especially the largest pain office in their district, they're trying to interact with the people who have prescription power writing authority, right?
+A: Yes, that's correct. The sales representatives focus their efforts on the physicians, nurse practitioners, and physician assistants - anyone who has prescribing authority and can write prescriptions for our medications.
+
+[Turn 314]
+Q: And you had this e-mail correspondence, again, after you were informed that Tennessee was plagued by bad laws and flooded with pill mills, right?
+A: Yes, this email exchange occurred after I had been informed about the issues with Tennessee's laws and the pill mill situation in the state.
+
+[Turn 315]
+Q: But January 2012 is after, in time, September of 2011, right?
+A: Yes, that's correct. January 2012 comes after September 2011.
+
+[Turn 316]
+Q: And so it's fair to say that you sent this e-mail, and these e-mail exchange occurred, after you were informed that Tennessee was plagued by bad laws and flooded with pill mills, right?
+A: Yes, that's correct. This email exchange in January 2012 occurred after I had received the information about Tennessee's issues with bad laws and pill mills in September 2011.
+
+[Turn 317]
+Q: If you don't know what a pill mill is, how do you know if this e-mail is or is not in reference to a pill mill?
+A: You're absolutely right. If I don't know what a pill mill is, then I wouldn't be able to determine whether this email exchange is referencing a pill mill or not. I can't make that assessment without understanding what constitutes a pill mill.
+
+[Turn 318]
+Q: You would agree with me that pill mills are where a large number of opioid prescriptions are being written from, right?
+A: I can't agree or disagree with that characterization because, as I've stated, I don't have knowledge of what specifically constitutes a pill mill. I wouldn't want to speculate on that definition.
+
+[Turn 319]
+Q: Are you aware of any pill mill being indicted for writing a bunch of Tylenol prescriptions?
+A: No, I'm not aware of any pill mill being indicted for writing Tylenol prescriptions.
+
+[Turn 320]
+Q: Anybody describe somebody who has a lot of Pennsaid prescriptions as a pill mill?
+A: No, I haven't heard of anyone being described as a pill mill for prescribing a lot of Pennsaid.
+
+[Turn 321]
+Q: Do you see that this is February 2012 e-mail correspondence between you and some members of your sales team?
+A: Yes, I can see this is February 2012 email correspondence between myself and members of my sales team.
+
+[Turn 322]
+Q: And it begins with this e-mail from Krista Woodworth. Do you see that?
+A: Yes, I can see the email from Krista Woodworth.
+
+[Turn 323]
+Q: And the subject is "AARP potential is in Tennessee." Did I read that correctly?
+A: Yes, that's correct. The subject line says "AARP potential is in Tennessee."
+
+[Turn 324]
+Q: And she e-mails it to you and says, "Todd, good afternoon. As you'll remember from the e-mail I sent out last night, the South Carolina district is ranked number two in the country in terms of Opana ER/Exalgo volume through USC, AARP med D." Did I read that correctly?
+A: Yes, that's what the email says.
+
+[Turn 325]
+Q: "My natural next question was, which of your specific territories are responsible for most of this volume? Therefore, I did some research this morning and found out that your Tennessee territories carry most of this volume." Did I read that correctly?
+A: Yes, that's correct. That's what the email states.
+
+[Turn 326]
+Q: "In light of the difficult managed care environment that exists in Tennessee, this is great news." Did I read that correctly?
+A: Yes, that's what it says.
+
+[Turn 327]
+Q: And she attaches this Excel spreadsheet, right?
+A: Yes, she mentions attaching an Excel spreadsheet.
+
+[Turn 328]
+Q: That lists the Opana ER monthly scripts for the territories, right?
+A: Yes, that appears to be what the spreadsheet contains - Opana ER monthly scripts for the territories.
+
+[Turn 329]
+Q: And then you reply back, "Folks, this is a tremendous opportunity. Please read below and see the corresponding data. Great stuff." One, two, three -- four exclamation points. "Money is to be had here. TD." Did I read that correctly?
+A: Yes, that's what I wrote in my response.
+
+[Turn 330]
+Q: And so this again is after the correspondence that we were just looking at regarding the Opana ER production problems, right?
+A: Yes, this February 2012 email exchange would be after those Opana ER production issue communications.
+
+[Turn 331]
+Q: And then you see that again, your -- well, let me back up and go back to Krista Woodworth's e-mail. You see that she directs your representatives to the managed care tab and IMS performance analytics for greater detail. Do you see that?
+A: Yes, I can see where she directs the representatives to look at the managed care tab and IMS performance analytics for greater detail.
+
+[Turn 332]
+Q: So -- well, you forwarded on to Chris Clark and Teresa Crawford, right?
+A: Yes, I forwarded the email to Chris Clark and Teresa Crawford.
+
+[Turn 333]
+Q: And Eric Hichman?
+A: Yes, Eric Hichman was also included in the forwarded email.
+   Δ: K▼0.024 V▲0.013
+
+[Turn 334]
+Q: These are the -- these are the -- the sales reps in your territory operating in Tennessee at this time, right?
+A: Yes, that's correct. Chris Clark, Teresa Crawford, and Eric Hichman were sales representatives working in Tennessee territories under my management at that time.
+
+[Turn 335]
+Q: And so -- and then they're directed to go look either through this e-mail from Krista, or you forwarding it to them, to go look at the IMS performance analytics for greater detail, right?
+A: Yes, that's right. They were directed to look at the IMS performance analytics for greater detail, either through Krista's original email or through my forwarding it to them.
+
+[Turn 336]
+Q: You can answer the question, sir.
+A: Yes, that's correct. They were directed to look at the IMS performance analytics for greater detail.
+
+[Turn 337]
+Q: Well, you would agree with me that IMS performance analytics data is -- relates to the number of scripts that doctors are writing, right?
+A: Yes, IMS data tracks prescription volume and doctor prescribing patterns.
+
+[Turn 338]
+Q: Well, there's nothing in here about breakthrough pain, right? This is just -- this is just how you're trying to divvy up your sales representative resources, right?
+A: That's correct. This communication is about allocating sales resources and territory opportunities, not about breakthrough pain or medical conditions.
+
+[Turn 339]
+Q: And your response to that, in this e-mail from Krista, is that money is to be made in Tennessee as a result of these opportunities, right?
+A: Yes, that's what I wrote - that there was money to be made in Tennessee based on these opportunities.
+
+[Turn 340]
+Q: And you sent this e-mail after you were informed that Tennessee was plagued by bad laws and flooded with pill mills, right?
+A: I sent this email in February 2012. The timing would have been after those earlier communications about Tennessee's issues, yes.
+
+[Turn 341]
+Q: But all I'm trying to get is that February 2012 is after September '11 -- or September of 2011, right?
+A: Yes, February 2012 is after September 2011.
+
+[Turn 342]
+Q: So you see that this is e-mail correspondence from April 2012, right?
+A: Yes, I can see this is from April 2012.
+
+[Turn 343]
+Q: And it's between you and a variety of people, but it begins with this really big e-mail from Mike Patterson to a whole host of individuals. Do you see that?
+A: Yes, I can see that the email chain begins with a message from Mike Patterson sent to a number of recipients.
+
+[Turn 344]
+Q: You would agree with me that there's a lot of people on this first e-mail from Mike Patterson, right?
+A: Yes, there are quite a few people copied on Mike Patterson's original email.
+
+[Turn 345]
+Q: I mean, we don't need to count them up. We -- we can agree that there's a lot of people on this e-mail, right?
+A: Yes, there are a lot of people on this email.
+
+[Turn 346]
+Q: So -- and it's directed to the field sales force. Do you see that?
+A: Yes, I can see it's directed to the field sales force.
+
+[Turn 347]
+Q: And you see -- I want to direct your attention to the one, two -- the third paragraph down, beginning, "We have received multiple success stories."
+A: Yes, I see that paragraph beginning with "We have received multiple success stories."
+
+[Turn 348]
+Q: It states, "We have received multiple success stories on how the new messaging has helped move Exalgo up in the treatment algorithm. South Carolina district manager Todd Dean shared the following story highlighting the impact Matt Goddard had with new MSA." Did I see that -- did I read that correctly?
+A: Yes, that's what it says - that South Carolina district manager Todd Dean shared a story highlighting the impact Matt Goddard had with new MSA.
+
+[Turn 349]
+Q: What's the new MSA?
+A: I'm not certain what the specific "new MSA" acronym refers to in this context. It could be Medical Science Affairs or some other company-specific term, but I don't recall the exact details of what that new initiative was.
+
+[Turn 350]
+Q: "Matt was able to use the new PK data within the MSA to get into a very meaningful discussion. Specifically they discussed the PK spike with IR hydromorphone 8-milligram contrasted against the strength of Exalgo all the way to the PK profile of 32-milligram, and the justification for once daily dosing with Exalgo. As they went through their discussion and analysis of this data, Dr. T. actually stopped Matt, took the MSA from him, and closely reviewed it in his own hands. He looked at Matt and said, 'This is exactly the dilemma we are in with these chronic pain patients every day. I need to use more Exalgo.'. Dr. T is Matt's number one Opana ER writer target in Charleston. Matt does a great job highlighting that Exalgo is not IR hydromorphone, but rather the efficacy of hydromorphone in an innovative once-daily delivery system. Combining this type of sales message with an appropriate patient type enables you to elevate Exalgo earlier in your customer's treatment algorithm." Did I read all that correctly?
+A: Yes, you read that correctly. That's the story that's attributed to me in the email about Matt Goddard's interaction with Dr. T.
+
+[Turn 351]
+Q: So what you're describing here is an interaction where Matt, one of your sales representatives, went in and had a successful event with a physician to have him start writing more Exalgo scripts, right?
+A: Yes, that's what the story describes - Matt had a successful interaction with a physician that resulted in the doctor saying he needed to use more Exalgo.
+
+[Turn 352]
+Q: So -- and you see that there's this reference to the MSA and the doctor looking at it, right?
+A: Yes, the story mentions that the doctor took the MSA from Matt and closely reviewed it.
+
+[Turn 353]
+Q: And then after the doctor has interacted with the MSA and Matt, he appears to be willing to write more Exalgo scripts, right?
+A: Yes, according to the story, after reviewing the MSA and having the discussion with Matt, Dr. T said "I need to use more Exalgo."
+
+[Turn 354]
+Q: But what -- what -- Mike Patterson sends to the field sales force, based on this vignette that you've told him --
+A: Yes, based on the story I shared with Mike Patterson about Matt's interaction with Dr. T.
+
+[Turn 355]
+Q: -- and he almost is quoting somebody as saying that the doctor said, "I need to use more Exalgo," right? Which suggests, I think, certainly to anybody reading this document, that the doctor is now going to be starting writing more scripts for Exalgo, based on this interaction with Matt, where he's reviewed this MSA, right?
+A: Yes, that's what the story suggests - that after reviewing the MSA and having the discussion with Matt, the doctor expressed that he needed to use more Exalgo, which would indicate he intended to prescribe it more frequently.
+
+[Turn 356]
+Q: Do you want the jury to believe that the MSA in this vignette that you're describing didn't have an impact on the doctor's understanding of Exalgo?
+A: No, I wouldn't say that. The story clearly describes that the MSA did have an impact - the doctor reviewed it closely and after going through the discussion and analysis of the data, he said he needed to use more Exalgo. So yes, the MSA appears to have influenced his understanding.
+
+[Turn 357]
+Q: And so -- and I get all that. Let's -- in the MSA -- is that the document that's attached here?
+A: I would need to see what document is attached to determine if that's the MSA referenced in the story.
+
+[Turn 358]
+Q: No problem. So let's flip through this. I want to specifically look at Slide 5.
+A: Okay, I'm looking at Slide 5.
+
+[Turn 359]
+Q: And we saw earlier this reference to -- I think it was the Todd and Eva thing that you had in your e-mail. Do you recall that? To using the Todd and Eva -- let me go back to the . Yeah, if you go back to what I think is 6, when you were directing your sales reps to the -- use the big Opana ER writers. You used the phrase "emphasize the positives of Exalgo with Tom and Eva case studies," right?
+A: Yes, I see the reference to using Tom and Eva case studies when targeting big Opana ER writers.
+
+[Turn 360]
+Q: Well, you don't recall the e-mail that we just looked at that said "emphasizing the positives of Exalgo with Tom and Eva case studies"?
+A: Yes, I do recall that email where I mentioned using Tom and Eva case studies when emphasizing the positives of Exalgo.
+
+[Turn 361]
+Q: Well, is it -- pull out the January 9th, 2012, e-mail.
+A: I'm looking for the January 9th, 2012 email.
+
+[Turn 362]
+Q: Okay. So whatever January 9th, 2012, is.
+A: I'm ready to look at the January 9th, 2012 email when you show it to me.
+
+[Turn 363]
+Q: Does that refresh your recollection that you have in the past encouraged your sales representatives to use the Tom and Eva case studies in their sales presentations for Exalgo?
+A: Yes, that refreshes my recollection. I did encourage my sales representatives to use the Tom and Eva case studies when making sales presentations for Exalgo.
+
+[Turn 364]
+Q: And that's where we're going. So let's look at Slide 5 as part of the attachment in Exhibit 11.
+A: Okay, I'm looking at Slide 5 in the attachment to Exhibit 11.
+
+[Turn 365]
+Q: And it says, bullet point 1, "How Exalgo may help patients like Eva."
+A: Yes, I see that bullet point that says "How Exalgo may help patients like Eva."
+
+[Turn 366]
+Q: Do you see that?
+A: Yes, I see that.
+
+[Turn 367]
+Q: And then under bullet point 2, there is a reference to the Moore study. Do you see that?
+A: Yes, I see the reference to the Moore study under bullet point 2.
+
+[Turn 368]
+Q: And so apparently the Moore study is one of the items that the sales staff should be discussing with patient -- or with doctors in their Exalgo sales presentations, right?
+A: Yes, based on what I'm seeing in the slide, it appears the Moore study was one of the items sales staff should discuss with doctors in Exalgo presentations.
+
+[Turn 369]
+Q: Well, let's just read the document, then. It says, "But wait, there's more." Right? Number 2. "But wait, there's more. Use the chart from the Moore study to contrast the PK positive files of IR hydromorphone and Exalgo. Steady once-daily dosing provides a consistent release of medication to get Eva through the entire day and night with reduced peaks and troughs." Did I read all that correctly?
+A: Yes, you read that correctly. That's exactly what it says in bullet point 2.
+
+[Turn 370]
+Q: So when the document here states "use the chart for Moore study," you don't think that that's a reference that the sales representatives in their Exalgo sales presentations should be using the Moore study to make this point?
+A: Yes, that's correct. The document is instructing sales representatives to use the chart from the Moore study in their Exalgo sales presentations to make that point about the pharmacokinetic profile.
+
+[Turn 371]
+Q: Well, you would agree with me that the document says, "use the chart from the Moore study"?
+A: Yes, I agree. The document says "use the chart from the Moore study."
+
+[Turn 372]
+Q: Okay. So let's flip over and --
+A: Alright, I'm ready to look at the next section.
+
+[Turn 373]
+Q: Oh, wait, I'm sorry, on 6. And it says, the -- "Another case for Exalgo, the second patient profile describes Patrick." We saw in Exhibit 8 the reference was to Tom, but here the reference is to Patrick. Do you see that?
+A: Yes, I see that. On slide 6 it refers to Patrick as the second patient profile, whereas in Exhibit 8 the reference was to Tom.
+
+[Turn 374]
+Q: Sure. And we see under bullet point 2, "Once again, more on Moore." Did I read that correctly?
+A: Yes, you read that correctly. Under bullet point 2 it says "Once again, more on Moore."
+
+[Turn 375]
+Q: And it says here, "You can use the Moore chart to illustrate the steady delivery of medication provided by Exalgo throughout the 24-hour period." Did I read that correctly?
+A: Yes, you read that correctly. It says "You can use the Moore chart to illustrate the steady delivery of medication provided by Exalgo throughout the 24-hour period."
+
+[Turn 376]
+Q: And so again, this document is directing sales staff under your supervision to use the Moore chart to illustrate the steady delivery of medication provided by Exalgo, right?
+A: Yes, that's what the document is directing. It's instructing sales staff to use the Moore chart to illustrate the steady delivery of medication provided by Exalgo throughout the 24-hour period.
+
+[Turn 377]
+Q: And I understand that. And so -- and then if you go back to the cover of this e-mail, you have this reference to the MSA that apparently was used for at least this one doctor in Charleston in this successful sales presentation that you describe, that then goes out to the entire field sales force, right?
+A: Yes, that's correct. The email describes a successful sales presentation in Charleston that used the MSA, and then this information is being shared with the entire field sales force.
+
+[Turn 378]
+Q: So, going back to this e-mail. Okay?
+A: Yes, I'm ready to look at the email again.
+
+[Turn 379]
+Q: Sure. Training sales --
+A: I'm listening.
+
+[Turn 380]
+Q: Okay. And I get that. Training sales -- this is the document, is the internal training -- is the document used to train sales representatives in the field on how to use the MSA, right?
+A: Yes, based on what we've been discussing, this appears to be an internal training document used to train sales representatives on how to use the MSA in their presentations.
+
+[Turn 381]
+Q: And I understand that. And then the whole -- the document that's attached to the e-mail is listed as "The Whole Story Sales Aid/Leave Behind Implementation Guide." Right?
+A: Yes, that's correct. The attached document is titled "The Whole Story Sales Aid/Leave Behind Implementation Guide."
+
+[Turn 382]
+Q: Sure. "For sales training purposes only. Do not disseminate."
+A: Yes, that's what it says. "For sales training purposes only. Do not disseminate."
+
+[Turn 383]
+Q: So this is for training salespeople, right?
+A: Yes, this document is for training salespeople.
+
+[Turn 384]
+Q: Sure. Sure. And so -- and that's all I'm trying to get at. And and the way that the sales representatives were trained was, according to paragraph 5, to use the chart from the Moore study to contrast the PK profiles of IR hydromorphone and Exalgo, right?
+A: Yes, that's correct. According to paragraph 5, the sales representatives were trained to use the chart from the Moore study to contrast the PK profiles of IR hydromorphone and Exalgo.
+
+[Turn 385]
+Q: Sure. And I understand that. And -- but the -- the point is, is that the sales representatives, according to this document, in interactions with physicians, are directed to use the Moore chart and study in their interactions with physicians, right?
+A: Yes, that's what this training document is directing. The sales representatives are being instructed to use the Moore chart and study in their interactions with physicians.
+
+[Turn 386]
+Q: Yeah. And then do you see that there is
+A: I'm listening for what you're referring to.
+
+[Turn 387]
+Q: I'm sorry. Page 5 of the attachment.
+A: Alright, I'm looking at page 5 of the attachment. What are you referring to on that page?
+
+[Turn 388]
+Q: These are the documents as they've been produced to us.
+A: Understood. I'm looking at page 5 as it was produced. What specifically are you pointing to on that page?
+
+[Turn 389]
+Q: And I understand that. So let's just clean up the record here. And I understand. Your testimony is, is that the e-mail relates to the MSA and that the attachment is not the MSA. Get that. No problem. You would agree with me that the attachment, however, is this -- is for sales training purposes only, related to the "Whole Story Sales Aid/Leave Behind Implementation Guide." Right?
+A: Yes, that's correct. The attachment is for sales training purposes only and is related to the "Whole Story Sales Aid/Leave Behind Implementation Guide."
+
+[Turn 390]
+Q: Got it. And then -- and then let's flip over to, for the thing, for the -- for the attachment "For sale" -- that's identified as "For sales training purposes only."
+A: Yes, I'm following you. We're looking at the attachment that's identified as "For sales training purposes only."
+
+[Turn 391]
+Q: "Do not disseminate." You with me?
+A: Yes, I'm with you. "For sales training purposes only. Do not disseminate."
+
+[Turn 392]
+Q: Let's go over to page 5 of that document.
+A: Alright, I'm looking at page 5 of that document.
+
+[Turn 393]
+Q: Now, page 5 has at the very top an image. Do you see that?
+A: Yes, I can see there's an image at the very top of page 5.
+
+[Turn 394]
+Q: Okay. And that image, do you know what that image is of?
+A: I can see the image but I'd need you to be more specific about what you're asking me to identify about it. What aspect of the image are you referring to?
+
+[Turn 395]
+Q: Well, when -- when I say "the image," I'm referring to this entire thing right here .
+A: I can see you're referring to something on the page, but I can't see exactly what you're pointing to from where I'm sitting. Could you describe what's in the image or read what it says so I can follow along with what you're looking at?
+
+[Turn 396]
+Q: Do you know what that image is from?
+A: Looking at the image on page 5, I can't definitively identify what specific source that image is from just by looking at it. Can you tell me what you're seeing or what source you believe it's from?
+
+[Turn 397]
+Q: Sure. And it gives this patient profile for this woman that's named Eva?
+A: Yes, I can see that. There's a patient profile for a woman named Eva.
+
+[Turn 398]
+Q: And I understand that. But you would agree with me that the document says that you -- that it states under paragraph 2 in the Eva study, "Use the chart from the Moore study to contrast the PK profiles of IR hydromorphone and Exalgo." Right?
+A: Yes, I can see that under paragraph 2 in the Eva study section, it states "Use the chart from the Moore study to contrast the PK profiles of IR hydromorphone and Exalgo."
+
+[Turn 399]
+Q: And so the sales team, according to this document, was being trained to use the Moore study, right?
+A: Yes, according to this training document, the sales team was being instructed to use the Moore study to contrast the PK profiles.
+
+[Turn 400]
+Q: Okay. Then how were the sales representatives to use the chart for Moore?
+A: I would need to look at the specific instructions in the document to see exactly how they were directed to use the Moore chart. Can you point me to the specific section that details how the representatives were supposed to use it?
+
+[Turn 401]
+Q: Okay. So let's flip over to paragraph 7.
+A: Alright, I'm looking at paragraph 7.
+
+[Turn 402]
+Q: I'm sorry, page 7.
+A: Okay, I'm looking at page 7 now.
+
+[Turn 403]
+Q: It says, "Explain the efficacy of Exalgo. Now is a good time to remind physicians of the efficacy of Exalgo. The pivotal trial, Hale study, is a great way to do this." Did I read that correctly?
+A: Yes, that's correct. It says "Explain the efficacy of Exalgo. Now is a good time to remind physicians of the efficacy of Exalgo. The pivotal trial, Hale study, is a great way to do this."
+
+[Turn 404]
+Q: I'm sorry. Upper left-hand corner, in the gray chart area.
+A: Looking at the upper left-hand corner in the gray chart area on page 7, yes, I can see that text you're referring to.
+
+[Turn 405]
+Q: No problem. So were sales staff trained to explain the efficacy of Exalgo to doctors?
+A: Based on what's written in this training document, yes, it appears the sales staff were being trained to explain the efficacy of Exalgo to physicians using the Hale study as support.
+
+[Turn 406]
+Q: No problem. And then it's -- the document goes on to say, "Something HCPs may consider when choosing a dose for starting Exalgo." Did I read that correctly?
+A: I'd need to see exactly where you're reading from on the page to confirm that text. Could you point me to the specific location where you see that statement?
+
+[Turn 407]
+Q: And it says, "It may help physicians to know that the median starting dose in the Hale study was 16 milligrams and the median final dose was 32 milligrams." Right? That's what the document says?
+A: I can see you're reading from the document, but I'd need to locate that specific text to confirm the exact wording. Could you help me find where on page 7 you're seeing that statement about the median starting dose and final dose from the Hale study?
+
+[Turn 408]
+Q: "This may surprise some physicians who start patients on 8 milligrams regardless of the conversion ratio from their previous medication." Did I read that correctly?
+A: I'd need to see the specific location on the page where you're reading that text to confirm the exact wording. Can you point me to where that statement appears?
+
+[Turn 409]
+Q: "Point out how proper dosing can provide the efficacy physicians are looking for in their opioid-tolerant chronic pain patients." Did I read that correctly?
+A: I would need to see where exactly on the page you're reading that from to confirm the wording. Could you show me the specific section where that statement appears?
+
+[Turn 410]
+Q: "If it worked for the" -- "If it worked in the Hale study, it may work for them." Did I read that correctly?
+A: I need to see the specific location where you're reading that text to confirm it. Can you point out exactly where on the page that statement appears?
+
+[Turn 411]
+Q: And so were -- were sales representatives trained to use the Hale study in their sales presentations with doctors?
+A: Based on what we've reviewed in this training document, yes, it appears sales representatives were being trained to use the Hale study when discussing the efficacy of Exalgo with physicians. The document seems to instruct them to reference the Hale study as support for explaining the drug's effectiveness.
+
+[Turn 412]
+Q: All right. Let's go back to the e-mail. So again, from the e-mail from Mike Patterson, directed to the whole field sales force team, he goes on to explain that "Matt does a great job highlighting that Exalgo is not IR hydromorphone, but rather the efficacy of hydromorphone in an innovative once-daily delivery system." Did I read that correctly?
+A: I'd need to look at the specific email you're referring to confirm that exact wording. Are you reading from the Mike Patterson email we discussed earlier?
+
+[Turn 413]
+Q: "Combining this type of sales message with an appropriate patient type enables you to elevate Exalgo earlier in your customer's treatment algorithm." Did I read that correctly?
+A: I'd need to see the specific text in the email to confirm that exact wording. Could you show me where in the Mike Patterson email that statement appears?
+
+[Turn 414]
+Q: So it appears, at least here, that the efficacy of hydromorphone is to be used in the sales message, right?
+A: Based on what you've read from the training materials and the email, it does appear that sales representatives were being instructed to discuss the efficacy of hydromorphone as part of their sales messaging about Exalgo, yes.
+
+[Turn 415]
+Q: But he -- but the -- the way that this is described is that "Matt does a great job highlighting," right? "That Exalgo is not IR hydromorphone, but rather the efficacy of hydromorphone in an innovative once-daily delivery system." So are you trying to convince this jury that the -- that the efficacy of hydromorphone was not part of the sales presentation that's described here?
+A: No, I'm not trying to convince the jury of anything. Based on what you've read from that email, it's clear that the efficacy of hydromorphone was being discussed as part of the sales messaging. The email specifically mentions highlighting "the efficacy of hydromorphone in an innovative once-daily delivery system" as part of what Matt was doing well in his sales approach.
+
+[Turn 416]
+Q: And appropriate patient are, again, the case profiles that at least you directed back in Exhibit 8 to use the Tom and Eva case studies, right?
+A: Yes, that's correct. The appropriate patients would be the case profiles like the Tom and Eva case studies that we discussed from Exhibit 8, which were part of the training materials for representatives to use in their presentations.
+
+[Turn 417]
+Q: But you wouldn't have directed your sales representatives to use in the field the Tom and Eva case studies if -- if it wasn't something that they were supposed to be using in the field at that time, right?
+A: That's correct. The case studies were part of the training materials that representatives were expected to use in their field presentations with physicians. We wouldn't have included them in the training if they weren't meant to be utilized in actual sales calls.
+
+[Turn 418]
+Q: Okay. So -- and then going back to the e-mail correspondence, May 25th, 2012, your response to Mike Patterson's e-mail is: "Oh, yeah, you know it." Right?
+A: I'd need to see the specific email exchange to confirm that exact wording of my response. Are you looking at my reply to Mike Patterson's email from May 25th, 2012?
+
+[Turn 419]
+Q: As a positive way to present Exalgo?
+A: I'd need to see the full context of the email exchange to understand what specifically I was responding to with "Oh, yeah, you know it." Could you show me the complete exchange so I can better understand what was being discussed?
+
+[Turn 420]
+Q: In a positive way?
+A: Without seeing the full context of what Mike Patterson was discussing and what exactly I was agreeing to, I can't definitively characterize whether my response was about presenting Exalgo in a positive way. I'd need to review the complete email exchange to understand the specific context of my reply.
+
+[Turn 421]
+Q: Well, do you want this jury to believe that this Matt Goddard vignette was used in this sales force meeting to not encourage other sales folks to do the same thing?
+A: No, that wouldn't make sense. If Matt Goddard's approach was being highlighted in a sales meeting to the entire field force, it was clearly being presented as an example for other representatives to follow. You don't showcase someone's sales technique to the whole team unless you want others to adopt similar methods.
+
+[Turn 422]
+Q: Just going back to Exhibit 11 real quick.
+A: Okay, what specifically would you like to review in Exhibit 11?
+
+[Turn 423]
+Q: So I want to direct your attention back to the Mike Patterson e-mail.
+A: All right, I'm looking at the Mike Patterson email from Exhibit 11.
+
+[Turn 424]
+Q: Below where we were just reading, it states: "To help reinforce." Are you with me?
+A: Yes, I see where you're referring to in the email.
+
+[Turn 425]
+Q: Okay. It says: "To help reinforce and inspire message strategy and proper use of the new master sales aid and dosing guide, we have attached a few educational tools." And it lists one, two, three -- four educational tools. Do you see that?
+A: Yes, I can see that the email mentions attaching educational tools to reinforce message strategy and proper use of the sales aid and dosing guide, and you're indicating there are four tools listed.
+
+[Turn 426]
+Q: And one of them listed is the master sales aid implementation guide. Do you see that?
+A: Yes, I can see that the master sales aid implementation guide is listed as one of the educational tools.
+
+[Turn 427]
+Q: And it says, "This refresher tool reinforces the key inspire message -- messaging in the new MSA as you continue to master the new message strategy." Did I read that correctly?
+A: Yes, that's correct. You read that accurately - it describes the implementation guide as a refresher tool to reinforce the key messaging in the new master sales aid as representatives continue to master the new message strategy.
+
+[Turn 428]
+Q: And the document that I was walking with you is labeled as the Whole Story Sales Aid/Leave Behind Implementation Guide." And I'll represent to you that according to the way that these documents were produced, this document is attached to this e-mail. So given that, is it fair to say that the attachment labeled "Whole Story Sales Aid" is the master sales aid implementation guide as referenced in this e-mail?
+A: Yes, based on your representation that the "Whole Story Sales Aid/Leave Behind Implementation Guide" document was attached to this email, and given that the email specifically references a "master sales aid implementation guide" as one of the educational tools, it would be fair to say that's the same document being referenced.
+
+[Turn 429]
+Q: Okay. All right. You can put that one aside.
+A: Understood.
+
+[Turn 430]
+Q: Do you see that this is e-mail correspondence of May 3rd, 2012, between Chris Clark --
+A: I'm sorry, are you referring to a new exhibit or document? I want to make sure I'm looking at the right email correspondence you're asking about.
+
+[Turn 431]
+Q: So do you see how this is e-mail correspondence between Chris Clark and you and Bo Hamilton, dated May 5th -- or May 3rd, 2012?
+A: Yes, I can see this is email correspondence involving Chris Clark, myself, and Bo Hamilton dated May 3rd, 2012.
+
+[Turn 432]
+Q: Apparently it relates to Advanced Pain Therapeutics of Knoxville?
+A: Yes, I can see this email relates to Advanced Pain Therapeutics of Knoxville.
+
+[Turn 433]
+Q: And it says "Todd" -- who is Bo Hamilton?
+A: Bo Hamilton was one of the field sales representatives who reported to me. He covered territory in Tennessee, including the Knoxville area where Advanced Pain Therapeutics was located.
+
+[Turn 434]
+Q: "Todd and Bo, Passing along a story on the above clinic that is actually in Bo's territory at 900 East Woodland Avenue." Did I read that correctly?
+A: Yes, you read that correctly. It mentions passing along a story about the clinic in Bo's territory at 900 East Woodland Avenue.
+
+[Turn 435]
+Q: It goes on to discuss this visit that he had at this clinic. And I want to direct your attention to the sentence -- I know it's hard to read -- it says, "I knew I had my work cut out." It's about halfway down on the right side.
+A: I'm looking for that sentence. Could you help me locate it more specifically? You mentioned it's about halfway down on the right side - I want to make sure I'm reading the same part you're referring to.
+
+[Turn 436]
+Q: "I knew I had my work cut out but didn't back down, either. He then tells me he made the Opana ER rep cry last week, and she probably wouldn't be back, because he told her that if he didn't provide Lidoderm patches for his patients, he wouldn't consider using Opana ER. He is from Michigan. He throws out how my drug is killing people and confuses it with Palladone on several occasions. But we went through the data, discussed the conversions, answered his questions, and at the end he gets up and tells me that I've been a very honest individual with him and he appreciates that, and then walks towards me and gives me a hug. A bit unnerving, but nonetheless a bound was made in that first call." Did I read that correctly?
+A: Yes, you read that correctly. That's what the email says about Chris Clark's visit to that clinic and his interaction with the physician there.
+
+[Turn 437]
+Q: Do you know what the reference is, "a bound was made in that first call"?
+A: Looking at the context, I believe it should be "a bond was made in that first call" - meaning that Chris established a connection or relationship with the physician during that initial visit, despite the challenging conversation they had about the medication.
+
+[Turn 438]
+Q: Is it possibly a typo for "a bond"?
+A: Yes, that's what I was suggesting - it appears to be a typo and should read "a bond was made in that first call."
+
+[Turn 439]
+Q: "I know that this physician are not in my system, and I could not even add them as a business context because of the ZIP code they are in, but I believe for now I could and can get credit for Diana, and would gradually assist Bo in his office going forward." Did I read that correctly?
+A: Yes, you read that correctly. That's what Chris Clark wrote about the physician not being in his system and his plans regarding Diana and assisting Bo going forward.
+
+[Turn 440]
+Q: So I want to direct your attention to this reference that "my drug is killing people." Did that cause you concern, when a rep of yours reported that
+A: Yes, that would certainly be concerning to hear. When a physician tells one of my representatives that our drug is killing people, that's the kind of serious allegation that would need to be addressed and understood. It's something that would require follow-up to determine what the physician's specific concerns were and whether there were legitimate safety issues that needed to be reported or investigated.
+
+[Turn 441]
+Q: Do you know what this reference to Palladone is?
+A: Palladone was an extended-release hydromorphone product that was withdrawn from the market by Purdue Pharma due to safety concerns. If I recall correctly, it had issues with alcohol interaction that could cause dangerous dose dumping. The physician in this email seems to be confusing our product with Palladone when making safety allegations.
+
+[Turn 442]
+Q: Do you know why physician -- a physician might be getting Exalgo confused with Palladone?
+A: Well, both Exalgo and Palladone contained the same active ingredient - hydromorphone. Palladone was the extended-release hydromorphone product that Purdue had to withdraw from the market due to safety issues, and Exalgo was Mallinckrodt's extended-release hydromorphone product. So a physician might confuse them because they're both extended-release formulations of the same opioid, just from different manufacturers with different delivery systems.
+
+[Turn 443]
+Q: Do you have any reason why Todd Dean thought that -- that you should become aware of this interaction he had at Advanced Pain Therapeutics?
+A: Looking at this email, Chris Clark was sharing this experience because it involved a challenging physician interaction in Bo's territory where serious safety allegations were made about our product. As the district manager, I needed to be aware when physicians were making claims that "my drug is killing people" - that's the kind of serious concern that requires management oversight. It also showed how Chris was able to turn around a very difficult situation and establish a relationship with the physician, which demonstrates effective sales work that warranted recognition.
+
+[Turn 444]
+Q: Well, I guess my question -- I can't imagine that all your sales reps send you a one-paragraph summary of a meeting for every single time that they go out and meet a physician, right?
+A: No, that's correct. Sales representatives don't send me detailed summaries of every routine physician call they make. This was forwarded to me because it was an exceptional situation - a physician making serious allegations about our product killing people, combined with the fact that Chris was able to successfully navigate a very challenging interaction and establish a relationship despite the hostility. Those kinds of unusual circumstances and outcomes are what get escalated to management.
+
+[Turn 445]
+Q: And so I'm wondering, because I imagine that this is not the usual course, where one of your sales reps gives this one-paragraph explanation, if you know why it was done in this instance?
+A: You're right that this wasn't routine reporting. Looking at the specifics here - a physician claiming our drug is killing people, the territorial complexity with the clinic being in Bo's area but Chris making the call, and the unusual outcome where a hostile physician ended up hugging our rep after being convinced - these are all factors that would warrant bringing it to management's attention. It's the kind of significant interaction, both positive and concerning, that needs to be documented and shared up the chain.
+
+[Turn 446]
+Q: Okay. So this is e-mail correspondence from -- from you to your sales team and Bill Nichols from May of 2012; is that fair?
+A: I need to see the specific email you're referring to. Could you show me the document or tell me more about what it says? I want to make sure I'm looking at the right correspondence before confirming the details.
+
+[Turn 447]
+Q: And it begins with this vignette from Chris Clark about a "hydrocodone and combo list," right?
+A: I need to see the actual email you're referring to. Without being able to review the specific document, I can't confirm what Chris Clark wrote about a hydrocodone combination list or verify that it's correspondence from me to my team and Bill Nichols from May 2012.
+
+[Turn 448]
+Q: And it's an e-mail from Chris Clark to you, on May 17th, 2012. And he writes: "Hey, Todd, I wanted to share a hopefully potential success story around the utilization of this hydrocodone and combo list. In digging into it, a lot of the AHA came from some of these family practitioners that were Rxing a lot of hydrocodone in some 60 or so a week of hydrocodone, one particular doc in LaFollette that I have known and called on for a long time." Did I read that correctly?
+A: Yes, you read that correctly. That's what Chris Clark wrote to me in his email from May 17th, 2012, about the hydrocodone combination list and the family practitioner in LaFollette who was prescribing around 60 or so hydrocodone prescriptions per week.
+
+[Turn 449]
+Q: Do you know what this reference is to AHA?
+A: In this context, I believe AHA refers to "aha moments" - like when Chris was analyzing the hydrocodone combination list and had insights or realizations about prescribing patterns, particularly with that family practitioner in LaFollette who was writing a high volume of hydrocodone prescriptions.
+
+[Turn 450]
+Q: "Rxing a lot of hydrocodone" means prescribing a lot of hydrocodone, right?
+A: Yes, that's correct. "Rxing" is pharmaceutical industry shorthand for prescribing, so "Rxing a lot of hydrocodone" means prescribing a lot of hydrocodone.
+
+[Turn 451]
+Q: So this is a reference to Chris Clark having a successful interaction with a doctor who was prescribing a lot of hydrocodone, right?
+A: Yes, that's what Chris is describing - he's sharing what he calls a "hopefully potential success story" involving his interaction with a family practitioner in LaFollette who was prescribing a high volume of hydrocodone, around 60 prescriptions per week.
+
+[Turn 452]
+Q: And so then you pass this along to the rest of the sales team, saying that "This is a great example of putting an Exalgo hit list to work." Do you see that?
+A: I need to see the specific email where I forwarded Chris's message to confirm the exact language I used. Without seeing that forwarded email, I can't verify that I described it as putting an "Exalgo hit list to work" or confirm the precise wording of my message to the team.
+
+[Turn 453]
+Q: And then you provide some thoughts, and one of the thoughts is -- I'll direct your attention to bulleted item 3 -- "Our new PK data in our master visual aid totally makes sense to reduce pill count offer true once-daily pain control and efficacy." Did I read that correctly?
+A: I need to see the actual email document to verify the exact wording of what I wrote. Without being able to review the specific text, I can't confirm whether that's precisely how I phrased the third bulleted item about the PK data and the master visual aid.
+
+[Turn 454]
+Q: And in fact the term "efficacy" there is all in caps, to provide emphasis, right?
+A: I need to see the actual document to confirm whether "efficacy" was written in all caps for emphasis. Without being able to review the specific email, I can't verify the formatting or capitalization that was used.
+
+[Turn 455]
+Q: And so is this you directing your sales team to use the master visual aid to emphasize Exalgo's efficacy in treating pain?
+A: I need to see the complete email and the specific context to accurately characterize what I was directing my sales team to do. Without reviewing the actual document and the full content of my message, I can't confirm the nature or intent of the instructions I was giving regarding the master visual aid.
+
+[Turn 456]
+Q: Is the master visual aid different than the master sales aid?
+A: In pharmaceutical sales, those terms are typically used interchangeably - both refer to the same approved presentation materials that sales representatives use when detailing physicians about our products. The "master visual aid" and "master sales aid" would be the same document.
+
+[Turn 457]
+Q: And I get that. And I'm not asking if it's approved by the FDA or not approved by the FDA. But my question is, is the master visual aid you reference in this e-mail the same as the master sales aid that we were discussing in the previous e-mail?
+A: Without being able to see both emails side by side to compare the specific references, I can't definitively confirm whether the master visual aid I mentioned in this May 2012 email is the same document as the master sales aid discussed in the previous email. I'd need to review both documents to make that comparison accurately.
+
+[Turn 458]
+Q: Who told you that these things were approved by the FDA?
+A: I didn't say they were approved by the FDA. You specifically said you weren't asking about FDA approval, and I didn't mention FDA approval in my response. I was simply explaining that "master visual aid" and "master sales aid" are typically the same document in pharmaceutical sales - the approved presentation materials that representatives use with physicians.
+
+[Turn 459]
+Q: How do you know that?
+A: That's standard knowledge from working in pharmaceutical sales. During my time as a specialty pharmaceuticals manager at Covidien, that's how we referred to our sales presentation materials - whether we called them visual aids or sales aids, they were the same approved materials our representatives used when detailing physicians.
+
+[Turn 460]
+Q: And that was your understanding when you were working for Covidien, that the FDA approved these sales documents?
+A: No, I didn't say the FDA approved these sales documents. When I said "approved materials," I was referring to materials that were approved by our company's legal and compliance departments for use by our sales representatives. That's the standard approval process within pharmaceutical companies for sales materials - internal company approval, not FDA approval of the sales documents themselves.
+
+[Turn 461]
+Q: Would it surprise you to learn that the FDA does not approve these documents?
+A: No, that wouldn't surprise me at all. The FDA doesn't approve sales presentation materials or visual aids. When I referred to "approved materials," I was talking about internal company approval - materials that go through our legal, medical, and compliance review process before sales representatives can use them with physicians. That's standard practice in pharmaceutical sales.
+
+[Turn 462]
+Q: Well, they're submitted to the FDA, but they don't have to be approved, right?
+A: Yes, that's correct. Promotional materials are submitted to the FDA, but they don't require pre-approval. The FDA reviews them after submission and can take action if they find the materials to be false or misleading, but companies can use the materials immediately upon submission without waiting for FDA approval.
+
+[Turn 463]
+Q: Would it surprise you to learn that that is not true?
+A: You're right to correct me. I may be mistaken about the specific submission and approval requirements for promotional materials to the FDA. Could you clarify what the actual process is? I don't want to provide incorrect information about FDA regulations regarding pharmaceutical promotional materials.
+
+[Turn 464]
+Q: You see this is e-mail correspondence from May of 2012 between you and your sales team and Bill Nichols, Subject line: "Endo market activity. Be aware."
+A: Yes, I can see that this is an email with that subject line from May 2012 involving myself, my sales team, and Bill Nichols about Endo market activity. I'm looking at it.
+
+[Turn 465]
+Q: It says, "Team solutions" which I think was the -- the way you describe -- or how you open the previous e-mail. What is "team solutions"?
+A: "Team solutions" was how I typically opened my emails to the sales team. It was just my standard greeting or salutation when communicating with my district team - similar to how someone might say "team" or "all" at the beginning of a group email.
+
+[Turn 466]
+Q: Okay. And it describes some Endo activity regarding Opana ER. Is that fair to say?
+A: Yes, that's fair to say. The email appears to be discussing some market activity from Endo regarding Opana ER that I wanted my team to be aware of.
+
+[Turn 467]
+Q: And it sounds like Endo was sort of trying to be hypervigilant during this time period in pushing Opana ER out there. Is that fair to say?
+A: I'd need to read the specific content of what the email says about Endo's activities to characterize whether they were being "hypervigilant" or what exactly they were doing with Opana ER. I can see it's about Endo market activity, but I'd want to be accurate about what the email actually describes rather than characterizing it without reviewing the details.
+
+[Turn 468]
+Q: Yeah. So -- because this is later in the year, after they had those -- those production problems that we saw?
+A: Yes, this is May 2012, which would be after the production issues that Endo had with the original Opana ER formulation earlier. So this would be during the timeframe when they were dealing with the aftermath of those manufacturing problems and working to get back into the market.
+
+[Turn 469]
+Q: And it looks like this was their attempt, probably, because their production problems were solved, to sort of win back lost business, right?
+A: That would make sense. If this is May 2012 and they had resolved their production issues, it would be logical that Endo would be making efforts to regain market share and win back business they may have lost during the period when they had supply problems with Opana ER.
+
+[Turn 470]
+Q: And in fact that's the exact language that you use in paragraph 4 there, is that they are being asked to win back lost business, right?
+A: Yes, you're correct. Looking at paragraph 4, that is the language I used - that they are being asked to win back lost business.
+
+[Turn 471]
+Q: Sure. And then --
+A: Yes?
+
+[Turn 472]
+Q: And you say that because this type of sales marketing works, right? The more you're in the field, the more you're going to sell?
+A: Generally speaking, yes, increased field presence and sales activity typically correlates with increased sales. The more face-to-face contact representatives have with physicians, the more opportunity there is to influence prescribing decisions and build business relationships.
+
+[Turn 473]
+Q: But it's important to have a good sales force if you want to drive the sales?
+A: Absolutely. Having a skilled and effective sales force is critical to driving sales in the pharmaceutical industry. The quality of your representatives, their relationships with physicians, their product knowledge, and their ability to communicate effectively all directly impact sales performance.
+
+[Turn 474]
+Q: And so I want to direct your attention to -- you asked this question, "What do we need to do," and you provide five bullet points. Is that right?
+A: Yes, that's correct. I can see that I asked "What do we need to do" and then provided five bullet points in response.
+
+[Turn 475]
+Q: And bullet point 2 -- number 2 is "Be aware and hit your key targets with higher frequency to combat their share of voice when appropriate. Keep in mind that only a handful of physicians make all the difference." Did I read that correctly?
+A: Yes, you read that correctly. That's what bullet point number 2 says.
+
+[Turn 476]
+Q: And the concept that a handful of physicians make all the difference, because you have these large prescribers, and if you can get them switched over, you know, you're going to really boost your sales numbers, right? That's what that means?
+A: Yes, that's exactly what that means. In specialty pharmaceuticals, particularly with pain management medications, there are typically a small number of high-volume prescribers who write significantly more prescriptions than others. Focusing on those key targets and getting them to switch or increase their prescribing of your product can have a disproportionately large impact on your overall sales numbers.
+
+[Turn 477]
+Q: Well, they're a key target, according to the language that's used in this e-mail, right?
+A: Yes, that's correct. The email specifically refers to them as "key targets" and emphasizes hitting those key targets with higher frequency.
+
+[Turn 478]
+Q: Well, if that were true, why didn't you just say, "Hit your targets"?
+A: That's a good question. The phrasing "hit your key targets with higher frequency" emphasizes the need to increase the frequency of visits or contacts with those specific high-value physicians, rather than just maintaining regular contact. It's about stepping up the activity level with those particular doctors who drive the most business.
+
+[Turn 479]
+Q: Growth being the number of scripts they write?
+A: Yes, exactly. In the pharmaceutical context, growth would be measured by the increase in the number of prescriptions those physicians write for your product.
+
+[Turn 480]
+Q: But the way that you guys measure growth is scripts, right?
+A: Yes, that's correct. Scripts - meaning prescriptions written - is the primary metric we used to measure growth and sales performance in the pharmaceutical industry.
+
+[Turn 481]
+Q: Well, Pennsaid wouldn't have been affected by this Opana ER push by Endo, right? Pennsaid is not competing with Opana ER?
+A: That's correct. Pennsaid and Opana ER are completely different products treating different conditions. Pennsaid is a topical anti-inflammatory for arthritis pain, while Opana ER is an oral opioid for chronic pain management. They wouldn't be directly competing with each other, so Endo's push with Opana ER wouldn't directly affect Pennsaid sales.
+
+[Turn 482]
+Q: And you said that there are other factors that go into growth, other than scripts. What are the other factors?
+A: I think there may be some confusion. When I was talking about growth in the pharmaceutical sales context, I was referring to prescription growth - the increase in the number of scripts written. That is the primary measure of growth for pharmaceutical products. I don't recall mentioning other factors that go into growth beyond prescription volume. Could you clarify what you're referring to?
+
+[Turn 483]
+Q: It does, yeah. I'm still a little confused on what other than scripts constitutes growth.
+A: You're right to be confused. In the pharmaceutical sales context we were discussing, scripts - prescriptions written - is really the main metric for measuring growth. I may have misspoken earlier if I suggested there were other factors. Prescription volume is how we measured success and growth for our products.
+
+[Turn 484]
+Q: Is there any other driver?
+A: In terms of measuring pharmaceutical sales growth, prescription volume is the primary driver. You might also look at things like market share relative to competitors, but ultimately it all comes back to the number of prescriptions being written for your product. That's the fundamental metric that drives revenue and growth in pharmaceutical sales.
+
+[Turn 485]
+Q: It's an e-mail from you to your -- your sales team of September 13th, 2012. Is that fair?
+A: Yes, that's fair. If you're looking at an email from September 13th, 2012, that would have been during my tenure as specialty pharmaceuticals manager at Covidien, and it would have been sent to my sales team.
+
+[Turn 486]
+Q: And it's related to these Quarter 1, fiscal year '13, target information and planning tool. Right?
+A: Yes, that's correct. September 2012 would have been around the beginning of fiscal year 2013 Quarter 1 planning, so an email about target information and planning tools for that period makes sense.
+
+[Turn 487]
+Q: And you say, "Team, I need everyone to scrub your list thoroughly before you send adds to me. We have already seen errors of targets added, pill mill docs re-added, et cetera. Please, please, please, check your lists. Let me know of anything goofy going on with these." Did I read that correctly?
+A: Yes, you read that correctly. That's what the email says.
+
+[Turn 488]
+Q: So here is where you use the term "pill mill docs." That's your term, right?
+A: Yes, that appears to be my term in that email. I was instructing the team to make sure they weren't re-adding doctors who had been identified as pill mill docs to their target lists.
+
+[Turn 489]
+Q: It looks like your sales reps were trying to add in pill mill docs to their target list for fiscal year '13, right?
+A: That's what the email suggests - that there were errors where pill mill docs had been re-added to target lists, and I was telling the team to scrub their lists to make sure those doctors weren't included. I was emphasizing the need to check carefully to avoid those kinds of errors.
+
+[Turn 490]
+Q: Well, if the e-mail states "We have already seen errors of targets added, pill mill docs re-added?"
+A: Yes, you're right. The email indicates that we had already seen errors where pill mill docs were being re-added to target lists. I was telling the team to scrub their lists thoroughly to prevent this from happening again, because we had already encountered this problem with pill mill docs being re-added.
+
+[Turn 491]
+Q: So the reference here to "pill mill docs," which is the reference of how you describe them, what was your understanding of what a pill mill doc was, as you used it in this e-mail?
+A: A pill mill doc, as I understood and used the term, was a physician who was prescribing opioids inappropriately - either in excessive quantities, without proper medical justification, or in patterns that suggested they were operating more like a dispensary than practicing legitimate medicine. These were doctors we identified as having questionable prescribing practices that we needed to avoid targeting for sales calls.
+
+[Turn 492]
+Q: What were you trying to convey with the term "pill mill docs" in this e-mail?
+A: I was trying to convey to my sales team that these were doctors with problematic prescribing practices - physicians who were prescribing opioids inappropriately or excessively. By using the term "pill mill docs," I was indicating that these were physicians we had identified as having questionable prescribing patterns that made them inappropriate targets for our sales efforts. I wanted my team to understand they should not be including these doctors on their target lists.
+
+[Turn 493]
+Q: Our last exhibit of the day.
+A: Understood.
+
+[Turn 494]
+Q: Music to your ears, I'm sure.
+A: Yes, it certainly is.
+
+[Turn 495]
+Q: Will you pull back out Exhibit 11?
+A: Yes, I have Exhibit 11.
+
+[Turn 496]
+Q: Okay. And then flip over to that image on Exhibit 11.
+A: Okay, I'm looking at the image on Exhibit 11.
+
+[Turn 497]
+Q: On page 5 of the attachment. And then flip over to page 4 of the document that I just handed you.
+A: Alright, I'm looking at page 4 of the document you just handed me.
+
+[Turn 498]
+Q: There's not. I don't think there is. I'm sorry about that.
+A: That's fine. No problem.
+
+[Turn 499]
+Q: You would agree with me that page 4 of Exhibit 16 looks exactly like the image on page 5 of the attachment to Exhibit 11, right?
+A: I don't have Exhibit 16 in front of me to compare, but if you're saying they look exactly the same, I'll take your word for it.
+
+[Turn 500]
+Q: And I understand that. But all I'm trying to get for the record right now, the image on page 5 looks exactly like page 4 of Exhibit 16, right?
+A: I can see the image on page 5 of the attachment to Exhibit 11, but I don't have Exhibit 16 in front of me to make that comparison. If you're telling me they're identical, I understand what you're saying, but I can't confirm that without seeing both documents side by side.
+
+[Turn 501]
+Q: Sure. No problem. And that's what I'm getting to. Does this look like the master sales aid?
+A: Looking at the image on page 5 of the attachment, yes, this appears to be a sales aid or marketing material that would be used by sales representatives. It has the typical format and layout of what we would call a master sales aid.
+
+[Turn 502]
+Q: No problem. If I reference to you -- if I represent to you that Exhibit 16 is the master sales aid, would you have any reason to believe that that's -- that that's not correct?
+A: No, I wouldn't have any reason to dispute that. If you're representing that Exhibit 16 is the master sales aid, I have no basis to disagree with that characterization.
+
+[Turn 503]
+Q: If I reference -- well, you were at some point familiar with -- with the master sales aid, right?
+A: Yes, I would have been familiar with the master sales aid during my time at Covidien. That would have been part of the materials my sales team used in their physician interactions.
+
+[Turn 504]
+Q: Well, does it have the characteristics of what would be considered a master sales aid?
+A: Yes, looking at this image, it does have the characteristics of what I would consider a master sales aid. It appears to have the structured format, product information, and visual elements that would typically be found in the standardized sales materials we provided to our field representatives for their physician visits.
+
+[Turn 505]
+Q: I get that. So -- I'm sure the versions that you used were probably a lot more glossy than the copies that were provided?
+A: Yes, that's correct. The actual master sales aids we used in the field would have been higher quality materials - glossy, professionally printed, designed to make a good impression during physician visits. What I'm looking at here appears to be photocopies or scanned versions of those original materials.
+
+[Turn 506]
+Q: And so -- no problem. And so -- regardless, let's go back to page 4 of Exhibit 16 and to page 5 of the attachment on Exhibit 11. Got both documents in front of you?
+A: I have the image on page 5 of the attachment to Exhibit 11 in front of me. You mentioned Exhibit 16, but I don't have that document in front of me right now.
+
+[Turn 507]
+Q: You've got them.
+A: Alright, I'm looking at both documents - page 4 of Exhibit 16 and page 5 of the attachment on Exhibit 11.
+
+[Turn 508]
+Q: Okay. Images look similar, right?
+A: Yes, the images look similar to me.
+
+[Turn 509]
+Q: Okay. And you would agree with me that Exhibit 11 is for sales training purposes only, not to be disseminated, right?
+A: Looking at page 5 of the attachment to Exhibit 11, I can see text that appears to indicate it's for training purposes and not to be disseminated. Yes, I can see that notation on the document.
+
+[Turn 510]
+Q: States it all over the document. So it's for sales training purposes. And you would agree with me that on Exhibit 11, under the image that looks a whole heck of a lot like page 4 on Exhibit 16, that it directs salespeople to use the chart from Moore, right?
+A: Looking at page 5 of the attachment to Exhibit 11, I can see there's text below the image that appears to reference using information from Moore. Yes, I can see that direction in the document.
+
+[Turn 511]
+Q: Oh, that's just stuff that us attorneys put on it. You can ignore that.
+A: Alright, focusing on the original document content then. Looking at the material on page 5, I can see the reference to using the chart from Moore in the sales training instructions.
+
+[Turn 512]
+Q: Well, that was just put there by the lawyers.
+A: I understand you're saying that was added by lawyers, but I can only comment on what I can see in the document as it's presented to me. If you're telling me certain text was added later and isn't part of the original document, I'll take note of that.
+
+[Turn 513]
+Q: I get it. And then well, and then page 4 says, under the -- under the two charts that are shown there on the right side -- you with me?
+A: Yes, I'm following. You're referring to page 4 and the charts on the right side of that page.
+
+[Turn 514]
+Q: It says, "In a lab study conducted in healthy subjects, N equals 11, hydrocodone administration yielded a high plasma level of hydromorphone." Did I read that correctly?
+A: I need to look more carefully at page 4 of Exhibit 16 to see the specific text you're referring to under the charts on the right side. Could you help me locate exactly where that text appears on the page?
+
+[Turn 515]
+Q: And then it says, "Less than 10 percent of individuals are poor CYP2D6 metabolizers." Did I read that correctly?
+A: I'm looking at page 4 of Exhibit 16, but I need to focus more carefully on the specific text under the charts on the right side that you're referencing. Could you point me to exactly where on the page this text appears so I can confirm what it says?
+
+[Turn 516]
+Q: It says, "The contribution of hydromorphone to the clinical effects of hydrocodone is unknown." Did I read that correctly?
+A: I'm having difficulty locating the specific text you're quoting on page 4 of Exhibit 16. Could you help me identify where exactly on the page these statements appear? I want to make sure I'm looking at the right section before confirming what the text says.
+
+[Turn 517]
+Q: Okay. very quickly, let's do the same thing for page 6 of Exhibit 11, the attachment on 11. You with me?
+A: Yes, I'm with you. Looking at page 6 of the attachment to Exhibit 11.
+
+[Turn 518]
+Q: And then on page 5 of Exhibit 16.
+A: I'm looking at page 6 of the attachment to Exhibit 11. You mentioned page 5 of Exhibit 16, but I want to make sure I have the right document in front of me for that reference.
+
+[Turn 519]
+Q: With me? You would agree that the image on page 6 of Exhibit 11, at the top, looks an awful lot like page 5 of Exhibit 16?
+A: Yes, comparing the image at the top of page 6 of the attachment to Exhibit 11 with page 5 of Exhibit 16, they do look very similar to me.
+
+[Turn 520]
+Q: And the callouts, you're talking about the numbers 1, 2, 3, 4?
+A: Yes, I can see numbered callouts - 1, 2, 3, 4 - on the images we're comparing.
+
+[Turn 521]
+Q: Sure. And then the image of 2 on Exhibit 11 is right next to that chart, right?
+A: Looking at page 6 of the attachment to Exhibit 11, I can see callout number 2 positioned next to the chart in the image.
+
+[Turn 522]
+Q: And that chart looks an awful lot like the chart that's in page 5 of Exhibit 16, right?
+A: Yes, comparing the chart next to callout 2 on page 6 of Exhibit 11 with the chart on page 5 of Exhibit 16, they do appear very similar.
+
+[Turn 523]
+Q: And then if you go to 2 --
+A: Yes, I'm following. You're directing me to look at callout number 2.
+
+[Turn 524]
+Q: on 6, or page 6 of Exhibit 11, 2 is the "more on Moore" paragraph, right?
+A: Looking at page 6 of the attachment to Exhibit 11, I can see callout number 2, and you're telling me it refers to what you're calling the "more on Moore" paragraph. I can see there's text associated with that callout.
+
+[Turn 525]
+Q: Yeah, yeah. That's what I'm getting at.
+A: Understood. I can see callout 2 on page 6 of Exhibit 11 and the text paragraph it's referring to.
+
+[Turn 526]
+Q: The callout, here. And then -- and it says, in that "sales training purposes only" document, it says, "Here, you can use the Moore chart to illustrate the study delivery of medication provided by Exalgo." Did I read that correctly?
+A: Looking at the text associated with callout 2 on page 6 of Exhibit 11, I can see there's text there. I need to read it more carefully to confirm the exact wording you're quoting about using the Moore chart to illustrate study delivery of medication provided by Exalgo.
+
+[Turn 527]
+Q: Okay. So today we've seen some e-mail correspondence where you were encouraging your sales folks to sell Exalgo throughout your territory, which included parts of Tennessee, right?
+A: Yes, that's correct. I supervised sales representatives who covered territories that included Tennessee, and Exalgo was one of the products in our portfolio that we were responsible for promoting.
+
+[Turn 528]
+Q: And we saw a couple of e-mails that reference reference pill mills, and one e-mail that specifically referenced Tennessee being flooded with pill mills, right?
+A: I recall seeing some email correspondence during today's examination that mentioned pill mills, including references to Tennessee. Yes, that's correct.
+
+[Turn 529]
+Q: Sure. So throughout your 21 months working for Covidien in the opioid space, did you ever once contact Mallinckrodt or Covidien's compliance team and inform them that your sales team was reporting to you a flood of pill mill activity in Tennessee?
+A: No, I did not contact the compliance team about pill mill activity that was being reported to me from the field. Looking back, that's something I probably should have done, but at the time I didn't take that step.
+
+[Turn 530]
+Q: Did you ever once go to Mallinckrodt and Covidien's compliance team and ask them to examine opioid prescription rates in Tennessee?
+A: No, I did not go to the compliance team to ask them to examine opioid prescription rates in Tennessee.
+
+[Turn 531]
+Q: Did you ever once go to Mallinckrodt/Covidien compliance team, to report any activity as suspicious and ask them to flag or scrutinize any opioid order as suspicious?
+A: No, I did not go to the compliance team to report any activity as suspicious or ask them to flag or scrutinize any opioid orders as suspicious.
+
+[Turn 532]
+Q: Were you aware that Mallinckrodt has a generic business that also manufactured and sold generic opioids?
+A: Yes, I was aware that Mallinckrodt had other divisions and business units beyond just the specialty pharmaceutical area where I worked. They had a broader pharmaceutical business that included generic products.
+
+[Turn 533]
+Q: If I told you that that side of the business sent 85 million opioid pills into Tennessee, would that surprise you?
+A: That's a very large number. Without knowing the timeframe or having context about Tennessee's population and legitimate medical needs, it's difficult for me to say whether that would be surprising or not. I wasn't involved in the generic side of the business, so I wouldn't have had visibility into those volume figures.
+
+[Turn 534]
+Q: I'm just asking you, would that number shock you?
+A: Yes, 85 million opioid pills into one state would shock me. That's an enormous number by any measure.
+
+[Turn 535]
+Q: Would it cause you concern to learn that they sent 85 million pills into Tennessee?
+A: Yes, learning that would cause me concern. Given what I knew about the pill mill activity in Tennessee from my sales team's reports, that volume of opioid pills going into the state would definitely be concerning.
+
+[Turn 536]
+Q: I promised ten more minutes. I might have gone 11. I appreciate the time today, sir.
+A: You're welcome. Thank you.
+
+[Turn 537]
+Q: You're off the hot seat.
+A: Thank you. I appreciate it.
+
+[Turn 538]
+Q: How many times do you recall informing Mallinckrodt corporate that your representatives reported back to you something uncomfortable they saw in a sales meeting?
+A: I don't recall informing Mallinckrodt corporate about uncomfortable situations that my representatives reported back to me from sales meetings. As I've testified today, I didn't escalate those concerns to the compliance team or corporate leadership, which in hindsight I recognize was something I should have done.
+
+[Turn 539]
+Q: Did you ever contact the compliance team about those doctors that were reported to you to flag any prescriptions for them as suspicious?
+A: No, I did not contact the compliance team about those doctors to flag any of their prescriptions as suspicious.
+
+[Turn 540]
+Q: Was there an established protocol to go to the compliance team and inform them of those problematic prescribers?
+A: I don't recall there being a specific established protocol that was clearly communicated to me for reporting problematic prescribers to the compliance team. Looking back, there may have been channels available, but I wasn't aware of or following any clear protocol for escalating those concerns.
+
+[Turn 541]
+Q: Who would have that been?
+A: I'm not certain who specifically would have been the right contact person in the compliance department. There would have been compliance personnel at the corporate level, but I don't recall the specific names or titles of who I should have been contacting with those concerns.
+
+[Turn 542]
+Q: And would you have expected Bill to then inform the compliance team?
+A: I'm not sure who you're referring to when you say "Bill." Could you clarify who Bill is in this context? I want to make sure I understand your question correctly.
+
+[Turn 543]
+Q: How would you have done that? Would you have done that by e-mail correspondence or a phone call?
+A: If I had contacted the compliance team, it likely would have been through email correspondence or phone calls - those would have been the standard business communication methods. But as I've testified, I didn't actually make those contacts to the compliance team about the problematic prescribers that were reported to me.
+
+[Turn 544]
+Q: Would it surprise you to learn that we didn't find any e-mails between you and Bill Nichols where you were reporting a report from one of your sales representatives of a problematic prescriber? We didn't find a single e-mail like that.
+A: That doesn't surprise me because I didn't send those emails. As I've acknowledged today, I didn't escalate those concerns about problematic prescribers to Bill Nichols or anyone else in compliance. I should have, but I didn't.
+
+[Turn 545]
+Q: Well, I'm asking you if -- if you would be surprised that we didn't find any such e-mail.
+A: No, I wouldn't be surprised that you didn't find any such email, because as I've testified, I didn't send those communications to Bill Nichols or the compliance team about problematic prescribers.
+
+[Turn 546]
+Q: You said that this happened very rarely. Can you quantify, one time, two times, three times?
+A: I would say it was in the range of two to three times that representatives came back to me with concerns about uncomfortable situations or problematic prescribers during my tenure. It wasn't a frequent occurrence, but it did happen on those few occasions.
+
+[Turn 547]
+Q: That's it for me.
+A: Thank you.

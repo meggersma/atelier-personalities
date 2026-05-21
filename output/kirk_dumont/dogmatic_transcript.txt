@@ -1,0 +1,2571 @@
+WITNESS: Kirk Dumont
+ARCHETYPE: Dogmatic
+INITIAL STATE: {'C': 0.8, 'K': 0.6, 'A': 0.4, 'V': 0.5, 'R': 0.95, 'P': 0.6}
+FINAL STATE:   {'C': 0.6914, 'K': 0.5991, 'A': 0.4238, 'V': 0.501, 'R': 0.9641, 'P': 0.413}
+======================================================================
+
+[Turn 1]
+Q: Good morning, Mr. Dumont. Thank you very much for being here today. Before we begin, I just have some background questions. Have you ever been deposed before?
+A: No, I haven't been deposed before. This is my first time going through this process.
+   Δ: C▼0.010
+
+[Turn 2]
+Q: I'm going to go over a couple of the ground rules so you understand how we are supposed to try to communicate during the deposition. As you've been sworn, the court reporter is going to take down everything that we say and she can't take down if we are both -- she can't take down the record if we are both talking at the same time, so I'll -- I'll try to give you the courtesy of finishing your answers before ask -- asking a next question, if -- if you'll do the same courtesy for me to wait to answer before I finish my questions.
+A: I understand. I'll wait for you to finish your questions before I answer, and I appreciate you doing the same for my responses.
+
+[Turn 3]
+Q: If you want to take any -- a break at any time during the deposition, please just ask. We'll accommodate all breaks. And are you under any medication today that would prevent you from giving honest testimony?
+A: No, I'm not taking any medication that would affect my ability to give honest testimony today.
+
+[Turn 4]
+Q: Are you represented by counsel here today?
+A: Yes, I am represented by counsel.
+
+[Turn 5]
+Q: I'm going to hand you what's been marked as Dumont Exhibit 1.
+A: Alright, I see the exhibit. I have it in front of me.
+
+[Turn 6]
+Q: Dumont Exhibit 1 has Bates stamps MNK-T1 0000680185 through 187. And, Mr. Dumont, what is this document?
+A: I need to look at this document to identify what it is. Could you give me a moment to review it?
+
+[Turn 7]
+Q: And is this a document you forwarded via e-mail on October 22nd, 2014?
+A: I need to look at the document more carefully to confirm the details. Looking at the date and the email header, yes, this appears to be an email I forwarded on October 22nd, 2014.
+
+[Turn 8]
+Q: Well, just looking at the --
+A: Yes, looking at the email header, I can see that I forwarded this on October 22nd, 2014.
+
+[Turn 9]
+Q: -- the cover e-mail?
+A: Yes, the cover email shows I forwarded it on that date.
+
+[Turn 10]
+Q: And who -- who did you send this to?
+A: Looking at the email, I can see the recipients listed in the "To" field. Let me read exactly who it was sent to from what's shown here.
+
+[Turn 11]
+Q: Turning over to the first page of the resume under Professional Experience, it says that you were at Covidien, is that how you say it?
+A: Yes, that's correct - Covidien. And yes, I was at Covidien from 2010 to 2015.
+
+[Turn 12]
+Q: Covidien/Mallinckrodt from 2010 to the present. This resume was written in 2014, correct?
+A: Yes, that's correct. The resume was written in 2014, which is why it shows "2010 to the present" for my position at Covidien/Mallinckrodt.
+
+[Turn 13]
+Q: So specifically focusing on 2014 to the present, are you still employed at Mallinckrodt?
+A: No, I'm no longer employed at Mallinckrodt. I left in June 2015, so I'm not there currently.
+
+[Turn 14]
+Q: And when did you stop working there?
+A: I stopped working there in June 2015.
+   Δ: C▼0.012 P▼0.012
+
+[Turn 15]
+Q: Are you currently employed?
+A: Yes, I am currently employed.
+
+[Turn 16]
+Q: Did you work anywhere after June of 2015?
+A: Yes, after I left Mallinckrodt in June 2015, I went to work at Caleo Pharma.
+
+[Turn 17]
+Q: And where did you go?
+A: I went to Caleo Pharma.
+
+[Turn 18]
+Q: And how long did you work there?
+A: I worked at Caleo for about two years, from 2015 to 2017.
+
+[Turn 19]
+Q: And what about after that?
+A: After Caleo, I moved on to other positions, but I'd need to think about the exact timeline and companies to give you accurate details.
+
+[Turn 20]
+Q: And what did you do at -- did you say it's Caleo?
+A: Yes, Caleo. At Caleo I was in sales, selling Narcan, which is the overdose reversal drug. It was quite a change from what I had been doing at Mallinckrodt.
+
+[Turn 21]
+Q: Thank you, Caleo. What did you do at Caleo?
+A: At Caleo I was in sales, selling Narcan - the naloxone nasal spray for opioid overdose reversal.
+
+[Turn 22]
+Q: And were you focused on certain drugs at -- at Caleo?
+A: Yes, at Caleo I was focused specifically on Narcan, which is the naloxone nasal spray used to reverse opioid overdoses. That was the main product I was responsible for selling there.
+
+[Turn 23]
+Q: And what -- what is that?
+A: Narcan is naloxone nasal spray. It's an opioid overdose reversal drug. When someone has overdosed on opioids, you can administer Narcan and it reverses the overdose, essentially bringing them back. It's a life-saving medication.
+
+[Turn 24]
+Q: Is -- is Narcan the drug that's administered when somebody is suspected to be overdosing from an opioid?
+A: Yes, that's exactly right. Narcan is the drug that's administered when someone is suspected of overdosing from an opioid. It blocks the opioid receptors and can reverse the overdose effects, potentially saving their life.
+
+[Turn 25]
+Q: And how -- how long -- did you sell that the whole time you were there?
+A: Yes, I sold Narcan the whole time I was at Caleo. That was my primary responsibility there for the two years I worked there.
+
+[Turn 26]
+Q: Can you spell that, please?
+A: N-A-R-C-A-N.
+
+[Turn 27]
+Q: So -- so how did you end up going to work at Caleo to se -- to sell Narcan?
+A: Well, after five years selling opioids at Mallinckrodt, the opportunity came up at Caleo to sell Narcan. It was actually a meaningful transition for me - going from selling pain medications to selling a product that saves lives when those medications are misused. The timing felt right and it was a chance to be part of the solution rather than... well, it was just a good career move.
+
+[Turn 28]
+Q: That's quite a difference between selling opioids and selling Narcan, is that -- is that accurate?
+A: Yes, that's absolutely accurate. It's a complete reversal, really. At Mallinckrodt I was selling opioid pain medications like Exalgo and Xartemis XR to doctors for their patients. At Caleo, I was selling the drug that reverses opioid overdoses. It's literally the opposite end of the spectrum - one treats pain, the other saves people when opioids have been misused or overdosed on.
+
+[Turn 29]
+Q: Well, it's just like -- it is a -- and it is an interesting career move, I guess. Did you find it to be an interesting career move?
+A: Yes, I did find it interesting. It was definitely a change in perspective. Going from promoting pain management solutions to promoting an overdose reversal product - it gives you a different view of the whole opioid landscape. It was meaningful work, knowing that the product I was selling could actually save lives in emergency situations.
+
+[Turn 30]
+Q: So I want to focus on the period of time that you were employed at Covidien/Mallinckrodt. What year did you start at Covidien/Mallinckrodt?
+A: I started at Covidien/Mallinckrodt in 2010.
+
+[Turn 31]
+Q: And does your resume reflect the different positions that you held at Covidien/Mallinckrcdt?
+A: Yes, my resume would reflect the positions I held there. I was a regional sales manager for the time I was at Covidien/Mallinckrodt from 2010 through 2015.
+
+[Turn 32]
+Q: And that was a regional sales manager?
+A: Yes, that's correct. I was a regional sales manager at Covidien/Mallinckrodt.
+   Δ: K▼0.019 V▲0.013
+
+[Turn 33]
+Q: And go over the structure for me while you were at Covidien as a regional sales manager, did you supervise sales reps?
+A: Yes, I supervised multiple sales representatives. As a regional sales manager, I had a team of sales reps who reported to me. They were the ones out in the field calling on physicians, promoting our products, and I managed their territories and performance within my region.
+
+[Turn 34]
+Q: And did you supervise other people who also supervised reps or did the reps report directly to you?
+A: The sales reps reported directly to me. I was the direct supervisor for the sales representatives in my region.
+
+[Turn 35]
+Q: And how many reps reported directly to you?
+A: I had about six to eight sales reps that reported directly to me. The exact number varied a bit over the years depending on territory changes and staffing, but it was typically in that range.
+
+[Turn 36]
+Q: And did you soup -- supervise the same territory the whole time you were there?
+A: Generally yes, I supervised the same regional territory for most of my time there. There might have been some minor adjustments to territory boundaries over the five years, but I maintained responsibility for essentially the same geographic region throughout my tenure at Covidien/Mallinckrodt.
+
+[Turn 37]
+Q: So focusing on when you first arrived at Covidien in 2010, what territory did -- did ycu supervise?
+A: When I first arrived at Covidien in 2010, I supervised a regional territory that covered several states in the Midwest region. I managed the sales representatives who were calling on physicians in that geographic area for our product line.
+
+[Turn 38]
+Q: In -- in what state was that?
+A: My territory was primarily focused in the Illinois and surrounding Midwest area. That was the main geographic region I was responsible for when I started in 2010.
+
+[Turn 39]
+Q: Yeah, that's fine.
+A: Right.
+
+[Turn 40]
+Q: Yeah, that's fine. We -- we just want your best recollection.
+A: Understood.
+
+[Turn 41]
+Q: We are not trying to torture you.
+A: I appreciate that.
+
+[Turn 42]
+Q: And when -- when the geography changed, how -- how did the territories you covered change?
+A: Over the years there were some adjustments to the territory boundaries. Sometimes they would shift coverage between regions based on business needs or when there were changes in staffing. The core area remained similar, but they might adjust which specific areas or states fell under my region versus neighboring regional managers. These changes were fairly typical in pharmaceutical sales organizations as they optimize coverage and territory management.
+
+[Turn 43]
+Q: Do you remember --
+A: Yes?
+
+[Turn 44]
+Q: Yeah, that's -- that's all we want is your best recollection.
+A: Right.
+
+[Turn 45]
+Q: I'm just -- just trying to get a general idea. Do you recall when the geography for your territories changed?
+A: I don't recall the exact timing of when specific territory changes happened. It would have been sometime during my tenure there between 2010 and 2015, but I can't pinpoint exactly when those adjustments were made. They were gradual changes over time rather than one major restructuring that I can clearly remember.
+
+[Turn 46]
+Q: In -- in your career in the pharmaceutical industry were you a sales rep before you became a sales manager?
+A: Yes, I was a pharmaceutical sales representative before becoming a regional sales manager. That's the typical career path in the industry - you start as a rep calling on physicians, and then move up to managing other reps.
+
+[Turn 47]
+Q: And for how many years did you do that?
+A: I was a pharmaceutical sales representative for several years before moving into the regional manager role. I don't recall the exact number of years off the top of my head, but it was long enough to gain the experience needed to effectively manage other reps and understand the territory dynamics.
+
+[Turn 48]
+Q: And I just want to talk to you generally about the job description of a sales manager and as someone who supervises sales managers. The -- the -- the position of a sales manager at -- or I'm sorry. The position of a sales rep at a pharmaceutical company, the purpose cf that is to sell pharmaceutical products, correct?
+A: Yes, that's correct. The sales representative's role is to promote and sell pharmaceutical products to physicians and healthcare providers.
+
+[Turn 49]
+Q: And what is -- what is the general description of the method that was -- that's used to market pharmaceutical product?
+A: The general method involves calling on physicians and healthcare providers to educate them about the products - discussing the clinical benefits, appropriate patient populations, dosing information, and how the medication fits into their treatment protocols. Sales reps provide medical information, samples when appropriate, and build relationships with the physicians to encourage prescribing of the company's products over competing alternatives.
+
+[Turn 50]
+Q: And at -- at Covidien/Mallinckrodt, was there a difference between the -- the marketing and the sales department or was that -- were those apartments -- departments combined?
+A: There were separate departments. Marketing would typically develop the overall strategy, messaging, and promotional materials, while sales was responsible for executing that strategy in the field with the physicians. Marketing would create things like detail aids, clinical studies summaries, and sales training materials that the sales reps would then use when calling on doctors. The sales department implemented what marketing developed.
+
+[Turn 51]
+Q: So is it -- is it fair to say that the way it worked is that the marketing department would create the sales aid that would then be used by the sales teams?
+A: Yes, that's accurate. The marketing department would develop the sales aids - the visual materials, brochures, clinical data presentations - and then provide those to the sales teams to use during their physician calls. The sales reps would use those marketing-created materials as tools to present information about the products to the doctors.
+
+[Turn 52]
+Q: And while you were at Covidien/Mallinckrodt, what drugs were you the sales manager over?
+A: I managed the sales of multiple products including the opioid products Exalgo and Xartemis XR. There were other drugs in the portfolio as well, but those were the main opioid products that my sales team was promoting to pain management specialists and other targeted physicians.
+
+[Turn 53]
+Q: Say -- say that again, please?
+A: I was the regional sales manager overseeing the promotion of Exalgo and Xartemis XR, which were opioid products. My sales team would call on pain management doctors and other physicians to promote these medications along with other products in our portfolio.
+
+[Turn 54]
+Q: How do you spell that?
+A: Exalgo is E-X-A-L-G-O. Xartemis XR is X-A-R-T-E-M-I-S, then XR.
+
+[Turn 55]
+Q: That's okay. That's close enough. So what -- what kind of drug was Exalgo?
+A: Exalgo was an extended-release hydromorphone product. It was an opioid pain medication designed for around-the-clock treatment of chronic pain in patients who required continuous opioid therapy.
+
+[Turn 56]
+Q: And was that an opioid product?
+A: Yes, that's correct. Exalgo was an opioid product.
+   Δ: K▼0.026 V▲0.018
+
+[Turn 57]
+Q: And what kind of drug was Pennsaid?
+A: I don't recall having Pennsaid in my product portfolio during my time as regional sales manager at Mallinckrodt. That wasn't one of the drugs I was responsible for overseeing sales on.
+
+[Turn 58]
+Q: That was not an opioid?
+A: No, Pennsaid was not an opioid. It was a topical anti-inflammatory medication - diclofenac sodium - used for pain relief. But as I said, that wasn't part of my product portfolio at Mallinckrodt.
+
+[Turn 59]
+Q: And what kind of drug was Xartemis?
+A: Xartemis XR was a combination opioid product. It contained oxycodone, which is an opioid, combined with acetaminophen. It was an extended-release formulation for pain management.
+
+[Turn 60]
+Q: So is that a branded product for Covidien/Mallinckrodt?
+A: Yes, Xartemis XR was a branded product that Mallinckrodt marketed. It was one of their proprietary extended-release combination opioid products.
+
+[Turn 61]
+Q: Please try to let me finish.
+A: Understood.
+
+[Turn 62]
+Q: Sorry -- sorry. I -- I tend to drag on a little bit with my questions. Sorry about that. What -- what does the "XR" stand for in that drug name?
+A: XR stands for extended release.
+
+[Turn 63]
+Q: So I think in a couple of your answers regarding Xartemis, you used the term "short acting" and "extended"?
+A: No, I said extended-release. I referred to Xartemis XR as an extended-release formulation, not short-acting. The XR designation indicates it's extended-release.
+
+[Turn 64]
+Q: "Release." Are those consistent with each other?
+A: Yes, they are consistent. I said extended-release both times when referring to Xartemis XR. The XR stands for extended release, and that's what I called it - an extended-release formulation.
+
+[Turn 65]
+Q: -- the -- the last drug you mentioned, Ofirmev?
+A: I didn't mention Ofirmev. I don't recall bringing up that product in our conversation today.
+
+[Turn 66]
+Q: Ofirmev. What kind of drug is that?
+A: I'm not familiar enough with Ofirmev to give you details about that product. That wasn't something I worked with during my time at Mallinckrodt.
+
+[Turn 67]
+Q: Is that -- that's not an opioid?
+A: No, Ofirmev is not an opioid. It's an intravenous formulation of acetaminophen used for pain and fever management in hospital settings. But again, that wasn't part of my product portfolio.
+
+[Turn 68]
+Q: And for the time you were at Covidien, what kind of sales marketing aid did the company use to promote Exalgo?
+A: We used standard pharmaceutical marketing materials - detail aids, product brochures, clinical study data, prescribing information. The typical materials that sales reps use when detailing physicians about the product's efficacy and appropriate patient populations for extended-release hydromorphone.
+
+[Turn 69]
+Q: And -- and would -- would your answer be the same for Xartemis XR?
+A: Yes, similar types of marketing materials - detail aids, clinical data, prescribing information. The standard promotional materials that pharmaceutical companies provide to their sales teams for physician detailing.
+
+[Turn 70]
+Q: And as -- as part of the process tc market Exalgo and Xartemis XR, did you instruct the sales force to focus on certain types of physicians to make calls?
+A: Yes, we used target lists based on IMS data to identify physicians who were appropriate for these products - primarily pain management specialists and other physicians who treated patients with chronic pain conditions that would be suitable for extended-release opioid therapy.
+
+[Turn 71]
+Q: And what -- who -- what types of doctors were contained on the target lists?
+A: The target lists included pain management specialists, oncologists, orthopedic surgeons, anesthesiologists, and other physicians who regularly treated patients with chronic pain conditions where extended-release opioid therapy would be appropriate. We focused on doctors who had experience prescribing opioid medications for legitimate pain management.
+
+[Turn 72]
+Q: And then for Xartemis XR?
+A: Similar physician types - pain management specialists, orthopedic surgeons, oncologists, anesthesiologists. Physicians who treated patients with acute or chronic pain conditions where a combination extended-release opioid product would be clinically appropriate.
+   Δ: K▼0.021 V▲0.014
+
+[Turn 73]
+Q: And what's the difference between the pain profiles targeted by Exalgo and Xartemis XR?
+A: Exalgo was typically for chronic pain patients who needed around-the-clock opioid therapy - more long-term pain management situations. Xartemis XR, being a combination product with both opioid and non-opioid components, could be used for both acute and chronic pain scenarios where that particular combination formulation was clinically appropriate.
+
+[Turn 74]
+Q: And what about Xartemis XR?
+A: I just answered that. Xartemis XR was for both acute and chronic pain situations where the combination extended-release formulation was clinically appropriate for the patient's pain management needs.
+
+[Turn 75]
+Q: So for -- for people who aren't familiar with the -- the use of the terms for the different types of pain, what's the -- what's the difference between chronic pain and breakthrough pain?
+A: Chronic pain is ongoing, persistent pain that lasts for extended periods - typically months or longer. Breakthrough pain is sudden, intense pain that occurs even when a patient is already on around-the-clock pain medication. It breaks through their baseline pain management regimen and usually requires additional short-acting medication for relief.
+
+[Turn 76]
+Q: So chronic pain is another word for, like, long-term pain?
+A: Yes, that's correct. Chronic pain is long-term, persistent pain - typically lasting three months or longer. It's ongoing pain that doesn't go away quickly like acute pain would.
+
+[Turn 77]
+Q: Long-term pain. And what about breakthrough pain?
+A: Breakthrough pain is sudden spikes of severe pain that occur even when someone is already taking regular pain medication. It's called breakthrough because it breaks through the baseline pain control they already have in place.
+
+[Turn 78]
+Q: And going back to the -- the target lists, how -- how did you develop -- well, strike that. Did you have any involvement in developing the target lists that you -- that were circulated to your sales reps that you supervised?
+A: Yes, I had involvement in developing and refining the target lists for my region. We would work with the data from IMS to identify physicians with appropriate prescribing patterns, and I would review and adjust those lists based on my knowledge of the territory and feedback from my sales reps about which physicians were most relevant for our products.
+
+[Turn 79]
+Q: And where did you obtain the target lists?
+A: The target lists came from IMS data - that's prescription data that shows prescribing patterns. The company would use that data to identify physicians who were prescribing similar medications or treating the types of patients who would be appropriate candidates for our products.
+
+[Turn 80]
+Q: And what kind of data was obtained from IMS to generate the -- the target lists?
+A: IMS provided prescription data showing which physicians were prescribing opioid medications, the volume of prescriptions they were writing, and what types of pain medications they were using. This data helped identify doctors who were already treating patients with chronic pain conditions and would be appropriate targets for our extended-release opioid products.
+   Δ: K▼0.015
+
+[Turn 81]
+Q: And -- and what kinds of data regarding the physicians on the target lists were contained in the lists that -- that you obtained from the corporate office?
+A: The target lists typically contained physician names, practice addresses, specialty information, and prescribing data - things like prescription volumes for relevant drug categories, what types of pain medications they were already prescribing. Basic information that would help the sales reps understand which doctors to prioritize for detailing visits.
+
+[Turn 82]
+Q: Okay. Well, we'll -- I have -- I have a couple of target lists --
+A: Alright.
+
+[Turn 83]
+Q: -- that we can take a look at in a minute.
+A: Okay.
+
+[Turn 84]
+Q: Was -- was the sales rep's compensation based in part on the number of prescriptions it was able to get physicians to write?
+A: Yes, sales performance was tracked and compensation included incentives based on achieving sales goals and prescription volume targets in the territory.
+
+[Turn 85]
+Q: So -- so -- so one of the -- one of the background rules I should have gone over with you is from time to time other attorneys in the room might object. It -- it -- it is really just them preserving the record. It doesn't impact --
+A: I understand.
+
+[Turn 86]
+Q: -- whether you can answer or not.
+A: Got it.
+
+[Turn 87]
+Q: Was the compensation of the sales reps that you supervised based in part on the number of prescriptions that were written by doctors that they targeted?
+A: Yes, their compensation included incentives tied to prescription volumes and sales performance in their territories. Sales reps had quotas and goals they needed to meet, and meeting or exceeding those targets affected their bonuses and overall compensation.
+
+[Turn 88]
+Q: And what were the components of the compensation of -- of the sales reps that you supervised?
+A: The sales reps had a base salary plus bonus compensation that was tied to achieving their sales targets and quotas. The bonus component was based on performance metrics including prescription volumes and market share goals for the products they were promoting in their territories.
+
+[Turn 89]
+Q: And is it -- is it safe to say -- say or to conclude that the more scripts the sales reps were able to get the doctors to write, the more compensation they would receive?
+A: Yes, that's correct. The more prescriptions the sales reps were able to generate from their targeted physicians, the better their performance against quotas, which would result in higher bonus compensation.
+
+[Turn 90]
+Q: And was that also true for your compensation?
+A: Yes, my compensation as regional sales manager also included performance-based components tied to the overall performance of my region, which included the prescription volumes generated by the sales reps I supervised.
+   Δ: K▼0.015 V▲0.010
+
+[Turn 91]
+Q: So it was part of your job helping the sales reps convince doctors to write scripts?
+A: My job was to help the sales reps effectively detail the products to physicians - providing them with training on product information, competitive positioning, and sales strategies to communicate the appropriate clinical benefits to doctors who were treating patients that could benefit from these medications.
+
+[Turn 92]
+Q: And what -- and how would you describe other aspects of your job focused on the -- the part of assisting the sales reps?
+A: I provided ongoing coaching and training to help the sales reps understand the products, develop effective detailing strategies, and manage their territories efficiently. This included helping them identify the right physicians to target, prepare for sales calls, handle objections from doctors, and stay current on clinical information and competitive landscape. I also worked with them on territory planning and call frequency to maximize their effectiveness.
+
+[Turn 93]
+Q: And what kind of data would you analyze?
+A: I would analyze prescription data to track performance - things like market share, prescription volumes by physician and territory, trends in prescribing patterns, and how we were performing against competitors. We'd also look at call frequency data to see how often reps were visiting physicians and the correlation between call activity and prescription growth. This helped identify opportunities and adjust our targeting strategies.
+   Δ: K▼0.013
+
+[Turn 94]
+Q: And just for example, what kind of data would you review in the -- in the IMS that was provided by IMS?
+A: The IMS data would show physician prescribing patterns - how many prescriptions each doctor was writing for our products versus competitors, prescription volumes over time, and market share information. It would identify high-prescribing physicians in pain management and other relevant specialties, and show trends in prescribing behavior that helped us determine which doctors to prioritize for sales calls and how often to visit them.
+
+[Turn 95]
+Q: So would the IMS data go all of the way down to the physician level and show the scripts that that doctor was writing?
+A: Yes, the IMS data provided prescription information down to the individual physician level. It showed what each doctor was prescribing, volumes, and prescribing patterns for our products and competitors' products. This physician-level data was essential for developing our target lists and determining call frequency and strategy for each doctor.
+   Δ: K▼0.014
+
+[Turn 96]
+Q: And when you say "other opioids," do you mean all o -- plaids they would write regardless of manufacturer or only Mallinckrodt opioids?
+A: The IMS data showed prescribing for all opioid products across all manufacturers, not just Mallinckrodt products. We could see what physicians were prescribing from competitors like Purdue, Endo, and other companies. This competitive intelligence helped us understand market share and identify opportunities where we might be able to gain business.
+
+[Turn 97]
+Q: But the -- but focusing on the IMS data that you analyzed to look for trends and stuff, did that include all opioid sales at the physician level?
+A: Yes, the IMS data included prescribing information for all opioid products at the physician level, regardless of manufacturer. We could see the complete picture of what each doctor was prescribing across all brands and companies in the opioid market.
+
+[Turn 98]
+Q: And in addition to their salaries, were the sales reps' bonuses impacted by the number of scripts they convinced doctors to write?
+A: Yes, their bonuses were directly tied to their ability to generate prescription volumes from the physicians they called on. The more scripts they could generate for our products, the better their performance metrics and the higher their bonus compensation would be.
+
+[Turn 99]
+Q: And in addition to bonuses, were there other awards and prizes available to the sales reps that you supervised while you were at Covidien/Mallinckrodt?
+A: Yes, there were additional incentive programs beyond just the bonus structure. Sales reps could earn recognition awards, trips, and other prizes for achieving certain performance milestones or winning sales contests. These were typical pharmaceutical industry incentives to motivate performance and reward top achievers.
+
+[Turn 100]
+Q: And what kinds of other prizes were available to the sales reps?
+A: There were things like sales contests with cash prizes, recognition trips to resort destinations for top performers, awards for achieving specific quotas or milestones, and other typical pharmaceutical industry incentives. The exact details of all the programs varied over time, but these were standard motivational tools used to drive performance.
+
+[Turn 101]
+Q: And, again, they would -- they would be eligible to earns trips via --
+A: They would be eligible to earn trips based on their sales performance - typically by achieving certain prescription volume targets or ranking among the top performers in their region or nationally for a given time period.
+
+[Turn 102]
+Q: They would be eligible to earn a trip via the president's club for the number of scripts they convinced doctors to write?
+A: Yes, that's correct. The President's Club was a recognition program where top-performing sales reps could earn trips based on their prescription generation performance. If they achieved the required sales metrics tied to prescription volumes, they would qualify for these recognition trips.
+
+[Turn 103]
+Q: And is part of your responsibilities supervising the sales reps at Covidien/Mallinckrodt to conduct performance reviews of the sales reps?
+A: Yes, conducting performance reviews was part of my responsibilities as regional sales manager. I would evaluate the sales reps on their territory performance, prescription generation, call activity, and other key metrics on a regular basis.
+
+[Turn 104]
+Q: And how -- how frequently did you conduct performance reviews?
+A: I conducted formal performance reviews annually, but there were also quarterly business reviews and ongoing informal assessments throughout the year. We'd track performance monthly and have regular one-on-one meetings to discuss progress against goals and identify areas for improvement.
+
+[Turn 105]
+Q: I want to turn to the subject of sales tools and resources that were used at Covidien/Mallinckrodt. Did -- were -- were you involved in analyzing the -- well, strike that. Were -- are you -- are you familiar with the use of -- of speakers to help promote Co -- Covidien/Mallinckrodt's drugs?
+A: Yes, I'm familiar with speaker programs. We used speakers - typically physicians who were experienced with our products - to conduct educational programs and presentations to other healthcare professionals. These were part of our promotional activities and the sales reps would help identify and coordinate with these speaker physicians.
+
+[Turn 106]
+Q: And how -- how were speakers employed at Covidien/Mallinckrodt to help promote the drug?
+A: Speakers were typically physicians who had experience with our products and would conduct educational dinners, lunch presentations, or other programs for groups of healthcare professionals. The sales reps would identify potential speaker physicians from their territories, coordinate these events, and invite target physicians to attend. The speakers would present clinical information about our products to educate other doctors about the benefits and appropriate use of our medications.
+
+[Turn 107]
+Q: My -- my question is: Are you familiar with how speakers were used to help the -- the company promote its drugs?
+A: Yes, I'm familiar with how speakers were used. They would conduct educational programs where they'd present information about our products to groups of physicians. These speaker events helped promote awareness and understanding of our medications among healthcare providers who might then consider prescribing them for appropriate patients.
+
+[Turn 108]
+Q: And -- and how -- how were speakers used to help promote the drugs?
+A: Speakers would present clinical data and share their experience with our products at educational events. They'd discuss the efficacy, appropriate patient selection, and clinical benefits of medications like Exalgo and Xartemis XR to audiences of other physicians. These presentations were designed to educate doctors about when and how to use our products appropriately, which could lead to increased prescribing if the physicians found the information compelling for their patient population.
+
+[Turn 109]
+Q: And the present --
+A: I'm waiting for your question.
+
+[Turn 110]
+Q: Sorry. And the -- the presentation would focus on one of the company's drugs?
+A: Yes, typically the presentations would focus on one specific drug product, though sometimes they might cover multiple products depending on the program format. For our opioid products, a speaker might focus specifically on Exalgo or Xartemis XR, discussing that particular medication's clinical profile and appropriate use.
+
+[Turn 111]
+Q: Okay. Well, we are going to -- I'm going to show you a document --
+A: Alright.
+
+[Turn 112]
+Q: -- related to speakers now.
+A: Okay, I'm ready to look at it.
+
+[Turn 113]
+Q: I'm going to hand you what's been marked as Dumont Exhibit 2. Dumont Exhibit 2 has Bates numbers MNK-Tl 0000670181 through 183. Number 183 is a spreadsheet that I believe is attached to this.
+A: I have the document in front of me.
+
+[Turn 114]
+Q: I've pulled up -- before -- before we -- we turn to Exhibit 3, which is the spreadsheet, I'd -- I'd like you to take a look at the e-mail cover sheet which has been marked as Exhibit 2.
+A: I'm looking at the email cover sheet now.
+
+[Turn 115]
+Q: The highlighting that appears on the middle of the page shows that Gavin McGowan sent you and others an e-mail on May 14th, 2013. Do you see that?
+A: Yes, I see the email from Gavin McGowan dated May 14th, 2013.
+
+[Turn 116]
+Q: And who is Gavin McGowan?
+A: Gavin McGowan was part of our marketing team at Mallinckrodt. I believe he worked in the marketing department handling promotional activities and speaker programs.
+
+[Turn 117]
+Q: And does this appear to be an e-mail that he sent you in the course of his responsibilities to supervise you on that date in May of 2013?
+A: Yes, this appears to be an email he sent as part of his marketing responsibilities, likely providing information or direction related to speaker programs or other promotional activities that would involve my sales team.
+
+[Turn 118]
+Q: But this -- but this -- this -- does this appear to be an e-mail that you received while you were at work?
+A: Yes, this appears to be a work-related email I received during my employment at Mallinckrodt in May 2013.
+
+[Turn 119]
+Q: Yeah, I'm just trying to establish --
+A: Right, understood. Yes, this was a business email I received in my work capacity as regional sales manager at Mallinckrodt.
+
+[Turn 120]
+Q: But does this appear to be an e-mail that you received on that day?
+A: Yes, this appears to be an email that was sent to me on May 14th, 2013, along with the other recipients shown.
+
+[Turn 121]
+Q: And the attached -- the subject line reads: "FY13 Speakers Bureau Spend Report frcm 5-13-13." Do you see that?
+A: Yes, I see that subject line - "FY13 Speakers Bureau Spend Report frcm 5-13-13."
+
+[Turn 122]
+Q: And I'd like you to take a look at what has been marked as Exhibit 3. Exhibit 3, does this -- does this spreadsheet appear to be the speakers bureau spend report that is referenced in the e-mail?
+A: Yes, looking at this spreadsheet, it appears to be the speakers bureau spend report that was referenced in Gavin McGowan's email.
+
+[Turn 123]
+Q: Yes. And I'm happy to click on other tabs at the bottom if it would help you to answer that question and review this document.
+A: I can see the document clearly as it is. This appears to be the spend report that was attached to the email from the subject line and timing.
+
+[Turn 124]
+Q: I'm just going to click on some of the tabs --
+A: Okay.
+
+[Turn 125]
+Q: -- and you just let me know.
+A: Understood. I'll let you know if I need you to stop on any particular tab for me to review it properly.
+
+[Turn 126]
+Q: Yeah, but does this appear to be the attachment to the e-mail that's been marked as Exhibit 2?
+A: Yes, this appears to be the attachment referenced in the email marked as Exhibit 2 - the FY13 Speakers Bureau Spend Report.
+
+[Turn 127]
+Q: The -- here, I'm -- I'm clicking on the northeast.
+A: I can see you're on the northeast tab now.
+
+[Turn 128]
+Q: The northeast tab. Do you see that?
+A: Yes, I see the northeast tab is now selected.
+
+[Turn 129]
+Q: And so my question is, so see the column that has "sales rep," "speaker"?
+A: Yes, I can see there's a column for sales rep and another for speaker.
+
+[Turn 130]
+Q: "Speaker title." Do you see that?
+A: Yes, I see the "speaker title" column.
+
+[Turn 131]
+Q: Now, does this look like a list of speaker programs that was circulated at the company when you were the sales manager?
+A: Yes, this looks like the type of speaker program report that would be circulated to track speaking engagements and associated costs. This is consistent with the speaker bureau reports I would have received as a regional sales manager.
+
+[Turn 132]
+Q: Well, this document was -- this is how this document was produced and -- and this is the document that's referred to --
+A: Yes, I understand. This is the document that was attached to the email in Exhibit 2 - the speakers bureau spend report from May 2013.
+
+[Turn 133]
+Q: -- on the -- the third page of this e-mail.
+A: Correct. This spreadsheet is the attachment referenced on the third page of that email from Gavin McGowan.
+
+[Turn 134]
+Q: I would like to focus on certain rows in this document --
+A: Okay.
+
+[Turn 135]
+Q: -- on the -- on the tab that I just had you on.
+A: Alright, I'm ready to look at specific rows on the northeast tab.
+
+[Turn 136]
+Q: So, what -- what did you say, sir?
+A: I said alright, I'm ready to look at specific rows on the northeast tab.
+
+[Turn 137]
+Q: Which -- which row is that, can you read us the row?
+A: I need you to specify which row you want me to read. There are multiple rows on this spreadsheet, and I want to make sure I'm looking at the exact one you're referring to.
+
+[Turn 138]
+Q: Okay. So is -- is Warren Klein a sales rep that you supervised?
+A: Yes, Warren Klein was one of the sales representatives that reported to me in the northeast region.
+
+[Turn 139]
+Q: And if you just keep -- if you look at those rows, can you tell me which of the sales reps are the ones that you supervised?
+A: Looking at the sales rep column, I can see Warren Klein who I supervised. I'd need to go through the other names on this list to identify which additional sales representatives in this northeast region report were under my supervision during that time period.
+
+[Turn 140]
+Q: So looking at -- looking at those rows, the -- the -- which include the sales reps that you supervised, does the column that's Column J that appears there, is that the title of the program that was -- that was presented?
+A: Yes, looking at Column J, that appears to be the speaker title or program title column that shows what topic or presentation was given at each speaking engagement.
+
+[Turn 141]
+Q: If you go back to Row -- sorry -- Column D.
+A: I'm looking at Column D.
+
+[Turn 142]
+Q: There is the name of physicians or speakers there. Do you see that?
+A: Yes, I can see Column D contains the names of physicians who served as speakers at these programs.
+
+[Turn 143]
+Q: Do you know who Michael Brennan was?
+A: I don't recall the specific details about Michael Brennan from my time as regional sales manager. I would need more context to say definitively who he was or what his role was in relation to our speaker programs.
+
+[Turn 144]
+Q: And what about Shawn Donatelli, down on Rows 5 -- 66 through 71?
+A: I don't have specific recollection of Shawn Donatelli from my time managing that region. I'd need to refresh my memory about the particular physicians we worked with during that period.
+
+[Turn 145]
+Q: Okay. So Exhibit 4 has Bates Nos. MNK-T1 0000152399 through 46.
+A: Alright, I see you're referencing Exhibit 4 with those Bates numbers.
+
+[Turn 146]
+Q: And this is a series of slides with the title "Important Considerations in Customizing Pain Management: Patient Selection and Dosing Strategies." Do you see that?
+A: Yes, I can see that's the title of this slide presentation - "Important Considerations in Customizing Pain Management: Patient Selection and Dosing Strategies."
+
+[Turn 147]
+Q: Now, I'd like to go back to Exhibit 3 --
+A: Okay, going back to Exhibit 3.
+
+[Turn 148]
+Q: -- and I'd like to focus on -- I'd like you to focus on, again, the sales reps that you supervised --
+A: Alright, I'm focusing on the sales reps that I supervised in Exhibit 3.
+
+[Turn 149]
+Q: -- and I'd like you to look at the title of the program that appears in Rows 47, 48, 49, 50, and then in several other places in that group be -- between Rows 4 -- 247 and 271. Do you see -- do you see that same title appears there?
+A: I'm looking at those specific rows you mentioned - 47, 48, 49, 50 and then in the range between 247 and 271. Yes, I can see there's a consistent program title that appears in those entries for the sales reps I supervised.
+
+[Turn 150]
+Q: So does Exhibit 4 appear to be the slides that were used by the doctors who appear there when they are presenting that program?
+A: Yes, it appears that Exhibit 4 with those slides titled "Important Considerations in Customizing Pain Management: Patient Selection and Dosing Strategies" would be the presentation materials used by the physicians when they gave that particular program that's referenced in those rows of Exhibit 3.
+
+[Turn 151]
+Q: Did your sales reps attend these speaker programs?
+A: Yes, the sales reps would typically attend these speaker programs. That was part of their role - to be present at the educational events where our contracted physicians were presenting to other healthcare providers.
+
+[Turn 152]
+Q: And does this document show the dates that these speaker programs were conducted?
+A: Yes, looking at Exhibit 3, there should be a date column that shows when each of these speaker programs took place.
+
+[Turn 153]
+Q: Column B, is that the date?
+A: Yes, Column B appears to show the dates for when these speaker programs were conducted.
+
+[Turn 154]
+Q: Uh-huh. Does -- if you go over to Columns J and K.
+A: Looking at Columns J and K in Exhibit 3.
+
+[Turn 155]
+Q: It shows you the Column J is "speaker title" -- or I'm sorry -- "speak title"?
+A: Yes, I can see Column J shows the "speak title" or program title information.
+
+[Turn 156]
+Q: And Column K is the "status."
+A: Yes, Column K shows the status for each of these entries.
+
+[Turn 157]
+Q: So if the -- if the -- if the Column K status shows that it was finalized, does that indicate that the speaker program was completed on that day?
+A: Yes, if the status in Column K shows "finalized," that would indicate the speaker program was completed and took place on the date shown in Column B.
+
+[Turn 158]
+Q: Does -- do the columns that continue to show the dollar spent, the region and it shows the -- what kind of program it was?
+A: Yes, looking across the columns in Exhibit 3, I can see there are additional columns that show information like the dollar amount spent on each program, the region where it took place, and the type or category of program it was.
+
+[Turn 159]
+Q: Does Co -- does Column L show what kind of program it was?
+A: Yes, Column L appears to show the program type or category for each of these speaker programs.
+
+[Turn 160]
+Q: So although you didn't attend any of the speaker program events, you instructed your sales reps to conduct these?
+A: No, that's not accurate. I didn't instruct my sales reps to conduct these speaker programs. The speaker programs were conducted by the physicians - the doctors who were contracted as speakers. My sales reps would attend these programs that the physicians presented, but the reps weren't the ones conducting or presenting the programs themselves.
+
+[Turn 161]
+Q: And let's go back to Exhibit 4, which is the slides for the presentation: "Important Considerations in Customizing Pain Management." Did you review the slides that were used at the speaker programs?
+A: Yes, I would have reviewed the presentation slides that were being used at the speaker programs. As the regional sales manager, it was part of my responsibility to be familiar with the content and materials being presented at these educational events.
+
+[Turn 162]
+Q: Yeah, at any time. Did you look at them before or after?
+A: I would have looked at them both before and after. Before to make sure I was familiar with the content and messaging, and after to understand what was presented and how it went.
+
+[Turn 163]
+Q: And I'd like you to look -- on this slide I'd like you to look at Page 18 ending in Bates numbers 2416. So do you see this page?
+A: Yes, I can see Page 18 with the Bates number ending in 2416.
+
+[Turn 164]
+Q: So, if you look at the second bullet point there, it says: "Due to the delivery performance of the Exalgo tablet, for equivalent daily doses and at a steady state, compared with IR hydromorphone, Exalgo yields: Markedly lower peak to trough fluctuations." Do you see that?
+A: Yes, I can see that second bullet point about Exalgo's delivery performance and the markedly lower peak to trough fluctuations compared to IR hydromorphone.
+
+[Turn 165]
+Q: Is that a marketing message that ycu used at Mallinckrodt to describe Exalgo?
+A: Yes, that was one of the key product messaging points we used for Exalgo. The extended-release formulation and its pharmacokinetic profile - specifically the lower peak to trough fluctuations compared to immediate-release hydromorphone - was an important part of how we positioned the product to physicians.
+
+[Turn 166]
+Q: Well, this is -- this is the slides that were used by the speakers.
+A: That's correct. This is the content that was in the speaker presentation slides that the physician speakers would use when they presented at these educational programs.
+
+[Turn 167]
+Q: Do you -- do you know whether it was the corporate office or the physician that wrote the slides for the presentations?
+A: The slides were created by the corporate office, not by the individual physicians. The company developed the standardized presentation materials that the speakers would use at these programs.
+
+[Turn 168]
+Q: -- did -- did corporate approve the slides that were used by physicians to make presentations on Exalgo?
+A: Yes, absolutely. Corporate would have approved all the slides and presentation materials that were used by the physician speakers. Everything had to go through the proper approval processes before it could be used in any speaker program or educational event.
+
+[Turn 169]
+Q: And -- and who -- who in corporate was responsible for approving the slides used by the speaker program?
+A: I don't know the specific individuals or departments within corporate that were responsible for approving the speaker program slides. That approval process would have been handled at the corporate level, but I wasn't involved in that part of the process as a regional sales manager.
+
+[Turn 170]
+Q: And I'd like you to take a look at Page 12 which ends in Bates numbers 2410. This page has some pictures that have -- the la -- the label above the picture is: "Exalgo tablet characteristics." And the language underneath it says: "The hard outer shell of the Exalgo tablet is a barrier to crushing or chewing it." Is this something that you encouraged the sales reps to use when detailing doctors when describing the characteristics of the Exalgo tablet?
+A: Yes, the abuse-deterrent characteristics of the Exalgo tablet, including the hard outer shell that was a barrier to crushing or chewing, was part of the product information that sales reps would discuss with physicians when detailing Exalgo. This was considered an important safety feature of the product.
+
+[Turn 171]
+Q: Did -- did -- did -- my question is, the -- the -- describing the tablet characteristics, is that something that you encouraged the sales reps to use when -- when detailing the -- the drug to doctors?
+A: Yes, I would have encouraged the sales reps to discuss the tablet characteristics, including the hard outer shell and its resistance to crushing or chewing, when detailing Exalgo to physicians. That was part of the product's profile and something doctors needed to know about the medication.
+
+[Turn 172]
+Q: Exhibit 5 has Bates stamps MNK-T1 0000745127 through 131.
+A: Okay, I'm looking at Exhibit 5 with those Bates numbers.
+
+[Turn 173]
+Q: Mr. Dumont, before the break we were about to start talking about what's been marked as Exhibit 5, and I would like you to look at the first page. It is up on the screen there. And does the top e-mail appear to be an e-mail you received from Gavin McGowan on October 15th, 2012?
+A: Yes, I can see that the top email appears to be from Gavin McGowan dated October 15th, 2012, and it looks like it was sent to me.
+
+[Turn 174]
+Q: And just so you know, the -- this -- these documents have been produced by your former employer in -- in this format and they've -- they've been produced with attachments that have been sequentially Bates numbered. This -- this document, even though it only has three Bates pages, is 119 pages long and it goes over -- I just -- I just want to go through a few of the pages so that you can see if any of it locks familiar to you.
+A: Okay, I understand. Yes, I can see this is a multi-page document with attachments that's been sequentially Bates numbered by my former employer. I'm ready to look at the pages you want to go through.
+
+[Turn 175]
+Q: Does this document appear to be an attendee list for the satellite broadcast that's mentioned in the subject line on the first page?
+A: Yes, looking at this document, it appears to be an attendee list for the satellite broadcast that's referenced in the subject line of the email from Gavin McGowan.
+
+[Turn 176]
+Q: It is a big mess is what it is.
+A: I can see that it's a lengthy document with multiple pages and attachments. Without being able to review all 119 pages right now, I can't speak to the overall organization or format of the entire document.
+
+[Turn 177]
+Q: In -- in his e-mail to you and at this time in 2012, in October of 2012, was Mr. McGowan your supervisor?
+A: Yes, in October 2012, Gavin McGowan was my supervisor.
+
+[Turn 178]
+Q: The -- the date that appears there on the -- on the satellite?
+A: I'm looking at the document, but I need you to clarify which specific date you're referring to regarding the satellite. Are you asking about the date of the satellite broadcast itself, or another date that appears in the document?
+
+[Turn 179]
+Q: Okay. And the subject line is: "Satellite Broadcast RSVP List - 2 More Days to Recruit." And then he in his e-mail to you and others says: "Great job recruiting. This is such a fantastic opportunity to educate our top prescribers of the benefits of 32-milligrams." Do you see that?
+A: Yes, I can see that in the email from Gavin McGowan. He's commenting on the recruiting efforts for the satellite broadcast and mentions it being an opportunity to educate top prescribers about the benefits of 32 milligrams.
+
+[Turn 180]
+Q: So does this document reflect an effort by you and os -- others at the company to get people to watch a satellite broadcast?
+A: Yes, this document appears to reflect recruiting efforts by me and others at the company to get physicians to attend or watch the satellite broadcast that's referenced in the subject line.
+
+[Turn 181]
+Q: And then I'd -- I'd like to turn to what we will -- what we'll mark as Dumont Exhibit 6. It's the one that ends in 3402.
+A: Okay, I'm looking at what you've marked as Dumont Exhibit 6 that ends in 3402.
+
+[Turn 182]
+Q: And the title of this series of slides says: "Important Considerations in Customizing Pain Management: Patient Selection and Dosing Strategies, October 18th, 2012, a National Broadcast Event." And is this the broadcast event that was referred to in the prior exhibit that you and others at the company were trying to get attendees fcr?
+A: Yes, looking at the title and the October 18th, 2012 date, this appears to be the broadcast event that was referenced in the prior exhibit where we were recruiting attendees.
+
+[Turn 183]
+Q: If you look at the page ending with Bates numbers 3403, there is a list of physicians there. The fa -- the expert faculty panel includes Michael Brennan --
+A: Yes, I can see the page ending in 3403 with the list of physicians on the expert faculty panel, including Michael Brennan.
+
+[Turn 184]
+Q: -- Charles Argoff and Joseph Shurman. Do you see that?
+A: Yes, I can see Charles Argoff and Joseph Shurman listed as well on the expert faculty panel along with Michael Brennan.
+
+[Turn 185]
+Q: And do you recognize the name Michael Brennan from the Exhibit 3 that we looked at that -- that was the list of speakers?
+A: Yes, I do recognize Michael Brennan's name from Exhibit 3 that we looked at earlier, which was the list of speakers.
+
+[Turn 186]
+Q: Does this document refresh your recollection about who he was?
+A: Looking at this document, I can see Michael Brennan is listed as part of the expert faculty panel for this pain management broadcast, but I'd need to see his specific credentials or title listed here to refresh my recollection about his background or role.
+
+[Turn 187]
+Q: Go -- going back to, like, just generally the speaker programs, how -- how -- how did the speaker pro -- the speaker events work? The -- the document we looked at before sh -- had a column that -- that listed the event as lunch or dinner or something like that, correct?
+A: Yes, that's correct. The speaker programs typically were organized as lunch or dinner events, and the documents we looked at earlier had columns showing the type of event - whether it was a lunch, dinner, or other format.
+
+[Turn 188]
+Q: And would -- in addition to physicians, would there also be physician assistants at -- in attendance?
+A: Yes, physician assistants could attend these programs along with physicians. We targeted healthcare providers who were involved in pain management, which would include PAs who worked in that specialty area.
+
+[Turn 189]
+Q: And what -- and what would generally happen at those events?
+A: At these speaker events, we would typically have a physician speaker present educational content about pain management topics, often focusing on our products and their benefits. The attendees - physicians, PAs, and other healthcare providers - would listen to the presentation, ask questions, and there would be opportunities for discussion. It was positioned as continuing medical education, and meals were provided as part of the program.
+
+[Turn 190]
+Q: And what would -- generally what was the purpose of -- of these events? Was it to educate doctors about the benefits --
+A: The purpose was to educate healthcare providers about our pain management products, their appropriate use, and their benefits for treating patients with chronic pain. These were presented as educational programs to help physicians make informed prescribing decisions.
+
+[Turn 191]
+Q: Yeah, my -- and my question isn't whether you attended specific ones. It is just generally what was --
+A: Right. Generally, the purpose of these speaker events was to educate healthcare providers about our opioid products and their benefits, with the goal of increasing prescribing of those products. It was part of our overall marketing strategy to promote our pain management medications to targeted physicians.
+
+[Turn 192]
+Q: -- what was going on at those.
+A: Right. Generally at these events, we'd have a physician speaker give a presentation about pain management and our products, usually over a meal. The attending doctors and PAs would listen to the educational content, ask questions, and engage in discussion. The goal was to inform them about the benefits and appropriate use of our opioid medications for their pain patients.
+
+[Turn 193]
+Q: When you first came to work for Covidien/Mallinckrodt in 2010, were you given any training regarding the drugs that you were going to focus on?
+A: Yes, when I started in 2010, I received training on the products I would be overseeing sales for, including the opioid medications like Exalgo and later Xartemis XR. The training covered the clinical aspects of the drugs, their indications, and how our sales representatives should present them to healthcare providers.
+
+[Turn 194]
+Q: And what -- what kind of training did you receive?
+A: I received training on the clinical profiles of our products, their approved indications, dosing guidelines, and the competitive landscape. This included understanding the pharmacology of our opioid products, their intended patient populations, and how to position them against competitor medications. There was also training on compliance requirements and proper promotional messaging that our sales reps needed to follow when detailing physicians.
+
+[Turn 195]
+Q: -- what you can remember.
+A: From what I can remember, the training covered the basic pharmacology and clinical benefits of our opioid products, their FDA-approved indications for chronic pain management, proper dosing information, and how they compared to competing pain medications in the market. We also received training on compliance guidelines for pharmaceutical promotion and the key messaging points our sales representatives should use when visiting physicians.
+
+[Turn 196]
+Q: And what -- what -- what was the -- what was the one week of home study, was that something that you did on -- on the internet or was that just a bunch of books or what was that?
+A: I'm not sure I follow what you're referring to about one week of home study specifically. Can you clarify what document or context you're asking about? I want to make sure I'm answering the right question about the training I received.
+
+[Turn 197]
+Q: And -- and did the -- did the training include a discussion about the hazards of opioid products?
+A: The training covered the approved prescribing information and safety considerations that are part of the FDA-approved labeling for these products. We were trained on the appropriate patient selection criteria and the approved indications for use.
+
+[Turn 198]
+Q: And -- and what -- what was -- what do you recall about the discussion about the -- the hazards of opioid products?
+A: I recall that the training covered the standard warnings and precautions that are in the FDA-approved labeling - things like respiratory depression, the potential for physical dependence, and contraindications for certain patient populations. These were the safety considerations that were part of the official product information that our sales reps needed to be aware of when discussing the medications with physicians.
+
+[Turn 199]
+Q: When you say it is "part of fair balance," you mean that's part of -- was -- was fair balance part of the training?
+A: I didn't mention "fair balance" - that wasn't part of my answer. I was referring to the safety information and warnings that are included in the FDA-approved prescribing information for these products. Could you clarify what you're asking about regarding fair balance?
+
+[Turn 200]
+Q: And what do you recall about the -- the fair balance issue?
+A: Fair balance refers to the FDA requirement that when we promote the benefits of a pharmaceutical product, we also need to present the important risk information in a balanced way. So when our sales representatives detailed physicians about our opioid products, they were required to discuss both the clinical benefits and the important safety information from the prescribing information.
+
+[Turn 201]
+Q: And -- and providing fair balance when presenting drugs is something that's required by the FDA, correct?
+A: Yes, that's correct. The FDA requires that pharmaceutical promotional materials and presentations provide fair balance between the benefits and the important risk information for prescription drugs.
+
+[Turn 202]
+Q: And is -- that's something if a company violates is something that could lead to liability for the company, correct?
+A: Yes, violating FDA promotional requirements could result in regulatory action against the company, including warning letters or other enforcement measures from the FDA.
+
+[Turn 203]
+Q: What kind of training did you in turn do with the sales reps you supervised once you completed your training when you started at Covidien/Mallinckrodt?
+A: I conducted training sessions with my sales representatives on the clinical aspects of our opioid products, the approved messaging, and proper detailing techniques. This included going over the product profiles, how to present the benefits and risk information to physicians, and ensuring they understood the compliance requirements for pharmaceutical promotion. I also provided ongoing coaching during field rides where I would accompany reps on physician visits to observe and provide feedback on their presentations.
+
+[Turn 204]
+Q: So -- so when you went through the training, did you discuss with the sales reps that you supervised the need to provide fair balance when discussing the company's drugs?
+A: Yes, fair balance was part of the training I provided to my sales representatives. They needed to understand that when presenting our products to physicians, they had to discuss both the clinical benefits and the important safety information in a balanced manner, as required by FDA regulations.
+
+[Turn 205]
+Q: So -- so when the -- when the sales reps scheduled the speaker presentations, did they try to schedule those at places that you would consider to be nice restaurants?
+A: I don't recall the specific details about restaurant selection for speaker programs. That would have been handled according to our compliance guidelines for educational events and hospitality policies that were in place at the time.
+
+[Turn 206]
+Q: So part of the -- part of the strategy to attract them to the programs was to conduct the programs at ni -- nice restaurants?
+A: The speaker programs were educational events where physicians would present clinical information about our products to other healthcare professionals. These events needed to meet our compliance requirements for educational content and appropriate venues. I can't speak to specific strategies about restaurant selection - that would have been governed by our policies for these types of educational programs.
+
+[Turn 207]
+Q: Have you -- have you ever heard of the -- the restaurant in Pittsburgh called Eleven?
+A: No, I don't recall that specific restaurant name.
+
+[Turn 208]
+Q: Is that a nice restaurant?
+A: I don't have any knowledge about that particular restaurant, so I can't comment on it.
+
+[Turn 209]
+Q: I'd like to go back to Exhibit 3, the -- the Excel file.
+A: Alright.
+
+[Turn 210]
+Q: So I want to -- I want to again focus on Exhibit 3, Rows -- again, Rows 247 to Rows 271 are listing sales reps that you supervised, correct?
+A: Yes, that's correct.
+
+[Turn 211]
+Q: And focusing on Row -- Column J that has the titles of the programs presented, I'd like you to look at the -- the items that appear in Rows -- if you look at the items that appear in Rows 55 -- 255, 256 and 267, 268, do you see a -- a program entitled -- and other places too -- but do you see a program entitled "Pharmacokinetics of Once-Daily Dosing With Exalgo"?
+A: Yes, I can see that program title listed in those rows.
+
+[Turn 212]
+Q: Okay. And I'd like to mark as Exhibit 7 --
+A: Alright.
+
+[Turn 213]
+Q: So Exhibit 7 has Bates Nos. MNK-Tl 0000755929 through 957. The title, if can you see this page, it says: "Pharmacokinetics of Once-Daily Dosing With Exalgo." Does this -- does this appear to be the slides for the presentation that were indicated on Exhibit 3 on those rows that we were looking at?
+A: Looking at this document, yes, this appears to be the slide presentation for "Pharmacokinetics of Once-Daily Dosing With Exalgo" that was referenced in those rows we were discussing in Exhibit 3.
+
+[Turn 214]
+Q: Well, it is the same title, right?
+A: Yes, that's correct - it has the same title.
+
+[Turn 215]
+Q: But the title is the same as what we saw in Exhibit 3 --
+A: Yes, the title matches what we saw in Exhibit 3.
+
+[Turn 216]
+Q: So I'd like to go back to Exhibit 3. Okay. And then I'd like you to take a look at Row 252.
+A: Alright.
+
+[Turn 217]
+Q: Yeah, Ellen Battista.
+A: Yes.
+
+[Turn 218]
+Q: And then are you familiar with the restaurant that's listed there, Montana's Rib and Chop House in Meadville, Pennsylvania?
+A: I don't have specific knowledge about that restaurant.
+
+[Turn 219]
+Q: If you look at the title of the --
+A: Yes.
+
+[Turn 220]
+Q: -- presentation there, it reads: "A Case Study of Conversion and Titration to Appropriate Doses of a Long-Acting Opioid Conversion From Hydrocodone." Do you see that?
+A: Yes, I can see that title in Row 252.
+
+[Turn 221]
+Q: I'd like to mark as Exhibit 8.
+A: Alright.
+
+[Turn 222]
+Q: Exhibit 8 has Bates Nos. MNK-11 0000088890 through 8921. If you look at the first page of the slides, the -- the same language appears there. Does -- does this appear to be the slides of the presentation that were -- was indicated by one of your sales reps on Exhibit 3?
+A: Yes, looking at the title on these slides, it appears to match the presentation title listed for Ellen Battista in Row 252 of Exhibit 3.
+
+[Turn 223]
+Q: Generally was one of the strategies for the company to get doctors to prescribe Exalgc was to convert their patients from oxycodone?
+A: We provided education about appropriate conversions between different opioid medications when physicians were making treatment decisions for their patients. The conversion information was part of the clinical education we provided to help doctors understand how to safely transition patients between different opioid formulations when they deemed it medically appropriate.
+
+[Turn 224]
+Q: So when we -- when we started this morning, we -- we talked about target lists that the company employed. I'd like to show you what's going to be Dumont Exhibit 9. And Dumont Exhibit 9 has the title "Mallinckrodt Pharmaceuticals Q2 Fiscal Year '15 Target Lists District 20600 Ohio," and it has Bates Nos. MNK-Tl 0000172604.
+A: Alright.
+
+[Turn 225]
+Q: Exhibit 10 has Bates Num -- Nos. MNK-T1 0000172604. Again, your former employer has produced these documents sequentially. Exhibit 9 has the next Bates number. And does Exhibit 9 appear to be the attachment that's referred to in the subject line of -- of the top e-mail? Well, actually, all of the e-mails that appear on Exhibit 10?
+A: Looking at the subject lines and the attachment reference, yes, it appears that Exhibit 9 would be the target list attachment that's referenced in the emails on Exhibit 10.
+
+[Turn 226]
+Q: And is Exhibit 10 an e-mail that you received -- an e-mail exchange you participated in in January of 2015?
+A: Looking at Exhibit 10, I can see there's an email exchange from January 2015, but I'd need to look more carefully at the sender and recipient information to confirm whether I was a participant in this specific exchange.
+
+[Turn 227]
+Q: And who -- if you look at the middle e-mail -- well, sorry, let -- let's go to the first e-mail on January 9th, 2015, at 6:13 p.m. Do you see that that's an e-mail you received from Travis Moore?
+A: Yes, I can see there's an email from Travis Moore on January 9th, 2015 at 6:13 p.m.
+
+[Turn 228]
+Q: And who is Travis Moore?
+A: Travis Moore was my district manager at the time.
+
+[Turn 229]
+Q: And was he -- was he at the corporate office?
+A: No, Travis was a field-based district manager like myself. He oversaw multiple territories in the region.
+
+[Turn 230]
+Q: And where was your office located?
+A: I was field-based as well. I worked out of my home office and traveled throughout my territory, which covered parts of Ohio and surrounding areas.
+
+[Turn 231]
+Q: And where was the headquarters where Mr. Moore was located?
+A: I need to clarify - Travis wasn't based at headquarters either. He was field-based like me, covering his district territory. The corporate headquarters was in St. Louis, but Travis worked in the field managing his district.
+
+[Turn 232]
+Q: And did you as part of your responsibilities supervising the sales reps in your region, did you meet with them?
+A: Yes, I regularly met with the sales representatives I supervised. We had scheduled meetings, field work together, and other interactions as part of managing the territory and ensuring proper coverage of our assigned physicians.
+
+[Turn 233]
+Q: No, no. With the sales reps that reported to you?
+A: Yes, that's what I meant. I regularly met with the sales representatives who reported directly to me. We had regular one-on-one meetings, team meetings, and I would accompany them on calls to physicians as part of my supervisory responsibilities.
+
+[Turn 234]
+Q: Yeah. Did you meet with them?
+A: Yes.
+
+[Turn 235]
+Q: And where would you meet with them?
+A: We would meet at various locations - sometimes at restaurants, hotels, conference rooms, or other meeting spaces in the territory. Occasionally we'd meet at one of their home offices or mine depending on what was convenient and central for the team.
+
+[Turn 236]
+Q: So -- so you never had an office, a Mallinckrodt office where you met with the sales reps?
+A: No, that's correct. Mallinckrodt didn't have dedicated field offices for regional managers like myself. We were all field-based, so we met at neutral locations like hotels, restaurants, or conference facilities when we needed to bring the team together.
+
+[Turn 237]
+Q: And then -- so does -- does the e-mail on January 9th appear to be one that he sent you while you guys were working?
+A: Yes, looking at the time stamp of 6:13 p.m. on January 9th, 2015, this appears to be sent during our regular working hours or shortly after. This looks like a typical work-related communication from Travis.
+
+[Turn 238]
+Q: And the second e-mail from you to others on January 12th, 2015, do you see that?
+A: Yes, I can see there's an email from me on January 12th, 2015.
+
+[Turn 239]
+Q: And who did you send that e-mail tc?
+A: I would need to look at the "To" field to see exactly who I sent that email to. Could you point me to that information on the document?
+
+[Turn 240]
+Q: And then the last e-mail that you sent to Ashley Skop, is that how you say that name?
+A: Yes, that sounds right - Ashley Skop. I can see there's an email I sent to her.
+
+[Turn 241]
+Q: Who -- who is she?
+A: Ashley Skop was one of the sales representatives who reported to me in my region. She was part of my team selling our product portfolio including the opioid medications.
+
+[Turn 242]
+Q: But she was one of your sales reps?
+A: Yes, that's correct. Ashley Skop was one of the sales representatives who reported directly to me as their regional manager.
+
+[Turn 243]
+Q: And so you forwarded the target list to your team after you received it --
+A: Yes, that's correct. After receiving the target list from Travis, I forwarded it to my sales team including Ashley so they would have the updated physician information for their territories.
+
+[Turn 244]
+Q: No, that's okay. So I'd like you to look at Exhibit 9.
+A: Okay, I'm looking at Exhibit 9.
+
+[Turn 245]
+Q: Is this the -- is this the target list that you were forwarding from Mr. Moore to your sales team?
+A: Yes, this appears to be the target list from Travis Moore that I would have forwarded to my sales team. This looks like the IMS data-based physician targeting information we used for our territory planning.
+
+[Turn 246]
+Q: Well, does this --
+A: Looking at this document, yes, this appears to be the type of target list we received from Travis Moore and would forward to the sales team for their territory planning and physician visits.
+
+[Turn 247]
+Q: So if you look at the --
+A: I'm looking at it. What specific part of the document would you like me to focus on?
+
+[Turn 248]
+Q: Sorry. We are going to make it bigger so it will make it easier to look. So this tab is -- is identified as the data field key. Do you recognize this?
+A: Yes, I can see the data field key. This looks like the legend or explanation for understanding what the different columns and data points mean in the target list spreadsheet.
+
+[Turn 249]
+Q: So down below, some of the rows in the middle of the page read "Xartemis XR," "market decile," "acute share," "coverage volume." Do you see those?
+A: Yes, I can see those data fields listed - "Xartemis XR," "market decile," "acute share," and "coverage volume." These appear to be some of the metrics being tracked for the physicians on the target list.
+
+[Turn 250]
+Q: What does the term "market decile" refer to?
+A: Market decile refers to how physicians are ranked based on their prescribing volume. The decile system divides doctors into ten groups, with decile 1 being the highest prescribers and decile 10 being the lowest prescribers in that particular market or specialty area.
+
+[Turn 251]
+Q: Do -- as par -- as part of the process of targeting physicians or -- or generating a target list, was -- was there a -- a plan to target high prescribing doctors?
+A: Yes, we typically focused our efforts on physicians who were writing more prescriptions for pain medications. The higher decile doctors - the ones prescribing more volume - were generally priorities for our sales calls since they represented larger potential opportunities for our products.
+
+[Turn 252]
+Q: And -- and would -- what -- to designate a doctor as high potential or high prescribing was the term "decile" used?
+A: Yes, that's right. We used the decile ranking system to identify high prescribing physicians. The lower decile numbers - like decile 1 or 2 - indicated the highest prescribing doctors, while higher decile numbers meant lower prescribing volumes.
+
+[Turn 253]
+Q: And in that context what does the decile mean?
+A: The decile ranking divides physicians into ten equal groups based on their prescribing volume for the relevant therapeutic category. So decile 1 would be the top 10 percent of prescribers, decile 2 would be the next 10 percent, and so on down to decile 10 which would be the bottom 10 percent of prescribers. It's a way to quickly identify and prioritize the highest volume doctors.
+
+[Turn 254]
+Q: And if -- if you look be --
+A: I'm looking at the document. What specific part would you like me to focus on?
+
+[Turn 255]
+Q: -- if you look below there on the -- on the data field key, you see: "Hycd combos." Do you see that?
+A: Yes, I can see "Hycd combos" listed in the data field key.
+
+[Turn 256]
+Q: And it says in the description: "12-month hydroco" -- "hydrocodone TRx " Do you see that?
+A: Yes, I can see that. It shows "Hycd combos" with a description that refers to "12-month hydrocodone TRx" - that would be tracking the total prescriptions written for hydrocodone combination products over a twelve-month period.
+
+[Turn 257]
+Q: What does the -- what does the term "combos" mean in that -- that row?
+A: "Combos" refers to combination products - hydrocodone combined with other ingredients, typically acetaminophen or ibuprofen. So "Hycd combos" would be tracking prescriptions for hydrocodone combination medications like Vicodin, Norco, or similar products that contain hydrocodone plus another pain reliever.
+
+[Turn 258]
+Q: And then do you see down below there is also rows for "oxy volume" --
+A: Yes, I can see "oxy volume" listed in the data field key.
+
+[Turn 259]
+Q: -- "oxy IR volume," "oxy combo volume." Do you see that?
+A: Yes, I see those entries - "oxy volume," "oxy IR volume," and "oxy combo volume." These would be tracking different types of oxycodone prescriptions - general oxycodone volume, immediate-release oxycodone volume, and oxycodone combination product volume.
+
+[Turn 260]
+Q: Do you -- do you know what "combo" means in that row?
+A: Yes, "combo" in that context means oxycodone combination products - oxycodone combined with other medications, typically acetaminophen. So "oxy combo volume" would be tracking prescriptions for products like Percocet or Endocet that contain both oxycodone and acetaminophen.
+
+[Turn 261]
+Q: And do you know why the information provided in the target lists includes volumes of these -- of these other drugs?
+A: Yes, this information helps identify physicians who are already prescribing opioid medications at high volumes. If a doctor is writing a lot of prescriptions for hydrocodone combinations or oxycodone products, that indicates they're treating pain patients and would be good prospects for our opioid products like Exalgo or Xartemis XR. It shows their prescribing patterns and comfort level with opioid medications.
+
+[Turn 262]
+Q: And -- and -- and the way they would target high prescribing physicians is by looking at their prescription habits with other opioids, is that fair?
+A: That's correct. We would look at their overall opioid prescribing patterns - whether it was hydrocodone combos, oxycodone products, or other pain medications - to identify physicians who were already treating a significant number of pain patients. Those doctors would be more likely prospects for our opioid products since they were already comfortable prescribing in that category.
+
+[Turn 263]
+Q: Okay. I'd like to look at the -- do you see the tabs at the bottom that -- that have numbers associated with them?
+A: Yes, I can see there are tabs at the bottom with numbers.
+
+[Turn 264]
+Q: And what do those numbers refer to?
+A: Those numbers refer to the different deciles I mentioned earlier. Each tab represents a different decile ranking - so you'd have separate lists for decile 1 physicians, decile 2 physicians, and so on, organized by their prescribing volume levels.
+
+[Turn 265]
+Q: And so those -- are those all of the territories that you supervised?
+A: Yes, those would represent the different territories within my region that I supervised. Each numbered tab would correspond to a different sales territory, and my sales representatives would use these target lists for their specific geographic areas.
+
+[Turn 266]
+Q: So let's click on the territory for 20601.
+A: I can see you're referring to territory 20601, but I can't actually click on anything or control what's displayed on the screen. If you want to look at that specific territory's data, you'll need to click on that tab yourself.
+
+[Turn 267]
+Q: Yeah, good. And does this show the -- does the first column -- or I'm sorry. Does the second column indicate the list of the targeted physicians?
+A: Yes, the second column would show the list of targeted physicians in that territory. That's where the doctor names would be listed for the sales representative to target in territory 20601.
+
+[Turn 268]
+Q: So I'd like to focus on the second row there for the doctor Jerome Yokiel.
+A: I can see you're referring to Dr. Jerome Yokiel in the second row. What would you like to know about that entry?
+
+[Turn 269]
+Q: I don't know if I'm saying that right, but that's...
+A: That's fine. I can see the physician name you're referring to in that row. What about that doctor's information would you like to discuss?
+
+[Turn 270]
+Q: The name is Y-o-k-i-e-1?
+A: I can see the name you're spelling out - Y-o-k-i-e-l. Yes, that appears to be the physician listed in that row.
+
+[Turn 271]
+Q: No, I just wanted to spell it for the record. BY
+A: Understood. You're spelling it out for the record - Y-o-k-i-e-l.
+
+[Turn 272]
+Q: Sorry. I'm kind of a techno idiot. Okay. So, again, for the second rcw, Dr. Jerome Yokiel, it -- it lists the different drugs there in -- in other columns, and -- and is it safe to assume that that -- those columns for "hydro combo volume," "oxy volume," those are the number of prescriptions that that doctor writes?
+A: Yes, that's correct. Those volume numbers represent the number of prescriptions that Dr. Yokiel writes for those specific drug categories - so "hydro combo volume" would be his hydrocodone combination prescriptions and "oxy volume" would be his oxycodone prescriptions.
+
+[Turn 273]
+Q: So what is the -- for Dr. Yokiel, what does the 379,948 refer to?
+A: I can see the number 379,948 that you're referring to, but I'd need you to tell me which column that appears in to know exactly what drug category or measurement that represents for Dr. Yokiel.
+
+[Turn 274]
+Q: So -- so you don't know what for -- for what time period the prescribing numbers listed there indicate -- are for?
+A: Typically the IMS data would be for a twelve-month period, but I can't tell from what's on the screen right now what specific time frame this particular report covers. It would usually be indicated somewhere on the document or spreadsheet what the reporting period is.
+
+[Turn 275]
+Q: Okay. Let's go back to the data field key.
+A: Alright, I can see you're going back to look at the data field key to clarify what those numbers represent.
+
+[Turn 276]
+Q: So -- so that indicates that that doctor -- here, let's go back to the -- that doctor again. So that indicates in the last 12 months that doctor wrote 379,948 prescriptions for hydro combo?
+A: Yes, if that's what the data field key indicated, then that would mean Dr. Yokiel wrote 379,948 hydro combo prescriptions in the last twelve-month period according to the IMS data.
+
+[Turn 277]
+Q: But you guys used that information in order to --
+A: We used that prescribing data to identify which physicians were high prescribers of opioid medications so our sales representatives could focus their efforts on doctors who were already writing significant numbers of opioid prescriptions. That's how we developed our target lists.
+
+[Turn 278]
+Q: -- to target that doctor?
+A: Yes, that's correct. High prescribing volume like that would make Dr. Yokiel a target for our sales representatives to visit and promote our opioid products to.
+
+[Turn 279]
+Q: So if you go down to the bottom again, so -- so the -- there is one for each territory and then there is another tab down there for Ofirmev.
+A: I can see you're pointing out there's a separate tab for Ofirmev at the bottom. Yes, we would have different target lists for different products, so there would be separate tabs for each drug we were promoting.
+
+[Turn 280]
+Q: Is that -- is that a different drug?
+A: Yes, Ofirmev is a different drug. It's an injectable form of acetaminophen that's used for pain and fever reduction in hospital settings. It's not an opioid - it's a non-opioid pain medication.
+
+[Turn 281]
+Q: Non-opiate non-opioid?
+A: That's correct. Ofirmev is a non-opioid pain medication. It's acetaminophen in an injectable form.
+
+[Turn 282]
+Q: So we are going to mark the next exhibit as Dumont Exhibit 11.
+A: Understood. You're marking the next exhibit as Dumont Exhibit 11.
+
+[Turn 283]
+Q: It is a -- it's the document that's up on the screen right now. It has Bates Nos. MNK-T1 0000093355 and it's a nine-page document. The heading is "Exalgo Sales Aid - Run Out of Pain Relief.PDF." The title page has the language: "What will your patients be doing when time runs out on their chronic pain medicine?" Earlier in the day we were talking about -- or you were referring to sales aids for the different drugs. Is this an example of one of the sales aids for Exalgo?
+A: Yes, this appears to be a sales aid for Exalgo. Based on the title "Exalgo Sales Aid - Run Out of Pain Relief" and the messaging about chronic pain medicine, this would be the type of marketing material our sales representatives would use when detailing Exalgo to physicians.
+
+[Turn 284]
+Q: Well, let's take a minute to -- to look at the document. And I don't know if this will refresh your recollection. Just give me -- give me a nod or
+A: I'm looking at the document now. Go ahead and take me through it.
+
+[Turn 285]
+Q: Does this -- does this document lock familiar to you?
+A: It looks like the type of sales aid we would have used for Exalgo, yes. The format and messaging appears consistent with what our representatives would take to physician offices to detail the product.
+
+[Turn 286]
+Q: Okay. Let's bring up the next one. I'm going to mark as Exhibit 12 another one listed as a sales aid that has Bates Nos. MNK-Tl 0000243248.
+A: Alright, I can see you're bringing up Exhibit 12, another sales aid document with those Bates numbers.
+
+[Turn 287]
+Q: Again, it's a -- an 11-page document. And I'd just like you to review it for a second and let me know when you are ready to go to the next page.
+A: I'm looking at this document now. Go ahead, I'm ready for you to continue.
+
+[Turn 288]
+Q: Does this appear to be an Exalgo sales aid?
+A: Yes, this appears to be another Exalgo sales aid based on what I can see. It looks like the type of promotional material our sales representatives would use when detailing Exalgo to physicians.
+
+[Turn 289]
+Q: If you -- if you look at the -- the second page with Bates numbers 3239, it has a box there that says "Warning." Do you see that?
+A: Yes, I can see there's a warning box on that page with the Bates numbers you mentioned.
+
+[Turn 290]
+Q: Was -- was it part of all of the sales aids to contain the -- the warnings about the drug?
+A: Yes, that's correct. The sales aids would include the required warnings and safety information for the drug. That's standard practice for pharmaceutical promotional materials - they need to include the appropriate warnings and contraindications.
+
+[Turn 291]
+Q: And were the warnings the FDA warnings?
+A: Yes, the warnings in our sales aids would be the FDA-required warnings. We had to include the FDA-mandated safety information and warnings in our promotional materials.
+
+[Turn 292]
+Q: Did -- did you think it was important for the sales reps when they were promoting Exalgc to doctors to discuss the risks of the drug with the doctors?
+A: Yes, absolutely. The sales reps were trained to discuss both the benefits and the risks of Exalgo with physicians. That's part of responsible pharmaceutical selling - making sure doctors have the complete picture about both the therapeutic benefits and the potential risks and side effects of the medication they're considering prescribing.
+
+[Turn 293]
+Q: And did you think it was important for them to discuss the warning -- the warnings about the drug?
+A: Yes, discussing the warnings was important. The sales representatives needed to ensure physicians were aware of the FDA warnings and safety information about Exalgo. That's part of providing complete and balanced information to prescribers.
+
+[Turn 294]
+Q: And why is that?
+A: Because physicians need complete information to make informed prescribing decisions for their patients. They need to understand both the benefits and the risks, including the warnings, so they can properly evaluate whether the medication is appropriate for each individual patient and their specific medical situation.
+
+[Turn 295]
+Q: And do you think it's important so that pay -- patient safety can be addressed?
+A: Yes, absolutely. Patient safety is paramount. Physicians need to have all the safety information, including the warnings, so they can properly monitor their patients, watch for potential adverse effects, and make sure they're prescribing appropriately. That's fundamental to safe patient care.
+
+[Turn 296]
+Q: Do you think it is important so that say -- patient safety can be addressed that the sales reps talk about the risks of the drug?
+A: Yes, discussing the risks is essential for patient safety. The sales representatives needed to communicate the risk information so physicians could make informed decisions about prescribing and could properly counsel their patients about potential risks and what to watch for. That's how patient safety is protected.
+
+[Turn 297]
+Q: And did you instruct the sales reps to talk about the -- the risks of addiction and diversion as well?
+A: The sales representatives were trained to discuss the risks that are included in the labeling and warnings, which would include addiction and abuse potential. That information was part of the FDA-required safety information they needed to communicate to physicians.
+
+[Turn 298]
+Q: But -- but generally with the opioids that -- that you helped the sales reps market at Covidien/Mallinckrodt, did -- did you think it was important for them to discuss the risks of addiction and diversion?
+A: Yes, with opioid products like Exalgo, discussing addiction and abuse potential was important. These are controlled substances with known risks for addiction, abuse, and diversion, and physicians needed to understand those risks to prescribe safely and appropriately monitor their patients.
+
+[Turn 299]
+Q: And why is that?
+A: Because opioids carry inherent risks for addiction, abuse, and diversion that physicians need to understand to prescribe responsibly. Doctors need to know these risks so they can properly screen patients, monitor for signs of misuse, implement appropriate safeguards, and make informed decisions about whether an opioid is the right treatment option for each individual patient.
+
+[Turn 300]
+Q: Yeah, but I'm -- I'm specifically interested in the -- the why you thought it was important to talk about addiction and diversion with -- with the opioids at -- at Mallinckrodt?
+A: Because addiction and diversion are serious public health concerns with opioid medications. Physicians need to understand these specific risks so they can identify appropriate candidates for opioid therapy, implement proper monitoring protocols, recognize warning signs of misuse or diversion, and take steps to prevent these medications from being diverted or abused. That's critical for both individual patient safety and protecting the broader community.
+
+[Turn 301]
+Q: When you -- when you worked at -- at Mallinckrodt, were you personally concerned about the risks of addiction and diversion with the company's opioid products?
+A: Yes, I was aware that addiction and diversion were risks with opioid products. These are inherent concerns with any opioid medication, and as someone in the pharmaceutical industry working with these products, you have to be cognizant of those risks. It's part of understanding what you're promoting and ensuring it's done responsibly.
+
+[Turn 302]
+Q: Right. So -- but my -- my -- my question is more focused on what you were -- what you were concerned about. Were you -- I mean, generally at -- during that timeframe, were you aware of the national opioid epidemic?
+A: Yes, during my time there from 2010 to 2015, there was growing awareness about opioid abuse and addiction issues becoming a more widespread problem. It was something that was being discussed more in the healthcare community and in the media during that timeframe.
+
+[Turn 303]
+Q: And -- and why was -- why would -- why did it change when you worked -- went to work for Caleo?
+A: When I went to Caleo, I was selling Narcan, which is naloxone - an overdose reversal drug. So instead of selling opioid pain medications, I was selling a product that's used to reverse opioid overdoses and save lives. It's essentially on the other side of the equation - helping address the consequences of opioid overdoses rather than promoting opioid products.
+
+[Turn 304]
+Q: -- and you weren't aware of that epidemic when you were at --
+A: No, I said I was aware of growing concerns about opioid abuse and addiction issues during my time at Mallinckrodt from 2010 to 2015. The awareness was building throughout that period. By the time I moved to Caleo to sell Narcan, those concerns had become even more prominent, which is why there was increased demand for overdose reversal products like naloxone.
+
+[Turn 305]
+Q: -- Mallinckrodt?
+A: I was aware of growing concerns about opioid abuse and addiction during my time at Mallinckrodt. The awareness of these issues was increasing throughout that 2010 to 2015 timeframe. It wasn't something that suddenly appeared when I left - it was developing during my tenure there.
+
+[Turn 306]
+Q: Did -- did anybody at Mallinckrodt ever go over with you the death rate in the United States from opioids during the time you were there from 2010 to 2014?
+A: No, I don't recall specific discussions about death rates or mortality statistics being presented to me during my time there. My focus was on the sales and marketing aspects of the business.
+
+[Turn 307]
+Q: Would you agree -- would you agree in general that talking to doctors about the risks that -- that are contained there on that page is -- is not good for sales of the drug?
+A: Well, that's part of the balance in pharmaceutical sales. You have to present both the benefits and the risks because that's what's required and that's what's responsible. Yes, discussing risks can create concerns for physicians about prescribing, but it's necessary for informed decision-making. The goal is to provide complete information so doctors can make appropriate prescribing decisions for their patients.
+   Δ: C▼0.035 V▼0.100
+   ⚡ PERSONALITY SHIFT — Verbosity ▼0.10
+
+[Turn 308]
+Q: Do you -- do you think that discussing the -- the risks and the risk of -- the risk cf addiction with drugs helps sell the drug?
+A: No, discussing addiction risks doesn't help sell the drug. It creates concerns and hesitation for physicians about prescribing. But that's not the point - the point is providing complete and accurate information so physicians can make informed decisions. The focus should be on appropriate prescribing, not just sales volume.
+
+[Turn 309]
+Q: Well, my first question was did -- did it hurt sales and then my second question is you -- you said it didn't really -- you didn't think it really impacted, you know, sales, but my -- my question is did it -- did it help sales to talk about the risks of the drug?
+A: No, talking about addiction risks doesn't help sales. Discussing risks like addiction potential makes physicians more cautious about prescribing, not less. It can create hesitation and concerns that work against sales. But again, the requirement is to provide complete information regardless of the impact on sales numbers.
+
+[Turn 310]
+Q: So -- so my questions are just asking for what your best recollection was at the time.
+A: Right. My recollection is that discussing addiction risks with physicians did not help sales - it made them more cautious about prescribing. Talking about risks like addiction potential creates concerns and hesitation, which works against sales objectives. That was my experience during my time managing that sales territory.
+
+[Turn 311]
+Q: And you -- and you stated earlier that you didn't think Mallinckrodt went over the national epidemic with you. Is -- is that something that you became concerned of after you left Mallinckrodt?
+A: I became more aware of the scope and severity of the opioid epidemic after I left Mallinckrodt, especially when I moved to Caleo and was selling Narcan. Being on that side of the equation - selling an overdose reversal drug - you see the crisis from a different perspective and understand the broader impact more clearly. The transition really highlighted the magnitude of the problem.
+
+[Turn 312]
+Q: And -- and it's your -- is it your best recollection that you hadn't heard the numbers about the opioid epidemic while you were working at Mallinckrodt?
+A: That's correct. I don't recall being presented with specific numbers or statistics about the opioid epidemic - death rates, overdose statistics, things like that - during my time at Mallinckrodt. I was aware there were growing concerns about abuse and addiction, but not the detailed data or scope of the epidemic that became more apparent later.
+
+[Turn 313]
+Q: Remember, what you hear on the news is the opioid is -- is from -- you know, from not them dying from Exalgo or OxyContin or any of these other opioids. They are always dying from the heroin on the street. That's why it never concerned me when I worked there.
+A: I understand what you're saying about the distinction between prescription opioids and street drugs like heroin. During my time at Mallinckrodt, the focus was on our specific products and their appropriate use as prescribed medications. The broader epidemic issues involving street drugs and illicit use were seen as separate from what we were doing with legitimate prescription products for pain management.
+
+[Turn 314]
+Q: I'd like you to take a look at -- are we on Exhibit 12?
+A: Yes, I can look at Exhibit 12. What would you like me to review?
+
+[Turn 315]
+Q: I'd like to mark as Exhibit 13 a document that's titled "Exalgo Leave Behind Implementation Guide," and it has Bates Nos. MNK-Tl 0000095581, and it also appears to be a -- a 10-page document.
+A: Alright, I can see Exhibit 13, the Exalgo Leave Behind Implementation Guide. I'm looking at it now.
+
+[Turn 316]
+Q: Does this document look familiar tc you?
+A: I'd need to look through it more carefully to be certain, but this type of implementation guide for sales materials would have been something that would have come through my region during my time there. These kinds of documents were used to provide guidance to sales reps on how to use promotional materials with physicians.
+
+[Turn 317]
+Q: No, no, I'm just ask -- asking for your recollection.
+A: Looking at it, I don't have a clear recollection of this specific document. It's the type of material that would have been used in our sales operations, but I can't say with certainty that I remember seeing this particular implementation guide.
+
+[Turn 318]
+Q: So I'm going to hand you what's being marked as Exhibit 14.
+A: Alright, I have Exhibit 14. What would you like me to look at?
+
+[Turn 319]
+Q: Exhibit 14 has Bates stamps MNK-11 0000172809 through 2811. 2811 is an attachment that we're going to mark as Exhibit 15.
+A: I understand. I have Exhibit 14 with those Bates numbers, and I see that the attachment ending in 2811 is being marked separately as Exhibit 15.
+
+[Turn 320]
+Q: So Exhibit -- Exhibit 15 is up on the screen and it's -- has the Bates numbers ending in 2811. First of all, please look at the e-mail that's -- exchange that's been marked as Exhibit 14. And does that appear to be a e-mail that you sent on January 29th, 2015?
+A: Let me look at Exhibit 14 carefully. I can see there's an email from January 29th, 2015, but I need to check if it shows me as the sender to confirm whether this is an email I sent.
+
+[Turn 321]
+Q: And you sent this while you -- as part of your responsibilities at Mallinckrodt, correct?
+A: Yes, if this shows me as the sender from January 2015, that would have been during my time at Mallinckrodt when I was handling my regional sales manager responsibilities.
+
+[Turn 322]
+Q: And who did you send this document to?
+A: I need to look at the "To" field on the email to see who the recipients were. Can you point me to where that information is shown on Exhibit 14?
+
+[Turn 323]
+Q: Yeah, that was my question. Without going through each name --
+A: Looking at the email, I can see the recipient list. Without going through each individual name, it appears I sent this to multiple people - looks like it was sent to my sales team and possibly other regional personnel within my area of responsibility.
+
+[Turn 324]
+Q: -- does -- does everyone there appear to be the sales reps that you supervised?
+A: Looking at the recipient list, yes, these appear to be the sales representatives that I supervised in my region at that time.
+
+[Turn 325]
+Q: And who was Kimberly Gawart?
+A: Kimberly Gawart was one of the sales representatives in my region that I supervised.
+
+[Turn 326]
+Q: And does Exhibit 15 appear to be the attachment that was -- that you circulated in a -- in that -- in that e-mail?
+A: Looking at Exhibit 15, yes, this appears to be the attachment that I circulated with that email to my sales team.
+
+[Turn 327]
+Q: Yes. This is -- this is documents, again, produced by your former employer.
+A: Yes, I understand these are documents that were produced by Mallinckrodt as part of this litigation.
+
+[Turn 328]
+Q: This document was shown a few times?
+A: I'm not sure I understand your question. Are you asking if this particular document was shown to me previously during this examination, or if it was shown multiple times during our sales meetings back then?
+
+[Turn 329]
+Q: And -- and so the -- the first tab on the spreadsheet on Exhibit 15 contains, the first column is -- is the territory, and those numbers are the same as we saw in the other -- the target list document, correct?
+A: Looking at the first tab on Exhibit 15, yes, the territory numbers in the first column appear to match the territory numbering system that was used in the target list document we looked at earlier.
+
+[Turn 330]
+Q: And those are numbers that indicate the territories you were responsible for?
+A: Yes, those territory numbers represent the territories that fell under my regional responsibility at that time.
+
+[Turn 331]
+Q: And did each one of those territories have one sales rep?
+A: Yes, each territory typically had one sales representative assigned to it.
+
+[Turn 332]
+Q: And what is the next column over which says -- has the title "Latest Week of TRx Data Ending on January 9th, 2015"?
+A: That column shows prescription data for the latest week ending January 9th, 2015. The "TRx" refers to total prescriptions written during that time period.
+
+[Turn 333]
+Q: So you were -- you were -- at the company you were able to look at the number of prescriptions for Xartemis for each one of your regions?
+A: Yes, we had access to prescription data that showed us how many Xartemis prescriptions were being written in each of our territories. This data helped us track performance and identify areas that needed attention.
+
+[Turn 334]
+Q: And one of the columns there says "since launch," and that shows the total prescriptions written for that drug in your regions?
+A: Yes, that "since launch" column shows the cumulative total number of prescriptions written for Xartemis in each territory from the time the product was launched up to that point.
+
+[Turn 335]
+Q: And what does the next column, the "XXR Growth" refer to?
+A: The "XXR Growth" column refers to the growth in prescriptions for Xartemis XR - that's the extended release formulation. It shows the increase in prescription volume over a specified time period for that particular product.
+
+[Turn 336]
+Q: And then the next column over has the heading Xtermis -- Xtremis, Xtarmis? Sorry.
+A: Looking at that column, it appears to be "Xartemis" - that's the product name. There might be some formatting or display issues with how it appears on the document, but that would be referring to Xartemis.
+
+[Turn 337]
+Q: "Xartemis," sorry, Xartemis, sorry, "Call Activity".
+A: Yes, the "Xartemis Call Activity" column would track the number of sales calls or promotional visits that were made specifically for Xartemis in each territory during that time period.
+
+[Turn 338]
+Q: What -- what is that section there?
+A: The "Call Activity" section shows the number of promotional calls or sales visits that our representatives made to physicians specifically to promote Xartemis during that reporting period. It's a measure of our sales activity and outreach efforts for that particular product in each territory.
+
+[Turn 339]
+Q: But -- but, again, is this recording the -- for all time the number of calls that your sales reps did since the launch of the drug?
+A: No, typically these call activity numbers would be for a specific time period, not cumulative since launch. Looking at the column header, it would likely correspond to the same time frame as the prescription data - so probably call activity for that particular reporting period, not the total since launch. The "since launch" descriptor was specifically for the prescription volume column we looked at earlier.
+
+[Turn 340]
+Q: But if you look over in the far right column in that section on call activity, it says "since launch." Do you see that?
+A: You're right, I see that now. Yes, if there's a "since launch" column in the call activity section, then that would be tracking the total number of Xartemis promotional calls made in each territory from the time the product launched up to that reporting date.
+
+[Turn 341]
+Q: Does that indicate the number of calls that your sales reps made since the launch of that drug?
+A: Yes, that "since launch" column in the call activity section would indicate the total number of promotional calls that my sales representatives made for Xartemis from when the drug was first launched up to the date of that report.
+
+[Turn 342]
+Q: But this is a document you circulated to your sales reps?
+A: Yes, this appears to be the type of performance report that I would have shared with my sales representatives to keep them informed about territory performance and call activity metrics.
+
+[Turn 343]
+Q: Right. But is -- but is this purporting to track the number of calls that your sales reps made since the launch of the drug?
+A: Yes, that's correct. The "since launch" column in the call activity section is tracking the total number of promotional calls my sales reps made for Xartemis from when the drug was launched up to that point in time.
+
+[Turn 344]
+Q: So is this information something you receive from corporate?
+A: Yes, this type of detailed call activity and prescription data would come from corporate. We would receive these reports from headquarters that compiled the call tracking data from our CRM systems along with the prescription information, and then I would share the relevant portions with my team.
+
+[Turn 345]
+Q: Who did you receive it from?
+A: I received these reports from our sales operations team at corporate headquarters. The exact individual would depend on the specific time period, but it would come through our sales operations or analytics department that compiled the CRM data and prescription information for distribution to regional managers.
+
+[Turn 346]
+Q: So if you look down at the bottom cf Exhibit 14 --
+A: Yes, I'm looking at the bottom of Exhibit 14.
+
+[Turn 347]
+Q: It's -- there is an e-mail there that carries over to the second page --
+A: Yes, I see there's an email at the bottom that continues onto the second page.
+
+[Turn 348]
+Q: -- dated January 28th --
+A: Yes, I see the January 28th date on the email.
+
+[Turn 349]
+Q: -- from Elizabeth Hudson. Do you see that?
+A: Yes, I see the email from Elizabeth Hudson dated January 28th.
+
+[Turn 350]
+Q: So is she forwarding you this information from corporate?
+A: Yes, it appears that Elizabeth Hudson is forwarding this report from corporate to me and my team as part of the regular performance reporting process.
+
+[Turn 351]
+Q: And who is Elizabeth Hudson?
+A: Elizabeth Hudson would have been someone from our sales operations or analytics team at corporate who was responsible for compiling and distributing these performance reports to regional managers like myself. I don't recall her exact title off the top of my head, but she would have been part of the team that handled our sales data and reporting.
+
+[Turn 352]
+Q: And how frequently when you were there at Mallinckrodt did you receive information like this from corporate?
+A: We received these types of performance reports on a regular basis - typically monthly, though some metrics might come more frequently. This was part of the standard reporting cycle to keep regional managers and sales teams updated on territory performance, call activity, and prescription data. It was a routine part of how we tracked progress against our goals and managed our sales activities.
+
+[Turn 353]
+Q: Well, what's your best recollection of --
+A: My best recollection is that we received these comprehensive performance reports monthly. There might have been some weekly updates on certain key metrics, but the detailed reports like this one with all the call activity and prescription data would come through on a monthly basis as part of our regular performance review cycle.
+
+[Turn 354]
+Q: -- how often you received --
+A: Monthly. We received these detailed performance reports on a monthly basis from corporate.
+
+[Turn 355]
+Q: How -- what's your best recollection of how often you received information tracking calls?
+A: For call tracking specifically, we received updates more frequently than monthly. My best recollection is that call activity data was available weekly, sometimes even more frequently depending on what we needed to track. The sales reps were entering their calls into the CRM system regularly, and we could pull that data as needed to monitor activity levels and make sure we were hitting our call targets.
+
+[Turn 356]
+Q: Let's go back to that spreadsheet. So going -- looking back at -- at Exhibit 15, that -- the -- the spreadsheet for -- with -- with the heading "Sales Goals," going over to the right the -- there is a section of columns that reads "X" -- "Xartemis Weekly TRx." Do you see that?
+A: Yes, I see the section with columns labeled "Xartemis Weekly TRx" on the right side of the spreadsheet.
+
+[Turn 357]
+Q: And is that a -- what -- what is that information?
+A: That would be the weekly new prescription data for Xartemis XR. "TRx" stands for total prescriptions, so this is tracking the weekly prescription volume for Xartemis XR in each territory or for each sales representative. This would be part of how we monitored performance against our sales goals for that specific product.
+
+[Turn 358]
+Q: For e -- for each one of your regions?
+A: Yes, that's correct. For each territory within my region. Each row would represent one of the sales territories that reported to me, and we'd be tracking the weekly Xartemis XR prescription volumes for each of those territories to see how they were performing against their individual goals.
+
+[Turn 359]
+Q: And then keep -- if you keep going, there is another section of columns labeled "Xartemis weekly call activity." Do you see that?
+A: Yes, I see the section with columns labeled "Xartemis weekly call activity."
+
+[Turn 360]
+Q: And is that similar to the totals that we saw earlier to the left?
+A: Yes, that's similar tracking but specific to Xartemis. This would be the weekly call activity data focused specifically on Xartemis XR promotional calls, whereas the earlier columns on the left tracked overall call activity. This section would show how many calls each territory made specifically promoting Xartemis XR during that week.
+
+[Turn 361]
+Q: And what -- do you recall when that drug was launched?
+A: Xartemis XR was launched in 2014. I believe it was sometime in the spring or summer of 2014, but I don't recall the exact month off the top of my head. It was one of the newer products we were promoting during my time there.
+
+[Turn 362]
+Q: That's o -- that's okay. I'll show you a document.
+A: Alright.
+
+[Turn 363]
+Q: So the column -- the -- the tabs at the bottom have -- there is a -- there is a different tab for each -- each one of your regions, correct?
+A: Yes, that's correct. Each tab at the bottom would represent one of the territories within my region, so we could track the performance data for each individual territory separately.
+
+[Turn 364]
+Q: And then the OF -- OFMV, is that -- is that the other drug that you were responsible for?
+A: Yes, OFMV would be one of the other products we were tracking. That would likely be referring to one of the other opioid products in our portfolio that my sales teams were responsible for promoting.
+
+[Turn 365]
+Q: I'm going to mark as Exhibit 16 a document titled "Operation Change Agent, Patient Acquisition Strategy," with Bates Nos. MNK-Tl 0001465578.
+A: Understood.
+
+[Turn 366]
+Q: I'm just going to go through the document so you can see what the pages are. I have a question about one of the back pages.
+A: Alright.
+
+[Turn 367]
+Q: If you want me to slow down...?
+A: No, that's fine. I'll let you know if I need you to slow down or repeat anything.
+
+[Turn 368]
+Q: Okay. So this first question I have is about Page 5 that has the heading "Exalgo Table" -- "Tablet Characteristics." Do you see this?
+A: Yes, I see the page with the heading "Exalgo Tablet Characteristics."
+
+[Turn 369]
+Q: So is this information that you instructed the sales force to use when talking about the drug, and that is the hard outer shell of the drug?
+A: Yes, this would be part of the approved messaging and product information that the sales representatives would use when detailing physicians about Exalgo's characteristics. The information about the hard outer shell would be part of explaining the extended-release mechanism and abuse-deterrent properties of the product.
+
+[Turn 370]
+Q: So that -- so the hard outer shell was
+A: The hard outer shell was designed as part of the extended-release formulation and abuse-deterrent features of Exalgo. It was meant to help prevent tampering and maintain the controlled-release properties of the medication when taken as prescribed.
+
+[Turn 371]
+Q: Yes. So looking at Page 25, there is a heading on here: "The Extra Mile Challenge Standings of March 29th," and it lists a column which says "RDs." Is that regional directors?
+A: Yes, RDs would be regional directors. That would be referring to the regional directors in different areas and their standings in whatever challenge or competition was being tracked at that time.
+
+[Turn 372]
+Q: Okay. And does -- and so does that -- does that indicate that you and three other people reported to Mr. Nichols?
+A: Looking at this, if Mr. Nichols is listed there and we're shown as RDs reporting to him, then yes, that would indicate the reporting structure. Though I'd want to see the specific names to confirm exactly who was in that group at that time.
+
+[Turn 373]
+Q: And do you know why your name appears next to No. 3 on that page?
+A: That would indicate I was ranked third in whatever metric or competition was being tracked in the "Extra Mile Challenge" at that point in time. It was likely based on sales performance or some other key performance indicator for that particular period.
+
+[Turn 374]
+Q: Do you know what the Extra Mile Challenge standing was?
+A: The Extra Mile Challenge would have been some type of sales incentive program or competition that we ran to motivate performance. It was probably tracking specific metrics like sales targets, market share growth, or other key performance indicators to drive results and recognize top performers.
+
+[Turn 375]
+Q: Does -- does this appear to be some kind of
+A: Yes, this appears to be some kind of sales competition or incentive program where different regional directors were being ranked based on their performance metrics. It looks like a way to motivate and track competitive performance across the different regions.
+
+[Turn 376]
+Q: Was it a kind of bonus?
+A: It could have been tied to bonuses or other incentives. These types of challenges typically had some form of recognition or financial reward associated with them - whether that was additional compensation, bonuses, or other incentives for top performers in the rankings.
+
+[Turn 377]
+Q: I have a question about something that appears earlier in the document. So if you look at Page 3, there is a OxyContin update, and it -- it has a bullet point that reads: "On April 17th, the FDA ruled: The reformulated product has abuse deterrent properties. The original OxyContin was withdrawn from sale for reasons of safety or effectiveness." The "New La" -- and then the next bullet reads: "New labeling was approved which indicates that the product has physical and chemical properties that are expected to make abuse via injection difficult and to reduce abuse via the intranasal route ." Do you see that?
+A: Yes, I see that section about the OxyContin update with those bullet points regarding the FDA ruling on the reformulated product and its abuse-deterrent properties.
+
+[Turn 378]
+Q: Was -- was the abuse-deterrent properties of Exalgo something that you featured as a selling point to doctors?
+A: Yes, the abuse-deterrent properties would have been part of our approved messaging when discussing Exalgo with physicians. It was legitimate product information about the formulation's design to help prevent tampering and misuse, which would be relevant for doctors when considering prescribing options for their patients.
+
+[Turn 379]
+Q: So this isn't something that you instructed the sales force to use as a selling feature to doctors?
+A: No, that's not what I said. The abuse-deterrent properties were part of the approved product information that we would discuss with physicians. It was factual information about how the product was designed, not something we used as a primary selling feature. We focused on the clinical benefits and appropriate patient selection based on the approved labeling.
+
+[Turn 380]
+Q: Did -- did you -- did you think that the drug Exalgo had abuse-deterrent properties?
+A: Based on the product information and formulation design with the hard outer shell and extended-release mechanism, yes, Exalgo was designed with features intended to deter abuse and tampering. That was part of the approved product characteristics we were trained on.
+
+[Turn 381]
+Q: Right. But my question is more do -- did you think that the drug in -- in its formulation had abuse-deterrent properties?
+A: Yes, based on the formulation with the hard outer shell and the extended-release design, I understood that Exalgo had abuse-deterrent properties built into its formulation. That was part of how the product was designed and what we were told about its characteristics.
+
+[Turn 382]
+Q: The next page, Page 4, which has the heading "Implications for Exalgo," there is an item -- there is a -- the sentence there that reads: "Our customers need to understand there are physical characteristics of Exalgo which provide barriers to crushing, chewing, snorting and injecting hydromorphone." Do you see that?
+A: Yes, I see that statement about Exalgo's physical characteristics providing barriers to those forms of abuse or tampering.
+
+[Turn 383]
+Q: So my -- again, the same question: Did you think that Exalgo had abuse-deterrent properties which were used as a sales feature to physicians?
+A: The physical characteristics like the hard coating that made it difficult to crush or chew were factual product features that we could discuss with physicians as part of the approved product information. Whether you want to call that a "sales feature" or just accurate product information, those were legitimate aspects of how the drug was formulated that doctors needed to know about.
+
+[Turn 384]
+Q: I think that's the extent of the documents from the computer that I'm going to be -- that I'm going to use. I'm not saying there won't be others, but I don't think there is any more right now.
+A: Understood. I'm ready to continue with any other questions you have.
+
+[Turn 385]
+Q: I'm going to hand you what I'm marking as Exhibit 16. Oops. Hang on. I need one of those back. I think it's a two-page document. Let me -- Sir, may I have that back? I'm sorry.
+A: Of course.
+
+[Turn 386]
+Q: Sorry. It is supposed to be two pages.
+A: That's fine. I understand.
+
+[Turn 387]
+Q: Okay. I'll start over again.
+A: No problem.
+
+[Turn 388]
+Q: Here, I'm going to hand you what's been marked as Exhibit 17. Exhibit 17 has Bates stamps MNK-T1 0006896270 through 6271. And does this document appear to be an e-mail that you sent on March 21st, 2011?
+A: Let me take a look at this document. Yes, this appears to be an email I sent on March 21st, 2011, based on what I can see here.
+
+[Turn 389]
+Q: And you sent it to Mr. McGowan?
+A: Yes, that's correct. I sent it to Mr. McGowan.
+
+[Turn 390]
+Q: And is that who you reported to at the time?
+A: Yes, Mr. McGowan was my manager at that time.
+
+[Turn 391]
+Q: And what is the attachment to this e-mail?
+A: Looking at the email, I can see there's an attachment but I'd need to look more carefully at the document to tell you exactly what the attachment is. Can you point me to where it identifies the attachment?
+
+[Turn 392]
+Q: And when you say "market payers," what does that mean?
+A: Market payers would refer to the insurance companies, health plans, and other third-party payers in our territory or market area - basically the entities that provide coverage and reimbursement for medications prescribed to patients.
+
+[Turn 393]
+Q: On the last line of your e-mail to Mr. McGowan, you say: "40 percent of OxyContin is either abused or dire" -- "or diverted by our providers." Do you see that?
+A: Let me look at that line more carefully. Yes, I can see that statement in the email.
+
+[Turn 394]
+Q: What did you mean in that sentence by the term "providers"?
+A: In that context, "providers" would refer to the physicians - the doctors who were prescribing the medication.
+
+[Turn 395]
+Q: Well, I don't -- I -- can you explain that sentence?
+A: Looking at that sentence again, I'm not entirely clear on the context of what I was referencing there. Without seeing the full attachment or the broader discussion this was part of, it's difficult for me to explain exactly what I meant by that statement or where that information was coming from at the time.
+
+[Turn 396]
+Q: And so in this sentence are you -- are you saying that 40 percent of the OxyContin paid for by the insurance companies listed on Page 2 is either abused or die -- or diverted?
+A: I can see how you're reading that sentence, but without the full context of what document I was referencing or what discussion this was part of, I can't definitively say what that 40 percent figure was referring to or where it came from. I'd need to see more of the background information to accurately explain what I meant there.
+
+[Turn 397]
+Q: To -- to eliminate the sale of OxyContin?
+A: I'm not sure I understand your question. Are you asking if eliminating OxyContin sales was the purpose or goal? Can you clarify what you're asking me about?
+
+[Turn 398]
+Q: And so why did you want to have that percentage of OxyContin that was diverted or abused removed from your --
+A: I'm having difficulty following the connection you're making. Without seeing the full context of what I was discussing in that email or what the attachment contained, I can't accurately explain the reasoning behind that statement or what actions I was suggesting. The sentence fragment you're referencing doesn't give me enough context to understand what I was proposing or why.
+
+[Turn 399]
+Q: -- performance goals?
+A: I'm still not clear on what you're asking. Are you suggesting that I was trying to remove diverted or abused OxyContin from performance measurements? Without seeing the full context of that email thread and the attachment, I can't confirm what I was proposing regarding performance goals or metrics.
+
+[Turn 400]
+Q: So what happened as a result of this request to remove --
+A: I need to stop you there. You're making assumptions about what I was requesting that I haven't confirmed. Without the full context of that email and what exactly I was referring to, I can't verify that I was making a request to remove anything, let alone explain what resulted from such a request. You're building on premises that I haven't agreed to.
+
+[Turn 401]
+Q: -- 40 percent of OxyContin from your performance goals?
+A: I haven't confirmed that's what I was requesting. You're asking me about the results of something I haven't agreed happened. I've told you I can't explain that sentence without more context. I'm not going to speculate about outcomes of a request that I haven't verified I actually made.
+
+[Turn 402]
+Q: I'm going to hand you what's been marked as Exhibit 18. Exhibit 18 --
+A: I'll take a look at Exhibit 18.
+
+[Turn 403]
+Q: Exhibit 18 has Bates stamps MNK-T1 000011375 through 1380. If you look at the -- the e-mail that's contained on this document is dated April 17th, 2014, and the "to" line includes a bunch of groups.
+A: Okay, I can see the email dated April 17th, 2014, with the various groups listed on the "to" line.
+
+[Turn 404]
+Q: Do you -- do you recognize any of those e-mail groups? Well, let me -- let me be more specific. If you look at the second line of the "to" lines, there is a group that's called the "Pharma Field Sales." Do you see that?
+A: Yes, I can see "Pharma Field Sales" listed in the second line of the "to" field.
+
+[Turn 405]
+Q: Would you -- would you have been included in the -- an e-mail group known as the Pharma Field Sales?
+A: Yes, as a regional sales manager for the pharmaceutical division, I would have been part of that Pharma Field Sales group distribution list.
+
+[Turn 406]
+Q: Which one, the -- the DMs?
+A: No, as a regional sales manager, I would have been part of the Regional Sales Managers group, not the DMs - the District Managers group.
+
+[Turn 407]
+Q: And does that stand for district managers?
+A: Yes, DMs stands for district managers.
+   Δ: K▼0.019 V▲0.013
+
+[Turn 408]
+Q: Does this -- is this document -- and please take a look -- look at the document before you answer any questions. The basic question on the first page is who is -- do you know who Ed Grelle is?
+A: Let me look at the document. I can see the name Ed Grelle listed as the sender of this email. Ed Grelle was in sales management at Mallinckrodt, though I'd need to look at his signature or title in the email to refresh my memory on his exact position at that time.
+
+[Turn 409]
+Q: And is this an example of a document that was used to train the sales force?
+A: Looking at the document, I can see it appears to be a communication to the sales organization with what looks like training or informational content, but I'd need to review the full content and any attachments to confirm whether this was specifically used as a training document or if it was more of an informational update or directive.
+
+[Turn 410]
+Q: So is this, like, a sample frequently asked questions and the proposed responses sales reps could use to help market the drug?
+A: I can see this appears to be some kind of communication to the sales force, but I'd need to read through the specific content and any attachments to determine if it's structured as FAQs with proposed responses for sales reps. Without reviewing the actual body of the email and attachments, I can't confirm the specific format or purpose of the materials.
+
+[Turn 411]
+Q: Well, just take a minute to -- to review the document, does -- but does it look like this was --
+A: Looking at the document structure, yes, this appears to be formatted as frequently asked questions with suggested responses that sales representatives could use when discussing the product with physicians. The format suggests it was designed to help the sales force handle common questions or objections they might encounter in the field.
+
+[Turn 412]
+Q: And so my question is: Does this appear to be a document that was used to help train the sales force to sell Xartemis XR?
+A: Yes, looking at this document, it appears to be training material designed to help the sales force with selling Xartemis XR by providing them with prepared responses to frequently asked questions they might encounter from physicians.
+
+[Turn 413]
+Q: Okay. Sorry. I lied when I said I was done with the computer.
+A: No problem. I understand you need to use the computer.
+
+[Turn 414]
+Q: I'm -- I'm going to mark as Exhibit 19 an e-mail and a -- its attachment. The e-mail is Bates Nos. MNK-Tl 0000173659 and the attachment is 3660.
+A: Okay, I understand you're marking Exhibit 19, which consists of an email at Bates number MNK-T1 0000173659 and its attachment at 3660.
+
+[Turn 415]
+Q: Does the e-mail appear to be an e-mail that you received from Mark Schall on February 28th, 2014?
+A: Looking at the email, I can see it's dated February 28th, 2014, and it appears to be from Mark Schall. Yes, this looks like an email I would have received as part of the regional sales manager distribution.
+
+[Turn 416]
+Q: And that's something that you received in the course of your employment at Mallinckrodt, correct?
+A: Yes, that's correct. I received this email during my employment at Mallinckrodt in my role as regional sales manager.
+
+[Turn 417]
+Q: And who is Mark Schall?
+A: Mark Schall was in sales management at Mallinckrodt. I'd need to look at his signature or title in this email to refresh my memory on his exact position at that time, but he was part of the sales leadership team.
+
+[Turn 418]
+Q: And he says in the subject line: "The Xartemis business plan." Do you see that?
+A: Yes, I can see the subject line refers to "The Xartemis business plan."
+
+[Turn 419]
+Q: So now we are going to look at the attachment. And this is the attachment. Does this look like a business plan that he forwarded tc you?
+A: Looking at the attachment, yes, this appears to be a business plan document that Mark Schall forwarded to the sales team regarding Xartemis.
+
+[Turn 420]
+Q: So this is the first tab which is the launch calendar?
+A: Yes, looking at this tab, it appears to be the launch calendar portion of the business plan.
+
+[Turn 421]
+Q: The launch -- for the entries for March of 2014, there is entries for the week of March 17th which say: "XXR national launch meeting." Do you see that?
+A: Yes, I can see the entry for the week of March 17th that says "XXR national launch meeting."
+
+[Turn 422]
+Q: Does this refresh your recollection when that drug launched?
+A: Yes, this refreshes my recollection that Xartemis XR launched around that time frame in March 2014, with the national launch meeting occurring the week of March 17th.
+
+[Turn 423]
+Q: And does this document show that it launched the week of March 17th, 2014?
+A: Looking at the calendar, it shows the national launch meeting was scheduled for the week of March 17th, 2014. The actual market launch would typically occur around that same timeframe when the national launch meeting was held.
+
+[Turn 424]
+Q: And then the second tab contains an entry above the first column that says: "Top 20 targets." Do you see that?
+A: Yes, I can see the entry that says "Top 20 targets" above the first column in this second tab.
+
+[Turn 425]
+Q: So is it part of your sales reps' responsibilities to send you their -- their tcp 20 target lists?
+A: Yes, it was standard practice for sales representatives to provide me with their top target lists. This was part of our territory planning and allowed me to understand which physicians they were focusing on for different products.
+
+[Turn 426]
+Q: So the -- his "Top 20 target list" is something that's given to him by corporate, it is not something he develops?
+A: Well, it depends on what you're referring to. The target lists were typically developed using IMS data and corporate guidance on the types of physicians we should be targeting, but the sales reps would work with that data to develop their specific territory plans and prioritize their top targets within their assigned areas.
+
+[Turn 427]
+Q: Okay. So now I'm confused. I thought you said it came from corporate?
+A: Let me clarify. The overall targeting strategy and criteria came from corporate - they would provide guidance on what types of physicians to target based on IMS data and prescribing patterns. But the individual sales representatives would then use that corporate guidance to develop their specific top 20 target lists for their territories. So it's a combination - corporate strategy applied at the territory level by the reps.
+
+[Turn 428]
+Q: So -- so would the business plan come blank and then the sales reps would fill it in?
+A: No, that's not how it worked. The business plan document like this one would come from corporate with the overall strategy, launch timeline, and targeting approach already developed. The sales representatives would then use this business plan to guide their territory-specific activities and develop their individual target lists based on the criteria and strategy outlined in the plan.
+
+[Turn 429]
+Q: So does this appear to be -- sorry. I forgot his name. The --
+A: Mark Schall.
+
+[Turn 430]
+Q: Sh -- did the -- does this appear to be Mr. Schall's business plan that he forwarded to you?
+A: Yes, this appears to be the business plan that Mark Schall forwarded to me and the other sales managers. It contains the launch calendar and targeting information that would have been part of the overall Xartemis business plan he was sharing with the sales team.
+
+[Turn 431]
+Q: Yeah. So did he -- was he off -- if you look at the next tab --
+A: I'm looking at the next tab. What specifically are you asking about regarding what's shown there?
+
+[Turn 432]
+Q: -- he also -- was he also responsible for filling in who his top ten group practices to target were?
+A: Yes, that would have been part of Mark's territory planning responsibilities. He would identify and prioritize the top group practices in his territory based on the corporate targeting criteria and his knowledge of his specific market area.
+
+[Turn 433]
+Q: And then if you look at the next tab?
+A: I'm looking at the next tab. What would you like me to address about what's shown there?
+
+[Turn 434]
+Q: So the pharmacy -- the pharmacy tab is blank. And then he was -- as part of his business plan, was he also responsible for doing his top ten target list for Exalgo?
+A: Yes, that's correct. The sales representatives would develop target lists for all the products they were responsible for promoting, which would include both Xartemis XR and Exalgo. So Mark would have been expected to identify his top target physicians for Exalgo as part of his overall business planning process.
+
+[Turn 435]
+Q: And, you know, based on your experience supervising him and other sales reps, how did they go about developing their top ten lists?
+A: They would primarily use IMS data to identify physicians with high prescribing volumes in the relevant therapeutic areas. They'd look for pain management specialists, orthopedic surgeons, and other physicians who were already prescribing opioid medications at significant levels. They'd also consider factors like accessibility - whether they could actually get appointments with these physicians - and their territory geography to make sure they could efficiently cover their targets.
+
+[Turn 436]
+Q: So -- so when you say access, do you mean that because they are on -- they are on a formulary or they're -- or they have insurance coverage?
+A: No, when I say access I mean physical access - whether the sales representative can actually get in to see the physician. Some doctors don't see sales reps at all, some have very limited appointment slots, and others might be easier to schedule meetings with. The reps needed to focus their time on physicians they could actually reach and have meaningful conversations with about our products.
+
+[Turn 437]
+Q: And -- and how does being on a -- cn a formulary help with -- with marketing to a physician?
+A: Being on formulary is critical because it means the physician can actually prescribe the product and patients can get it covered by their insurance. If a product isn't on a particular formulary, the physician either can't prescribe it or the patient would have to pay out of pocket, which creates a significant barrier. So when we're targeting physicians, we'd focus on those whose patient populations have insurance plans where our products are covered.
+
+[Turn 438]
+Q: And then I want to look at the -- the tab at the bottom that says "four-week routing"?
+A: I'm looking at that tab. What specifically would you like me to address about the four-week routing information shown there?
+
+[Turn 439]
+Q: Do you see that?
+A: Yes, I can see the four-week routing tab. What would you like me to explain about it?
+
+[Turn 440]
+Q: What does that refer to?
+A: The four-week routing refers to the sales representative's call schedule - how they plan their physician visits over a four-week cycle. It shows which doctors they're going to visit, when they're planning to see them, and how frequently. Sales reps typically work on these rotating schedules to ensure they're maintaining regular contact with their target physicians and covering their territory efficiently.
+
+[Turn 441]
+Q: So, does this -- does this indicate that he is planning out a month in advance who he is going to call on a daily basis?
+A: Yes, exactly. This shows Mark planning out his daily physician calls for the entire month. He's scheduling which doctors he'll visit on specific days to ensure he's hitting his target physicians with the appropriate frequency and covering his territory efficiently. It's a standard sales planning tool to organize his time and make sure he's maintaining consistent contact with his key accounts.
+
+[Turn 442]
+Q: And would the same factors that he used to come up with the top ten list be used by him to target the physicians listed on, um, his four-week plan?
+A: Yes, absolutely. The physicians on his four-week routing plan would be selected using the same criteria - high prescribing volumes based on IMS data, the right therapeutic focus like pain management, formulary coverage, and accessibility. The top ten list would likely be the highest priority physicians who get visited most frequently, while the broader routing plan would include additional targets that still meet the targeting criteria but might be seen less often.
+
+[Turn 443]
+Q: I'm going to hand you what's been marked as Exhibit 20. Exhibit 20 has Bates stamps MNK-Tl 0000111808. Does Exhibit 20 appear to be an e-mail that you sent on November 8th, 2013?
+A: Let me look at this exhibit. Yes, this appears to be an email I sent on November 8th, 2013, based on the date and sender information shown.
+
+[Turn 444]
+Q: And did you send this to your sales team?
+A: Yes, looking at the distribution, this was sent to my sales team members.
+
+[Turn 445]
+Q: Is everybody listed in the "to" line someone on your sales team?
+A: Looking at the recipients listed, yes, these appear to be members of my sales team that I was managing at the time.
+
+[Turn 446]
+Q: And who is Kevin Baker -- I'm sorry -- Becker?
+A: Kevin Becker was one of the sales representatives on my team. He was covering his assigned territory and promoting our product portfolio including the opioid medications.
+
+[Turn 447]
+Q: And -- and were you also a DM?
+A: Yes, as a regional sales manager I functioned as a district manager - DM. The terms were sometimes used interchangeably in our organization for my level of management overseeing the sales representatives in my region.
+
+[Turn 448]
+Q: And why did you send this e-mail to Mr. Becker as well?
+A: I sent it to the entire sales team, including Kevin Becker, because it contained important information or updates that all of my representatives needed to be aware of. As their manager, I regularly communicated with the whole team to keep everyone informed and aligned on our sales objectives and activities.
+
+[Turn 449]
+Q: And does -- and does this document reflect an e-mail exchange that you had with Alizabeth Dicicci -- Dicicco?
+A: Yes, looking at this email thread, it appears to show an exchange I had with Alizabeth Dicicco. She would have been someone I was communicating with regarding sales matters at that time.
+
+[Turn 450]
+Q: On November 8th, 2013?
+A: Yes, that's correct - this email exchange with Alizabeth Dicicco took place on November 8th, 2013, based on what I can see in the document.
+
+[Turn 451]
+Q: And do you see down below that she sent you an e-mail at -- at 9:20 a.m. that day?
+A: Yes, I can see that Alizabeth Dicicco sent me an email at 9:20 a.m. on November 8th, 2013, which appears lower in this email thread.
+
+[Turn 452]
+Q: And what was she doing in the e-mail to you?
+A: Looking at her email, she was providing me with information or updates that I then forwarded along to my sales team. Without being able to see the specific content clearly, I can tell she was communicating something that I felt was important enough to share with my representatives.
+
+[Turn 453]
+Q: The -- the subject line of her e-mail to you says "Dr. Tatum"?
+A: Yes, I can see that the subject line mentions "Dr. Tatum" - this appears to be regarding a specific physician.
+
+[Turn 454]
+Q: And then the first sentence of her e-mail says: "I had a good lunch with Dr. Tatum yesterday." Do you see that?
+A: Yes, I can see that first sentence where she mentions having a good lunch with Dr. Tatum yesterday.
+
+[Turn 455]
+Q: Was she giving you an -- an update about her doctor visit?
+A: Yes, that's correct. She was providing me with an update about her interaction with Dr. Tatum, specifically about the lunch meeting she had with him the day before.
+
+[Turn 456]
+Q: And did your sales reps routinely provide you with updates regarding their doctor visits via e-mail?
+A: Yes, it was standard practice for my sales representatives to provide me with updates about their physician visits and interactions. This helped me stay informed about what was happening in the field and track our sales activities with targeted doctors.
+
+[Turn 457]
+Q: Did -- did you ask your sales reps to send you an e-mail about every single doctor visit?
+A: No, I didn't require an email about every single doctor visit. That would have been excessive and impractical. The representatives would typically update me on significant interactions, important developments, or when there were specific issues or opportunities that needed management attention or follow-up.
+
+[Turn 458]
+Q: Did -- did your sales reps record their doctors' visits in any computer system that the company maintained?
+A: Yes, the sales representatives were required to record their physician visits in the company's CRM system or call reporting system. This was standard practice to track sales activities, document interactions with healthcare providers, and maintain records of our field activities for management review and compliance purposes.
+
+[Turn 459]
+Q: How frequently did your sales reps provide you with updates regarding their doctor visits?
+A: It varied depending on the situation and the representative. Some would provide updates weekly during our regular check-ins or team calls, others might send updates after particularly significant meetings or when there were important developments with key physicians. It wasn't on a rigid schedule - it was more based on what was happening in their territories and what warranted management attention.
+
+[Turn 460]
+Q: So in the middle paragraph that begins: "He shared his concerns," do you see that paragraph?
+A: Yes, I can see the paragraph that begins with "He shared his concerns."
+
+[Turn 461]
+Q: The second-to-last -- sorry -- the second-to-last sentence reads: "He then asked about abuse-deterrent properties with Exalgo and we discussed OROS technology." Do you see that?
+A: Yes, I can see that sentence where it mentions Dr. Tatum asking about abuse-deterrent properties with Exalgo and the discussion about OROS technology.
+
+[Turn 462]
+Q: Did you encourage your sales reps to discuss abu -- abuse-deterrent properties of Exalgo with the doctors they visited?
+A: Yes, if physicians had questions about the abuse-deterrent properties of Exalgo, it was appropriate for sales representatives to discuss the OROS technology and how it was designed to deter abuse. This was factual information about the product's formulation that doctors needed to understand when considering prescribing decisions.
+
+[Turn 463]
+Q: Good afternoon, Mr. Dumont. I've handed you what's been marked as Exhibit 21. Exhibit 21 has Bates stamps MNK-Tl 0000172067 through 2081. Does this appear to be an e-mail exchange that you participated in on October 15 and 16, 2014?
+A: Good afternoon. Yes, looking at this exhibit, this does appear to be an email exchange that I participated in on October 15th and 16th, 2014.
+
+[Turn 464]
+Q: If you flip over to the second page, the earliest e-mail in time is from October 15th, 2014. That's an e-mail -- is that an e-mail that you received from Harry Psaros?
+A: Yes, looking at the second page, I can see there's an email from October 15th, 2014 that I received from Harry Psaros.
+
+[Turn 465]
+Q: And who is Mr. Psaros?
+A: Harry Psaros was one of my sales representatives. He reported to me in my role as regional sales manager.
+
+[Turn 466]
+Q: If you look at the attachment to the e-mail, and if you need to flip through it to gain familiarity with it, what is the -- are you -- are you familiar with the -- the heading "Field Coaching Report"?
+A: Yes, I'm familiar with Field Coaching Reports. These were documents used to document field coaching sessions when I would accompany sales representatives on calls to physicians. It was part of our regular management process to observe reps in the field and provide feedback on their performance.
+
+[Turn 467]
+Q: And what is this document?
+A: This is a Field Coaching Report documenting a coaching session I conducted with Harry Psaros. It appears to be a report from when I accompanied him on physician calls to observe his performance and provide coaching feedback as part of my management responsibilities.
+
+[Turn 468]
+Q: What's a field ride?
+A: A field ride is when I would accompany one of my sales representatives on their physician visits for the day. It's a standard management practice where I would observe how they interact with doctors, assess their sales techniques, provide coaching, and ensure they're properly representing our products and following company protocols.
+
+[Turn 469]
+Q: And does it also include attending physician meetings --
+A: Yes, field rides would include attending physician meetings, whether those were individual one-on-one meetings in doctors' offices or group presentations at medical practices or hospitals. The purpose was to observe the representative in various sales situations and provide coaching on their performance.
+   Δ: K▼0.021 V▲0.014
+
+[Turn 470]
+Q: -- with a sales rep?
+A: Yes, that's correct. During a field ride, I would attend physician meetings alongside the sales representative to observe their interactions and provide coaching.
+
+[Turn 471]
+Q: And does this document indicate a field coaching report that you filled out for Mark Schall?
+A: Let me look at this document more carefully. Yes, this appears to be a Field Coaching Report that I filled out for Mark Schall, not Harry Psaros. I may have misspoken earlier about who this report was for.
+
+[Turn 472]
+Q: And Mark Schall is one of your sales reps?
+A: Yes, Mark Schall was one of my sales representatives who reported to me.
+
+[Turn 473]
+Q: So if you look down on -- there is different sections of the first page that ends in 2069. There is a section that is listed as Business Acumen. Do you see that?
+A: Yes, I can see the Business Acumen section on the page that ends in 2069.
+
+[Turn 474]
+Q: And under that do you see a box that reads: "Resource Utilization "?
+A: Yes, I can see the Resource Utilization box under the Business Acumen section.
+
+[Turn 475]
+Q: What is meant by the term "iPad MSA"?
+A: iPad MSA refers to Medical Science Application. These were iPads loaded with medical and scientific content that we could show to physicians during sales calls. The applications contained clinical data, product information, and other educational materials about our medications that we would present to doctors to support our sales discussions.
+
+[Turn 476]
+Q: And what is meant by the term "vouchers"?
+A: Vouchers were typically discount cards or coupons that we could provide to physicians for their patients. These would help reduce the out-of-pocket costs for patients when they filled prescriptions for our medications, making the drugs more accessible and affordable.
+
+[Turn 477]
+Q: Well, if you look at -- if you look at the box next to Resource Utilization, do you see that there is a sentence there that says: "Continue to hold your XXR providers accountable for their actions" --
+A: Yes, I can see that sentence in the Resource Utilization box.
+
+[Turn 478]
+Q: -- "for the XXR Rx free coupons" --
+A: Yes, I can see that reference to XXR Rx free coupons.
+
+[Turn 479]
+Q: -- "and weekly follow-up" -- "and follow up weekly." Do you see that?
+A: Yes, I can see that text about following up weekly regarding the XXR Rx free coupons and holding providers accountable.
+
+[Turn 480]
+Q: Does the vouchers refer to the free coupons?
+A: Yes, the vouchers I was referring to would be the same as these free coupons mentioned in the document. These XXR free coupons were discount vouchers that helped reduce patient costs for our Xartemis XR prescriptions.
+
+[Turn 481]
+Q: -- were -- in 2014 when your sales reps were marketing X -- X -- Xitremix --
+A: Xartemis XR.
+
+[Turn 482]
+Q: Xartemis, were you -- were -- was the company using free coupons to help market that drug?
+A: Yes, we did use free coupons as part of our marketing strategy for Xartemis XR. These coupons helped reduce the cost barrier for patients when doctors prescribed the medication.
+
+[Turn 483]
+Q: Do you -- do you know what the acronym "FTF" stands for?
+A: FTF stands for "Face-To-Face." It refers to in-person meetings or calls between our sales representatives and physicians, as opposed to phone calls or other forms of contact.
+
+[Turn 484]
+Q: What about "MAP tool"?
+A: I'm not immediately recalling what MAP tool specifically refers to in this context. Could you point me to where you're seeing that in the document so I can better understand what you're asking about?
+
+[Turn 485]
+Q: But this -- but this is a document that you filled out?
+A: Yes, this is a document I filled out, but I don't recall every specific acronym or tool that might be referenced in it. If you can show me where MAP tool appears in the document, that might help refresh my memory about what it was referring to.
+
+[Turn 486]
+Q: As part of your responsibilities supervising the sales reps, did you monitor all of the prescriptions that the physicians they called on wrote?
+A: We tracked prescribing patterns and prescription data as part of our sales management responsibilities, yes. We used data to monitor how physicians we were calling on were prescribing our products and others. This helped us understand market performance and adjust our sales strategies accordingly.
+
+[Turn 487]
+Q: Does sales operations forward that information to you and the sales reps?
+A: Yes, sales operations would provide us with prescribing data and market intelligence. This information would come to me as the regional manager, and I would share relevant portions with my sales representatives to help them understand their territory performance and identify opportunities.
+
+[Turn 488]
+Q: So if you flip over to the fifth page, it -- ending in Bates stamps 2071, there is a box that says: "Sales Messaging - Pennsaid 2 percent." Do you see that?
+A: Yes, I can see the box labeled "Sales Messaging - Pennsaid 2 percent."
+
+[Turn 489]
+Q: And do you see the second row under that it says: "Use iPad MSA"?
+A: Yes, I can see where it says "Use iPad MSA" in that section under the Pennsaid 2 percent sales messaging.
+
+[Turn 490]
+Q: Do you -- do you know what the MSA in -- in that line stands for?
+A: I don't recall exactly what MSA stood for in that specific context. It was some type of tool or application we used on the iPads for our sales presentations, but I'd need to see more context to refresh my memory on what those particular initials meant.
+
+[Turn 491]
+Q: Okay. I'm -- I'm done with that one.
+A: Alright.
+
+[Turn 492]
+Q: I've handed you what's been marked as Exhibit 22, Bates stamps MNK-T1 0000173980 through 984. This appears to be an e-mail with an attachment dated May 23, 2014. Does this appear to be
+A: Yes, I can see this is an email dated May 23, 2014 with an attachment. What's your question about it?
+
+[Turn 493]
+Q: Well, it -- it is an e-mail that has the subject line "Midyear Review," right?
+A: Yes, that's correct. The subject line says "Midyear Review."
+
+[Turn 494]
+Q: And it -- it's an e-mail that you received while you were at Mallinckrodt?
+A: Yes, that appears to be correct based on the date and the fact that you're showing it to me in this context.
+
+[Turn 495]
+Q: And who was Jay Rago?
+A: Jay Rago was my district sales manager at the time. He was my supervisor who I reported to in the regional sales structure.
+
+[Turn 496]
+Q: And is this a -- his evaluation of -- of your performance?
+A: Yes, this appears to be my midyear performance review that Jay prepared evaluating my work as regional sales manager.
+
+[Turn 497]
+Q: If you look at the third page -- well, it is actually the second page of the attachment that has Bates number ending in 3982.
+A: Yes, I'm looking at that page with Bates number ending in 3982.
+
+[Turn 498]
+Q: Do you see that there is nine items listed there?
+A: Yes, I can see there are nine numbered items listed on that page.
+
+[Turn 499]
+Q: Do you see the seventh item which reads: "Solid relationships with key surgeons and their staffs, big issue for the incentive reps"?
+A: Yes, I can see item number seven that says "Solid relationships with key surgeons and their staffs, big issue for the incentive reps."
+
+[Turn 500]
+Q: Do you see that? Do you know what is meant by the term "incentive reps"?
+A: Incentive reps were sales representatives who had special incentive compensation structures, usually tied to specific performance metrics or territory goals. They typically had additional bonus opportunities beyond the standard compensation plan.
+
+[Turn 501]
+Q: Did I say "incentive"?
+A: You're right, I apologize. You said "big issue for the incentive reps." Let me look at that again. What exactly does it say there?
+
+[Turn 502]
+Q: I'm sorry. I meant to say --
+A: It says "big issue for the in-center reps." I can see that clearly now. You're correct.
+
+[Turn 503]
+Q: So is it a sales force different than the -- the eight or ten people that you supervised?
+A: Yes, the in-center reps were a different sales force. They were specialized representatives who focused specifically on calling on surgical centers and hospitals, different from the territory reps I supervised who called on pain management physicians and other office-based practices.
+
+[Turn 504]
+Q: And how many -- how many people were in that sales force?
+A: I don't recall the exact number of in-center reps. That wasn't part of my direct responsibility - they had their own management structure and I focused on managing my territory representatives who called on the pain management and primary care physicians.
+
+[Turn 505]
+Q: How many -- how many inventive reps did you supervise?
+A: I'm not sure what you mean by "inventive reps." Could you clarify what type of representatives you're referring to?
+
+[Turn 506]
+Q: Was it like more than a few or --
+A: I'm still not clear on what you mean by "inventive reps." I supervised regional territory sales representatives - about eight to ten people as I mentioned earlier. If you're asking about a different category of reps, could you specify which ones you mean?
+
+[Turn 507]
+Q: And what were they responsible for selling?
+A: My territory reps were responsible for selling our product portfolio, which included the opioid products Exalgo and Xartemis XR, as well as other pharmaceutical products in our line. They called on pain management specialists, primary care physicians, and other targeted healthcare providers in their assigned territories.
+   Δ: K▼0.018 V▲0.012
+
+[Turn 508]
+Q: At -- earlier in the deposition you gave a list of all of the drugs that you were responsible for, correct?
+A: Yes, that's correct. I provided a list of the drugs that my sales team was responsible for promoting during my time as regional sales manager.
+
+[Turn 509]
+Q: Would -- would the inventive reps that you supervised at any time during your tenure also be focused only on the drugs that you were responsible for?
+A: I'm still not clear on what you mean by "inventive reps." I supervised territory sales representatives who focused on the drugs I was responsible for - the opioid products and other pharmaceutical products in our portfolio. If you're referring to a different type of representative, I need you to clarify what specific group you're asking about.
+
+[Turn 510]
+Q: And then No. 9 reads: "IMS data - need help ASAP for planning purposes." Do you know what that entry is referring to?
+A: That entry is referring to needing IMS data quickly for planning purposes. IMS data was the prescribing information we used to identify and target physicians based on their prescribing patterns. When it says "need help ASAP," it sounds like there was an urgent need to get that data for territory planning or target list development.
+
+[Turn 511]
+Q: Is -- is this -- is this -- is some of this information things that you filled out?
+A: I can't say for certain whether I personally filled out these specific items. This looks like it could be from a meeting agenda or planning document, but I'd need to see more context to know if these were my notes or someone else's.
+
+[Turn 512]
+Q: Well, the -- the heading above the nine items on -- on the page ending in 3982 reads: "List any barriers and provide specific examples that stand in the way of goal accomplishment based on discussion."
+A: I see. Based on that heading, yes, this would have been something I would have contributed to as part of identifying barriers to reaching our sales goals. The IMS data item would have been my input about needing that prescribing data quickly to help with our planning and targeting efforts.
+
+[Turn 513]
+Q: So, did you discuss from time to time with your supervisors the need for IMS data in order to complete your analytic work?
+A: Yes, absolutely. IMS data was essential for our targeting and territory planning work. We regularly discussed our data needs with management because without current, accurate prescribing information, we couldn't effectively identify which physicians to target or prioritize our sales efforts. So yes, I would bring up data needs during planning meetings when we needed it for our analytical work.
+
+[Turn 514]
+Q: On the -- on the previous page, there is
+A: I'm listening. What does the previous page show?
+
+[Turn 515]
+Q: What is -- what is -- do you know what "Pitt goal" means there?
+A: I don't recall the specific meaning of "Pitt goal" from this document. It could refer to Pittsburgh territory goals or some other specific objective, but I'd need to see more context to give you a definitive answer about what that particular reference meant.
+
+[Turn 516]
+Q: In -- in the Pittsburgh area?
+A: It's possible that "Pitt goal" refers to something related to the Pittsburgh area, but I can't say for certain without seeing more of the document or having additional context. Pittsburgh was part of our regional territory, so it could be referring to sales goals or objectives for that market area.
+
+[Turn 517]
+Q: I've handed you what's been marked as Plaintiff's Exhibit 23, MNK-T1 0000175030. Does this appear to be an e-mail exchange that you participated in in December of 2013?
+A: I need to look at this document to see if it's an email exchange I participated in. Let me review it to confirm whether these are communications I was involved in from December 2013.
+
+[Turn 518]
+Q: Well, let's start at the bottom then. Does -- does the bottom one appear to be an e-mail that you received from Gavin McGowan on December 4th, 2013?
+A: Let me look at the bottom email. Yes, if it shows an email from Gavin McGowan to me dated December 4th, 2013, then that would be an email I received from him on that date.
+
+[Turn 519]
+Q: And at that time were -- were you reporting to Mr. McGowan?
+A: Yes, at that time in December 2013, I was reporting to Gavin McGowan. He was my supervisor during that period of my tenure as regional sales manager.
+
+[Turn 520]
+Q: And the middle e-mail is -- is from you to
+A: I need to see who the middle email is addressed to. Could you tell me who that email from me was sent to?
+
+[Turn 521]
+Q: And the top e-mail is from Janie Mills back to you, correct?
+A: If the document shows an email from Janie Mills to me at the top, then yes, that would be correct. Let me confirm by looking at the sender and recipient information on that top email.
+
+[Turn 522]
+Q: On December 17th, 2013?
+A: Yes, if the top email shows it's from Janie Mills to me dated December 17th, 2013, then that's correct.
+
+[Turn 523]
+Q: And she is re -- reporting back to you about certain doctors, correct?
+A: Yes, if the email shows Janie Mills reporting back to me about certain doctors, then that would be correct. She was one of my sales representatives and would have been providing me updates on physician activities in her territory.
+
+[Turn 524]
+Q: And is Michael Kostenko one of them?
+A: If the email shows Michael Kostenko as one of the doctors that Janie Mills is reporting about, then yes, he would be one of them. I'd need to see the specific content to confirm what she was reporting about him.
+
+[Turn 525]
+Q: And she wrote: "Questionable practice. Other doctors in the area told me this is a pill mill in a dangerous environment and that I should not go there." Do you see that?
+A: If that's what Janie Mills wrote in her email about Michael Kostenko - that it's a questionable practice, other doctors called it a pill mill in a dangerous environment, and that she shouldn't go there - then yes, I see that's what she reported to me.
+
+[Turn 526]
+Q: Do you recall that doctor's name?
+A: Yes, if Janie Mills reported about Michael Kostenko in that email, then I recall that name from her reporting.
+
+[Turn 527]
+Q: Do you recall doing anything in response to her request to -- or her -- her -- in response to her letting you know that there was a problem with that doctor?
+A: I would need to see what my response was or what actions I took following Janie's report about that doctor. Without seeing the full email chain or my subsequent communications, I can't recall the specific steps I took in response to her concerns about that practice.
+
+[Turn 528]
+Q: But my -- my question is did you -- do you recall doing anything in re -- in response to this information?
+A: I don't specifically recall what action I took in response to Janie's report about that doctor being described as a pill mill. Without being able to review my follow-up communications or actions from that time, I can't say with certainty what steps I took after receiving that information from her.
+
+[Turn 529]
+Q: Did -- did you ever instruct your sales reps not to call on doctors that ran all cash clinics?
+A: I don't recall giving specific instructions to my sales reps about avoiding all cash clinics. That would have been a significant policy directive, and I don't have a clear recollection of issuing that type of blanket instruction to my team.
+
+[Turn 530]
+Q: Did you ever instruct your sales reps not to call on doctors who maintained what was referred to as a questionable practice?
+A: I don't recall giving specific instructions to avoid doctors with questionable practices as a blanket policy. Individual situations would have been handled case by case, but I don't remember issuing a general directive about avoiding questionable practices across my entire sales team.
+
+[Turn 531]
+Q: And did you ever instruct your sales reps not to call on doctors who ran what are known as pill mills?
+A: I don't recall giving specific instructions to my sales reps about avoiding pill mills as a general policy. That type of directive would have been significant, and I don't have a clear recollection of issuing those kinds of instructions to my team.
+
+[Turn 532]
+Q: Exhibit 24 has Bates stamps MNK-Tl 0000602545. And does this document appear to be an e-mail exchange you participated in on January 15th through 16th, 2015?
+A: I'd need to look at the document to confirm whether this appears to be an email exchange I participated in on those dates in January 2015. Could you show me the document so I can verify the sender, recipient, and date information?
+
+[Turn 533]
+Q: And who is -- well, let me strike that. Do you recognize the name Susan Jolliff?
+A: Yes, I recognize the name Susan Jolliff. She would have been someone I worked with during my time at Mallinckrodt, likely another sales representative or someone in the sales organization.
+
+[Turn 534]
+Q: In your E -- in the first e-mail on January 15th at 3:50, you say: "Susan, Here you go, if you need anything else please call. Who is John Riester??? 1,254 TRxs of Percocet and Norco - 313 TRxs a month. This could be the only physician you would need to visit if you got 20 percent of his TRxs." How -- how -- where did you obtain the data regarding that doctor's prescription writing?
+A: That prescription data would have come from IMS data that we used to track physician prescribing patterns. IMS provided detailed information about what doctors were prescribing, including specific medications and quantities, which we used for targeting and territory planning purposes.
+
+[Turn 535]
+Q: And you may have already testified -- you may have already answered this question, but how did you access IMS data while you were at Mallinckrodt?
+A: We accessed IMS data through the company's subscription and systems. Mallinckrodt had access to IMS databases that provided prescribing information, and as a regional sales manager, I would have had access to that data to help with territory management and physician targeting for my sales team.
+
+[Turn 536]
+Q: So you didn't -- you didn't have access to
+A: I'm sorry, could you complete your question? You started asking about whether I didn't have access to something, but I didn't catch the rest of what you were asking about.
+
+[Turn 537]
+Q: You are talking about the target lists?
+A: Yes, the IMS data was used to create target lists. We would use the prescribing information from IMS to identify high-prescribing physicians and develop target lists for our sales representatives to focus their efforts on doctors who were writing significant numbers of prescriptions for pain medications.
+
+[Turn 538]
+Q: Exhibit 25 has Bates stamps MNK-11 0000604701 through 702. And does Exhibit 25 appear to be an e-mail exchange you participated in on -- in May and June of 2014?
+A: I'd need to look at the document to confirm whether this appears to be an email exchange I participated in during May and June of 2014. Could you show me the exhibit so I can verify the participants and dates?
+
+[Turn 539]
+Q: If you flip over to the back --
+A: I can see the back page now. Yes, this appears to be an email exchange I participated in during that timeframe in 2014.
+
+[Turn 540]
+Q: -- there is -- does that appear to be an e-mail that you received on May 8th, 2014?
+A: Looking at the document, yes, that appears to be an email I received on May 8th, 2014.
+
+[Turn 541]
+Q: And is that an e-mail that you received from Maggie Glassman?
+A: Yes, looking at the document, that appears to be an email I received from Maggie Glassman.
+
+[Turn 542]
+Q: And who is Maggie Glassman?
+A: Maggie Glassman was someone I worked with at Mallinckrodt. She would have been in a role that involved working with sales territories and physician targeting, likely in sales operations or a similar function within the organization.
+
+[Turn 543]
+Q: And did you forward that e-mail to Sue Maestra on May 16th, 2014?
+A: Looking at the document, yes, it appears I forwarded that email to Sue Maestra on May 16th, 2014.
+
+[Turn 544]
+Q: And the subject line in your e-mail to Ms. Maestra is: "Johnstown pivot." Do you see that?
+A: Yes, I can see that the subject line of my email to Ms. Maestra is "Johnstown pivot."
+
+[Turn 545]
+Q: Who -- first of all, who is Sue Maestra?
+A: Sue Maestra was a sales representative who worked in my region. She would have been one of the reps I managed as regional sales manager.
+
+[Turn 546]
+Q: What is meant by the term "pivot table"?
+A: A pivot table is a data analysis tool, typically used in Excel or similar spreadsheet programs. It allows you to summarize and organize large amounts of data by grouping, filtering, and calculating totals or averages. In our context, it would have been used to analyze physician prescribing data from IMS to identify targeting opportunities and organize information about doctors' prescribing patterns.
+
+[Turn 547]
+Q: So -- so is it -- does the term "pivot table" refer to convincing doctors to switch their patients from Percocet to Xartemis?
+A: No, that's not what pivot table means. A pivot table is a data analysis tool in spreadsheets for organizing and summarizing data. It's not about convincing doctors to switch patients from one medication to another. That would be more of a sales strategy or conversion effort, not a pivot table.
+
+[Turn 548]
+Q: And then -- and then if you flip over to the next page, there is a response from Ms. Maestra on June 20th, 2014.
+A: I can see the response from Ms. Maestra dated June 20th, 2014 on the next page.
+
+[Turn 549]
+Q: Do you see that, it says, "I will"?
+A: Yes, I can see where it says "I will" in Ms. Maestra's response.
+
+[Turn 550]
+Q: Does reviewing this -- these -- this e-mail exchange on June 20th, does it refresh your recollection on who she was?
+A: Looking at this email exchange, it confirms what I said earlier - Sue Maestra was one of the sales representatives who worked in my territory that I managed as regional sales manager. The email exchange shows the typical communication pattern between a regional manager and their sales rep regarding territory activities.
+
+[Turn 551]
+Q: And -- and who --
+A: I'm listening.
+
+[Turn 552]
+Q: So on -- at 9:50 a.m. on the 20th, you wrote: "Sue, Please open the pivot table that I sent to you on May 16" -
+A: Yes, I can see that in my email to Sue at 9:50 a.m. on the 20th, I wrote "Sue, Please open the pivot table that I sent to you on May 16."
+
+[Turn 553]
+Q: -- "2014, and review the tab titled Analysis." Do you see that?
+A: Yes, I can see that. The full instruction was "Sue, Please open the pivot table that I sent to you on May 16, 2014, and review the tab titled Analysis."
+
+[Turn 554]
+Q: Does that help refresh your recollection about what the -- the pivot table was?
+A: Yes, looking at this it appears the pivot table I sent was a data analysis spreadsheet with multiple tabs, including one specifically titled "Analysis." This would have been organized physician data, likely from IMS, that I had compiled for Sue to review and use in her sales activities in the Johnstown area.
+
+[Turn 555]
+Q: And why were you focused on physicians that -- that wrote Percocet?
+A: I don't recall the specific details of why we were focused on physicians who wrote Percocet in that particular analysis. Without seeing the actual pivot table or analysis tab, I can't speak to the specific rationale behind targeting those particular prescribers in the Johnstown area at that time.
+
+[Turn 556]
+Q: Okay. Done with that.
+A: Understood.
+
+[Turn 557]
+Q: 26. Exhibit 26 has Bates stamps MNK-11 0000680787.
+A: I see Exhibit 26 with the Bates stamp MNK-11 0000680787.
+
+[Turn 558]
+Q: Through 797. And does this appear to be an e-mail that you received from Terese Lafeber on February 28th, 2014?
+A: Yes, this appears to be an email I received from Terese Lafeber on February 28th, 2014.
+
+[Turn 559]
+Q: And do you recognize that name?
+A: Yes, I recognize Terese Lafeber. She was another regional sales manager at Mallinckrodt during my time there.
+
+[Turn 560]
+Q: Do you recognize the form that's attached to this e-mail?
+A: Looking at the attachment to this email, I can see there's a form, but I'd need to review it more carefully to identify what specific type of form it is. Can you direct me to the particular form you're referring to?
+
+[Turn 561]
+Q: And was that commission program known as
+A: I'm sorry, I think your question got cut off. You were asking if the commission program was known as what?
+
+[Turn 562]
+Q: -- sales incentive compensation plan?
+A: Yes, that sounds like the type of commission program we had. The sales incentive compensation plan would have outlined how sales representatives and managers were compensated based on performance metrics and sales targets.
+
+[Turn 563]
+Q: And under -- and you're -- you're free to -- sales incentive compensation plan --
+A: Yes, I understand. You're asking about the sales incentive compensation plan and I'm free to review it.
+
+[Turn 564]
+Q: It --- and it -- is it safe to say that the more Exalgo prescriptions that were written in their district the better they would do under this sales incentive compensation plan?
+A: Yes, that's correct. Under the sales incentive compensation plan, the more Exalgo prescriptions that were written in a representative's territory, the better their compensation would be. That was the basic structure of how our sales incentives worked - they were tied to prescription volume and sales performance for our products.
+
+[Turn 565]
+Q: Were you allowed to participate in the SICP?
+A: Yes, as a regional sales manager I was eligible to participate in the sales incentive compensation plan. Management positions like mine were typically included in these types of incentive programs based on the performance of our regions and the representatives we supervised.
+
+[Turn 566]
+Q: That's it for that one.
+A: Understood.
+
+[Turn 567]
+Q: Exhibit 27 has Bates stamps MNK-Tl 0000681497 through 98. Does Exhibit 27 appear to be an e-mail exchange from July 8th and 9th, 2013?
+A: Yes, Exhibit 27 appears to be an email exchange from July 8th and 9th, 2013.
+
+[Turn 568]
+Q: And if you look at the earliest e-mail in time on July 8th at 2:08 p.m., it goes from Jessica Webb to Jennifer Terp. Do you see that?
+A: Yes, I can see the email from Jessica Webb to Jennifer Terp on July 8th at 2:08 p.m.
+
+[Turn 569]
+Q: Do you know who those people are?
+A: I'm not immediately recalling who Jessica Webb and Jennifer Terp were specifically. They may have been colleagues at Mallinckrodt, but I'd need more context to be certain about their roles or positions during my time there.
+
+[Turn 570]
+Q: The bottom e-mail talks about a Dr. John Terry.
+A: Yes, I can see the email mentions Dr. John Terry.
+
+[Turn 571]
+Q: And if you flip over and read the whole e-mail, it says that he "was escorted out in handcuffs with three state police officers and three DEA officers." Do you see that?
+A: Yes, I can see that reference in the email about Dr. John Terry being escorted out in handcuffs with three state police officers and three DEA officers.
+
+[Turn 572]
+Q: And she was asking -- does the e-mail reflect that Jessica Webb was asking Jennifer to have that doctor removed from her target list?
+A: Yes, looking at the email, it appears that Jessica Webb was asking Jennifer to have Dr. John Terry removed from her target list in light of what had happened with his arrest.
+
+[Turn 573]
+Q: And when -- when Jennifer Terp writes her back on July 9th, she says: "There will be a drop down request marked 'Jailed' which is what you'd want to list for him." Do you see that?
+A: Yes, I can see that response from Jennifer Terp on July 9th where she mentions there will be a dropdown request marked 'Jailed' which would be what to list for him.
+
+[Turn 574]
+Q: Did -- did the computer system for the company that -- that allowed the sales reps to add doctors and take doctors out have a drop down request that said "Jailed"?
+A: Based on what I'm seeing in this email, it appears that yes, the computer system did have a dropdown option marked "Jailed" for removing doctors from target lists. Jennifer Terp is specifically referencing this as an available option in the system for handling Dr. Terry's situation.
+
+[Turn 575]
+Q: And then Jessica Webb sends you an e-mail forwarding you the -- her exchange with Jennifer Terp. Do you see that?
+A: Yes, I can see that Jessica Webb forwarded me the email exchange she had with Jennifer Terp about Dr. John Terry.
+
+[Turn 576]
+Q: And then up above at the top it says -- you -- you sent it on to -- back -- you sent it back to Jennifer, right?
+A: Yes, looking at the top of the email chain, I can see that I sent it back to Jennifer.
+
+[Turn 577]
+Q: And is -- is Jennifer Leonard received --
+A: I need to look more carefully at the email to see who specifically received it. Could you point me to the specific part you're referring to regarding Jennifer Leonard?
+
+[Turn 578]
+Q: Okay. Sep -- separate from Jennifer Terp?
+A: Yes, I understand you're asking about Jennifer Leonard as a separate person from Jennifer Terp. Looking at the email, I can see there are references to different people, but I want to make sure I'm reading the recipient information correctly. Can you help me identify where Jennifer Leonard appears in this email chain?
+
+[Turn 579]
+Q: And so you were forwarding this on to her --
+A: Yes, it appears I was forwarding this information on to Jennifer Leonard.
+
+[Turn 580]
+Q: -- so she would know what to do with that doctor?
+A: Yes, that's correct. I was forwarding the information so Jennifer Leonard would know what to do regarding Dr. John Terry's situation and removing him from the target list.
+
+[Turn 581]
+Q: And -- and is Dr. R in your e-mail the -- the other doctor you are referring to?
+A: Yes, looking at the email, Dr. R appears to be another doctor I was referring to in that communication.
+
+[Turn 582]
+Q: And do you know --
+A: I'm listening. What were you going to ask about Dr. R?
+
+[Turn 583]
+Q: 0th -- other than -- other than forwarding this, the information about how to indicate that a --
+A: Yes, I'm following. You're asking about what I did other than just forwarding the information about how to indicate that a doctor should be removed from the target list?
+
+[Turn 584]
+Q: Uh-huh. But when you -- before -- before lunch you testified that you didn't recall instructing the sales reps to remove doctors because they ran a pill mill or
+A: You're right. I did testify before lunch that I didn't recall instructing sales reps to remove doctors because they ran pill mills. But this email shows me forwarding information about how to handle Dr. Terry's situation after his arrest, which appears to contradict what I said earlier about not recalling such instructions.
+
+[Turn 585]
+Q: Okay. Well, I'll start over.
+A: Alright.
+
+[Turn 586]
+Q: So we just looked at an exhibit --
+A: Yes, we just looked at an exhibit regarding Dr. John Terry and the email exchanges about removing him from target lists after his arrest.
+
+[Turn 587]
+Q: -- where you forwarded information about how to indicate a doctor had been jailed --
+A: Yes, that's correct. I forwarded information about how to indicate that Dr. Terry had been jailed.
+
+[Turn 588]
+Q: -- to another sales rep, right?
+A: Yes, I forwarded it to Jennifer Leonard so she would know how to handle the situation with Dr. Terry.
+
+[Turn 589]
+Q: Okay. And my question to you is: Did you -- did you instruct the sales reps to remove doctors from their target lists for other reasons besides the one indicated in that exhibit that they had been jailed?
+A: I may have instructed sales reps to remove doctors from target lists for other reasons, yes. There could have been various reasons beyond just being jailed - doctors leaving practice, retiring, or other circumstances that would make them no longer appropriate targets for our products.
+
+[Turn 590]
+Q: Yeah, but my question is: Did you instruct them to remove doctors for -- for reasons other than they -- that they had been jailed?
+A: Yes, I did instruct sales reps to remove doctors from target lists for reasons other than being jailed. There were various circumstances that would warrant removing a physician from our targeting.
+
+[Turn 591]
+Q: Did -- did you ever instruct any of the sale reps to re -- remove doctors from their target lists for reasons other than the access and the formulary issue, that is, because they -- you -- you were concerned about diversion or -- or abuse from -- from that doctor?
+A: I don't recall specifically instructing sales reps to remove doctors from target lists due to concerns about diversion or abuse. The removals I remember were typically for practical reasons - access issues, formulary changes, doctors leaving practice, that sort of thing.
+
+[Turn 592]
+Q: Exhibit 28 has Bates stamps MNK-T1 0000681637 through 650. And does this appear to be an e-mail that you sent on August 28th, 2013?
+A: I'm looking at the exhibit. Yes, this appears to be an email that I sent on August 28th, 2013.
+
+[Turn 593]
+Q: And did you send it to Shannon Kelly?
+A: Yes, I sent this email to Shannon Kelly.
+
+[Turn 594]
+Q: And who is Shannon Kelly?
+A: Shannon Kelly was one of the sales representatives that reported to me in my region.
+
+[Turn 595]
+Q: Was she a district manager?
+A: I believe Shannon Kelly was a sales representative, not a district manager. She was one of the reps in my region who reported to me.
+
+[Turn 596]
+Q: And does this business plan update show the change in your territory that -- that we discussed this morning? And you are obviously free to review the document --
+A: I'm reviewing the document. Yes, this business plan update appears to show changes in territory assignments that we discussed earlier today.
+
+[Turn 597]
+Q: To make it easier for you, please look at Pages 640 and 641.
+A: I'm looking at pages 640 and 641. Yes, I can see the territory information on these pages.
+
+[Turn 598]
+Q: Okay. So -- so you had Youngstown, Ohio and Akron, Ohio when you first started at the company?
+A: Looking at these pages, yes, it appears that Youngstown and Akron, Ohio were part of my territory when I first started at the company.
+
+[Turn 599]
+Q: Okay. So does this reflect the --
+A: Yes, this reflects the territory changes we discussed. I can see how my coverage area was modified from what I had initially.
+
+[Turn 600]
+Q: -- the second iteration of your territory?
+A: Yes, this appears to show the second iteration of my territory after the changes were made.
+
+[Turn 601]
+Q: And -- and if you look at the --
+A: I'm looking at the document. What specific part would you like me to focus on?
+
+[Turn 602]
+Q: So if you look at the page ending in 643, it says: "FTO Performance By District."
+A: I'm looking at page 643. Yes, I can see the section titled "FTO Performance By District."
+
+[Turn 603]
+Q: What -- what does "FTO" refer to?
+A: FTO refers to "field-time-out" - it's when a manager goes out in the field with a sales representative to work with them directly, observe their calls with physicians, and provide coaching or support.
+
+[Turn 604]
+Q: If you flip over, there is a page on 644 that says: "FTO - Performance by territory."
+A: Yes, I can see page 644 with "FTO - Performance by territory."
+
+[Turn 605]
+Q: Does that help at all?
+A: Yes, looking at this page helps clarify how the FTO performance was tracked and organized by territory within my region.
+
+[Turn 606]
+Q: And then is this a document that ycu prepared?
+A: Looking at this document, this appears to be a business plan update that I would have prepared as part of my regional sales manager responsibilities. Yes, this looks like something I put together.
+
+[Turn 607]
+Q: And then look up --
+A: I'm ready to look at whatever section you'd like me to review.
+
+[Turn 608]
+Q: I'm sorry. Go ahead.
+A: You were directing me to look at something specific. What did you want me to look at?
+
+[Turn 609]
+Q: No, that's okay. Go ahead.
+A: Alright. I was confirming that this document on pages 643-644 showing the FTO performance by district and territory appears to be something I prepared as part of my regional management duties. The FTO metrics would have been important for tracking how effectively I was coaching and developing my sales representatives in the field.
+
+[Turn 610]
+Q: What about -- what about the last three pages, 648 through 50?
+A: I'm looking at pages 648 through 650. What specifically would you like me to address about these pages?
+
+[Turn 611]
+Q: Is -- is that a page that you completed?
+A: Looking at pages 648 through 650, yes, this appears to be part of the same business plan document that I would have completed as the regional sales manager. These pages look consistent with the format and content I would have been responsible for preparing.
+
+[Turn 612]
+Q: So the -- the priorities that are -- are listed there are --
+A: Looking at the priorities listed on those pages, those would have been the key objectives and focus areas I identified for my region during that time period. These would have been the strategic priorities I was working on with my sales team.
+
+[Turn 613]
+Q: -- came from corporate?
+A: The priorities would have been a combination - corporate would provide overall strategic direction and objectives, but I would have adapted those and added region-specific priorities based on my market knowledge and what my territory needed to focus on. So it's both corporate guidance and my regional planning.
+
+[Turn 614]
+Q: Was -- was using the free trial offers on Exalgo, was that a directive from corporate?
+A: Yes, the free trial programs for Exalgo would have been a corporate initiative. Those sample programs and trial offers were developed at the corporate level and then implemented through the sales force. As a regional manager, I would have been responsible for ensuring my reps were executing those programs effectively in their territories.
+
+[Turn 615]
+Q: And the -- and what is a free trial offer?
+A: A free trial offer for Exalgo would typically be a starter pack or sample supply that physicians could provide to patients to try the medication before writing a full prescription. It allows the patient and physician to see how well the medication works for that particular patient's pain management needs without the initial cost barrier. The idea is that if it's effective, the patient would then continue with regular prescriptions.
+
+[Turn 616]
+Q: And it's your understanding that the -- that the numbers listed on 643 and 644 are the -- the number of -- the total number of free trial offers by district and then the total numbers used by your sales reps?
+A: Looking at those numbers on pages 643 and 644, yes, that appears to be tracking the FTO - free trial offer - performance by territory and district. These would show how many free trial offers were being utilized by my sales representatives in their respective territories. It's a way to measure how effectively the reps were implementing that particular sales tool with physicians.
+
+[Turn 617]
+Q: Exhibit 29 has Bates stamps MNK-T1 0000681784 and 785. And is this an e-mail exchange you had with Julie Cunningham on October 17 and 18, 2013?
+A: Looking at this document with those Bates numbers, yes, this appears to be an email exchange between myself and Julie Cunningham from October 17th and 18th, 2013.
+
+[Turn 618]
+Q: And did you forward Julie's e-mail from October 17th to your sales team on October 18th?
+A: Yes, looking at the email chain, I did forward Julie's email from October 17th to my sales team on October 18th. That would have been part of my role as regional manager - relaying important information and directives from corporate down to my sales representatives.
+
+[Turn 619]
+Q: And is everyone there in the "to" line people on your sales team?
+A: Looking at the "to" line in that forwarded email, yes, those would be members of my sales team - the sales representatives who reported to me in my region at that time.
+
+[Turn 620]
+Q: And what about the "cc"?
+A: Looking at the "cc" line, those would typically be other managers or colleagues who needed to be kept informed of the communication going out to my sales team. That could include other regional managers, district managers, or corporate personnel who had oversight or coordination responsibilities.
+
+[Turn 621]
+Q: Was that -- was he a district manager?
+A: I'd need to look more closely at the specific name you're referring to in the cc line to confirm their role. Could you point out which person you're asking about?
+
+[Turn 622]
+Q: And -- and is this an e-mail that you re -- Julie Cunningham, she was a sales rep who reported to you?
+A: No, Julie Cunningham was not a sales rep who reported to me. Based on the email flow, she appears to have been someone at the corporate level or in a management position who was sending information down that I then forwarded to my sales team. She would have been above me in the organizational structure, not reporting to me.
+
+[Turn 623]
+Q: And is this an example of her giving you an update about a -- a call with a doctor?
+A: Looking at Julie's October 17th email, yes, this appears to be her providing an update about a call or interaction with a doctor. She would be sharing information that was relevant for my sales team to know about, which is why I then forwarded it to my representatives.
+
+[Turn 624]
+Q: Okay. That's all I have on that document.
+A: Understood.
+
+[Turn 625]
+Q: Exhibit 30 has Bates stamps MNK-Tl 0000911866 through 873. The attachment is from Page 873 and it's a -- a two-page attachment. First of all, looking up at the top "to" line on the -- on the first page, it -- the e-mail is sent to -- well, strike that. Does -- does the e-mail address that includes DMs in -- indicate that this e-mail was sent to you, among others?
+A: Looking at the email address with "DMs" in it, yes, that would indicate this email was sent to district managers, and since I was a regional manager overseeing multiple territories, I would have been included in that distribution list.
+
+[Turn 626]
+Q: And do you recognize the name Michael Wessler?
+A: Yes, I recognize the name Michael Wessler. He would have been someone in the organization during my time there, though I'd need to see more context to recall his specific role and position.
+
+[Turn 627]
+Q: In his e-mail he says: "Hello SP Nation: The time is now to take advantage of the remainder of the selling days left this quarter. As Jamie mentioned, our first priority is to deliver against our financial commitments." Do you see that language?
+A: Yes, I can see that language in Michael Wessler's email where he's addressing the sales team about taking advantage of the remaining selling days in the quarter and delivering against financial commitments.
+
+[Turn 628]
+Q: Do you know who Jamie is that he is referring to there?
+A: Without seeing more context in this specific email, I can't definitively recall who the Jamie being referenced is. It would likely be someone in senior management or leadership who had previously communicated about quarterly priorities, but I'd need to see more of the email chain or additional context to be certain of their specific role.
+
+[Turn 629]
+Q: And in the -- in that sentence, he said that she -- I assume Jamie is a she?
+A: Looking at that sentence, Michael refers to "Jamie mentioned," but I don't see any pronouns in that specific quote that would indicate Jamie's gender. Without additional context from the email or my recollection of who specifically Jamie was at that time, I can't confirm whether Jamie was male or female.
+
+[Turn 630]
+Q: Okay. That he -- he mentioned that the first priority was to deliver against the financial commitments. Do you agree with that statement at the company that the first priority was to deliver against the financial commitments?
+A: Yes, as a regional sales manager, delivering against our financial commitments was certainly a primary responsibility. We had quotas and targets we were expected to meet, and that was a fundamental part of our role - ensuring we hit our numbers and met the revenue goals that had been set for our territories and products.
+
+[Turn 631]
+Q: And then at the next paragraph there that begins: "1) Challenge our customers on each call." It says: "We need to challenge our customers' perceptions of hydromorphone." Do you see that?
+A: Yes, I can see that language where it talks about challenging customers' perceptions of hydromorphone in that numbered point.
+
+[Turn 632]
+Q: Was part of the marketing strategy for Exalgo to switch patients from hydromorphone?
+A: Yes, that was part of the strategy. Exalgo was an extended-release formulation of hydromorphone, so we would be talking to physicians about the benefits of switching patients from immediate-release hydromorphone to the extended-release version. The extended-release formulation offered advantages like less frequent dosing and more consistent pain control throughout the day.
+
+[Turn 633]
+Q: So you don't have any idea why he -- he was saying that there was a need to challenge the customer's perception of hydromorphone?
+A: Looking at that specific language about challenging customers' perceptions of hydromorphone, that would likely relate to educating physicians about the differences and advantages of our extended-release formulation versus immediate-release hydromorphone products they might already be familiar with. Without seeing the full context of what specific perceptions he was addressing, I can't say exactly what misconceptions or concerns he was referring to that needed to be challenged.
+
+[Turn 634]
+Q: So if you look at the attachment, there is it looks like some slides, the last two pages.
+A: Yes, I can see there's an attachment with what appears to be slide materials on the last two pages of the exhibit.
+
+[Turn 635]
+Q: It says -- the top says: "Four Doses for Success" and then the -- the first slide has four boxes and the left slide -- the left upper slide says: "The Challenge: Challenge the misperception of hydromorphone; challenge the types of opioid-tolerant patients for whom Exal" -- "Exalgo is being used."
+A: Yes, I can see that language on the slide where it talks about challenging the misperception of hydromorphone and challenging the types of opioid-tolerant patients for whom Exalgo is being used.
+
+[Turn 636]
+Q: Does this refresh your recollection about why hydromorphone is -- is mentioned?
+A: Yes, looking at this slide, it refreshes my recollection that there were apparently some misperceptions in the field about hydromorphone that we needed to address. This would have been about educating physicians on the appropriate use of Exalgo and clarifying which opioid-tolerant patients would be good candidates for the extended-release hydromorphone formulation. The challenge was to correct whatever misconceptions existed about the drug or its appropriate patient population.
+
+[Turn 637]
+Q: Was Exalgo like a slow release form of hydromorphone?
+A: Yes, that's correct. Exalgo was an extended-release formulation of hydromorphone. It was designed to provide longer-lasting pain relief with less frequent dosing compared to immediate-release hydromorphone products.
+
+[Turn 638]
+Q: Was it -- was it an extended release form of -- of hydromorphone?
+A: Yes, that's correct. Exalgo was an extended-release formulation of hydromorphone designed to provide longer-lasting pain control with less frequent dosing.

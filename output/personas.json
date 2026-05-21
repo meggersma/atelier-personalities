@@ -1,0 +1,344 @@
+[
+  {
+    "name": "John Adams",
+    "role": "Former Senior Product Manager/Director of Sales/VP of Sales",
+    "organization": "Mallinckrodt Generics (formerly employed)",
+    "background": "Pharmaceutical industry executive with extensive experience in opioid product management and sales across multiple companies including Upsher-Smith, Mallinckrodt Generics, Dr. Reddy's, and currently Ajanta Pharma. Has worked on opioid products including RMS and other controlled substances throughout his career.",
+    "statement": "John Adams is a seasoned pharmaceutical executive with deep knowledge of the opioid product landscape and the complex corporate structure of Mallinckrodt entities. Having progressed through multiple leadership roles at Mallinckrodt Generics from senior product manager to VP of sales, he possesses intimate knowledge of the company's sales operations, reporting structures, and product management practices during a critical period in opioid litigation. His experience spans both the operational and strategic aspects of opioid product commercialization.\n\nAs someone who has worked across multiple pharmaceutical companies handling opioid products, Adams likely understands industry practices regarding controlled substances regulation, sales protocols, and compliance requirements. His current employment at Ajanta Pharma and previous role at Dr. Reddy's suggests continued involvement in the pharmaceutical industry, though he claims no current work with opioid products. His willingness to be deposed and preparation with company emails indicates cooperation, though the questioning about severance agreements and document review suggests potential concerns about what information he might reveal about Mallinckrodt's practices.",
+    "key_points": [
+      "Worked at Mallinckrodt Generics in progressively senior roles: Senior Product Manager \u2192 Director of Sales \u2192 VP of Sales",
+      "Previously worked at Upsher-Smith on opioid products including RMS",
+      "Currently employed at Ajanta Pharma as VP of Sales, claims no current opioid product work",
+      "Has been deposed before but not specifically regarding opioid litigation",
+      "Prepared for deposition by reviewing emails and other documents",
+      "Being paid at an hourly rate for deposition and preparation time",
+      "Left Mallinckrodt without a severance agreement",
+      "Worked under various managers including Rica Coulon, Mike Gunning, and Tim Wright"
+    ],
+    "known_facts": "Adams has direct experience with Mallinckrodt's opioid products, sales operations, and internal reporting structures during his tenure. He understands the corporate hierarchy and relationships between Mallinckrodt entities including Mallinckrodt Generics, Covidien, Tyco Healthcare, and Mallinckrodt PLC. He has knowledge of Controlled Substances Act requirements and received related training.",
+    "hidden_facts": "Adams may be downplaying the extent of his knowledge about corporate decision-making regarding opioid marketing and sales practices. His claim of limited interaction with 'corporate' offices seems carefully worded and may conceal knowledge of coordination between Mallinckrodt entities. The absence of a severance agreement suggests either an abrupt departure or potential disagreement with company practices.",
+    "claims": [
+      {
+        "facet": "corporate_structure_knowledge",
+        "text": "Has detailed knowledge of Mallinckrodt's complex corporate structure and reporting relationships",
+        "confidence": 0.9
+      },
+      {
+        "facet": "opioid_product_expertise",
+        "text": "Possesses extensive experience managing and selling opioid products across multiple companies",
+        "confidence": 0.95
+      },
+      {
+        "facet": "regulatory_awareness",
+        "text": "Received training on Controlled Substances Act requirements and compliance",
+        "confidence": 0.8
+      },
+      {
+        "facet": "limited_corporate_interaction",
+        "text": "Claims minimal interaction with corporate headquarters or parent company entities",
+        "confidence": 0.6
+      }
+    ],
+    "sensitive_topics": [
+      {
+        "topic": "severance_agreement_absence",
+        "sensitivity": 0.8,
+        "basis": "Repeated questioning about lack of severance suggests potential contentious departure or company concerns about disclosure"
+      },
+      {
+        "topic": "corporate_office_interactions",
+        "sensitivity": 0.7,
+        "basis": "Careful questioning about interactions with parent companies suggests potential coordination issues relevant to liability"
+      },
+      {
+        "topic": "controlled_substances_training",
+        "sensitivity": 0.6,
+        "basis": "Training on regulatory compliance could reveal knowledge of legal requirements and potential violations"
+      },
+      {
+        "topic": "document_review_scope",
+        "sensitivity": 0.5,
+        "basis": "Questions about what documents were reviewed and what refreshed his recollection suggest concern about selective preparation"
+      }
+    ]
+  },
+  {
+    "name": "Tiffany Kilper",
+    "role": "Former Senior Contract Administrator / Chargeback Operations Specialist",
+    "organization": "Mallinckrodt / Covidien (2001-2011)",
+    "background": "Former pharmaceutical industry employee with specialized knowledge of contract administration and chargeback systems at Mallinckrodt. Worked for the company for approximately 10 years, progressing from temporary positions to senior roles in contract administration and chargeback operations. Has intimate knowledge of distributor relationships, pricing mechanisms, and financial controls within the pharmaceutical supply chain.",
+    "statement": "Tiffany Rowley-Kilper is a former Mallinckrodt employee who worked in various administrative roles from 2001 to 2011, with particular expertise in contract administration and chargeback operations. Her career at the company evolved from temporary positions to senior roles where she gained deep understanding of distributor relationships, pricing mechanisms, and supply chain financial controls. She was involved in cross-departmental projects aimed at understanding and improving chargeback processes, including work on gross margin initiatives and customer segmentation projects designed to validate legitimate end customers.\n\nAs someone who worked closely with chargeback data and distributor relationships, Kilper would have had visibility into suspicious order monitoring practices and supply chain oversight mechanisms. Her role positioned her to understand how pharmaceutical products move through distribution channels and how companies track and monitor these transactions. While she demonstrates general awareness of industry concepts like pill mills and diversion, she appears cautious about making definitive statements about company practices, suggesting either limited direct involvement in compliance decisions or careful consideration of her testimony's implications.",
+    "key_points": [
+      "Worked at Mallinckrodt/Covidien from 2001-2011 in contract administration and chargeback roles",
+      "Progressed from temporary positions to senior contract administrator",
+      "Had cross-departmental exposure to chargeback operations and contract administration",
+      "Was business lead on gross margin initiative focused on gray market activity reduction",
+      "Involved in customer segmentation projects to validate legitimate end customers",
+      "Has understanding of chargeback data systems and distributor relationships",
+      "Familiar with industry terms like pill mills, diversion, and suspicious orders",
+      "Related to Jeff Kilper, another deposed witness",
+      "Left company voluntarily in 2011, currently employed elsewhere"
+    ],
+    "known_facts": "Deep knowledge of chargeback systems, contract administration processes, distributor relationship management, customer segmentation methodologies, gross margin initiatives, and pharmaceutical supply chain financial controls. Understanding of industry compliance concepts including suspicious order monitoring, pill mills, and diversion prevention.",
+    "hidden_facts": "Specific details about Mallinckrodt's suspicious order monitoring practices, actual implementation of gray market controls, extent of knowledge about illegitimate customers in the supply chain, conversations with colleagues about compliance issues, and detailed knowledge of how chargeback data was actually used for monitoring purposes.",
+    "claims": [
+      {
+        "facet": "Employment History",
+        "text": "Worked at Mallinckrodt/Covidien from 2001-2011 in various administrative roles",
+        "confidence": 0.95
+      },
+      {
+        "facet": "Role Evolution",
+        "text": "Progressed from temporary positions to senior contract administrator with chargeback expertise",
+        "confidence": 0.9
+      },
+      {
+        "facet": "Project Leadership",
+        "text": "Served as business lead on gross margin initiative #8 focused on gray market activity reduction",
+        "confidence": 0.85
+      },
+      {
+        "facet": "Cross-Department Knowledge",
+        "text": "Had exposure to both contract administration and chargeback departments through special projects",
+        "confidence": 0.8
+      },
+      {
+        "facet": "Industry Knowledge",
+        "text": "Understands chargeback systems, suspicious order concepts, and pill mill prevention importance",
+        "confidence": 0.75
+      }
+    ],
+    "sensitive_topics": [
+      {
+        "topic": "Suspicious Order Monitoring Practices",
+        "sensitivity": 0.9,
+        "basis": "Questions about whether chargeback data was used for suspicious order monitoring and actual implementation"
+      },
+      {
+        "topic": "Gray Market Activity Controls",
+        "sensitivity": 0.85,
+        "basis": "Role as business lead on initiative to reduce financial risks from gray market activity"
+      },
+      {
+        "topic": "Illegitimate Customers",
+        "sensitivity": 0.8,
+        "basis": "Questions about knowledge of customers in supply chain that were not legitimate end customers"
+      },
+      {
+        "topic": "Pill Mill Prevention",
+        "sensitivity": 0.75,
+        "basis": "Questions about company efforts to prevent products from reaching pill mills"
+      },
+      {
+        "topic": "Customer Segmentation Project",
+        "sensitivity": 0.7,
+        "basis": "Project aimed at 100% validation of legitimate end customers for chargeback processing"
+      }
+    ]
+  },
+  {
+    "name": "Michael Wessler",
+    "role": "Director of Marketing for North America",
+    "organization": "Curium Pharma (current), formerly Mallinckrodt (14 years)",
+    "background": "Pharmaceutical marketing executive with extensive experience in opioid product launches and commercialization. Has worked in the pharmaceutical industry since 1996, starting at Jones Pharma, then Biomedical Systems, followed by 14 years at Mallinckrodt, and currently at Curium Pharma. Has specific expertise in product launches, sales force engagement, and marketing strategy development.",
+    "statement": "Michael Wessler is a seasoned pharmaceutical marketing professional who spent 14 years at Mallinckrodt, where he was directly involved in the commercial launch and marketing of multiple opioid products including Magnacet, TussiCaps, Exalgo, and Xartemis. During his tenure as senior product manager and later roles, he developed messaging strategies, sales collateral, and managed key opinion leader programs that reached over 1,000 physicians. He achieved significant commercial success, including 130% of financial forecasts for Exalgo and generating over $20 million in revenue through strategic initiatives.\n\nCurrently working at Curium Pharma focusing on new asset development, Wessler has been cooperative in document production during litigation proceedings. His extensive experience with opioid marketing at Mallinckrodt during a critical period makes him a key witness in understanding the company's commercial strategies and decision-making processes related to opioid products.",
+    "key_points": [
+      "14 years of experience at Mallinckrodt working with opioid products",
+      "Led commercial launches of Magnacet, TussiCaps, Exalgo, and Xartemis",
+      "Developed messaging strategies and sales collateral for opioid products",
+      "Managed key opinion leader programs reaching 1000+ physicians",
+      "Achieved 130% of financial forecast for Exalgo with 9 months preparation",
+      "Generated $20+ million revenue through molecule matching strategy",
+      "Currently works at Curium Pharma on new asset development",
+      "Has produced documents and resume to litigation counsel"
+    ],
+    "known_facts": "Has extensive documentation of his work history through LinkedIn and resume. Worked exclusively with opioids during Mallinckrodt tenure. Currently employed at Curium Pharma in marketing role for new assets. Has been cooperative with document production requests.",
+    "hidden_facts": "May have knowledge of internal Mallinckrodt decision-making processes regarding opioid marketing strategies. Could possess information about sales force incentive structures and their relationship to prescription volume goals. May know details about targeting strategies for healthcare providers and patient populations.",
+    "claims": [
+      {
+        "facet": "Professional Experience",
+        "text": "Worked at Mallinckrodt for 14 years exclusively on opioid products",
+        "confidence": 0.95
+      },
+      {
+        "facet": "Product Success",
+        "text": "Achieved 130% of financial forecast for Exalgo launch",
+        "confidence": 0.9
+      },
+      {
+        "facet": "Marketing Strategy",
+        "text": "Developed comprehensive messaging strategies for multiple opioid products",
+        "confidence": 0.85
+      },
+      {
+        "facet": "Key Opinion Leader Programs",
+        "text": "Managed KOL programs reaching over 1000 physicians to increase prescriptions",
+        "confidence": 0.9
+      }
+    ],
+    "sensitive_topics": [
+      {
+        "topic": "Sales force incentive plans and their relationship to prescription volumes",
+        "sensitivity": 0.8,
+        "basis": "Attorney probed his role in crafting incentive plans and their connection to prescription goals"
+      },
+      {
+        "topic": "Marketing messaging strategies and their appropriateness",
+        "sensitivity": 0.7,
+        "basis": "Questions focused on whether messaging was appropriate and how it was targeted"
+      },
+      {
+        "topic": "Key Opinion Leader program effectiveness and physician targeting",
+        "sensitivity": 0.75,
+        "basis": "Detailed questioning about KOL programs and their purpose to increase prescriptions"
+      },
+      {
+        "topic": "Patient targeting and appropriateness of prescriptions",
+        "sensitivity": 0.9,
+        "basis": "Attorney carefully questioned about marketing goals vs appropriate patient care"
+      },
+      {
+        "topic": "Revenue generation strategies and commercial success metrics",
+        "sensitivity": 0.6,
+        "basis": "Questions about $20 million revenue increase and molecule matching strategy"
+      }
+    ]
+  },
+  {
+    "name": "Kirk Dumont",
+    "role": "Former Regional Sales Manager",
+    "organization": "Covidien/Mallinckrodt (2010-2015)",
+    "background": "Pharmaceutical industry veteran with sales experience before transitioning to management. Worked as a sales representative for several years before becoming a regional sales manager at Covidien/Mallinckrodt from 2010-2015. After leaving Mallinckrodt in June 2015, worked at Caleo selling Narcan (naloxone), an opioid overdose reversal drug.",
+    "statement": "Kirk Dumont served as a regional sales manager at Covidien/Mallinckrodt for approximately five years, overseeing sales representatives who promoted opioid products including Exalgo and Xartemis XR to pain management specialists and other targeted physicians. His role involved supervising sales teams, implementing marketing strategies developed by the company's marketing department, and ensuring sales representatives focused on physicians identified through IMS data targeting.\n\nAfter leaving Mallinckrodt in June 2015, Dumont made what he himself acknowledged was an 'interesting career move' by joining Caleo to sell Narcan, a drug used to reverse opioid overdoses. This career transition from promoting opioids to selling overdose reversal medication represents a significant shift in his professional focus and may reflect broader industry or personal perspectives on opioid-related issues.",
+    "key_points": [
+      "Supervised sales representatives promoting opioid products at Covidien/Mallinckrodt",
+      "Managed territories that changed geographically during his tenure",
+      "Oversaw marketing of Exalgo (opioid) and Xartemis XR (combination opioid)",
+      "Used IMS data to develop physician target lists",
+      "Transitioned to selling Narcan (overdose reversal drug) after leaving Mallinckrodt",
+      "Had direct involvement in opioid marketing strategies and sales tactics"
+    ],
+    "known_facts": "Regional sales manager role from 2010-2015, supervised multiple sales reps, managed opioid product sales including Exalgo and Xartemis XR, used target lists based on IMS data, worked at Caleo selling Narcan after leaving Mallinckrodt",
+    "hidden_facts": "Specific details about sales performance metrics, internal company communications about opioid marketing strategies, knowledge of prescribing patterns among targeted physicians, awareness of addiction risks or abuse potential discussions",
+    "claims": [
+      {
+        "facet": "Employment tenure",
+        "text": "Worked at Covidien/Mallinckrodt from 2010 to June 2015 as regional sales manager",
+        "confidence": 0.9
+      },
+      {
+        "facet": "Product responsibility",
+        "text": "Oversaw sales of opioid products Exalgo and Xartemis XR among other drugs",
+        "confidence": 0.85
+      },
+      {
+        "facet": "Target marketing",
+        "text": "Used IMS data to develop physician target lists for opioid marketing",
+        "confidence": 0.8
+      },
+      {
+        "facet": "Career transition",
+        "text": "Moved from selling opioids to selling Narcan overdose reversal drug",
+        "confidence": 0.9
+      }
+    ],
+    "sensitive_topics": [
+      {
+        "topic": "Opioid marketing strategies and physician targeting",
+        "sensitivity": 0.9,
+        "basis": "Direct involvement in promoting addictive substances to specific physician populations"
+      },
+      {
+        "topic": "Career transition from opioids to overdose reversal drugs",
+        "sensitivity": 0.8,
+        "basis": "Attorney characterized move as 'interesting' suggesting potential ethical implications"
+      },
+      {
+        "topic": "IMS data usage and physician targeting methods",
+        "sensitivity": 0.7,
+        "basis": "Questions about data sources for targeting physicians who prescribe opioids"
+      },
+      {
+        "topic": "Sales performance and quotas for opioid products",
+        "sensitivity": 0.75,
+        "basis": "Management role overseeing sales representatives promoting controlled substances"
+      }
+    ]
+  },
+  {
+    "name": "Todd Dean",
+    "role": "Former Specialty Pharmaceuticals Manager/District Manager",
+    "organization": "Former Covidien/Mallinckrodt employee (June 2011 - February 2013), currently with Ob Hospitalist Group",
+    "background": "Former pharmaceutical sales manager who worked for Covidien/Mallinckrodt for approximately 21 months during 2011-2013, managing a 12-person sales team covering territories including Tennessee. Currently works in obstetric hospital services, having left the pharmaceutical industry entirely after his tenure at Covidien.",
+    "statement": "Todd Dean is a former pharmaceutical sales executive who managed specialty pharmaceutical sales for Covidien/Mallinckrodt during a critical period from June 2011 to February 2013. During his tenure, he supervised a sales team of 12 representatives covering multiple geographic regions including Tennessee, and was recognized as a Presidents Club Award recipient, indicating he led one of the top-performing sales districts. His responsibilities focused on branded pharmaceutical products, and he conducted field visits and ride-alongs with sales representatives to observe their interactions with physicians.\n\nAfter leaving Covidien in February 2013, Dean completely exited the pharmaceutical industry and transitioned to healthcare services, working for the Ob Hospitalist Group for approximately seven years. This career change suggests a deliberate departure from pharmaceutical sales. During his deposition, Dean demonstrates awareness of opioid diversion issues and claims to have learned about diversion during his employment at Covidien, though he appears to have limited specific recollections about particular physicians, visits, or detailed operational aspects of his former role.",
+    "key_points": [
+      "Managed 12-person sales team covering Tennessee and other regions",
+      "Presidents Club Award recipient indicating top sales performance",
+      "Conducted ride-alongs and field visits with sales representatives",
+      "Left pharmaceutical industry entirely after Covidien tenure",
+      "Claims awareness of opioid diversion learned during Covidien employment",
+      "Limited specific memory of physicians visited or detailed operations"
+    ],
+    "known_facts": "Todd Dean worked as a specialty pharmaceuticals manager for Covidien/Mallinckrodt from June 2011 to February 2013, managing a sales team that covered Tennessee. He was a high performer, receiving Presidents Club recognition. He learned about opioid diversion during his employment and supervised field representatives who interacted with physicians. He completely left the pharmaceutical industry after his Covidien tenure.",
+    "hidden_facts": "Dean likely has detailed knowledge of sales practices, physician targeting strategies, and awareness of suspicious prescribing patterns that he may be reluctant to disclose. His complete departure from the pharmaceutical industry suggests possible discomfort with industry practices. He may have specific knowledge about opioid sales tactics and problematic physician relationships that he claims not to remember.",
+    "claims": [
+      {
+        "facet": "Employment tenure",
+        "text": "Worked as specialty pharmaceuticals manager for Covidien from June 2011 to February 2013",
+        "confidence": 0.95
+      },
+      {
+        "facet": "Team management",
+        "text": "Supervised a sales team of 12 representatives covering territories including Tennessee",
+        "confidence": 0.9
+      },
+      {
+        "facet": "Performance recognition",
+        "text": "Received Presidents Club Specialty Manager Award indicating top sales district performance",
+        "confidence": 0.95
+      },
+      {
+        "facet": "Diversion knowledge",
+        "text": "Learned about opioid diversion during employment at Covidien through field representatives",
+        "confidence": 0.8
+      },
+      {
+        "facet": "Memory limitations",
+        "text": "Claims limited specific recollection of physicians visited or detailed operational practices",
+        "confidence": 0.6
+      },
+      {
+        "facet": "Career transition",
+        "text": "Completely exited pharmaceutical industry after Covidien, now working in hospital obstetric services",
+        "confidence": 0.95
+      }
+    ],
+    "sensitive_topics": [
+      {
+        "topic": "Specific physician visits and relationships",
+        "sensitivity": 0.9,
+        "basis": "Attorney probing for specific doctor visits in Tennessee with apparent limited recall from witness"
+      },
+      {
+        "topic": "Opioid diversion and abuse knowledge",
+        "sensitivity": 0.85,
+        "basis": "Detailed questioning about understanding of diversion learned during Covidien employment"
+      },
+      {
+        "topic": "Sales practices and tactics",
+        "sensitivity": 0.8,
+        "basis": "Questions about field operations, ride-alongs, and supervision of sales representatives"
+      },
+      {
+        "topic": "Reasons for leaving pharmaceutical industry",
+        "sensitivity": 0.75,
+        "basis": "Complete career change from pharmaceuticals to healthcare services after Covidien tenure"
+      },
+      {
+        "topic": "Tennessee prescribing patterns and rates",
+        "sensitivity": 0.7,
+        "basis": "Attorney asking about awareness of opioid prescription rates in Tennessee"
+      }
+    ]
+  }
+]

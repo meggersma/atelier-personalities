@@ -1,0 +1,3971 @@
+{
+  "witness": "Tiffany Kilper",
+  "archetypes": {
+    "Neutral": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.07"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.07"
+        }
+      ],
+      "final_state": {
+        "C": 0.6836,
+        "K": 0.7991,
+        "A": 0.5752,
+        "V": 0.3991,
+        "R": 0.6497,
+        "P": 0.2018
+      },
+      "final_scores": {
+        "consistency": 0.652,
+        "evasion": 0.201,
+        "realism": 0.71,
+        "adversarial": 0.369
+      }
+    },
+    "Loquacious": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.19"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.17"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.16"
+        }
+      ],
+      "final_state": {
+        "C": 0.5127,
+        "K": 0.5991,
+        "A": 0.6507,
+        "V": 0.949,
+        "R": 0.5093,
+        "P": 0.2692
+      },
+      "final_scores": {
+        "consistency": 0.484,
+        "evasion": 0.524,
+        "realism": 0.933,
+        "adversarial": 0.416
+      }
+    },
+    "Combative": {
+      "event_count": 460,
+      "events": [
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.06 \u00b7 rigidity 0.70"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.06 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.07 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.07 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.08 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.08 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.09 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.09 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.10 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.10 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.10 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.11 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.12 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.12 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.12 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.12 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.13 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.14 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.14 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.14 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.14 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.09"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.15 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.16 \u00b7 rigidity 0.79"
+        }
+      ],
+      "final_state": {
+        "C": 0.5982,
+        "K": 0.2991,
+        "A": 0.1603,
+        "V": 0.499,
+        "R": 0.7902,
+        "P": 0.2692
+      },
+      "final_scores": {
+        "consistency": 0.451,
+        "evasion": 0.405,
+        "realism": 0.821,
+        "adversarial": 0.73
+      }
+    },
+    "Cooperative": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.09"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        }
+      ],
+      "final_state": {
+        "C": 0.6836,
+        "K": 0.8991,
+        "A": 0.8397,
+        "V": 0.499,
+        "R": 0.5093,
+        "P": 0.2018
+      },
+      "final_scores": {
+        "consistency": 0.648,
+        "evasion": 0.091,
+        "realism": 0.65,
+        "adversarial": 0.222
+      }
+    },
+    "Inventive": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.12"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.11"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        }
+      ],
+      "final_state": {
+        "C": 0.5982,
+        "K": 0.1,
+        "A": 0.5,
+        "V": 0.599,
+        "R": 0.7199,
+        "P": 0.4715
+      },
+      "final_scores": {
+        "consistency": 0.313,
+        "evasion": 0.604,
+        "realism": 0.701,
+        "adversarial": 0.694
+      }
+    },
+    "Defensive": {
+      "event_count": 460,
+      "events": [
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.20 \u00b7 rigidity 0.70"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.21 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.21 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.22 \u00b7 rigidity 0.71"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.22 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.22 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.23 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.23 \u00b7 rigidity 0.72"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.23 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.23 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.24 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.24 \u00b7 rigidity 0.73"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.24 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.74"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.25 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.75"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.76"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.26 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.77"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.12"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.11"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.78"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.28 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.28 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.28 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.28 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.28 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        },
+        {
+          "label": "WITNESS COMBATIVE",
+          "detail": "agreeableness 0.27 \u00b7 rigidity 0.79"
+        }
+      ],
+      "final_state": {
+        "C": 0.3418,
+        "K": 0.4991,
+        "A": 0.2737,
+        "V": 0.599,
+        "R": 0.7902,
+        "P": 0.3367
+      },
+      "final_scores": {
+        "consistency": 0.555,
+        "evasion": 0.377,
+        "realism": 0.905,
+        "adversarial": 0.642
+      }
+    },
+    "Overconfident": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.14"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.13"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.12"
+        }
+      ],
+      "final_state": {
+        "C": 0.7691,
+        "K": 0.3991,
+        "A": 0.5,
+        "V": 0.699,
+        "R": 0.8601,
+        "P": 0.4715
+      },
+      "final_scores": {
+        "consistency": 0.535,
+        "evasion": 0.514,
+        "realism": 0.778,
+        "adversarial": 0.585
+      }
+    },
+    "Dogmatic": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.09"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        }
+      ],
+      "final_state": {
+        "C": 0.6836,
+        "K": 0.5991,
+        "A": 0.4248,
+        "V": 0.499,
+        "R": 0.9645,
+        "P": 0.4042
+      },
+      "final_scores": {
+        "consistency": 0.684,
+        "evasion": 0.282,
+        "realism": 0.83,
+        "adversarial": 0.557
+      }
+    },
+    "Nervous": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.07"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.07"
+        }
+      ],
+      "final_state": {
+        "C": 0.0852,
+        "K": 0.5991,
+        "A": 0.5,
+        "V": 0.3991,
+        "R": 0.5093,
+        "P": 0.1343
+      },
+      "final_scores": {
+        "consistency": 0.484,
+        "evasion": 0.288,
+        "realism": 0.692,
+        "adversarial": 0.504
+      }
+    },
+    "Overprepared": {
+      "event_count": 3,
+      "events": [
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.10"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.09"
+        },
+        {
+          "label": "PERSONALITY SHIFT",
+          "detail": "Verbosity \u25bc0.08"
+        }
+      ],
+      "final_state": {
+        "C": 0.7691,
+        "K": 0.6991,
+        "A": 0.5752,
+        "V": 0.499,
+        "R": 0.7902,
+        "P": 0.6401
+      },
+      "final_scores": {
+        "consistency": 0.659,
+        "evasion": 0.279,
+        "realism": 0.719,
+        "adversarial": 0.429
+      }
+    }
+  }
+}

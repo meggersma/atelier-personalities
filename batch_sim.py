@@ -27,9 +27,13 @@ import argparse
 import copy
 import json
 import os
+import random
 import re
 import sys
+import time
+import threading
 import zipfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
@@ -83,6 +87,28 @@ ARCHETYPES = {
     "Pedantic":      {"C": 0.80, "K": 0.70, "A": 0.50, "V": 0.70, "R": 0.80, "P": 0.50},
     "Charming":      {"C": 0.90, "K": 0.60, "A": 0.90, "V": 0.70, "R": 0.40, "P": 0.80},
 }
+
+
+# ── Retry wrapper ─────────────────────────────────────────────────────────────
+
+def api_call_with_retry(fn, max_retries=6):
+    """Call fn(), retrying on rate-limit (429) errors with exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            return fn()
+        except Exception as e:
+            is_rate_limit = (
+                "429" in str(e) or
+                "rate_limit" in str(e).lower() or
+                "too many requests" in str(e).lower() or
+                "overloaded" in str(e).lower()
+            )
+            if is_rate_limit and attempt < max_retries - 1:
+                wait = (2 ** attempt) + 1
+                print(f"  Rate limited — waiting {wait}s (attempt {attempt+1}/{max_retries})")
+                time.sleep(wait)
+            else:
+                raise
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -204,7 +230,7 @@ def build_persona_from_questions(
         f"sensitive_topics (array of {{topic, sensitivity 0-1, basis}})."
     )
 
-    response = client.messages.create(
+    response = api_call_with_retry(lambda: client.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=4096,
         system=(
@@ -213,7 +239,7 @@ def build_persona_from_questions(
             "Return only valid JSON, no markdown fences."
         ),
         messages=[{"role": "user", "content": prompt}],
-    )
+    ))
 
     text = response.content[0].text
     persona = {}
@@ -285,7 +311,7 @@ def generate_questions_for_persona(
         f"Return one question per line, no numbering, no preamble."
     )
 
-    response = client.messages.create(
+    response = api_call_with_retry(lambda: client.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=2048,
         system=(
@@ -293,7 +319,7 @@ def generate_questions_for_persona(
             "Return only the questions, one per line, no extra text."
         ),
         messages=[{"role": "user", "content": prompt}],
-    )
+    ))
 
     lines = response.content[0].text.strip().splitlines()
     questions = [ln.strip() for ln in lines if len(ln.strip()) > 10]
@@ -410,12 +436,12 @@ def run_archetype(
         history.append({"role": "user", "content": question})
 
         # 7. Call Claude
-        response = client.messages.create(
+        response = api_call_with_retry(lambda: client.messages.create(
             model="claude-sonnet-4-20250514",
             max_tokens=512,
             system=system_prompt,
             messages=history,
-        )
+        ))
         reply = response.content[0].text
 
         # 8. Compute delta + scores
@@ -571,9 +597,11 @@ def main():
     parser.add_argument("--extract-only", action="store_true", help="Only build personas, skip simulation")
     parser.add_argument("--preview", action="store_true", help="Show question manifest per witness and exit (zip mode only)")
     parser.add_argument("--witnesses", nargs="+", default=[], help="Subset of witness names to run")
+    parser.add_argument("--sample", type=int, default=None, help="Randomly sample N witnesses from the full list (ignored if --witnesses is set)")
     parser.add_argument("--archetypes", nargs="+", default=[], help="Subset of archetypes to run (default: all 14)")
     parser.add_argument("--max-questions", type=int, default=None, help="Max questions per session (default: all questions)")
     parser.add_argument("--quiet", action="store_true", help="Suppress per-turn output")
+    parser.add_argument("--workers", type=int, default=1, help="Number of witnesses to simulate in parallel (default: 1)")
     args = parser.parse_args()
 
     out_dir = Path(args.out)
@@ -587,6 +615,8 @@ def main():
     if checkpoint_path.exists():
         completed = set(json.loads(checkpoint_path.read_text()))
         print(f"Resuming: {len(completed)} runs already completed.")
+
+    checkpoint_lock = threading.Lock()
 
     # Anthropic client
     client = anthropic.Anthropic()
@@ -724,7 +754,13 @@ def main():
     # ── ZIP / DEPOSITION MODE (existing behaviour) ────────────────────────────
 
     # Determine witness list
-    witnesses = args.witnesses if args.witnesses else WITNESS_LIST
+    if args.witnesses:
+        witnesses = args.witnesses
+    elif args.sample:
+        witnesses = random.sample(WITNESS_LIST, min(args.sample, len(WITNESS_LIST)))
+        print(f"Randomly sampled {len(witnesses)} witnesses: {', '.join(witnesses)}")
+    else:
+        witnesses = WITNESS_LIST
 
     # Always print the question manifest so it's clear which questions belong to whom
     print_question_manifest(args.questions_zip, witnesses, args.max_questions)
@@ -788,23 +824,22 @@ def main():
     # ── Phase 2: Run simulations ──────────────────────────────────────────────
 
     total_runs = len(witnesses) * len(archetypes)
-    run_idx = 0
     print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting simulation: "
-          f"{len(witnesses)} witnesses × {len(archetypes)} archetypes = {total_runs} runs")
+          f"{len(witnesses)} witnesses × {len(archetypes)} archetypes = {total_runs} runs "
+          f"({args.workers} worker(s))")
 
-    for witness_name in witnesses:
+    def run_witness(witness_name: str):
         persona = all_personas.get(witness_name)
         if not persona:
             print(f"Skipping {witness_name} — no persona built.")
-            continue
+            return
 
         questions_all, _ = load_questions_for_witness(args.questions_zip, witness_name)
         if not questions_all:
             print(f"Skipping {witness_name} — no questions found.")
-            continue
+            return
 
         questions = sample_questions(questions_all, args.max_questions)
-
         witness_dir = out_dir / slugify(witness_name)
         witness_dir.mkdir(exist_ok=True)
 
@@ -814,14 +849,14 @@ def main():
         print(f"{'='*60}")
 
         for archetype_name, archetype_state in archetypes.items():
-            run_idx += 1
             run_key = f"{slugify(witness_name)}::{archetype_name}"
 
-            if run_key in completed:
-                print(f"  [{archetype_name}] Already done, skipping.")
-                continue
+            with checkpoint_lock:
+                if run_key in completed:
+                    print(f"  [{witness_name} / {archetype_name}] Already done, skipping.")
+                    continue
 
-            print(f"  [{run_idx}/{total_runs}] {archetype_name}...")
+            print(f"  [{witness_name}] {archetype_name}...")
 
             try:
                 result = run_archetype(
@@ -833,19 +868,17 @@ def main():
                 print(f"  ERROR in {archetype_name} for {witness_name}: {e}")
                 continue
 
-            # Write outputs
             transcript_path = witness_dir / f"{archetype_name.lower()}_transcript.txt"
             deltas_path = witness_dir / f"{archetype_name.lower()}_deltas.json"
             write_transcript(result, transcript_path)
             write_deltas_json(result, deltas_path)
 
-            # Mark complete and save checkpoint
-            completed.add(run_key)
-            checkpoint_path.write_text(json.dumps(list(completed)))
-            print(f"  [{datetime.now().strftime('%H:%M:%S')}] ✓ {archetype_name} saved "
+            with checkpoint_lock:
+                completed.add(run_key)
+                checkpoint_path.write_text(json.dumps(list(completed)))
+            print(f"  [{datetime.now().strftime('%H:%M:%S')}] ✓ {witness_name}/{archetype_name} "
                   f"({len(completed)}/{total_runs} total complete)")
 
-        # Write per-witness summary of all events (only if any archetypes completed)
         summary = {"witness": witness_name, "archetypes": {}}
         for archetype_name in archetypes:
             dp = witness_dir / f"{archetype_name.lower()}_deltas.json"
@@ -860,6 +893,15 @@ def main():
                 }
         if summary["archetypes"]:
             (witness_dir / "summary.json").write_text(json.dumps(summary, indent=2))
+
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {executor.submit(run_witness, w): w for w in witnesses}
+        for future in as_completed(futures):
+            w = futures[future]
+            try:
+                future.result()
+            except Exception as e:
+                print(f"ERROR: witness {w} failed: {e}")
 
     print(f"\n\nAll done. Output in: {out_dir.resolve()}")
 
