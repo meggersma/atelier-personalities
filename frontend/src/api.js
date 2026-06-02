@@ -76,6 +76,18 @@ export async function chat(session, message) {
   return res.json()
 }
 
+export async function createRealtimeSession(sessionId, voice) {
+  const body = { session_id: sessionId }
+  if (voice) body.voice = voice
+  const res = await fetch(`${BASE}/realtime/session`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) throw new Error(`Realtime session failed: ${await errorDetail(res)}`)
+  return res.json()
+}
+
 export async function getSuggestedQuestions(session) {
   const res = await fetch(`${BASE}/session/__client__/suggested-questions`, {
     method: 'POST',

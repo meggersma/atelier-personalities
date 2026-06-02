@@ -133,9 +133,14 @@ function WitnessMessage({ msg }) {
         {msg.content}
       </div>
 
-      {/* Tone + toggle */}
+      {/* Tone + spoken indicator + toggle */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 4 }}>
         <ToneLabel tone={msg.tone} />
+        {msg.spoken && (
+          <span style={{ fontSize: 10, color: '#9ca3af' }}>
+            🔊 spoken
+          </span>
+        )}
         {hasAnalysis && (
           <span
             style={{ fontSize: 10, color: 'var(--muted)', cursor: 'pointer', userSelect: 'none' }}

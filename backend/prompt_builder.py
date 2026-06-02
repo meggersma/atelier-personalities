@@ -67,7 +67,7 @@ def recall_quality_label(rho: float) -> str:
 
 
 def tone_label(state: dict) -> str:
-    """Brief voice/tone descriptor for TTS use."""
+    """Brief voice/tone descriptor with intensity modifiers for TTS use."""
     C = state.get("C", 0.7)
     A = state.get("A", 0.6)
     R = state.get("R", 0.5)
@@ -75,26 +75,46 @@ def tone_label(state: dict) -> str:
     K = state.get("K", 0.7)
 
     tones = []
-    if C < 0.25:   tones.append("panicked")
-    elif C < 0.40: tones.append("rattled")
-    elif C < 0.55: tones.append("uneasy")
-    elif C > 0.88: tones.append("ice-cold")
 
-    if A < 0.20:   tones.append("hostile")
-    elif A < 0.35: tones.append("combative")
-    elif A > 0.80: tones.append("eager to please")
+    if C < 0.15:     tones.append("deeply panicked")
+    elif C < 0.25:   tones.append("panicked")
+    elif C < 0.35:   tones.append("rattled")
+    elif C < 0.45:   tones.append("slightly rattled")
+    elif C < 0.55:   tones.append("uneasy")
+    elif C < 0.65:   tones.append("slightly tense")
+    elif C < 0.78:   tones.append("steady")
+    elif C < 0.88:   tones.append("very composed")
+    else:            tones.append("ice-cold")
 
-    if R > 0.80:   tones.append("immovable")
-    elif R > 0.65: tones.append("firm")
-    elif R < 0.25: tones.append("yielding")
+    if A < 0.12:     tones.append("deeply hostile")
+    elif A < 0.20:   tones.append("hostile")
+    elif A < 0.30:   tones.append("combative")
+    elif A < 0.42:   tones.append("slightly defensive")
+    elif A < 0.58:   tones.append("neutral")
+    elif A < 0.72:   tones.append("mildly cooperative")
+    elif A < 0.80:   tones.append("cooperative")
+    else:            tones.append("eager to please")
 
-    if V < 0.20:   tones.append("clipped")
-    elif V > 0.75: tones.append("rambling")
+    if R > 0.88:     tones.append("completely immovable")
+    elif R > 0.75:   tones.append("immovable")
+    elif R > 0.65:   tones.append("firm")
+    elif R > 0.55:   tones.append("somewhat firm")
+    elif R < 0.15:   tones.append("very yielding")
+    elif R < 0.25:   tones.append("yielding")
 
-    if K < 0.30:   tones.append("confused")
-    elif K < 0.45: tones.append("hesitant")
+    if V < 0.12:     tones.append("extremely clipped")
+    elif V < 0.20:   tones.append("clipped")
+    elif V < 0.35:   tones.append("terse")
+    elif V > 0.85:   tones.append("very rambling")
+    elif V > 0.75:   tones.append("rambling")
+    elif V > 0.65:   tones.append("somewhat verbose")
 
-    return ", ".join(tones) if tones else "neutral, measured"
+    if K < 0.20:     tones.append("deeply confused")
+    elif K < 0.30:   tones.append("confused")
+    elif K < 0.40:   tones.append("hesitant")
+    elif K < 0.50:   tones.append("slightly uncertain")
+
+    return ", ".join(tones)
 
 
 # ── System prompt builder ─────────────────────────────────────────────────────

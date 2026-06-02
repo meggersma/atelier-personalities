@@ -19,6 +19,7 @@ try:
     from .pinecone_store import pinecone_enabled
     from .state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from .prompt_builder import build_system_prompt, tone_label
+    from .realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
 except ImportError:
     import session_store
     from document_processor import ingest_files
@@ -26,6 +27,7 @@ except ImportError:
     from pinecone_store import pinecone_enabled
     from state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from prompt_builder import build_system_prompt, tone_label
+    from realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
 
 app = FastAPI(title="Witness Simulator API")
 
@@ -76,6 +78,16 @@ class ChatRequest(BaseModel):
 
 
 class SuggestedQuestionsRequest(BaseModel):
+    session_id: Optional[str] = None
+    session: Optional[Dict[str, Any]] = None
+
+
+class RealtimeSessionRequest(BaseModel):
+    session_id: str
+    voice: Optional[str] = None
+
+
+class VoiceInstructionsRequest(BaseModel):
     session_id: Optional[str] = None
     session: Optional[Dict[str, Any]] = None
 
@@ -332,6 +344,8 @@ def chat_endpoint(req: ChatRequest):
     if req.session_id:
         session_store.set(req.session_id, session)
 
+    voice_instructions = build_voice_persona_prompt(session["persona"], new_state)
+
     return {
         "reply": reply_text,
         "session": session,
@@ -342,6 +356,7 @@ def chat_endpoint(req: ChatRequest):
         "turn": session["turn"],
         "events": events,
         "tone": current_tone,
+        "voice_instructions": voice_instructions,
     }
 
 
@@ -387,6 +402,51 @@ def get_personas():
     """Get all built personas."""
     all_personas = session_store.personas_all()
     return {"personas": list(all_personas.values())}
+
+
+@app.post("/api/realtime/session")
+async def create_realtime_session(req: RealtimeSessionRequest):
+    """Mint an ephemeral WebRTC token for gpt-realtime-2 voice sessions."""
+    session = session_store.get(req.session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    persona = session["persona"]
+    state = session["state"]
+
+    try:
+        result = await create_ephemeral_token(
+            persona=persona,
+            state=state,
+            voice=req.voice,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"OpenAI Realtime API error: {e}")
+
+    return result
+
+
+@app.post("/api/realtime/voice-instructions")
+def get_voice_instructions(req: VoiceInstructionsRequest):
+    """Get updated voice delivery instructions for an active Realtime session."""
+    session = req.session
+    if not session and req.session_id:
+        session = session_store.get(req.session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    persona = session["persona"]
+    state = session["state"]
+    instructions = build_voice_persona_prompt(persona, state)
+    suggested_voice = voice_for_persona(persona)
+
+    return {
+        "voice_instructions": instructions,
+        "suggested_voice": suggested_voice,
+        "tone": tone_label(state),
+    }
 
 
 @app.post("/api/session/{session_id}/suggested-questions")
