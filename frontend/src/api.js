@@ -76,8 +76,8 @@ export async function chat(session, message) {
   return res.json()
 }
 
-export async function createRealtimeSession(sessionId, voice) {
-  const body = { session_id: sessionId }
+export async function createRealtimeSession(sessionId, voice, session) {
+  const body = { session_id: sessionId, session }
   if (voice) body.voice = voice
   const res = await fetch(`${BASE}/realtime/session`, {
     method: 'POST',

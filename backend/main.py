@@ -85,7 +85,8 @@ class SuggestedQuestionsRequest(BaseModel):
 
 
 class RealtimeSessionRequest(BaseModel):
-    session_id: str
+    session_id: Optional[str] = None
+    session: Optional[Dict[str, Any]] = None
     voice: Optional[str] = None
 
 
@@ -409,7 +410,9 @@ def get_personas():
 @app.post("/api/realtime/session")
 async def create_realtime_session(req: RealtimeSessionRequest):
     """Mint an ephemeral WebRTC token for gpt-realtime-2 voice sessions."""
-    session = session_store.get(req.session_id)
+    session = req.session
+    if not session and req.session_id:
+        session = session_store.get(req.session_id)
     if not session:
         raise HTTPException(status_code=404, detail="Session not found")
 

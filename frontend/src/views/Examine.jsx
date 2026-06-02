@@ -126,7 +126,7 @@ export default function Examine({ session, setSession, onReset }) {
     setVoiceConnecting(true)
     setError(null)
     try {
-      const data = await createRealtimeSession(session.session_id, selectedVoice)
+      const data = await createRealtimeSession(session.session_id, selectedVoice, session)
       await voice.connect(data.client_secret, {
         voice: data.voice,
         voiceInstructions: data.voice_instructions,
