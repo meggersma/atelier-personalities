@@ -4,6 +4,8 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
 import uuid
@@ -546,3 +548,15 @@ def get_suggested_questions(session_id: str, req: Optional[SuggestedQuestionsReq
         questions = [l for l in lines if l and "?" in l][:4]
 
     return {"questions": questions[:4]}
+
+
+# ── Static frontend serving ──────────────────────────────────────────────────
+_frontend_dist = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+
+if _frontend_dist.is_dir():
+    @app.get("/{full_path:path}")
+    async def serve_frontend(full_path: str):
+        file_path = _frontend_dist / full_path
+        if file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(_frontend_dist / "index.html")
