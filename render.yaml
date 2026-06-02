@@ -27,7 +27,6 @@ services:
   - type: web
     name: atelier-frontend
     runtime: static
-    region: oregon
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
