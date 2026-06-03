@@ -129,6 +129,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
                 },
                 turn_detection: {
                   type: 'semantic_vad',
+                  create_response: false,
                 },
               },
               output: {
