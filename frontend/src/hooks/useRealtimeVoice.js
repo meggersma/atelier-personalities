@@ -18,6 +18,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
   const dcRef = useRef(null)
   const audioRef = useRef(null)
   const micStreamRef = useRef(null)
+  const phaseRef = useRef('idle')
 
   const isSpeaking = turnState === TURN_STATES.SPEAKING
   const isListening = turnState === TURN_STATES.LISTENING
@@ -47,15 +48,30 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
     }
 
     switch (data.type) {
+      case 'session.updated':
+        if (phaseRef.current === 'idle') {
+          phaseRef.current = 'listening'
+          unmuteMic()
+          setTurnState(TURN_STATES.LISTENING)
+        }
+        break
+
       case 'conversation.item.input_audio_transcription.completed': {
         const text = data.transcript?.trim()
         if (text) {
+          phaseRef.current = 'processing'
           muteMic()
           setTurnState(TURN_STATES.PROCESSING)
           onTranscript?.(text)
         }
         break
       }
+
+      case 'response.created':
+        if (phaseRef.current !== 'speaking') {
+          sendEvent({ type: 'response.cancel' })
+        }
+        break
 
       case 'response.output_audio.delta':
         setTurnState(TURN_STATES.SPEAKING)
@@ -64,24 +80,34 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
       case 'response.output_audio.done':
         break
 
-      case 'response.done':
-        setTurnState(TURN_STATES.IDLE)
+      case 'response.done': {
+        const status = data.response?.status
+        if (status === 'cancelled') break
+        phaseRef.current = 'listening'
+        setTurnState(TURN_STATES.LISTENING)
         unmuteMic()
         break
+      }
 
       case 'error':
         setError(data.error?.message || 'Realtime API error')
         onError?.(data.error?.message || 'Realtime API error')
+        if (phaseRef.current === 'idle') {
+          phaseRef.current = 'listening'
+          unmuteMic()
+          setTurnState(TURN_STATES.LISTENING)
+        }
         break
 
       default:
         break
     }
-  }, [onTranscript, onError, muteMic, unmuteMic])
+  }, [onTranscript, onError, muteMic, unmuteMic, sendEvent])
 
   const connect = useCallback(async (ephemeralToken, { voice, voiceInstructions } = {}) => {
     try {
       setError(null)
+      phaseRef.current = 'idle'
 
       const pc = new RTCPeerConnection()
       pcRef.current = pc
@@ -110,6 +136,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
       if (!audioTrack) {
         throw new Error('No audio track available from microphone')
       }
+      audioTrack.enabled = false
       pc.addTrack(audioTrack, micStream)
 
       const dc = pc.createDataChannel('oai-events')
@@ -139,7 +166,6 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
           },
         }))
         setIsConnected(true)
-        setTurnState(TURN_STATES.LISTENING)
       }
 
       dc.onmessage = handleDataChannelMessage
@@ -147,6 +173,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
       dc.onclose = () => {
         setIsConnected(false)
         setTurnState(TURN_STATES.IDLE)
+        phaseRef.current = 'idle'
       }
 
       pc.onconnectionstatechange = () => {
@@ -154,6 +181,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
           setError('Voice connection lost. Try reconnecting.')
           setIsConnected(false)
           setTurnState(TURN_STATES.IDLE)
+          phaseRef.current = 'idle'
           onError?.('Voice connection lost')
         }
       }
@@ -203,11 +231,16 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
 
     setIsConnected(false)
     setTurnState(TURN_STATES.IDLE)
+    phaseRef.current = 'idle'
     setError(null)
   }, [])
 
   const injectResponse = useCallback((text, voiceInstructions) => {
     if (!dcRef.current || dcRef.current.readyState !== 'open') return
+
+    phaseRef.current = 'speaking'
+    muteMic()
+    setTurnState(TURN_STATES.SPEAKING)
 
     if (voiceInstructions) {
       sendEvent({
@@ -234,10 +267,13 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
         output_modalities: ['audio'],
       },
     })
-
-    muteMic()
-    setTurnState(TURN_STATES.SPEAKING)
   }, [sendEvent, muteMic])
+
+  const resetToListening = useCallback(() => {
+    phaseRef.current = 'listening'
+    setTurnState(TURN_STATES.LISTENING)
+    unmuteMic()
+  }, [unmuteMic])
 
   useEffect(() => {
     return () => {
@@ -255,6 +291,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
     connect,
     disconnect,
     injectResponse,
+    resetToListening,
     muteMic,
     unmuteMic,
     sendEvent,

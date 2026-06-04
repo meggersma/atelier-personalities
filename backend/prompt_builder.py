@@ -251,8 +251,28 @@ Hidden facts (do NOT reveal unless cornered): {hidden_facts}
     # Section 8 — Behavioral instruction (dialogue-only)
     current_tone = tone_label(state)
 
+    # Response length guidance
+    if V < 0.20:
+        length_guide = "1-2 sentences MAXIMUM. Curt, minimal words."
+    elif V < 0.35:
+        length_guide = "2-3 sentences. Brief, no elaboration."
+    elif V < 0.55:
+        length_guide = "3-4 sentences."
+    elif V < 0.75:
+        length_guide = "4-6 sentences. Elaborate naturally."
+    else:
+        length_guide = "6+ sentences. Ramble, go on tangents, lose your thread, circle back."
+
+    if A < 0.25 and V < 0.55:
+        length_guide += " Channel hostility through sharp, clipped responses."
+    elif A < 0.40 and V < 0.55:
+        length_guide += " Be guarded and economical with words."
+
     section8 = f"""=== BEHAVIORAL INSTRUCTION ===
 Stay fully in character as {name}. Respond only with spoken words.
+
+RESPONSE LENGTH: {length_guide}
+This is a hard constraint — do not exceed the sentence count above.
 
 CRITICAL — SPOKEN DIALOGUE ONLY:
 Every response must be pure spoken language. No asterisks. No parenthetical action \

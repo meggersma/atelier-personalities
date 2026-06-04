@@ -78,7 +78,7 @@ export default function Examine({ session, setSession, onReset }) {
     } catch (err) {
       setError(err.message)
       setMessages(prev => prev.slice(0, -1))
-      voiceRef.current?.unmuteMic()
+      voiceRef.current?.resetToListening()
     } finally {
       setLoading(false)
     }
