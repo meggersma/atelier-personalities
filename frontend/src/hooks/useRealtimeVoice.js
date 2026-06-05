@@ -136,7 +136,6 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
       if (!audioTrack) {
         throw new Error('No audio track available from microphone')
       }
-      audioTrack.enabled = false
       pc.addTrack(audioTrack, micStream)
 
       const dc = pc.createDataChannel('oai-events')
