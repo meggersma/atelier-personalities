@@ -43,7 +43,13 @@ export default function Examine({ session, setSession, onReset }) {
   }, [])
 
   const handleVoiceTranscript = useCallback(async (text) => {
-    if (!text?.trim() || loading || !session) return
+    if (!text?.trim() || loading || !session) {
+      // The hook muted the mic before delivering the transcript; bailing
+      // without resetting would strand it muted (deaf for the rest of the
+      // session).
+      voiceRef.current?.resetToListening()
+      return
+    }
 
     setLoading(true)
     setError(null)
@@ -393,6 +399,11 @@ export default function Examine({ session, setSession, onReset }) {
             {voice.error && (
               <span style={{ fontSize: 11, color: '#ef4444', marginLeft: 'auto' }}>
                 {voice.error}
+              </span>
+            )}
+            {voice.micSilent && !voice.error && (
+              <span style={{ fontSize: 11, color: '#f59e0b', marginLeft: 'auto', fontWeight: 500 }}>
+                ⚠️ No microphone audio detected — check your input device (System Settings → Sound → Input)
               </span>
             )}
           </div>

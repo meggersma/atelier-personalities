@@ -9,16 +9,26 @@ const TURN_STATES = {
   SPEAKING: 'speaking',
 }
 
+// RMS below this for SILENT_SECONDS consecutive seconds (while listening)
+// triggers the silent-mic warning. Speech registers 0.01-0.3; a wedged or
+// wrongly-routed capture device reads ~0.0005 even mid-sentence.
+const SILENT_RMS_THRESHOLD = 0.003
+const SILENT_SECONDS = 10
+
 export default function useRealtimeVoice({ onTranscript, onError }) {
   const [isConnected, setIsConnected] = useState(false)
   const [turnState, setTurnState] = useState(TURN_STATES.IDLE)
   const [error, setError] = useState(null)
+  const [micSilent, setMicSilent] = useState(false)
 
   const pcRef = useRef(null)
   const dcRef = useRef(null)
   const audioRef = useRef(null)
   const micStreamRef = useRef(null)
   const phaseRef = useRef('idle')
+  const micMonitorRef = useRef(null)
+  const micAudioCtxRef = useRef(null)
+  const silentCountRef = useRef(0)
 
   const isSpeaking = turnState === TURN_STATES.SPEAKING
   const isListening = turnState === TURN_STATES.LISTENING
@@ -138,6 +148,37 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
       }
       pc.addTrack(audioTrack, micStream)
 
+      // Silent-mic detection: a capture device can report "live" yet deliver
+      // pure silence (macOS Continuity mic handoff, wedged Chrome audio
+      // service). The server's VAD never fires, so without this check the
+      // session looks connected but is deaf with no error anywhere.
+      const micCtx = new AudioContext()
+      micAudioCtxRef.current = micCtx
+      const micSource = micCtx.createMediaStreamSource(micStream)
+      const micAnalyser = micCtx.createAnalyser()
+      micSource.connect(micAnalyser)
+      const micBuf = new Float32Array(micAnalyser.fftSize)
+      silentCountRef.current = 0
+      micMonitorRef.current = setInterval(() => {
+        if (phaseRef.current !== 'listening') {
+          silentCountRef.current = 0
+          return
+        }
+        micAnalyser.getFloatTimeDomainData(micBuf)
+        let sum = 0
+        for (const v of micBuf) sum += v * v
+        const rms = Math.sqrt(sum / micBuf.length)
+        if (rms < SILENT_RMS_THRESHOLD) {
+          silentCountRef.current += 1
+          if (silentCountRef.current >= SILENT_SECONDS) {
+            setMicSilent(true)
+          }
+        } else {
+          silentCountRef.current = 0
+          setMicSilent(false)
+        }
+      }, 1000)
+
       const dc = pc.createDataChannel('oai-events')
       dcRef.current = dc
 
@@ -216,6 +257,15 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
   }, [handleDataChannelMessage, onError])
 
   const disconnect = useCallback(() => {
+    if (micMonitorRef.current) {
+      clearInterval(micMonitorRef.current)
+      micMonitorRef.current = null
+    }
+    micAudioCtxRef.current?.close().catch(() => {})
+    micAudioCtxRef.current = null
+    silentCountRef.current = 0
+    setMicSilent(false)
+
     micStreamRef.current?.getTracks().forEach(t => t.stop())
     micStreamRef.current = null
 
@@ -287,6 +337,7 @@ export default function useRealtimeVoice({ onTranscript, onError }) {
     isProcessing,
     turnState,
     error,
+    micSilent,
     connect,
     disconnect,
     injectResponse,
