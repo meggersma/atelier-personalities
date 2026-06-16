@@ -317,7 +317,7 @@ def chat_endpoint(req: ChatRequest):
     # 7. Call Claude
     client = get_client()
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=1024,
         system=system_prompt,
         messages=history_messages
@@ -522,7 +522,7 @@ def get_suggested_questions(session_id: str, req: Optional[SuggestedQuestionsReq
         )
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=512,
         system=(
             "You are a skilled trial attorney. Generate sharp, specific cross-examination questions. "

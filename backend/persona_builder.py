@@ -85,7 +85,7 @@ def extract_candidates(segments: List[Dict], supplemental_info: str = "") -> Lis
     )
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=4096,
         system=system_prompt,
         messages=[
@@ -208,7 +208,7 @@ def build_persona(candidate: Dict, support_segments: List[Dict], supplemental_in
     )
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=8192,
         system=system_prompt,
         messages=[
