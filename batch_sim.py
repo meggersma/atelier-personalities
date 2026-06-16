@@ -205,7 +205,7 @@ def build_persona_from_questions(
     )
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=4096,
         system=(
             "Build a realistic legal witness persona from deposition context. "
@@ -286,7 +286,7 @@ def generate_questions_for_persona(
     )
 
     response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=2048,
         system=(
             "You are a litigator. Generate realistic, varied deposition questions. "
@@ -411,7 +411,7 @@ def run_archetype(
 
         # 7. Call Claude
         response = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-6",
             max_tokens=512,
             system=system_prompt,
             messages=history,
