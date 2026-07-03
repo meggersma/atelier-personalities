@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Atelier — Partner Twin Feedback (Wireframe)</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f6;
+    --surface2: #eeeeee;
+    --border: #d8d8d8;
+    --border-light: #ebebeb;
+    --text: #111111;
+    --muted: #717171;
+    --green: #1a6b2e;
+    --red: #b91c1c;
+    --yellow: #92400e;
+    --indigo: #3730a3;
+    --pink: #9d174d;
+    --cyan: #0e7490;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: #d4d4d4;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 32px 24px;
+  }
+  .doc-header {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    background: var(--bg);
+    border-radius: 6px;
+    padding: 20px 24px;
+    border: 1px solid var(--border);
+  }
+  .doc-header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .doc-header p { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .doc-header .pivot {
+    background: #fff7e6;
+    border-left: 3px solid var(--yellow);
+    padding: 10px 14px;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .doc-header .pivot strong { color: var(--yellow); }
+
+  .screen { max-width: 1200px; margin: 0 auto 32px; }
+  .screen-label {
+    background: var(--text);
+    color: var(--bg);
+    padding: 8px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .screen-label .num { background: var(--bg); color: var(--text); padding: 2px 8px; border-radius: 10px; font-size: 10px; }
+  .screen-label .desc { font-weight: 400; color: var(--surface2); text-transform: none; letter-spacing: 0; font-size: 11px; }
+  .frame {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+  }
+  .annotation {
+    background: #fff7e6;
+    border-left: 3px solid var(--yellow);
+    padding: 8px 12px;
+    font-size: 11px;
+    margin-top: 8px;
+    border-radius: 0 4px 4px 0;
+  }
+  .annotation strong { color: var(--yellow); }
+
+  /* shared app chrome */
+  .app-topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px;
+    border-bottom: 2px solid var(--text);
+    background: var(--bg);
+  }
+  .app-topbar .brand { font-weight: 600; font-size: 14px; letter-spacing: -0.01em; }
+  .app-topbar nav { display: flex; gap: 4px; font-size: 12px; }
+  .app-topbar nav a { padding: 4px 10px; border-radius: 3px; color: var(--muted); text-decoration: none; }
+  .app-topbar nav a.active { background: var(--text); color: var(--bg); }
+  .app-topbar .user { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+  .avatar {
+    width: 24px; height: 24px;
+    background: var(--text); color: var(--bg);
+    border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 600;
+  }
+  .breadcrumb {
+    padding: 8px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-light);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .breadcrumb a { color: var(--muted); text-decoration: none; }
+  .breadcrumb .sep { margin: 0 6px; }
+  .breadcrumb .current { color: var(--text); }
+  .btn {
+    background: var(--text); color: var(--bg);
+    border: 1px solid var(--text);
+    padding: 6px 12px; border-radius: 3px;
+    font-size: 12px; cursor: pointer;
+  }
+  .btn.secondary { background: var(--bg); color: var(--text); }
+
+  /* Persona library */
+  .persona-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 20px;
+  }
+  .twin-card {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  .twin-card.selected { border-color: var(--text); box-shadow: 0 0 0 2px var(--text); }
+  .twin-card .head {
+    background: var(--surface);
+    padding: 14px;
+    border-bottom: 1px solid var(--border-light);
+    display: flex; gap: 10px; align-items: center;
+  }
+  .twin-avatar {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    color: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .twin-avatar.indigo { background: var(--indigo); }
+  .twin-avatar.green { background: var(--green); }
+  .twin-avatar.pink { background: var(--pink); }
+  .twin-avatar.yellow { background: var(--yellow); }
+  .twin-avatar.cyan { background: var(--cyan); }
+  .twin-card .name { font-weight: 600; font-size: 14px; }
+  .twin-card .specialty { color: var(--muted); font-size: 11px; }
+  .twin-card .body { padding: 12px 14px; font-size: 12px; }
+  .twin-card .style-line { color: var(--text); margin-bottom: 10px; line-height: 1.5; }
+  .twin-card .traits { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+  .trait-pill {
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: var(--text);
+  }
+  .twin-card .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-light);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .grounding {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+  .twin-card .actions { padding: 10px 14px; border-top: 1px solid var(--border-light); display: flex; gap: 6px; }
+
+  /* Post-session hub with reviewer selector */
+  .post-hub-mini {
+    padding: 32px 24px;
+    background: var(--surface);
+    min-height: 460px;
+  }
+  .hub-header-mini { text-align: center; margin-bottom: 24px; }
+  .hub-header-mini h2 { font-size: 20px; font-weight: 600; }
+  .hub-header-mini p { color: var(--muted); margin-top: 4px; }
+  .reviewer-row {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .reviewer-row .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .reviewer-select {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    background: var(--bg);
+    cursor: pointer;
+  }
+  .reviewer-select .twin-avatar { width: 28px; height: 28px; font-size: 11px; }
+  .reviewer-select .info { flex: 1; }
+  .reviewer-select .info .nm { font-weight: 600; font-size: 13px; }
+  .reviewer-select .info .sp { font-size: 11px; color: var(--muted); }
+  .reviewer-select .caret { color: var(--muted); font-size: 14px; }
+  .hub-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .hub-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .hub-card:hover { border-color: var(--text); }
+  .hub-card .icon-block {
+    width: 40px; height: 40px;
+    background: var(--surface2);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 16px;
+  }
+  .hub-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .hub-card .desc { color: var(--muted); font-size: 12px; line-height: 1.5; }
+  .hub-card .by { font-size: 11px; color: var(--text); margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border-light); }
+  .hub-card .by strong { color: var(--indigo); }
+
+  /* Word view with reviewer twin */
+  .word-toolbar {
+    display: flex; align-items: center; gap: 4px;
+    padding: 6px 12px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-size: 11px;
+  }
+  .word-toolbar button { border: 1px solid var(--border); background: var(--bg); padding: 3px 8px; font-size: 11px; border-radius: 3px; cursor: pointer; }
+  .word-toolbar button.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .word-toolbar .sep { width: 1px; height: 16px; background: var(--border); margin: 0 4px; }
+  .reviewer-bar {
+    padding: 10px 20px;
+    background: #f3e5f0;
+    border-bottom: 1px solid var(--pink);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .reviewer-bar .twin-avatar { width: 28px; height: 28px; font-size: 11px; }
+  .reviewer-bar .info { flex: 1; }
+  .reviewer-bar .info .nm { font-weight: 600; }
+  .reviewer-bar .info .sp { font-size: 11px; color: var(--muted); }
+  .reviewer-bar .swap { font-size: 11px; padding: 4px 10px; }
+  .doc-body { display: flex; min-height: 480px; }
+  .doc-page { flex: 1; padding: 24px 28px; font-family: Georgia, serif; font-size: 13px; line-height: 1.7; background: var(--bg); }
+  .doc-page h3 { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .turn { margin-bottom: 14px; }
+  .speaker-inline { font-weight: 600; color: var(--muted); font-family: -apple-system, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; margin-right: 6px; }
+  .ins { color: var(--green); text-decoration: underline; }
+  .del { color: var(--red); text-decoration: line-through; }
+  .ins.partner { color: var(--pink); text-decoration: underline; }
+  .comments-rail {
+    width: 260px;
+    border-left: 1px solid var(--border);
+    background: var(--surface);
+    padding: 16px 12px;
+  }
+  .comment-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--pink);
+    border-radius: 3px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .comment-card.lawyer { border-left-color: var(--indigo); }
+  .comment-card .author { font-weight: 600; font-size: 10px; margin-bottom: 4px; display: flex; align-items: center; gap: 4px; }
+  .comment-card .author .badge { background: var(--surface2); color: var(--muted); padding: 1px 4px; border-radius: 2px; font-size: 9px; margin-left: auto; font-weight: 500; }
+  .comment-card .author .twin-mini {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--pink);
+    color: var(--bg);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 8px; font-weight: 600;
+  }
+  .comment-card.lawyer .author .twin-mini { background: var(--indigo); }
+  .comment-card .body { color: var(--text); line-height: 1.5; }
+
+  /* Comparison view */
+  .compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .compare-col {
+    padding: 16px;
+    border-right: 1px solid var(--border);
+  }
+  .compare-col:last-child { border-right: none; }
+  .compare-col h4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .compare-col h4 .twin-avatar { width: 24px; height: 24px; font-size: 10px; }
+  .compare-quote {
+    font-style: italic;
+    font-size: 12px;
+    color: var(--text);
+    padding: 8px 10px;
+    background: var(--surface);
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .flow-arrow {
+    max-width: 1200px;
+    margin: -16px auto 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .flow-arrow .down { font-size: 18px; display: block; line-height: 1; }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <h1>Atelier — Partner Twin Feedback</h1>
+  <p>Three screens showing how AI partner twins deliver tracked-changes feedback without requiring multi-tenancy or human partner sharing.</p>
+  <div class="pivot">
+    <strong>Architectural pivot:</strong> Multi-tenancy → single-user with selectable AI partner-reviewer personas. Reuses Atelier's existing persona primitive — same architecture as witness personas, applied to a new role. Saves ~4 weeks of auth/sharing/permissions work. Future personas can play mock judges (moot court), opposing counsel (negotiation prep), etc.
+  </div>
+</div>
+
+<!-- ============ SCREEN A: Partner library ============ -->
+<div class="screen">
+  <div class="screen-label">
+    <span><span class="num">A</span> Partner Twin Library<span class="desc"> — selectable AI reviewers, each with distinct style</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav>
+        <a href="#">Cases</a>
+        <a href="#" class="active">Personas</a>
+        <a href="#">Sessions</a>
+        <a href="#">Library</a>
+      </nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb">
+      <a href="#">Personas</a><span class="sep">›</span><span class="current">Partner reviewers</span>
+    </div>
+    <div style="padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-light);">
+      <div>
+        <h2 style="font-size: 16px; font-weight: 600;">Partner reviewers</h2>
+        <div style="color: var(--muted); font-size: 12px; margin-top: 2px;">AI personas that critique your sessions in the style of a supervising partner.</div>
+      </div>
+      <div>
+        <button class="btn secondary">Import partner from feedback memos</button>
+        <button class="btn">+ Build custom partner</button>
+      </div>
+    </div>
+    <div class="persona-grid">
+      <div class="twin-card selected">
+        <div class="head">
+          <div class="twin-avatar pink">SP</div>
+          <div>
+            <div class="name">Sarah Park</div>
+            <div class="specialty">Litigation Partner · Securities & White Collar</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="style-line">Direct, focused on form discipline. Will not let leading questions or vague impeachment slide. Emphasizes record-locking.</div>
+          <div class="grounding">Style traits</div>
+          <div class="traits">
+            <span class="trait-pill">Form-strict</span>
+            <span class="trait-pill">Aggressive</span>
+            <span class="trait-pill">Detail-oriented</span>
+            <span class="trait-pill">Terse comments</span>
+          </div>
+          <div class="footer-row">
+            <span>Used in 7 sessions</span>
+            <span>★ default reviewer</span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn secondary">Edit style</button>
+          <button class="btn secondary">View sample feedback</button>
+        </div>
+      </div>
+
+      <div class="twin-card">
+        <div class="head">
+          <div class="twin-avatar indigo">DC</div>
+          <div>
+            <div class="name">David Chen</div>
+            <div class="specialty">Trial Partner · Complex Commercial Litigation</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="style-line">Strategic, big-picture. Less concerned with form than with theory of the case. Often asks "what's your narrative here?"</div>
+          <div class="grounding">Style traits</div>
+          <div class="traits">
+            <span class="trait-pill">Narrative-focused</span>
+            <span class="trait-pill">Patient</span>
+            <span class="trait-pill">Long comments</span>
+            <span class="trait-pill">Strategic</span>
+          </div>
+          <div class="footer-row">
+            <span>Used in 3 sessions</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn secondary">Edit style</button>
+          <button class="btn secondary">View sample feedback</button>
+        </div>
+      </div>
+
+      <div class="twin-card">
+        <div class="head">
+          <div class="twin-avatar green">JV</div>
+          <div>
+            <div class="name">Judge Vasquez</div>
+            <div class="specialty">Mock Bench · Federal District Court</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="style-line">Reviews from the bench's perspective. Flags rulings she'd sustain or overrule, evidentiary issues, courtroom decorum.</div>
+          <div class="grounding">Style traits</div>
+          <div class="traits">
+            <span class="trait-pill">Evidentiary</span>
+            <span class="trait-pill">Procedural</span>
+            <span class="trait-pill">Ruling-focused</span>
+          </div>
+          <div class="footer-row">
+            <span>Used in 1 session</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn secondary">Edit style</button>
+          <button class="btn secondary">View sample feedback</button>
+        </div>
+      </div>
+
+      <div class="twin-card">
+        <div class="head">
+          <div class="twin-avatar yellow">MR</div>
+          <div>
+            <div class="name">Marcus Reyes</div>
+            <div class="specialty">Public Defender · Trial Skills Instructor</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="style-line">Teaching-oriented. Explains the "why" behind every suggestion. Encouraging but rigorous.</div>
+          <div class="grounding">Style traits</div>
+          <div class="traits">
+            <span class="trait-pill">Pedagogical</span>
+            <span class="trait-pill">Encouraging</span>
+            <span class="trait-pill">Detailed reasoning</span>
+          </div>
+          <div class="footer-row">
+            <span>Used in 5 sessions</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn secondary">Edit style</button>
+          <button class="btn secondary">View sample feedback</button>
+        </div>
+      </div>
+
+      <div class="twin-card">
+        <div class="head">
+          <div class="twin-avatar cyan">??</div>
+          <div>
+            <div class="name">Your supervising partner</div>
+            <div class="specialty">Custom · grounded on real feedback memos</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="style-line">Upload your real partner's past written feedback (memos, redlines, emails). The twin learns their voice and applies it to your sessions.</div>
+          <div class="grounding">Setup</div>
+          <div class="traits">
+            <span class="trait-pill">Upload 3-5 feedback samples</span>
+            <span class="trait-pill">Optional</span>
+          </div>
+          <div class="footer-row">
+            <span>Not yet configured</span>
+            <span></span>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn">Build from samples</button>
+        </div>
+      </div>
+
+      <div class="twin-card" style="border-style: dashed; color: var(--muted); display: flex; align-items: center; justify-content: center; min-height: 280px;">
+        <div style="text-align: center; padding: 16px;">
+          <div style="margin-bottom: 8px;">+ Build a partner twin from scratch</div>
+          <div style="font-size: 11px;">Define style, expertise, comment tone</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Same primitive as witness personas:</strong> name, role, style descriptors, optional grounding documents. The "your supervising partner" card is the killer feature — upload real feedback samples and the twin learns your actual partner's voice.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> after a session, choose a reviewer</div>
+
+<!-- ============ SCREEN B: Post-session hub with reviewer selector ============ -->
+<div class="screen">
+  <div class="screen-label">
+    <span><span class="num">B</span> Post-Session Hub<span class="desc"> — select reviewer, then pick view</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="post-hub-mini">
+      <div class="hub-header-mini">
+        <h2>Session 5 complete</h2>
+        <p>14:23 elapsed · 18 turns · Cross-examination of Robert Hayes</p>
+      </div>
+      <div class="reviewer-row">
+        <div class="lbl">Reviewed by</div>
+        <div class="reviewer-select">
+          <div class="twin-avatar pink">SP</div>
+          <div class="info">
+            <div class="nm">Sarah Park</div>
+            <div class="sp">Litigation Partner · Securities · Form-strict</div>
+          </div>
+          <div class="caret">▾</div>
+        </div>
+        <button class="btn secondary" style="font-size: 11px;">Compare two reviewers</button>
+      </div>
+      <div class="hub-options">
+        <div class="hub-card">
+          <div class="icon-block" style="background: #eef4fb; color: var(--indigo);">▦</div>
+          <h3>Dashboard review</h3>
+          <div class="desc">Score, dimensions, trajectory, "try next" suggestions — colored by Sarah's emphasis on form discipline.</div>
+          <div class="by">Analysis by <strong>Sarah Park</strong></div>
+        </div>
+        <div class="hub-card">
+          <div class="icon-block" style="background: #f3e5f0; color: var(--pink);">¶</div>
+          <h3>Annotated transcript (Word)</h3>
+          <div class="desc">Tracked changes + margin comments written in Sarah's voice. Export DOCX to keep, share, or revisit.</div>
+          <div class="by">Marked up by <strong>Sarah Park</strong></div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px; color: var(--muted); font-size: 11px;">
+        Same session, different reviewer = different feedback. Swap reviewers anytime from inside either view.
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>The reviewer dropdown is the whole pivot.</strong> Compared to multi-tenancy, this is one new UI control + one new persona type. The analyzer JSON gains a `reviewer_id` field and conditions its output on the twin's style descriptors.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> open the Word view</div>
+
+<!-- ============ SCREEN C: Word view with twin reviewer ============ -->
+<div class="screen">
+  <div class="screen-label">
+    <span><span class="num">C</span> Word View · Reviewed by Sarah Park<span class="desc"> — tracked changes in the twin's voice</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Depo Prep</a><span class="sep">›</span><a href="#">Sessions</a><span class="sep">›</span><span class="current">Session 5 — Transcript</span></div>
+    <div class="word-toolbar">
+      <button>Dashboard</button>
+      <button class="primary">Annotated transcript</button>
+      <span class="sep"></span>
+      <button>Accept</button>
+      <button>Reject</button>
+      <button>Next change</button>
+      <button>Add note</button>
+      <span class="sep"></span>
+      <button>Export DOCX</button>
+    </div>
+    <div class="reviewer-bar">
+      <div class="twin-avatar pink">SP</div>
+      <div class="info">
+        <div class="nm">Reviewed by Sarah Park · Litigation Partner</div>
+        <div class="sp">Form-strict · 3 tracked changes · 4 margin comments · generated in 8 seconds</div>
+      </div>
+      <button class="btn secondary swap">Try David Chen's review</button>
+      <button class="btn secondary swap">Compare two</button>
+    </div>
+    <div class="doc-body">
+      <div class="doc-page">
+        <h3>Cross-examination of Mr. Hayes — turns 14-22</h3>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          Mr. Hayes, you testified earlier the email was sent on March 15th,
+          <span class="del">right?</span><span class="ins partner">is that correct?</span>
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> That's what I remember, yes.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          Let me show you Exhibit 7.<span class="ins partner"> I'll hand you a copy. Take a moment to review it.</span> Is this the email?
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> Yes, that appears to be it.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          <span class="del">And the metadata at the top of the page — what date does it show?</span>
+          <span class="ins partner">Please read aloud the date stamped in the header.</span>
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> It... says March 17th.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span> So you were mistaken about the date?
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> I suppose so. I don't remember exactly.
+        </div>
+      </div>
+      <div class="comments-rail">
+        <div class="comment-card">
+          <div class="author"><span class="twin-mini">SP</span> Sarah Park <span class="badge">Q15</span></div>
+          <div class="body">"Right?" is a tag — gives Hayes room to soften. Use closed leads. You know this, you just got lazy.</div>
+        </div>
+        <div class="comment-card">
+          <div class="author"><span class="twin-mini">SP</span> Sarah Park <span class="badge">Q17</span></div>
+          <div class="body">Good instinct on Ex. 7. But slow down. Let him physically see the contradiction before you ask the question.</div>
+        </div>
+        <div class="comment-card">
+          <div class="author"><span class="twin-mini">SP</span> Sarah Park <span class="badge">Q18</span></div>
+          <div class="body">This is the move. Make him read it. The record speaks; you don't have to.</div>
+        </div>
+        <div class="comment-card">
+          <div class="author"><span class="twin-mini">SP</span> Sarah Park <span class="badge">Q21</span></div>
+          <div class="body">Don't ask "so you were mistaken." That's arguing. Let the contradiction sit. Move on.</div>
+        </div>
+        <div class="comment-card lawyer">
+          <div class="author"><span class="twin-mini">MM</span> You <span class="badge">Note</span></div>
+          <div class="body">For real depo: rehearse exhibit handoff. Sarah's right about the pause.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Style markers visible:</strong> Sarah's voice is terse and slightly impatient ("you got lazy," "this is the move," "move on"). David Chen's review of the same session would read very differently — longer, more strategic, less form-focused. The twin's style descriptors directly condition the LLM that generates the comments.</div>
+</div>
+
+<!-- ============ Comparison view (bonus) ============ -->
+<div class="screen">
+  <div class="screen-label">
+    <span><span class="num">D</span> Side-by-Side Reviewer Comparison<span class="desc"> — same turn, two perspectives</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div style="padding: 14px 20px; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <div style="font-weight: 600;">Session 5 · Q18 — comparing two reviewers</div>
+        <div style="font-size: 11px; color: var(--muted); margin-top: 2px;">"Please read aloud the date stamped in the header."</div>
+      </div>
+      <button class="btn secondary">Add a third reviewer</button>
+    </div>
+    <div class="compare-grid">
+      <div class="compare-col">
+        <h4><span class="twin-avatar pink">SP</span> Sarah Park · Form-strict</h4>
+        <div class="compare-quote">"This is the move. Make him read it. The record speaks; you don't have to."</div>
+        <div style="font-size: 12px; color: var(--text); margin-bottom: 8px;">
+          <strong>Suggested rewrite:</strong> none — this turn is strong.
+        </div>
+        <div style="font-size: 12px; color: var(--muted);">
+          <strong>Sarah's broader framing:</strong> Strong impeachment turn. Form was disciplined. Next time, even tighter pacing — give him 2-3 seconds of silence after reading.
+        </div>
+      </div>
+      <div class="compare-col">
+        <h4><span class="twin-avatar indigo">DC</span> David Chen · Narrative-focused</h4>
+        <div class="compare-quote">"The mechanic is right, but what's the story? Is this witness lying, mistaken, or covering for someone else? Your follow-up should depend on which."</div>
+        <div style="font-size: 12px; color: var(--text); margin-bottom: 8px;">
+          <strong>Suggested follow-up Q19:</strong> "Was anyone else aware of the email's actual date?"
+        </div>
+        <div style="font-size: 12px; color: var(--muted);">
+          <strong>David's broader framing:</strong> You impeached on the fact but didn't follow the thread. Always ask: what does this contradiction <em>mean</em> for my case theory?
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>This is the feature multi-tenancy literally cannot deliver:</strong> two senior attorneys reviewing the same turn at the same time. The comparison surfaces that they value different things — Sarah grades on form, David grades on case theory. Both are right; you learn from seeing the gap.</div>
+</div>
+
+</body>
+</html>

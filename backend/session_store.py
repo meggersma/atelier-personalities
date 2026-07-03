@@ -63,3 +63,24 @@ def personas_set(persona_id: str, persona: Any):
 def personas_all():
     with _personas_lock:
         return dict(_personas_store)
+
+
+# Analyses store
+
+_analyses_store: Dict[str, Any] = {}
+_analyses_lock = threading.Lock()
+
+
+def analyses_get(analysis_id: str):
+    with _analyses_lock:
+        return _analyses_store.get(analysis_id)
+
+
+def analyses_set(analysis_id: str, analysis: Any):
+    with _analyses_lock:
+        _analyses_store[analysis_id] = analysis
+
+
+def analyses_all():
+    with _analyses_lock:
+        return dict(_analyses_store)

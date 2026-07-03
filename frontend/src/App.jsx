@@ -3,6 +3,7 @@ import Upload from './views/Upload'
 import Personas from './views/Personas'
 import Configure from './views/Configure'
 import Examine from './views/Examine'
+import Review from './views/Review'
 import './app.css'
 
 const STORAGE_KEY = 'witness-sim-state'
@@ -15,6 +16,8 @@ export default function App() {
   const [personas, setPersonas] = useState([])
   const [session, setSession] = useState(null)
   const [configPersonaId, setConfigPersonaId] = useState(null)
+  const [analyses, setAnalyses] = useState([])
+  const [customReviewers, setCustomReviewers] = useState([])
 
   useEffect(() => {
     try {
@@ -27,6 +30,9 @@ export default function App() {
       setPersonas(saved.personas || [])
       setSession(saved.session || null)
       setConfigPersonaId(saved.configPersonaId || null)
+      // Migrate the pre-history shape (single saved analysis) into the array.
+      setAnalyses(saved.analyses || (saved.analysis ? [saved.analysis] : []))
+      setCustomReviewers(saved.customReviewers || [])
     } catch {
       // Ignore corrupt local state.
     }
@@ -40,14 +46,17 @@ export default function App() {
       personas,
       session,
       configPersonaId,
+      analyses,
+      customReviewers,
     }))
-  }, [segments, documents, candidates, personas, session, configPersonaId])
+  }, [segments, documents, candidates, personas, session, configPersonaId, analyses, customReviewers])
 
   const nav = [
     { id: 'upload', label: 'Upload' },
     { id: 'personas', label: 'Personas' },
     { id: 'configure', label: 'Configure' },
     { id: 'examine', label: 'Examine' },
+    { id: 'review', label: 'Review' },
   ]
 
   return (
@@ -107,6 +116,17 @@ export default function App() {
           session={session}
           setSession={setSession}
           onReset={() => setView('configure')}
+          onReview={() => setView('review')}
+        />
+      )}
+
+      {view === 'review' && (
+        <Review
+          session={session}
+          analyses={analyses}
+          setAnalyses={setAnalyses}
+          customReviewers={customReviewers}
+          setCustomReviewers={setCustomReviewers}
         />
       )}
     </div>

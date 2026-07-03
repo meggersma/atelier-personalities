@@ -88,6 +88,37 @@ export async function createRealtimeSession(sessionId, voice, session) {
   return res.json()
 }
 
+export async function analyzeSession(session, reviewerId = null, reviewer = null) {
+  const res = await fetch(`${BASE}/analysis`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      session_id: session?.session_id || null,
+      session,
+      reviewer_id: reviewerId,
+      reviewer,
+    })
+  })
+  if (!res.ok) throw new Error(`Analysis failed: ${await errorDetail(res)}`)
+  return res.json()
+}
+
+export async function buildReviewer(name, materials) {
+  const res = await fetch(`${BASE}/reviewers/build`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name, materials })
+  })
+  if (!res.ok) throw new Error(`Build reviewer failed: ${await errorDetail(res)}`)
+  return res.json()
+}
+
+export async function getReviewers() {
+  const res = await fetch(`${BASE}/reviewers`)
+  if (!res.ok) throw new Error(`Get reviewers failed: ${await errorDetail(res)}`)
+  return res.json()
+}
+
 export async function getSuggestedQuestions(session) {
   const res = await fetch(`${BASE}/session/__client__/suggested-questions`, {
     method: 'POST',

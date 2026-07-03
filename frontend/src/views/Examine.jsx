@@ -14,7 +14,7 @@ const VOICE_OPTIONS = [
   { id: 'verse', label: 'Verse', desc: 'Balanced' },
 ]
 
-export default function Examine({ session, setSession, onReset }) {
+export default function Examine({ session, setSession, onReset, onReview }) {
   const [messages, setMessages] = useState([])
   const [state, setState] = useState(null)
   const [state0, setState0] = useState(null)
@@ -306,6 +306,12 @@ export default function Examine({ session, setSession, onReset }) {
                 <>🎤 Voice</>
               )}
             </button>
+
+            {(messages.length > 0) && (
+              <button className="btn btn-sm" onClick={onReview}>
+                Review
+              </button>
+            )}
 
             <button className="btn btn-sm btn-danger" onClick={handleEndSession}>
               End Session

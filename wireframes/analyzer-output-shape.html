@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Atelier — Analyzer Output Shape (Wireframe)</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f6;
+    --surface2: #eeeeee;
+    --border: #d8d8d8;
+    --border-light: #ebebeb;
+    --text: #111111;
+    --muted: #717171;
+    --green: #1a6b2e;
+    --red: #b91c1c;
+    --yellow: #92400e;
+    --indigo: #3730a3;
+    --pink: #9d174d;
+    --cyan: #0e7490;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: #d4d4d4;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 32px 24px;
+  }
+  .doc-header {
+    max-width: 1240px;
+    margin: 0 auto 24px;
+    background: var(--bg);
+    border-radius: 6px;
+    padding: 20px 24px;
+    border: 1px solid var(--border);
+  }
+  .doc-header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .doc-header p { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .doc-header .pivot {
+    background: #fff7e6;
+    border-left: 3px solid var(--yellow);
+    padding: 10px 14px;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .doc-header .pivot strong { color: var(--yellow); }
+
+  .screen { max-width: 1240px; margin: 0 auto 32px; }
+  .screen-label {
+    background: var(--text);
+    color: var(--bg);
+    padding: 8px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px 4px 0 0;
+  }
+  .screen-body {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    padding: 24px;
+  }
+  .note {
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .note strong { color: var(--text); }
+
+  /* ── Anatomy screen ── */
+  .anatomy { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+  pre.json {
+    background: #1b1b1f;
+    color: #e8e8ec;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 11.5px;
+    line-height: 1.7;
+    padding: 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  pre.json .k { color: #8ab4f8; }
+  pre.json .s { color: #a8d08d; }
+  pre.json .n { color: #e6b673; }
+  .chip {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 16px; height: 16px; border-radius: 50%;
+    background: var(--indigo); color: #fff;
+    font-size: 10px; font-weight: 700;
+    margin-left: 6px; vertical-align: middle;
+  }
+  .field-notes { display: flex; flex-direction: column; gap: 10px; }
+  .field-note {
+    display: flex; gap: 10px; align-items: flex-start;
+    border: 1px solid var(--border-light); border-radius: 6px; padding: 10px 12px;
+  }
+  .field-note .chip { flex-shrink: 0; margin: 2px 0 0; }
+  .field-note b { font-family: ui-monospace, Menlo, monospace; font-size: 11.5px; }
+  .field-note p { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  /* ── Transcript / Word view ── */
+  .reviewer-bar {
+    display: flex; align-items: center; gap: 10px;
+    background: #eef2ff; border: 1px solid #c7d2fe;
+    border-radius: 6px; padding: 8px 14px; margin-bottom: 16px;
+    font-size: 12px;
+  }
+  .reviewer-bar .avatar {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: var(--indigo); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700;
+  }
+  .wordview { display: grid; grid-template-columns: 1fr 320px; gap: 0; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .wordview .page { background: var(--bg); padding: 24px 28px; border-right: 1px solid var(--border-light); }
+  .wordview .margin { background: var(--surface); padding: 16px 14px; display: flex; flex-direction: column; gap: 12px; }
+  .turn { margin-bottom: 14px; }
+  .turn .who {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 1px;
+  }
+  .turn .who .tno { font-weight: 400; color: #aaa; }
+  .turn p { font-size: 13px; }
+  .hl { border-radius: 2px; padding: 0 1px; cursor: default; }
+  .hl.critical { background: #fee2e2; box-shadow: inset 0 -2px 0 var(--red); }
+  .hl.major    { background: #fef3c7; box-shadow: inset 0 -2px 0 var(--yellow); }
+  .hl.minor    { background: #e0e7ff; box-shadow: inset 0 -2px 0 var(--indigo); }
+  .hl.praise   { background: #dcfce7; box-shadow: inset 0 -2px 0 var(--green); }
+  del { color: var(--red); text-decoration: line-through; }
+  ins { color: var(--green); text-decoration: underline; font-style: normal; }
+  .comment {
+    background: var(--bg); border: 1px solid var(--border);
+    border-left-width: 3px; border-radius: 4px; padding: 8px 10px; font-size: 11.5px;
+  }
+  .comment.critical { border-left-color: var(--red); }
+  .comment.major    { border-left-color: var(--yellow); }
+  .comment.minor    { border-left-color: var(--indigo); }
+  .comment.praise   { border-left-color: var(--green); }
+  .comment .meta { font-size: 10px; color: var(--muted); margin-bottom: 3px; }
+  .comment .meta b { color: var(--text); }
+  .comment .cat {
+    display: inline-block; font-family: ui-monospace, Menlo, monospace;
+    font-size: 9.5px; background: var(--surface2); border-radius: 3px;
+    padding: 1px 5px; margin-left: 4px;
+  }
+  .memo {
+    background: #fffbeb; border: 1px solid #fde68a; border-radius: 6px;
+    padding: 12px 16px; margin-bottom: 16px; font-size: 12px;
+  }
+  .memo b { display: block; margin-bottom: 4px; }
+
+  /* ── Dashboard ── */
+  .dash { display: grid; grid-template-columns: 300px 1fr; gap: 20px; align-items: start; }
+  .scorecard { border: 1px solid var(--border); border-radius: 6px; padding: 16px; }
+  .scorecard h4 { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 12px; }
+  .dim { margin-bottom: 10px; }
+  .dim .row { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 3px; }
+  .bar { height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+  .bar > div { height: 100%; border-radius: 3px; background: var(--indigo); }
+  .spark {
+    margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border-light);
+  }
+  .spark h5 { font-size: 10px; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .ann-cards { display: flex; flex-direction: column; gap: 10px; }
+  .ann-card {
+    border: 1px solid var(--border); border-left-width: 4px;
+    border-radius: 6px; padding: 10px 14px; display: flex; gap: 12px; align-items: flex-start;
+  }
+  .ann-card.critical { border-left-color: var(--red); }
+  .ann-card.major    { border-left-color: var(--yellow); }
+  .ann-card.minor    { border-left-color: var(--indigo); }
+  .ann-card.praise   { border-left-color: var(--green); }
+  .ann-card .turnref {
+    flex-shrink: 0; font-family: ui-monospace, Menlo, monospace;
+    font-size: 10px; background: var(--surface2); border-radius: 3px; padding: 2px 6px; margin-top: 2px;
+  }
+  .ann-card .body b { font-size: 12px; }
+  .ann-card .body p { font-size: 12px; color: var(--muted); }
+  .rewrite {
+    margin-top: 6px; font-size: 11.5px; background: var(--surface);
+    border-radius: 4px; padding: 6px 8px;
+  }
+  .pattern-card {
+    border: 1px solid #c7d2fe; background: #eef2ff; border-radius: 6px;
+    padding: 12px 16px; font-size: 12px;
+  }
+  .pattern-card .turns { margin-top: 6px; }
+  .pattern-card .turns span {
+    font-family: ui-monospace, Menlo, monospace; font-size: 10px;
+    background: var(--bg); border: 1px solid #c7d2fe; border-radius: 3px;
+    padding: 1px 6px; margin-right: 4px;
+  }
+  .trynext { margin-top: 14px; border-top: 1px solid var(--border-light); padding-top: 12px; }
+  .trynext h5 { font-size: 10px; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .trynext li { font-size: 12px; margin-left: 16px; margin-bottom: 4px; }
+
+  /* ── Twin comparison ── */
+  .twins { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .twin-col { border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .twin-head { display: flex; align-items: center; gap: 10px; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+  .twin-head .avatar { width: 26px; height: 26px; border-radius: 50%; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; }
+  .twin-col.sarah .twin-head { background: #eef2ff; } .twin-col.sarah .avatar { background: var(--indigo); }
+  .twin-col.david .twin-head { background: #ecfeff; } .twin-col.david .avatar { background: var(--cyan); }
+  .twin-head .style { font-size: 11px; color: var(--muted); }
+  .twin-body { padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+  .quoted-turn {
+    background: var(--surface); border-radius: 6px; padding: 12px 16px;
+    font-size: 13px; margin-bottom: 16px; border: 1px solid var(--border-light);
+  }
+
+  /* ── Taxonomy ── */
+  table.tax { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table.tax th, table.tax td { border: 1px solid var(--border-light); padding: 7px 10px; text-align: left; vertical-align: top; }
+  table.tax th { background: var(--surface); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+  table.tax code { font-family: ui-monospace, Menlo, monospace; font-size: 11px; background: var(--surface2); border-radius: 3px; padding: 1px 5px; white-space: nowrap; }
+  .sev-legend { display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap; }
+  .sev-legend .sev { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+  .sev-legend .dot { width: 12px; height: 12px; border-radius: 3px; }
+  .badge-upload {
+    display: inline-block; font-size: 9.5px; font-weight: 700; text-transform: uppercase;
+    background: #fce7f3; color: var(--pink); border-radius: 3px; padding: 1px 5px; margin-left: 6px;
+  }
+  .onramps { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  .onramp { border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; }
+  .onramp h4 { font-size: 12px; margin-bottom: 6px; }
+  .onramp ul { margin-left: 16px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <h1>Analyzer Output Shape — the shared JSON contract</h1>
+  <p>One mock cross-examination · one analysis object · rendered every way it will be consumed. React to the <em>fields, categories, and severities</em> — the visual design of each view comes later.</p>
+  <div class="pivot"><strong>The contract:</strong> build the analyzer once, render twice. Everything on this page is drawn from a single JSON object. If a view needs something that isn't in the JSON, the schema — not the view — is what has to change.</div>
+</div>
+
+<!-- ═══════════════ SCREEN 1: ANATOMY ═══════════════ -->
+<div class="screen">
+  <div class="screen-label">① One annotation, anatomically</div>
+  <div class="screen-body">
+    <div class="note"><strong>Mock case:</strong> intersection collision, witness <em>Daniel Reyes</em> under cross. The examiner's Turn 12 contained a compound question. Left: the annotation object. Right: what each field is <em>for</em>.</div>
+    <div class="anatomy">
+      <pre class="json">{
+  <span class="k">"annotation_id"</span>: <span class="s">"a-014"</span>,
+  <span class="k">"turn_id"</span>: <span class="n">12</span>,                          ①
+  <span class="k">"span"</span>: {                               ②
+    <span class="k">"quote"</span>: <span class="s">"you arrived at 9 PM and you
+              were heading home from the gym"</span>,
+    <span class="k">"start"</span>: <span class="n">34</span>, <span class="k">"end"</span>: <span class="n">87</span>
+  },
+  <span class="k">"category"</span>: <span class="s">"compound_question"</span>,       ③
+  <span class="k">"severity"</span>: <span class="s">"major"</span>,                    ④
+  <span class="k">"ai_note"</span>: <span class="s">"Two facts in one question —
+    the witness adopted only the gym trip.
+    Your 9 PM timeline is now unpinned,
+    and it matters for the light sequence."</span>, ⑤
+  <span class="k">"suggested_rewrite"</span>: <span class="s">"You arrived at
+    the intersection at 9 PM, correct?"</span>,    ⑥
+  <span class="k">"reviewer_id"</span>: <span class="s">"sarah_park"</span>            ⑦
+}</pre>
+      <div class="field-notes">
+        <div class="field-note"><span class="chip">1</span><div><b>turn_id</b><p>Anchors feedback to a moment. Both views need it; cross-session stats aggregate on it.</p></div></div>
+        <div class="field-note"><span class="chip">2</span><div><b>span — quote + resolved offsets</b><p>The Word view attaches tracked changes to <em>text ranges</em>, not paragraphs. The LLM returns the <b>quote</b>; the backend resolves it to offsets by string-match (LLMs are unreliable at raw offsets). Dashboard ignores this field.</p></div></div>
+        <div class="field-note"><span class="chip">3</span><div><b>category — closed enum</b><p>The data. Cross-session trends ("compound-question rate over 6 sessions") only work if this label is stable. See taxonomy in ⑤ below.</p></div></div>
+        <div class="field-note"><span class="chip">4</span><div><b>severity — critical / major / minor / praise</b><p>Drives dashboard sort + Word comment color. Praise is a first-class severity: an all-redline review reads as demoralizing and wastes teachable wins.</p></div></div>
+        <div class="field-note"><span class="chip">5</span><div><b>ai_note — the reviewer's voice</b><p>Margin comment in Word; card body in dashboard. This is where the partner twin's style lives.</p></div></div>
+        <div class="field-note"><span class="chip">6</span><div><b>suggested_rewrite — optional</b><p>Becomes the literal redline (delete span, insert rewrite). Null for annotations with no fix (e.g., praise, missed-opportunity notes).</p></div></div>
+        <div class="field-note"><span class="chip">7</span><div><b>reviewer_id</b><p>Same schema, different twin, different annotation set — what makes side-by-side comparison cheap.</p></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ SCREEN 2: WORD VIEW ═══════════════ -->
+<div class="screen">
+  <div class="screen-label">② Rendered as the Word view (tracked changes + margin comments)</div>
+  <div class="screen-body">
+    <div class="reviewer-bar"><span class="avatar">SP</span><span>Reviewed by <b>Sarah Park</b> · form-strict · 6 annotations, 1 pattern</span></div>
+    <div class="memo"><b>Reviewer memo (from the pattern + summary layers)</b>
+      Strong open — your first three questions were tight and the witness stayed contained. The session turned at Turn 18: one open-ended "why" handed him the exit, and you never re-pinned the light color. Recurring issue: sequences start leading and loosen by the third question (T12, T18, T23).</div>
+    <div class="wordview">
+      <div class="page">
+        <div class="turn"><div class="who">Examiner <span class="tno">· T10</span></div>
+          <p><span class="hl praise">You were at the intersection of 5th and Main on March 12th, correct?</span></p></div>
+        <div class="turn"><div class="who">Witness · Reyes <span class="tno">· T11</span></div><p>Yes.</p></div>
+        <div class="turn"><div class="who">Examiner <span class="tno">· T12</span></div>
+          <p>And you told the responding officer <span class="hl major"><del>you arrived at 9 PM and you were heading home from the gym</del> <ins>you arrived at the intersection at 9 PM</ins></span>, right?</p></div>
+        <div class="turn"><div class="who">Witness · Reyes <span class="tno">· T13</span></div><p>I was coming from the gym, yeah.</p></div>
+        <div class="turn"><div class="who">Examiner <span class="tno">· T14</span></div>
+          <p><span class="hl critical">The light was red when the defendant's car entered the intersection?</span></p></div>
+        <div class="turn"><div class="who">Witness · Reyes <span class="tno">· T15</span></div><p>It was red.</p></div>
+        <div class="turn"><div class="who">Examiner <span class="tno">· T16</span></div>
+          <p><span class="hl minor">And you saw that pretty clearly?</span></p></div>
+        <div class="turn"><div class="who">Witness · Reyes <span class="tno">· T17</span></div><p>Clearly enough.</p></div>
+        <div class="turn"><div class="who">Examiner <span class="tno">· T18</span></div>
+          <p><span class="hl critical"><del>Why are you so sure it was red?</del></span></p></div>
+        <div class="turn"><div class="who">Witness · Reyes <span class="tno">· T19</span></div>
+          <p>Because I'd just looked up when I heard the brakes — well, actually, it might have been turning yellow as he came in. It happened fast.</p></div>
+      </div>
+      <div class="margin">
+        <div class="comment praise"><div class="meta"><b>Sarah Park</b> · T10 <span class="cat">controlled_sequence</span> · praise</div>
+          Textbook anchor question — one fact, leading, no room to wander.</div>
+        <div class="comment major"><div class="meta"><b>Sarah Park</b> · T12 <span class="cat">compound_question</span> · major</div>
+          Two facts in one question — the witness adopted only the gym trip. Your 9 PM timeline is now unpinned, and it matters for the light sequence.</div>
+        <div class="comment critical"><div class="meta"><b>Sarah Park</b> · T14 <span class="cat">missed_impeachment</span> · critical</div>
+          His deposition (p. 41) says he arrived at <em>9:30</em>. You had the contradiction teed up at T12–T14 and moved past it. No rewrite — this is a missed door, not a bad question.</div>
+        <div class="comment minor"><div class="meta"><b>Sarah Park</b> · T16 <span class="cat">vague_question</span> · minor</div>
+          "Pretty clearly" invites qualification. Lock it: "Nothing obstructed your view, correct?"</div>
+        <div class="comment critical"><div class="meta"><b>Sarah Park</b> · T18 <span class="cat">one_question_too_many</span> · critical</div>
+          You had the admission at T15. "Why" handed him the microphone — and he downgraded red to "maybe yellow." Stop at the answer you need.</div>
+      </div>
+    </div>
+    <div class="note" style="margin-top:16px; margin-bottom:0;"><strong>Note what the JSON had to supply:</strong> span-level highlights (②), redline text (⑥), comment color (④), category chip (③), reviewer attribution (⑦), and the memo (pattern + summary layers). The T14 comment has no rewrite — <code>suggested_rewrite: null</code> renders as comment-only.</div>
+  </div>
+</div>
+
+<!-- ═══════════════ SCREEN 3: DASHBOARD ═══════════════ -->
+<div class="screen">
+  <div class="screen-label">③ The same JSON rendered as the dashboard</div>
+  <div class="screen-body">
+    <div class="dash">
+      <div class="scorecard">
+        <h4>Session summary — scores by dimension</h4>
+        <div class="dim"><div class="row"><span>Witness control</span><b>58</b></div><div class="bar"><div style="width:58%"></div></div></div>
+        <div class="dim"><div class="row"><span>Question form</span><b>71</b></div><div class="bar"><div style="width:71%"></div></div></div>
+        <div class="dim"><div class="row"><span>Sequencing</span><b>64</b></div><div class="bar"><div style="width:64%"></div></div></div>
+        <div class="dim"><div class="row"><span>Impeachment discipline</span><b>32</b></div><div class="bar"><div style="width:32%; background:var(--red)"></div></div></div>
+        <div class="spark">
+          <h5>Witness composure (state-engine trajectory)</h5>
+          <svg width="100%" height="46" viewBox="0 0 240 46" preserveAspectRatio="none">
+            <polyline points="0,30 30,28 60,26 90,22 120,20 150,18 180,12 210,8 240,6"
+              fill="none" stroke="#3730a3" stroke-width="2"/>
+            <circle cx="180" cy="12" r="3" fill="#b91c1c"/>
+          </svg>
+          <p style="font-size:10.5px;color:var(--muted)">Composure climbed all session — the T18 open question (●) is where he took control. <em>For uploaded transcripts this block is either synthesized by replaying turns through the state engine, or absent — every field here is nullable.</em></p>
+        </div>
+        <div class="trynext">
+          <h5>Try next session</h5>
+          <li>Stop on the admission — run a drill where you must end each sequence within one question of the key answer.</li>
+          <li>Pin timeline facts singly before using them.</li>
+          <li>Bring the deposition: practice the three-step impeachment (commit, credit, confront).</li>
+        </div>
+      </div>
+      <div>
+        <div class="pattern-card">
+          <b>Pattern · leading_erosion</b> — sequences open with tight leading questions but loosen by the third question; the witness took control at each of these points.
+          <div class="turns"><span>T12</span><span>T18</span><span>T23</span></div>
+        </div>
+        <div style="height:12px"></div>
+        <div class="ann-cards">
+          <div class="ann-card critical"><span class="turnref">T18</span><div class="body"><b>One question too many</b><p>You had the admission at T15. "Why" handed him the microphone — he downgraded red to "maybe yellow."</p></div></div>
+          <div class="ann-card critical"><span class="turnref">T14</span><div class="body"><b>Missed impeachment</b><p>Deposition p. 41 says 9:30 PM; live testimony says 9 PM. Contradiction was teed up and never used.</p></div></div>
+          <div class="ann-card major"><span class="turnref">T12</span><div class="body"><b>Compound question</b><p>Two facts, one question — only one got adopted.</p>
+            <div class="rewrite"><del>you arrived at 9 PM and you were heading home from the gym</del> → <ins>You arrived at the intersection at 9 PM, correct?</ins></div></div></div>
+          <div class="ann-card minor"><span class="turnref">T16</span><div class="body"><b>Vague question</b><p>"Pretty clearly" invites qualification.</p></div></div>
+          <div class="ann-card praise"><span class="turnref">T10</span><div class="body"><b>Controlled sequence</b><p>Textbook anchor question — one fact, leading, no room to wander.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ SCREEN 4: TWIN COMPARISON ═══════════════ -->
+<div class="screen">
+  <div class="screen-label">④ Same turn, two reviewers — what reviewer_id buys</div>
+  <div class="screen-body">
+    <div class="quoted-turn"><b>T18 — Examiner:</b> "Why are you so sure it was red?" &nbsp;→&nbsp; <b>T19 — Reyes:</b> "…it might have been turning yellow as he came in."</div>
+    <div class="twins">
+      <div class="twin-col sarah">
+        <div class="twin-head"><span class="avatar">SP</span><div><b>Sarah Park</b><div class="style">form-strict · drills fundamentals</div></div></div>
+        <div class="twin-body">
+          <div class="comment critical"><div class="meta">T18 <span class="cat">one_question_too_many</span> · critical</div>
+            You had the admission at T15. "Why" handed him the microphone. Stop at the answer you need — every question after the admission can only hurt you.</div>
+        </div>
+      </div>
+      <div class="twin-col david">
+        <div class="twin-head"><span class="avatar">DC</span><div><b>David Chen</b><div class="style">narrative-focused · case theory first</div></div></div>
+        <div class="twin-body">
+          <div class="comment major"><div class="meta">T18 <span class="cat">sequencing_error</span> · major</div>
+            The real cost isn't the extra question — it's that your light-color sequence ran before you'd locked the timeline. If 9:30 is true, he's <em>arriving</em> during the crash. Order of operations: timeline, then vantage, then color.</div>
+        </div>
+      </div>
+    </div>
+    <div class="note" style="margin-top:16px; margin-bottom:0;"><strong>The credibility risk, made visible:</strong> if these two comments ever sound interchangeable, the twin feature collapses. Different category, different severity, different reasoning — the style-conditioning prompts must reliably produce this divergence.</div>
+  </div>
+</div>
+
+<!-- ═══════════════ SCREEN 5: TAXONOMY ═══════════════ -->
+<div class="screen">
+  <div class="screen-label">⑤ The category taxonomy (closed enum) + the two on-ramps</div>
+  <div class="screen-body">
+    <div class="sev-legend">
+      <span class="sev"><span class="dot" style="background:#fee2e2;border-bottom:3px solid var(--red)"></span>critical — cost you the point</span>
+      <span class="sev"><span class="dot" style="background:#fef3c7;border-bottom:3px solid var(--yellow)"></span>major — weakened the record</span>
+      <span class="sev"><span class="dot" style="background:#e0e7ff;border-bottom:3px solid var(--indigo)"></span>minor — polish</span>
+      <span class="sev"><span class="dot" style="background:#dcfce7;border-bottom:3px solid var(--green)"></span>praise — keep doing this</span>
+    </div>
+    <table class="tax">
+      <tr><th style="width:110px">Family</th><th>Categories</th><th style="width:38%">Notes</th></tr>
+      <tr><td><b>Form</b></td>
+        <td><code>compound_question</code> <code>vague_question</code> <code>assumes_facts</code> <code>calls_for_narrative</code> <code>unintended_leading</code></td>
+        <td>Question construction. Most have a <code>suggested_rewrite</code>.</td></tr>
+      <tr><td><b>Strategy</b></td>
+        <td><code>one_question_too_many</code> <code>missed_impeachment</code> <code>failure_to_pin</code> <code>sequencing_error</code> <code>no_exit</code></td>
+        <td>Judgment calls. Often comment-only (<code>suggested_rewrite: null</code>) — the fix is what you <em>didn't</em> do.</td></tr>
+      <tr><td><b>Control / style</b></td>
+        <td><code>lost_control</code> <code>tone_drift</code> <code>telegraphing</code> <code>controlled_sequence</code>&nbsp;(praise)</td>
+        <td>How the room felt. Pairs with the state-engine trajectory.</td></tr>
+      <tr><td><b>The record</b> <span class="badge-upload">upload-mostly</span></td>
+        <td><code>objection_drawn</code> <code>objection_sustained</code> <code>answer_over_question</code> <code>exhibit_mishandled</code></td>
+        <td>What actually happened in the room — uploaded depositions carry objections and colloquy the live sim doesn't produce (yet).</td></tr>
+    </table>
+    <div class="onramps">
+      <div class="onramp">
+        <h4>🎙 Live session on-ramp</h4>
+        <ul>
+          <li><code>session["messages"]</code> → turns (near-free mapping)</li>
+          <li>Enrichment: state-engine trajectory + score history included</li>
+          <li>Case context + persona already known</li>
+        </ul>
+      </div>
+      <div class="onramp">
+        <h4>📄 Uploaded transcript on-ramp</h4>
+        <ul>
+          <li>DOCX / PDF / TXT → LLM-assisted parse of Q./A. court-reporter format</li>
+          <li>Objections & colloquy preserved as their own turn types (they're signal)</li>
+          <li>Enrichment absent or synthesized — all trajectory fields nullable</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

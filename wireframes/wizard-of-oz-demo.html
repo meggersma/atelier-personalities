@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Atelier — Sessions</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f6;
+    --surface2: #eeeeee;
+    --border: #d8d8d8;
+    --border-light: #ebebeb;
+    --text: #111111;
+    --muted: #717171;
+    --green: #1a6b2e;
+    --red: #b91c1c;
+    --yellow: #92400e;
+    --indigo: #3730a3;
+    --indigo-soft: #eef0fb;
+    --pink: #9d174d;
+    --pink-soft: #f9eef3;
+    --cyan: #0e7490;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: var(--surface2);
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* ============ DEMO BANNER (slim, dismissible) ============ */
+  .demo-banner {
+    background: #fff7e6;
+    border-bottom: 1px solid #f3d5a8;
+    padding: 6px 16px;
+    font-size: 11px;
+    color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .demo-banner a {
+    color: var(--yellow);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .demo-banner .x {
+    cursor: pointer;
+    padding: 0 4px;
+    color: var(--yellow);
+    margin-left: auto;
+  }
+
+  /* ============ APP CHROME ============ */
+  .app-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--text);
+    background: var(--bg);
+  }
+  .app-topbar .brand {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .app-topbar nav {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .app-topbar nav a {
+    padding: 5px 12px;
+    border-radius: 3px;
+    color: var(--muted);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .app-topbar nav a:hover { color: var(--text); }
+  .app-topbar nav a.active { background: var(--text); color: var(--bg); }
+  .app-topbar .user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+  }
+  .avatar {
+    width: 26px; height: 26px;
+    background: var(--text); color: var(--bg);
+    border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 600;
+  }
+  .breadcrumb {
+    padding: 8px 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-light);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .breadcrumb a { color: var(--muted); text-decoration: none; cursor: pointer; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { margin: 0 6px; }
+  .breadcrumb .current { color: var(--text); }
+
+  /* ============ COMMON ============ */
+  .page { max-width: 1200px; margin: 0 auto; }
+  .section { display: none; }
+  .section.active { display: block; }
+
+  .page-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px 14px;
+  }
+  .page-header-row h2 { font-size: 18px; font-weight: 600; }
+  .page-header-row .sub { color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+  .btn {
+    background: var(--text);
+    color: var(--bg);
+    border: 1px solid var(--text);
+    padding: 6px 14px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .btn:hover { opacity: 0.92; }
+  .btn.secondary {
+    background: var(--bg);
+    color: var(--text);
+  }
+  .btn.secondary:hover { background: var(--surface); }
+
+  .twin-avatar {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    color: var(--bg);
+    display: inline-flex; align-items: center; justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .twin-avatar.sm { width: 24px; height: 24px; font-size: 10px; }
+  .twin-avatar.lg { width: 44px; height: 44px; font-size: 14px; }
+  .twin-avatar.pink { background: var(--pink); }
+  .twin-avatar.indigo { background: var(--indigo); }
+
+  /* ============ SECTION 1: SESSIONS LIST ============ */
+  .sessions-list {
+    padding: 0 20px 24px;
+  }
+  .session-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    align-items: center;
+    gap: 18px;
+    transition: border-color 0.1s;
+  }
+  .session-card:hover { border-color: var(--text); }
+  .session-card .session-num {
+    background: var(--text);
+    color: var(--bg);
+    width: 36px; height: 36px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .session-card .title { font-weight: 600; font-size: 14px; }
+  .session-card .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .session-card .stat {
+    text-align: center;
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 70px;
+  }
+  .session-card .stat strong {
+    display: block;
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .session-card .reviewed-by {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: right;
+  }
+  .session-card .reviewed-by .label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 9px;
+    margin-bottom: 3px;
+  }
+  .session-card .open-btn {
+    color: var(--text);
+    font-size: 12px;
+  }
+
+  /* ============ SECTION 2: POST-SESSION HUB ============ */
+  .hub-page {
+    padding: 28px 20px 40px;
+  }
+  .hub-header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .hub-header h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .hub-header p { color: var(--muted); margin-top: 4px; font-size: 13px; }
+
+  .reviewer-row {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .reviewer-row .label-tiny {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .reviewer-row .reviewer-pick {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+  }
+  .reviewer-row .reviewer-pick .info { flex: 1; }
+  .reviewer-row .reviewer-pick .info .nm { font-weight: 600; font-size: 13px; }
+  .reviewer-row .reviewer-pick .info .sp { font-size: 11px; color: var(--muted); }
+  .reviewer-row .reviewer-pick .caret { color: var(--muted); font-size: 14px; }
+  .reviewer-row .reviewer-pick select {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .hub-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .hub-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 22px;
+    cursor: pointer;
+    transition: border-color 0.1s;
+  }
+  .hub-card:hover { border-color: var(--text); }
+  .hub-card .icon-block {
+    width: 44px; height: 44px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .hub-card.dash .icon-block { background: var(--indigo-soft); color: var(--indigo); }
+  .hub-card.word .icon-block { background: var(--pink-soft); color: var(--pink); }
+  .hub-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .hub-card .desc { color: var(--muted); font-size: 12px; line-height: 1.55; margin-bottom: 12px; }
+  .hub-card .tags { display: flex; gap: 5px; flex-wrap: wrap; }
+  .hub-card .tag {
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 10px;
+    color: var(--text);
+  }
+  .hub-card .by {
+    font-size: 11px;
+    color: var(--text);
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-light);
+  }
+  .hub-card .by strong {
+    color: var(--text);
+  }
+  .compare-shortcut {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .compare-shortcut button {
+    background: none;
+    border: none;
+    color: var(--text);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-family: inherit;
+  }
+
+  /* ============ VIEW (dashboard / word) — share toolbar ============ */
+  .view-toolbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-light);
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+  }
+  .view-toolbar button {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    padding: 4px 11px;
+    font-size: 11px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--text);
+    font-family: inherit;
+  }
+  .view-toolbar button.primary {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+  }
+  .view-toolbar .sep { width: 1px; height: 16px; background: var(--border); margin: 0 4px; }
+  .view-toolbar .right { margin-left: auto; }
+
+  .reviewer-bar {
+    padding: 10px 18px;
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+  }
+  .reviewer-bar.pink { background: var(--pink-soft); border-bottom-color: var(--pink); }
+  .reviewer-bar.indigo { background: var(--indigo-soft); border-bottom-color: var(--indigo); }
+  .reviewer-bar .info { flex: 1; }
+  .reviewer-bar .info .nm { font-weight: 600; }
+  .reviewer-bar .info .sp { font-size: 11px; color: var(--muted); }
+  .reviewer-bar select {
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: var(--bg);
+    font-size: 11px;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .reviewer-bar .swap-btn {
+    font-size: 11px;
+    padding: 4px 9px;
+  }
+
+  /* ============ DASHBOARD ============ */
+  .dash-body {
+    padding: 16px 20px;
+    background: var(--bg);
+  }
+  .dash-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 14px;
+  }
+  .dash-section {
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .dash-section h4 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .score-hero {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .score-hero .num { font-size: 36px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
+  .score-hero .denom { color: var(--muted); font-size: 13px; }
+  .blurb { color: var(--text); font-size: 12px; line-height: 1.6; }
+
+  .metric-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .metric-row:last-child { border-bottom: none; }
+  .metric-row .lbl { color: var(--text); }
+  .metric-row .bar {
+    flex: 1;
+    height: 4px;
+    background: var(--surface2);
+    margin: 0 12px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .metric-row .fill { height: 100%; background: var(--text); }
+  .metric-row .val { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 11px; }
+
+  .trajectory {
+    height: 120px;
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    border-radius: 3px;
+    padding: 8px;
+  }
+
+  .turn-card {
+    border: 1px solid var(--border-light);
+    border-radius: 3px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    background: var(--bg);
+    font-size: 12px;
+  }
+  .turn-card .q { font-weight: 500; margin-bottom: 4px; }
+  .turn-card .a { color: var(--muted); margin-bottom: 8px; font-style: italic; }
+  .chip {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    border: 1px solid transparent;
+  }
+  .chip.good { background: #e7f4eb; color: var(--green); border-color: #b8dec3; }
+  .chip.warn { background: #fef3e7; color: var(--yellow); border-color: #f3d5a8; }
+  .chip.bad  { background: #fbe7e7; color: var(--red);    border-color: #f0bcbc; }
+  .ai-note {
+    background: var(--surface);
+    padding: 8px 10px;
+    font-size: 11.5px;
+    margin-top: 6px;
+    line-height: 1.55;
+    border-radius: 0 3px 3px 0;
+  }
+  .ai-note.pink { border-left: 2px solid var(--pink); }
+  .ai-note.indigo { border-left: 2px solid var(--indigo); }
+  .suggestions { list-style: none; }
+  .suggestions li {
+    padding: 9px 0;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+    line-height: 1.55;
+  }
+  .suggestions li:last-child { border-bottom: none; }
+  .suggestions .num {
+    background: var(--text); color: var(--bg);
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    height: fit-content;
+    font-weight: 600;
+  }
+  .suggestions .meta { color: var(--muted); font-size: 11px; display: block; margin-top: 2px; line-height: 1.55; }
+
+  /* ============ WORD VIEW ============ */
+  .doc-body { display: flex; min-height: 480px; background: var(--bg); }
+  .doc-page {
+    flex: 1;
+    padding: 22px 28px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.75;
+    background: var(--bg);
+  }
+  .doc-page h3 {
+    font-family: -apple-system, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .turn { margin-bottom: 14px; }
+  .speaker-inline {
+    font-weight: 600;
+    color: var(--muted);
+    font-family: -apple-system, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-right: 6px;
+  }
+  .ins {
+    color: var(--green);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    background: #e7f4eb;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+  .ins.pink { color: var(--pink); background: var(--pink-soft); }
+  .ins.indigo { color: var(--indigo); background: var(--indigo-soft); }
+  .del {
+    color: var(--red);
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    background: #fbe7e7;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+  .rewrite-line {
+    margin-top: 6px;
+    padding-left: 20px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .rewrite-line::before {
+    content: "↳ ";
+    color: var(--muted);
+    font-family: -apple-system, sans-serif;
+    margin-right: 4px;
+  }
+  .comments-rail {
+    width: 280px;
+    border-left: 1px solid var(--border-light);
+    background: var(--surface);
+    padding: 14px 12px;
+    overflow-y: auto;
+  }
+  .comment-card {
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: 3px;
+    padding: 9px 11px;
+    margin-bottom: 10px;
+    font-size: 11.5px;
+    line-height: 1.55;
+  }
+  .comment-card.pink { border-left: 3px solid var(--pink); }
+  .comment-card.indigo { border-left: 3px solid var(--indigo); }
+  .comment-card .author {
+    font-weight: 600;
+    font-size: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .comment-card .author .badge {
+    background: var(--surface2);
+    color: var(--muted);
+    padding: 1px 5px;
+    border-radius: 2px;
+    font-size: 9px;
+    font-weight: 500;
+    margin-left: auto;
+  }
+
+  /* ============ COMPARISON ============ */
+  .compare-page { padding: 16px 20px 28px; background: var(--bg); }
+  .compare-banner {
+    background: linear-gradient(135deg, var(--pink-soft) 0%, var(--indigo-soft) 100%);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .compare-banner h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .compare-banner .sub { color: var(--muted); font-size: 12px; }
+
+  .compare-quote-box {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin: 0 auto 12px;
+    max-width: 740px;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    color: var(--text);
+  }
+  .compare-quote-box .q-label {
+    font-family: -apple-system, sans-serif;
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+
+  .compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .compare-col {
+    padding: 18px 20px;
+    border-right: 1px solid var(--border-light);
+  }
+  .compare-col:last-child { border-right: none; }
+  .compare-col .col-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .compare-col .col-head .info .nm { font-weight: 600; font-size: 13px; }
+  .compare-col .col-head .info .sp { font-size: 11px; color: var(--muted); }
+  .compare-col .label-row {
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+    margin-top: 14px;
+  }
+  .compare-col .label-row:first-of-type { margin-top: 0; }
+  .compare-col .quote {
+    font-style: italic;
+    color: var(--text);
+    padding: 8px 0;
+    line-height: 1.6;
+    font-size: 13px;
+  }
+  .compare-col .rewrite {
+    background: var(--surface);
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.55;
+  }
+  .compare-col .strategy {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .compare-summary {
+    margin-top: 16px;
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 14px 18px;
+    font-size: 12px;
+    color: var(--text);
+    line-height: 1.65;
+  }
+
+  /* ============ TURN-BY-TURN DIFF ============ */
+  .diff-row {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .diff-turn-label {
+    background: var(--surface);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border-light);
+    font-family: Georgia, serif;
+    font-size: 13px;
+    color: var(--text);
+  }
+  .diff-turn-num {
+    display: inline-block;
+    background: var(--text);
+    color: var(--bg);
+    font-family: -apple-system, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: 1px;
+  }
+  .diff-turn-text {
+    font-style: italic;
+  }
+  .diff-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .diff-col {
+    padding: 14px 18px;
+    border-right: 1px solid var(--border-light);
+    font-size: 12px;
+  }
+  .diff-col:last-child { border-right: none; }
+  .diff-col-head {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .diff-col-name {
+    font-weight: 600;
+    font-size: 11px;
+  }
+  .diff-col-label {
+    font-size: 9px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: auto;
+  }
+  .diff-edit-block {
+    margin-bottom: 10px;
+  }
+  .diff-strike-line {
+    font-family: Georgia, serif;
+    font-size: 12.5px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  .diff-rewrite-line {
+    font-family: Georgia, serif;
+    font-size: 12.5px;
+    line-height: 1.6;
+    padding-left: 16px;
+    position: relative;
+  }
+  .diff-rewrite-line::before {
+    content: "↳";
+    position: absolute;
+    left: 0;
+    color: var(--muted);
+    font-family: -apple-system, sans-serif;
+  }
+  .diff-no-rewrite {
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 6px 8px;
+    background: var(--surface);
+    border-radius: 3px;
+  }
+  .diff-comment {
+    background: var(--surface);
+    padding: 8px 10px;
+    border-radius: 0 3px 3px 0;
+    font-size: 11.5px;
+    line-height: 1.55;
+  }
+  .diff-comment.pink { border-left: 2px solid var(--pink); }
+  .diff-comment.indigo { border-left: 2px solid var(--indigo); }
+  .diff-no-annotation {
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    padding: 6px 8px;
+    background: var(--surface);
+    border-radius: 3px;
+  }
+  .diff-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 16px 0 10px;
+    padding: 0 2px;
+  }
+  .diff-section-header h4 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .diff-section-header .legend {
+    display: flex;
+    gap: 14px;
+    font-size: 10px;
+    color: var(--muted);
+  }
+  .diff-section-header .legend .pink-dot {
+    display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--pink); margin-right: 4px; vertical-align: middle;
+  }
+  .diff-section-header .legend .indigo-dot {
+    display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--indigo); margin-right: 4px; vertical-align: middle;
+  }
+
+  /* ============ RECAP MODAL ============ */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    padding: 24px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--bg);
+    border-radius: 6px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 28px 32px;
+  }
+  .modal h2 { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+  .modal h3 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 18px; margin-bottom: 6px; }
+  .modal h3.real { color: var(--green); }
+  .modal h3.scripted { color: var(--yellow); }
+  .modal p { color: var(--text); font-size: 13px; line-height: 1.6; margin-bottom: 10px; }
+  .modal ul { padding-left: 20px; font-size: 13px; }
+  .modal li { padding: 3px 0; line-height: 1.55; }
+  .modal .close {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--muted);
+    line-height: 1;
+  }
+  .modal .feedback-cta {
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .modal .feedback-cta a {
+    color: var(--text);
+    font-weight: 600;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+
+<!-- Demo banner -->
+<div class="demo-banner" id="demo-banner">
+  <span>Atelier · partner-twin feedback prototype</span>
+  <a onclick="openRecap()">What is this?</a>
+  <span class="x" onclick="document.getElementById('demo-banner').style.display='none'">×</span>
+</div>
+
+<!-- App chrome -->
+<div class="app-topbar">
+  <div class="brand">atelier</div>
+  <nav>
+    <a>Cases</a>
+    <a>Personas</a>
+    <a class="active" id="nav-sessions">Sessions</a>
+    <a>Library</a>
+  </nav>
+  <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+</div>
+
+<div class="breadcrumb" id="breadcrumb">
+  <span class="current">Sessions</span>
+</div>
+
+<div class="page">
+
+  <!-- ============ SECTION 1: SESSIONS LIST ============ -->
+  <div class="section active" data-section="sessions">
+    <div class="page-header-row">
+      <div>
+        <h2>Recent sessions</h2>
+        <div class="sub">Completed witness examinations. Open one to review feedback.</div>
+      </div>
+      <div>
+        <button class="btn secondary">Filter</button>
+        <button class="btn">+ Start new session</button>
+      </div>
+    </div>
+    <div class="sessions-list">
+      <div class="session-card" onclick="openSession('hayes')">
+        <div class="session-num">S5</div>
+        <div>
+          <div class="title">Cross-examination of Robert Hayes</div>
+          <div class="meta">Hayes Deposition Prep · Securities · 18 turns · 14:23 elapsed</div>
+        </div>
+        <div class="stat">
+          <strong>6.8</strong>
+          <span>score</span>
+        </div>
+        <div class="stat">
+          <strong>Jun 6</strong>
+          <span>2026</span>
+        </div>
+        <div class="reviewed-by">
+          <span class="label">Reviewed by</span>
+          <span class="twin-avatar sm pink">SP</span>
+          Sarah Park
+        </div>
+        <div class="open-btn">Review →</div>
+      </div>
+      <div class="session-card" onclick="openSession('voss')">
+        <div class="session-num">S2</div>
+        <div>
+          <div class="title">Cross-examination of Linda Voss</div>
+          <div class="meta">Voss Investigation · Internal · 14 turns · 16:42 elapsed</div>
+        </div>
+        <div class="stat">
+          <strong>4.2</strong>
+          <span>score</span>
+        </div>
+        <div class="stat">
+          <strong>Jun 4</strong>
+          <span>2026</span>
+        </div>
+        <div class="reviewed-by">
+          <span class="label">Reviewed by</span>
+          <span class="twin-avatar sm pink">SP</span>
+          Sarah Park
+        </div>
+        <div class="open-btn">Review →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SECTION 2: POST-SESSION HUB ============ -->
+  <div class="section" data-section="hub">
+    <div class="hub-page">
+      <div class="hub-header">
+        <h2 id="hub-title">Session complete</h2>
+        <p id="hub-sub">Choose how to review your performance.</p>
+      </div>
+      <div class="reviewer-row">
+        <span class="label-tiny">Reviewed by</span>
+        <div class="reviewer-pick">
+          <span class="twin-avatar sm" id="hub-rev-avatar">SP</span>
+          <div class="info">
+            <div class="nm" id="hub-rev-name">Sarah Park</div>
+            <div class="sp" id="hub-rev-spec">Securities Litigation Partner · form-strict</div>
+          </div>
+          <div class="caret">▾</div>
+          <select id="hub-rev-select" onchange="onHubReviewerChange()">
+            <option value="sarah">Sarah Park — Securities · form-strict</option>
+            <option value="david">David Chen — Commercial · narrative</option>
+          </select>
+        </div>
+      </div>
+      <div class="hub-options">
+        <div class="hub-card dash" onclick="enterView('dashboard')">
+          <div class="icon-block">▦</div>
+          <h3>Dashboard review</h3>
+          <div class="desc">Score, performance dimensions, witness state trajectory, and prescription for next session.</div>
+          <div class="tags">
+            <span class="tag">At-a-glance</span>
+            <span class="tag">~3 min</span>
+          </div>
+          <div class="by">Reviewed by <strong id="hub-card-dash-by">Sarah Park</strong></div>
+        </div>
+        <div class="hub-card word" onclick="enterView('word')">
+          <div class="icon-block">¶</div>
+          <h3>Annotated transcript</h3>
+          <div class="desc">Word-style tracked changes with margin comments in the reviewer's voice. Exportable as DOCX.</div>
+          <div class="tags">
+            <span class="tag">Detailed</span>
+            <span class="tag">Shareable</span>
+          </div>
+          <div class="by">Marked up by <strong id="hub-card-word-by">Sarah Park</strong></div>
+        </div>
+      </div>
+      <div class="compare-shortcut">
+        <button onclick="goCompare()">Or compare two reviewers side by side →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SECTION 3: VIEW (dashboard OR word, share toolbar) ============ -->
+  <div class="section" data-section="view">
+    <div class="view-toolbar">
+      <button id="btn-dashboard" class="primary" onclick="setView('dashboard')">Dashboard</button>
+      <button id="btn-word" onclick="setView('word')">Annotated transcript</button>
+      <span class="sep"></span>
+      <button onclick="goCompare()">Side-by-side compare</button>
+      <button>Export PDF</button>
+      <div class="right">
+        <button onclick="goTo('hub')">← back to hub</button>
+      </div>
+    </div>
+    <div class="reviewer-bar" id="view-reviewer-bar">
+      <span class="twin-avatar sm pink" id="view-rev-avatar">SP</span>
+      <div class="info">
+        <div class="nm" id="view-rev-name">Reviewed by Sarah Park</div>
+        <div class="sp" id="view-rev-spec">Securities Litigation Partner · form-strict · generated in 8s</div>
+      </div>
+      <span class="label-tiny">Try another</span>
+      <select id="view-rev-select" onchange="onViewReviewerChange()">
+        <option value="sarah">Sarah Park</option>
+        <option value="david">David Chen</option>
+      </select>
+    </div>
+    <div id="view-body"></div>
+  </div>
+
+  <!-- ============ SECTION 4: COMPARISON ============ -->
+  <div class="section" data-section="comparison">
+    <div class="compare-page">
+      <div class="compare-banner">
+        <h3>Side-by-side: same session, two partners' edits</h3>
+        <div class="sub" id="compare-sub"></div>
+      </div>
+      <div class="diff-section-header">
+        <h4>Turn-by-turn edits</h4>
+        <div class="legend">
+          <span><span class="pink-dot"></span>Sarah Park · form-strict</span>
+          <span><span class="indigo-dot"></span>David Chen · narrative-focused</span>
+        </div>
+      </div>
+      <div id="compare-diff"></div>
+      <div class="compare-summary" id="compare-summary"></div>
+      <div style="margin-top: 18px; display: flex; justify-content: space-between;">
+        <button class="btn secondary" onclick="goTo('view')">← back to single review</button>
+        <button class="btn secondary" onclick="goTo('sessions')">Sessions list</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ============ RECAP MODAL ============ -->
+<div class="modal-backdrop" id="recap-modal">
+  <div class="modal">
+    <button class="close" onclick="closeRecap()">×</button>
+    <h2>About this demo</h2>
+    <p>This is a working prototype of a feature we're considering for <strong>Atelier</strong>, the witness examination simulator. You're seeing how a post-session review would work if the lawyer could pick from multiple AI "partner twin" reviewers, each with a distinct critique style.</p>
+
+    <h3 class="scripted">Scripted in this demo</h3>
+    <ul>
+      <li>The two cross-examination sessions (Hayes and Voss) are written transcripts, not from real practice</li>
+      <li>The witness state trajectories shown in the dashboard are illustrative</li>
+      <li>Session scores are hand-set to plausible values, not generated by a scoring model</li>
+    </ul>
+
+    <h3 class="real">Real</h3>
+    <ul>
+      <li>The partner-twin critique — comments, suggestions, suggested rewrites — is real LLM output, generated by conditioning Claude with each partner's persona description</li>
+      <li>The distinguishability between Sarah and David is what we want feedback on: do they read as different attorneys, or as the same content with different labels?</li>
+      <li>The flow (review session → see feedback → optionally swap reviewers → optionally compare) is what the production version would look like</li>
+    </ul>
+
+    <h3>Questions we'd love your reaction to</h3>
+    <ul>
+      <li>Does Sarah's voice sound like a real securities litigation partner?</li>
+      <li>Does David's voice sound meaningfully different from Sarah's?</li>
+      <li>Which view (dashboard or tracked changes) felt more useful?</li>
+      <li>Would you trust this kind of feedback for your own practice or a supervisee's?</li>
+      <li>What's missing?</li>
+    </ul>
+
+    <div class="feedback-cta">
+      Send one line of feedback — anything is useful.<br>
+      <a href="mailto:meganma@law.stanford.edu?subject=Atelier%20partner-twin%20demo%20feedback">meganma@law.stanford.edu</a>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============ DATA ============
+
+const SESSIONS_META = {
+  hayes: {
+    title: "Cross-examination of Robert Hayes",
+    case: "Hayes Deposition Prep",
+    case_sub: "Securities · pre-deposition",
+    session_label: "Session 5",
+    date: "Jun 6, 2026",
+    duration: "14:23",
+    turns: 18,
+    case_id: "hayes-depo-prep"
+  },
+  voss: {
+    title: "Cross-examination of Linda Voss",
+    case: "Voss Investigation",
+    case_sub: "Internal investigation · former CCO",
+    session_label: "Session 2",
+    date: "Jun 4, 2026",
+    duration: "16:42",
+    turns: 14,
+    case_id: "voss-investigation"
+  }
+};
+
+const TRANSCRIPTS = {
+  hayes: {
+    title: "Cross-examination of Robert Hayes",
+    turns: [
+      { id: 13, speaker: "Q (You)", text: "Mr. Hayes, you testified earlier the email was sent on March 15th, right?" },
+      { id: 14, speaker: "A", text: "That's what I remember, yes." },
+      { id: 15, speaker: "Q (You)", text: "Let me show you Exhibit 7. Is this the email?" },
+      { id: 16, speaker: "A", text: "Yes, that appears to be it." },
+      { id: 17, speaker: "Q (You)", text: "And the metadata at the top of the page — what date does it show?" },
+      { id: 18, speaker: "A", text: "It... says March 17th." },
+      { id: 19, speaker: "Q (You)", text: "So you were mistaken about the date?" },
+      { id: 20, speaker: "A", text: "I suppose so. I don't remember exactly." }
+    ]
+  },
+  voss: {
+    title: "Cross-examination of Linda Voss",
+    turns: [
+      { id: 8, speaker: "Q (You)", text: "And you knew, didn't you, that the revenue numbers being reported to the board were wrong?" },
+      { id: 9, speaker: "A", text: "I... I don't think I'd put it that way." },
+      { id: 10, speaker: "Q (You)", text: "So you're telling us that an experienced chief compliance officer had no idea what was happening?" },
+      { id: 11, speaker: "A", text: "I'm telling you I did my job." },
+      { id: 12, speaker: "Q (You)", text: "Your job was to know, wasn't it?" },
+      { id: 13, speaker: "A", text: "My job was oversight, not to verify every line item personally." },
+      { id: 14, speaker: "Q (You)", text: "Isn't it true that you were aware of the discrepancy and chose to do nothing about it?" },
+      { id: 15, speaker: "A", text: "That's not accurate." }
+    ]
+  }
+};
+
+const REVIEWERS = {
+  sarah: { id: "sarah", name: "Sarah Park", specialty: "Securities Litigation Partner", style: "form-strict", color: "pink", initials: "SP" },
+  david: { id: "david", name: "David Chen", specialty: "Complex Commercial Litigation Partner", style: "narrative-focused", color: "indigo", initials: "DC" }
+};
+
+const REVIEWS = {
+
+  "hayes-sarah": {
+    reviewer: REVIEWERS.sarah,
+    scenario_id: "hayes",
+    scores: { overall: 6.8, question_control: 7.2, form: 5.2, impeachment: 8.1, pacing: 7.8, state_shifts: 6.4 },
+    blurb: "Impeachment landed. Form is sloppy on the lead-up. Q19 was argumentative — you were one breath away from giving Hayes a free ride.",
+    trajectory_note: "Witness composure dropped sharply at Q18 when you forced him to read the date aloud. Best moment of the session.",
+    annotations: [
+      { turn_id: 13, severity: "warn", label: "Tag question",
+        ai_note: "'Right?' is a tag. Closed lead only.",
+        suggested_rewrite: "...the email was sent on March 15th. Is that correct?" },
+      { turn_id: 15, severity: "warn", label: "Vague handoff",
+        ai_note: "Hand him the exhibit. Slow down before the kill.",
+        suggested_rewrite: "I'm handing you what's been marked Exhibit 7. Take a moment with it." },
+      { turn_id: 17, severity: "good", label: "Setup",
+        ai_note: "Fine. Could be tighter.",
+        suggested_rewrite: null },
+      { turn_id: 18, severity: "good", label: "Impeachment locked",
+        ai_note: "This is the move. Make him read it. Record speaks.",
+        suggested_rewrite: null },
+      { turn_id: 19, severity: "bad", label: "Argumentative",
+        ai_note: "Don't argue. Move on. Contradiction is locked.",
+        suggested_rewrite: "(no question — let the silence sit, then move to the next topic)" }
+    ],
+    suggestions: [
+      { rank: 1, text: "Form-only drill: opening five questions.",
+        meta: "Six of your twenty-two questions used soft tag forms. Cap it at two." },
+      { rank: 2, text: "Practice the silent beat after impeachment.",
+        meta: "You filled the moment with Q19. Don't. Let the record do the work." },
+      { rank: 3, text: "Closed-lead reps. One hundred a week.",
+        meta: "Until 'is that correct?' is muscle memory." }
+    ]
+  },
+
+  "hayes-david": {
+    reviewer: REVIEWERS.david,
+    scenario_id: "hayes",
+    scores: { overall: 6.5, question_control: 6.8, form: 5.5, impeachment: 7.4, pacing: 6.9, state_shifts: 7.1 },
+    blurb: "You impeached on the fact. You didn't follow the thread. The date is wrong — fine. What does that mean? Was Hayes lying about the date, or covering for someone? Your next move should depend on which.",
+    trajectory_note: "Composure dropped at Q18, but you didn't capitalize. The witness opened a door at Q20 ('I don't remember exactly') and you walked past it.",
+    annotations: [
+      { turn_id: 13, severity: "warn", label: "What's your theory here?",
+        ai_note: "Before you challenge the date, I want to know — what's this contradiction supposed to prove? Is it that Hayes is lying, or that he's negligent, or that he's covering for someone? Each implies a different cross. Right now I can't tell which one you're building.",
+        suggested_rewrite: "Mr. Hayes, you testified earlier that the email was sent on March 15th. Is that the version of events you stand by today?" },
+      { turn_id: 15, severity: "warn", label: "Setup misses the bigger frame",
+        ai_note: "You're treating Exhibit 7 as a single-fact impeachment. It might be more than that. Have you read his pre-trial declaration on the same topic? If there's a third source that contradicts both his testimony and the email, you're building a pattern, not just an impeachment.",
+        suggested_rewrite: "Mr. Hayes, this is the email you sent. Before we discuss its content, I'd like to confirm — is this the only copy you've seen, and did anyone else receive it?" },
+      { turn_id: 18, severity: "good", label: "Mechanically right",
+        ai_note: "The mechanic is correct. Making him read the contradiction aloud is textbook. But the witness reading 'March 17th' is just data — it becomes evidence when you have a theory about why that matters. Hold onto that.",
+        suggested_rewrite: null },
+      { turn_id: 19, severity: "bad", label: "Missed thread",
+        ai_note: "'So you were mistaken' is the wrong follow-up. You're back to the small fact. The interesting question is: who else had access to that email's metadata? Or: was anyone else aware the email was sent later than reported? Pull the thread the contradiction opens — that's where the case lives.",
+        suggested_rewrite: "Was anyone else aware that the email was sent on March 17th, not March 15th?" }
+    ],
+    suggestions: [
+      { rank: 1, text: "Write your three-sentence theory of the case. Tonight.",
+        meta: "Your impeachment was strong on fact, weak on purpose. Every cross should serve the theory. If you can't state the theory in three sentences, the witness will feel that, and so will the jury." },
+      { rank: 2, text: "After every impeachment, ask: what door did this open?",
+        meta: "Q20 gave you 'I don't remember exactly' — a door. You closed it. Next time, walk through. The witness telling you they don't remember is an invitation to fix their memory with documents." },
+      { rank: 3, text: "Read three commercial cross-exams that build narrative.",
+        meta: "Look for crosses where the impeachment is one beat in a larger arc, not the climax. The contrast with what you did today will be instructive." }
+    ]
+  },
+
+  "voss-sarah": {
+    reviewer: REVIEWERS.sarah,
+    scenario_id: "voss",
+    scores: { overall: 4.2, question_control: 4.8, form: 3.1, impeachment: 4.5, pacing: 5.0, state_shifts: 3.8 },
+    blurb: "Three of four opening questions were form disasters. You argued with her. You led with conclusions. Voss left the chair stronger than she sat down.",
+    trajectory_note: "Witness composure rose across the session. She was anchored. You moved her nowhere.",
+    annotations: [
+      { turn_id: 8, severity: "bad", label: "Argumentative + leading-with-conclusion",
+        ai_note: "'You knew, didn't you?' Compound. Argumentative. Stop.",
+        suggested_rewrite: "Ms. Voss, you reviewed the Q3 revenue numbers before they went to the board, correct?" },
+      { turn_id: 10, severity: "bad", label: "Sarcasm — not a question",
+        ai_note: "Not a cross-question. That's argument.",
+        suggested_rewrite: "(strike the framing — ask one fact at a time)" },
+      { turn_id: 12, severity: "bad", label: "Vague",
+        ai_note: "'Your job was to know, wasn't it?' What's the fact? Be specific.",
+        suggested_rewrite: "Ms. Voss, your job description required you to review revenue recognition controls quarterly, correct?" },
+      { turn_id: 14, severity: "bad", label: "Compound + leading-with-conclusion",
+        ai_note: "Two questions in one. And you handed her the answer.",
+        suggested_rewrite: "(break into three closed leads — were you aware, did you act, what did you do)" }
+    ],
+    suggestions: [
+      { rank: 1, text: "Stop. Go back to fundamentals.",
+        meta: "Before you cross another witness, run 50 form drills. Closed leads only. No tag questions, no compound, no argumentative." },
+      { rank: 2, text: "Build the staircase.",
+        meta: "Before you challenge what someone knew, walk through what they did. Foundation, foundation, foundation, then the contradiction." },
+      { rank: 3, text: "Watch yourself argue.",
+        meta: "Q10 wasn't a question — it was a speech. Crosses are not for the lawyer. They're for the record." }
+    ]
+  },
+
+  "voss-david": {
+    reviewer: REVIEWERS.david,
+    scenario_id: "voss",
+    scores: { overall: 4.0, question_control: 5.1, form: 3.4, impeachment: 4.0, pacing: 4.6, state_shifts: 3.5 },
+    blurb: "The form was bad — Sarah will tell you that. The deeper problem is that you didn't know what you were trying to prove. You went after 'did she know?' before establishing what she did, what she saw, what her job required. There was no staircase.",
+    trajectory_note: "The witness was never moved because she was never cornered. You can only corner a witness when you've already established the facts that make their answer impossible. You hadn't.",
+    annotations: [
+      { turn_id: 8, severity: "bad", label: "Missing foundation",
+        ai_note: "'You knew, didn't you?' is the climax of a cross, not the opening. Before you ask what she knew, I need her to commit to: what her role required her to review, what the documents showed, what her certifications represented. You're swinging at the headline before laying the groundwork.",
+        suggested_rewrite: "Ms. Voss, let's start with your role. You were chief compliance officer from 2021 through 2024, correct?" },
+      { turn_id: 10, severity: "bad", label: "No theory of culpability",
+        ai_note: "What story are you telling? Is Voss negligent, willfully blind, or actively complicit? Each requires different facts. Right now you're treating all three as the same question and that's why the cross feels diffuse.",
+        suggested_rewrite: "As chief compliance officer, you reviewed the revenue recognition memos prepared by the controller before they went to audit, correct?" },
+      { turn_id: 12, severity: "warn", label: "Closer to the right question, still no anchor",
+        ai_note: "'Your job was to know' is the right direction but you have no document, no policy, no testimony establishing what her job actually required. Without that, she gets to define her own duties — and she will. Anchor it in her job description, her certifications, her training. Then close in.",
+        suggested_rewrite: "Ms. Voss, your 2023 job description — which you signed — included this responsibility: quarterly review of revenue recognition controls. That's an accurate description of your duties, correct?" },
+      { turn_id: 14, severity: "bad", label: "Lost the witness — come back to documents",
+        ai_note: "By Q14 she's anchored: 'My job was oversight, not to verify every line item.' She's given you her defense narrative in her own words. You won't dislodge that with more challenge questions. You need to come back to documents that contradict her version of 'oversight.' That's where the cross has to live.",
+        suggested_rewrite: "Ms. Voss, I'd like to show you the May 12 internal memo from the controller flagging the Q1 anomaly. Is that your initial in the lower right corner?" }
+    ],
+    suggestions: [
+      { rank: 1, text: "What's your theory of culpability?",
+        meta: "Pick one: negligence, willful blindness, or active fraud. Write it down. Every question in your cross should serve that theory. Right now you're cross-examining all three at once and proving none." },
+      { rank: 2, text: "Cross witnesses on what they did, not what they knew.",
+        meta: "Knowledge is internal and contestable. Documents and actions are external and observable. Build your case on what she signed, what she reviewed, what she certified. Knowledge follows." },
+      { rank: 3, text: "Re-script the first five questions.",
+        meta: "Write a version of this cross where Q1-Q5 establish facts she has to concede, before you ever challenge what she knew. You'll feel the difference." }
+    ]
+  }
+};
+
+const COMPARISON_FOCUS = {
+  hayes: {
+    turn_id: 18,
+    speaker: "Q (You)",
+    text: "Please read aloud the date stamped in the header of Exhibit 7.",
+    a_speaker: "A",
+    a_text: "It... says March 17th.",
+    intro: "The pivotal impeachment moment in the Hayes cross. The witness reads the contradiction aloud.",
+    sarah: {
+      quote: "This is the move. Make him read it. The record speaks; you don't have to.",
+      next: "Don't argue. Don't ask 'so you were mistaken.' Move on. The contradiction is locked.",
+      strategy: "Sarah grades on form mechanics: did the impeachment land procedurally? Yes. Stop there."
+    },
+    david: {
+      quote: "The mechanic is right — but what's this in service of? Is Hayes lying, mistaken, or covering for someone else? Your next question depends on which.",
+      next: "Was anyone else aware that the email was sent on March 17th, not March 15th?",
+      strategy: "David grades on narrative arc: an impeachment is data until you have a theory about what it means. Pull the thread."
+    },
+    summary: "Both partners think Q18 was the strongest beat of the session. But Sarah's 'best moment' assessment treats the impeachment as terminal — the contradiction is locked, end of inquiry. David's treats it as a midpoint — the contradiction is the door that opens the next line of questioning. <strong>Same data, different definition of what 'good' means.</strong> A junior who only ever gets Sarah's review becomes a tactically clean lawyer with no narrative. A junior who only ever gets David's becomes a strategic thinker with sloppy form. The gap is the lesson."
+  },
+  voss: {
+    turn_id: 8,
+    speaker: "Q (You)",
+    text: "And you knew, didn't you, that the revenue numbers being reported to the board were wrong?",
+    a_speaker: "A",
+    a_text: "I... I don't think I'd put it that way.",
+    intro: "The opening challenge in the Voss cross. The witness deflects.",
+    sarah: {
+      quote: "Compound. Argumentative. Stop.",
+      next: "Strike the framing. Ask one fact at a time: 'You reviewed the Q3 revenue numbers before they went to the board, correct?'",
+      strategy: "Sarah grades on form: the question is mechanically broken. Fix the mechanics. The rest follows."
+    },
+    david: {
+      quote: "'You knew, didn't you' is the climax of a cross, not the opening. You're swinging at the headline before laying the groundwork.",
+      next: "Before you challenge what she knew, walk through what she did. What documents did she review? What did her job require? What did she certify? Then close in.",
+      strategy: "David grades on architecture: even if the question were well-formed, it's in the wrong place. The mechanics matter less than the missing foundation."
+    },
+    summary: "Both partners flag Q8 as a problem — but they disagree on <em>why</em>, and that disagreement is the most pedagogically important moment in this whole demo. Sarah sees a form failure (the question is broken). David sees a strategic failure (the question is in the wrong sequence). A junior who reads Sarah's review fixes the form and asks the same question better. A junior who reads David's review rebuilds the cross from the foundation up. <strong>Two correct diagnoses of the same symptom.</strong> Which one a learner needs depends on where they are in their development."
+  }
+};
+
+// ============ STATE ============
+
+let state = {
+  section: 'sessions',
+  scenario: 'hayes',
+  reviewer: 'sarah',
+  view: 'dashboard'
+};
+
+// ============ NAVIGATION ============
+
+function goTo(name) {
+  state.section = name;
+  document.querySelectorAll('.section').forEach(s => s.classList.toggle('active', s.dataset.section === name));
+  updateBreadcrumb();
+  window.scrollTo({ top: 0 });
+}
+
+function updateBreadcrumb() {
+  const bc = document.getElementById('breadcrumb');
+  const meta = SESSIONS_META[state.scenario];
+  if (state.section === 'sessions') {
+    bc.innerHTML = '<span class="current">Sessions</span>';
+  } else if (state.section === 'hub') {
+    bc.innerHTML = `<a onclick="goTo('sessions')">Sessions</a><span class="sep">›</span><span class="current">${meta.session_label} — review</span>`;
+  } else if (state.section === 'view') {
+    const viewLabel = state.view === 'dashboard' ? 'Dashboard' : 'Annotated transcript';
+    bc.innerHTML = `<a onclick="goTo('sessions')">Sessions</a><span class="sep">›</span><a onclick="goTo('hub')">${meta.session_label}</a><span class="sep">›</span><span class="current">${viewLabel}</span>`;
+  } else if (state.section === 'comparison') {
+    bc.innerHTML = `<a onclick="goTo('sessions')">Sessions</a><span class="sep">›</span><a onclick="goTo('hub')">${meta.session_label}</a><span class="sep">›</span><span class="current">Compare reviewers</span>`;
+  }
+}
+
+function openSession(scenarioId) {
+  state.scenario = scenarioId;
+  const meta = SESSIONS_META[scenarioId];
+  document.getElementById('hub-title').textContent = `${meta.session_label} complete`;
+  document.getElementById('hub-sub').textContent = `${meta.duration} elapsed · ${meta.turns} turns · ${meta.title}`;
+  updateHubReviewer();
+  goTo('hub');
+}
+
+function onHubReviewerChange() {
+  state.reviewer = document.getElementById('hub-rev-select').value;
+  updateHubReviewer();
+}
+
+function updateHubReviewer() {
+  const r = REVIEWERS[state.reviewer];
+  const av = document.getElementById('hub-rev-avatar');
+  av.textContent = r.initials;
+  av.className = `twin-avatar sm ${r.color}`;
+  document.getElementById('hub-rev-name').textContent = r.name;
+  document.getElementById('hub-rev-spec').textContent = `${r.specialty} · ${r.style}`;
+  document.getElementById('hub-rev-select').value = r.id;
+  document.getElementById('hub-card-dash-by').textContent = r.name;
+  document.getElementById('hub-card-word-by').textContent = r.name;
+}
+
+function enterView(view) {
+  state.view = view;
+  renderView();
+  goTo('view');
+}
+
+function setView(view) {
+  state.view = view;
+  document.getElementById('btn-dashboard').classList.toggle('primary', view === 'dashboard');
+  document.getElementById('btn-word').classList.toggle('primary', view === 'word');
+  renderView();
+  updateBreadcrumb();
+}
+
+function onViewReviewerChange() {
+  state.reviewer = document.getElementById('view-rev-select').value;
+  renderView();
+}
+
+function goCompare() {
+  renderCompare();
+  goTo('comparison');
+}
+
+// ============ RENDER VIEW (dashboard or word) ============
+
+function renderView() {
+  const r = REVIEWERS[state.reviewer];
+  const key = `${state.scenario}-${state.reviewer}`;
+  const review = REVIEWS[key];
+
+  // Reviewer bar
+  const bar = document.getElementById('view-reviewer-bar');
+  bar.className = `reviewer-bar ${r.color}`;
+  const barAv = document.getElementById('view-rev-avatar');
+  barAv.textContent = r.initials;
+  barAv.className = `twin-avatar sm ${r.color}`;
+  document.getElementById('view-rev-name').textContent = `Reviewed by ${r.name}`;
+  document.getElementById('view-rev-spec').textContent = `${r.specialty} · ${r.style} · generated in 8s`;
+  document.getElementById('view-rev-select').value = r.id;
+
+  // View buttons
+  document.getElementById('btn-dashboard').classList.toggle('primary', state.view === 'dashboard');
+  document.getElementById('btn-word').classList.toggle('primary', state.view === 'word');
+
+  // Body
+  const body = document.getElementById('view-body');
+  body.innerHTML = state.view === 'dashboard' ? renderDashboard(review) : renderWord(review);
+}
+
+function renderDashboard(review) {
+  const s = review.scores;
+  const r = review.reviewer;
+
+  const metricsHTML = [
+    ['Question control', s.question_control],
+    ['State shifts induced', s.state_shifts],
+    ['Impeachment setup', s.impeachment],
+    ['Pacing', s.pacing],
+    ['Form (leading, vague)', s.form]
+  ].map(([lbl, v]) => `
+    <div class="metric-row">
+      <span class="lbl">${lbl}</span>
+      <span class="bar"><span class="fill" style="width: ${v*10}%;"></span></span>
+      <span class="val">${v.toFixed(1)}</span>
+    </div>
+  `).join('');
+
+  const transcript = TRANSCRIPTS[review.scenario_id];
+  const keyMomentsHTML = review.annotations.map(a => {
+    const turn = transcript.turns.find(t => t.id === a.turn_id);
+    if (!turn) return '';
+    const aTurn = transcript.turns.find(t => t.id === a.turn_id + 1 && t.speaker === 'A');
+    const chipClass = a.severity === 'good' ? 'good' : a.severity === 'bad' ? 'bad' : 'warn';
+    return `
+      <div class="turn-card">
+        <div class="q">Q${a.turn_id}: "${turn.text}"</div>
+        ${aTurn ? `<div class="a">A: ${aTurn.text}</div>` : ''}
+        <span class="chip ${chipClass}">${a.label}</span>
+        <div class="ai-note ${r.color}">${a.ai_note}</div>
+      </div>
+    `;
+  }).join('');
+
+  const suggestionsHTML = review.suggestions.map(sug => `
+    <li>
+      <span class="num">${sug.rank}</span>
+      <span>
+        <span style="font-weight:500;">${sug.text}</span>
+        <span class="meta">${sug.meta}</span>
+      </span>
+    </li>
+  `).join('');
+
+  return `
+    <div class="dash-body">
+      <div class="dash-grid">
+        <div>
+          <div class="dash-section">
+            <div class="score-hero">
+              <span class="num">${s.overall.toFixed(1)}</span>
+              <span class="denom">/ 10 · Cross-exam effectiveness</span>
+            </div>
+            <div class="blurb">${review.blurb}</div>
+          </div>
+          <div class="dash-section">
+            <h4>Witness state trajectory</h4>
+            <div class="trajectory">${renderTrajectorySVG(review)}</div>
+            <div style="font-size: 11px; color: var(--muted); margin-top: 6px;">${review.trajectory_note}</div>
+          </div>
+          <div class="dash-section">
+            <h4>Key moments</h4>
+            ${keyMomentsHTML}
+          </div>
+        </div>
+        <div>
+          <div class="dash-section">
+            <h4>Performance dimensions</h4>
+            ${metricsHTML}
+          </div>
+          <div class="dash-section">
+            <h4>${r.name}'s prescription</h4>
+            <ol class="suggestions">${suggestionsHTML}</ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderTrajectorySVG(review) {
+  const isHayes = review.scenario_id === 'hayes';
+  const lineColor = review.reviewer.color === 'pink' ? '#9d174d' : '#3730a3';
+  return `
+    <svg viewBox="0 0 300 110" preserveAspectRatio="none" style="width:100%; height:100%;">
+      ${isHayes ? `
+        <polyline points="0,28 30,30 60,32 90,38 120,46 150,55 180,68 210,82 240,76 270,72 300,68" fill="none" stroke="${lineColor}" stroke-width="1.8"/>
+        <polyline points="0,38 30,40 60,38 90,42 120,46 150,44 180,32 210,22 240,26 270,30 300,34" fill="none" stroke="#0e7490" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <line x1="210" y1="6" x2="210" y2="100" stroke="#b45309" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="214" y="16" font-size="9" fill="#b45309" font-family="sans-serif">Q18 — impeachment</text>
+      ` : `
+        <polyline points="0,55 35,52 70,48 105,42 140,38 175,32 210,28 245,24 280,22 300,20" fill="none" stroke="${lineColor}" stroke-width="1.8"/>
+        <polyline points="0,50 35,52 70,55 105,58 140,62 175,65 210,68 245,70 280,72 300,73" fill="none" stroke="#0e7490" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <text x="6" y="100" font-size="9" fill="#717171" font-family="sans-serif">witness gains ground across session</text>
+      `}
+    </svg>
+    <div style="display: flex; gap: 14px; font-size: 11px; color: var(--muted); margin-top: 4px;">
+      <span><span style="color: ${lineColor};">━</span> Composure</span>
+      <span><span style="color: #0e7490;">┅</span> Candor</span>
+    </div>
+  `;
+}
+
+function renderWord(review) {
+  const transcript = TRANSCRIPTS[review.scenario_id];
+  const r = review.reviewer;
+  const annByTurn = {};
+  review.annotations.forEach(a => { annByTurn[a.turn_id] = a; });
+
+  const transcriptHTML = transcript.turns.map(t => {
+    const ann = annByTurn[t.id];
+    if (t.speaker === 'A' || !ann || !ann.suggested_rewrite) {
+      return `<div class="turn"><span class="speaker-inline">${t.speaker}:</span> ${t.text}</div>`;
+    }
+    return `
+      <div class="turn">
+        <div><span class="speaker-inline">${t.speaker}:</span> <span class="del">${t.text}</span></div>
+        <div class="rewrite-line"><span class="ins ${r.color}">${ann.suggested_rewrite}</span></div>
+      </div>
+    `;
+  }).join('');
+
+  const commentsHTML = review.annotations.map(a => `
+    <div class="comment-card ${r.color}">
+      <div class="author">
+        <span class="twin-avatar sm ${r.color}">${r.initials}</span>
+        ${r.name}
+        <span class="badge">Q${a.turn_id}</span>
+      </div>
+      <div>${a.ai_note}</div>
+    </div>
+  `).join('');
+
+  return `
+    <div class="doc-body">
+      <div class="doc-page">
+        <h3>${transcript.title} — annotated</h3>
+        ${transcriptHTML}
+      </div>
+      <div class="comments-rail">
+        ${commentsHTML}
+      </div>
+    </div>
+  `;
+}
+
+// ============ COMPARISON ============
+
+function renderCompare() {
+  const focus = COMPARISON_FOCUS[state.scenario];
+  const sarah = REVIEWS[`${state.scenario}-sarah`];
+  const david = REVIEWS[`${state.scenario}-david`];
+  const transcript = TRANSCRIPTS[state.scenario];
+  if (!sarah || !david || !transcript) return;
+
+  document.getElementById('compare-sub').textContent =
+    focus ? focus.intro : `Same ${transcript.title.toLowerCase()}, edited by two partners with different review styles.`;
+
+  // build annotation lookups
+  const sarahAnn = {};
+  sarah.annotations.forEach(a => { sarahAnn[a.turn_id] = a; });
+  const davidAnn = {};
+  david.annotations.forEach(a => { davidAnn[a.turn_id] = a; });
+
+  // collect all Q-turn ids that either partner annotated
+  const qTurns = transcript.turns.filter(t => t.speaker !== 'A');
+  const annotatedTurns = qTurns.filter(t => sarahAnn[t.id] || davidAnn[t.id]);
+
+  const rowsHTML = annotatedTurns.map(t => {
+    return `
+      <div class="diff-row">
+        <div class="diff-turn-label">
+          <span class="diff-turn-num">Q${t.id}</span>
+          <span class="diff-turn-text">"${t.text}"</span>
+        </div>
+        <div class="diff-cols">
+          ${renderDiffCol(t, sarahAnn[t.id], 'pink', 'SP', 'Sarah Park')}
+          ${renderDiffCol(t, davidAnn[t.id], 'indigo', 'DC', 'David Chen')}
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('compare-diff').innerHTML = rowsHTML;
+  document.getElementById('compare-summary').innerHTML =
+    focus ? focus.summary : '';
+}
+
+function renderDiffCol(turn, ann, color, initials, name) {
+  if (!ann) {
+    return `
+      <div class="diff-col">
+        <div class="diff-col-head">
+          <span class="twin-avatar sm ${color}">${initials}</span>
+          <span class="diff-col-name">${name}</span>
+          <span class="diff-col-label">silent</span>
+        </div>
+        <div class="diff-no-annotation">No edit or comment from ${name.split(' ')[0]} on this turn.</div>
+      </div>
+    `;
+  }
+  const editBlock = ann.suggested_rewrite
+    ? `
+      <div class="diff-edit-block">
+        <div class="diff-strike-line"><span class="del">${turn.text}</span></div>
+        <div class="diff-rewrite-line"><span class="ins ${color}">${ann.suggested_rewrite}</span></div>
+      </div>
+    `
+    : `<div class="diff-no-rewrite">No rewrite — comment only.</div>`;
+
+  const labelText = ann.severity === 'good' ? 'kept' : ann.severity === 'bad' ? 'flagged' : 'noted';
+
+  return `
+    <div class="diff-col">
+      <div class="diff-col-head">
+        <span class="twin-avatar sm ${color}">${initials}</span>
+        <span class="diff-col-name">${name}</span>
+        <span class="diff-col-label">${labelText}: ${ann.label}</span>
+      </div>
+      ${editBlock}
+      <div class="diff-comment ${color}">${ann.ai_note}</div>
+    </div>
+  `;
+}
+
+// ============ RECAP MODAL ============
+
+function openRecap() { document.getElementById('recap-modal').classList.add('open'); }
+function closeRecap() { document.getElementById('recap-modal').classList.remove('open'); }
+document.getElementById('recap-modal').addEventListener('click', e => {
+  if (e.target.id === 'recap-modal') closeRecap();
+});
+
+// init
+updateBreadcrumb();
+</script>
+
+</body>
+</html>

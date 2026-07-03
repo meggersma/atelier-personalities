@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Atelier — Full Product Walkthrough (Wireframe)</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f6;
+    --surface2: #eeeeee;
+    --border: #d8d8d8;
+    --border-light: #ebebeb;
+    --text: #111111;
+    --muted: #717171;
+    --accent: #111111;
+    --green: #1a6b2e;
+    --red: #b91c1c;
+    --yellow: #92400e;
+    --orange: #b45309;
+    --indigo: #3730a3;
+    --cyan: #0e7490;
+    --pink: #9d174d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: #d4d4d4;
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 32px 24px;
+  }
+  .doc-header {
+    max-width: 1200px;
+    margin: 0 auto 24px;
+    background: var(--bg);
+    border-radius: 6px;
+    padding: 20px 24px;
+    border: 1px solid var(--border);
+  }
+  .doc-header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+  .doc-header p { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-light);
+  }
+  .toc a {
+    font-size: 11px;
+    color: var(--text);
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background: var(--surface);
+  }
+  .toc a:hover { background: var(--text); color: var(--bg); }
+
+  /* Screen frame (mock app window) */
+  .screen {
+    max-width: 1200px;
+    margin: 0 auto 32px;
+  }
+  .screen-label {
+    background: var(--text);
+    color: var(--bg);
+    padding: 8px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .screen-label .num {
+    background: var(--bg);
+    color: var(--text);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .screen-label .desc { font-weight: 400; color: var(--surface2); text-transform: none; letter-spacing: 0; font-size: 11px; }
+  .frame {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+  }
+  .annotation {
+    background: #fff7e6;
+    border-left: 3px solid var(--yellow);
+    padding: 8px 12px;
+    font-size: 11px;
+    color: var(--text);
+    margin-top: 8px;
+    border-radius: 0 4px 4px 0;
+  }
+  .annotation strong { color: var(--yellow); }
+
+  /* shared app chrome */
+  .app-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    border-bottom: 2px solid var(--text);
+    background: var(--bg);
+  }
+  .app-topbar .brand {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+  }
+  .app-topbar nav {
+    display: flex;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .app-topbar nav a {
+    padding: 4px 10px;
+    border-radius: 3px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .app-topbar nav a.active { background: var(--text); color: var(--bg); }
+  .app-topbar .user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+  }
+  .avatar {
+    width: 24px; height: 24px;
+    background: var(--text); color: var(--bg);
+    border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 600;
+  }
+  .breadcrumb {
+    padding: 8px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border-light);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .breadcrumb a { color: var(--muted); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--text); }
+  .breadcrumb .sep { margin: 0 6px; }
+  .breadcrumb .current { color: var(--text); }
+
+  /* ============ SCREEN 1: case library ============ */
+  .case-library {
+    padding: 20px;
+    min-height: 560px;
+  }
+  .page-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .page-header-row h2 { font-size: 18px; font-weight: 600; }
+  .case-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  .case-card {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px;
+    background: var(--bg);
+    transition: border-color 0.1s;
+    cursor: pointer;
+  }
+  .case-card:hover { border-color: var(--text); }
+  .case-card .name { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+  .case-card .matter { color: var(--muted); font-size: 11px; margin-bottom: 12px; }
+  .case-card .stats {
+    display: flex;
+    gap: 12px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-light);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .case-card .stats strong { color: var(--text); font-weight: 600; }
+  .btn {
+    background: var(--text);
+    color: var(--bg);
+    border: 1px solid var(--text);
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .btn.secondary { background: var(--bg); color: var(--text); }
+
+  /* ============ SCREEN 2: case detail (documents) ============ */
+  .case-detail { display: flex; min-height: 600px; }
+  .case-sidebar {
+    width: 220px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 16px;
+  }
+  .case-sidebar h3 { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 8px; }
+  .tab-list { display: flex; flex-direction: column; gap: 2px; }
+  .tab-item {
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: var(--muted);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tab-item.active { background: var(--text); color: var(--bg); }
+  .tab-item .count { font-size: 10px; opacity: 0.7; }
+  .case-main { flex: 1; padding: 20px; }
+  .doc-toolbar { display: flex; gap: 8px; margin-bottom: 12px; align-items: center; }
+  .doc-toolbar .search {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  .doc-list { border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+  .doc-row {
+    display: grid;
+    grid-template-columns: 40px 1fr 100px 100px 120px 60px;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+  }
+  .doc-row:last-child { border-bottom: none; }
+  .doc-row.head { background: var(--surface); font-weight: 600; font-size: 10px; text-transform: uppercase; color: var(--muted); letter-spacing: 0.04em; }
+  .doc-icon { font-family: monospace; font-size: 11px; background: var(--surface2); padding: 2px 4px; border-radius: 2px; width: fit-content; }
+  .doc-name { font-weight: 500; }
+  .doc-meta { color: var(--muted); }
+  .pill {
+    display: inline-block;
+    padding: 1px 6px;
+    font-size: 10px;
+    border-radius: 2px;
+    background: var(--surface2);
+    color: var(--muted);
+    margin-right: 4px;
+  }
+  .pill.indigo { background: #e8e7f3; color: var(--indigo); }
+  .pill.green { background: #e7f4eb; color: var(--green); }
+  .pill.yellow { background: #fef3e7; color: var(--yellow); }
+  .upload-zone {
+    border: 2px dashed var(--border);
+    border-radius: 4px;
+    padding: 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 12px;
+    background: var(--surface);
+  }
+
+  /* ============ SCREEN 3: personas ============ */
+  .persona-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 20px;
+  }
+  .persona-card {
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  .persona-card .head {
+    background: var(--surface);
+    padding: 12px;
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .persona-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--text) 0%, var(--muted) 100%);
+    color: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .persona-card .name { font-weight: 600; }
+  .persona-card .role { color: var(--muted); font-size: 11px; }
+  .persona-card .body { padding: 12px; font-size: 11px; }
+  .persona-card .meta-row { display: flex; justify-content: space-between; padding: 4px 0; color: var(--muted); }
+  .persona-card .meta-row strong { color: var(--text); }
+  .source-docs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .source-docs .src-chip {
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 10px;
+    color: var(--text);
+  }
+  .persona-card .actions {
+    padding: 10px 12px;
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    gap: 6px;
+  }
+  .persona-card .actions button { font-size: 11px; padding: 4px 8px; }
+
+  /* ============ SCREEN 4: live voice session ============ */
+  .session-layout { display: flex; min-height: 600px; }
+  .session-main { flex: 1; display: flex; flex-direction: column; border-right: 1px solid var(--border); }
+  .session-header {
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .witness-bar { display: flex; align-items: center; gap: 10px; }
+  .voice-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border: 1px solid var(--green);
+    border-radius: 16px;
+    background: #e7f4eb;
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .pulse-dot {
+    width: 8px; height: 8px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  .transcript-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: var(--bg);
+  }
+  .voice-bubble {
+    margin-bottom: 12px;
+    max-width: 80%;
+  }
+  .voice-bubble.user {
+    margin-left: auto;
+    text-align: right;
+  }
+  .voice-bubble .speaker {
+    font-size: 10px;
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 2px;
+  }
+  .voice-bubble .text {
+    background: var(--surface);
+    padding: 10px 14px;
+    border-radius: 12px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: left;
+  }
+  .voice-bubble.user .text { background: var(--text); color: var(--bg); }
+  .session-side {
+    width: 280px;
+    padding: 16px;
+    background: var(--surface);
+    overflow-y: auto;
+  }
+  .side-card {
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+  .side-card h4 {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+  .state-bar { display: flex; align-items: center; gap: 6px; padding: 3px 0; font-size: 11px; }
+  .state-bar .lbl { width: 80px; color: var(--muted); }
+  .state-bar .bar { flex: 1; height: 3px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
+  .state-bar .fill { height: 100%; background: var(--text); }
+  .doc-pill {
+    display: inline-block;
+    background: var(--surface);
+    border: 1px solid var(--border-light);
+    padding: 3px 7px;
+    border-radius: 2px;
+    font-size: 11px;
+    margin: 2px 2px 0 0;
+  }
+  .end-session-bar {
+    padding: 10px 16px;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* ============ SCREEN 5: post-session hub ============ */
+  .post-hub {
+    padding: 40px 24px;
+    background: var(--surface);
+    min-height: 500px;
+  }
+  .hub-header {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .hub-header h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
+  .hub-header p { color: var(--muted); margin-top: 6px; }
+  .hub-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .hub-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 24px;
+    cursor: pointer;
+    transition: border-color 0.1s;
+  }
+  .hub-card:hover { border-color: var(--text); }
+  .hub-card .icon-block {
+    width: 48px; height: 48px;
+    background: var(--surface2);
+    border-radius: 4px;
+    margin-bottom: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .hub-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+  .hub-card .desc { color: var(--muted); font-size: 12px; line-height: 1.55; margin-bottom: 12px; }
+  .hub-card .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .hub-card .tag { background: var(--surface); border: 1px solid var(--border-light); padding: 3px 8px; border-radius: 3px; font-size: 10px; color: var(--text); }
+
+  /* ============ SCREEN 6: dashboard ============ */
+  .dash-body { padding: 16px 20px; }
+  .dash-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; }
+  .dash-section {
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .dash-section h4 {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .score-hero {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .score-hero .num { font-size: 36px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; }
+  .score-hero .denom { color: var(--muted); font-size: 13px; }
+  .score-hero .delta { background: var(--green); color: var(--bg); padding: 2px 6px; font-size: 10px; border-radius: 3px; margin-left: auto; }
+  .metric-row { display: flex; align-items: center; justify-content: space-between; padding: 4px 0; font-size: 12px; }
+  .metric-row .lbl { color: var(--text); }
+  .metric-row .bar { flex: 1; height: 4px; background: var(--surface2); margin: 0 12px; border-radius: 2px; overflow: hidden; }
+  .metric-row .fill { height: 100%; background: var(--text); }
+  .metric-row .val { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 11px; }
+  .trajectory { height: 120px; background: var(--surface); border: 1px solid var(--border-light); border-radius: 3px; padding: 8px; }
+  .turn-card {
+    border: 1px solid var(--border-light);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: var(--bg);
+    font-size: 12px;
+  }
+  .turn-card .q { font-weight: 500; margin-bottom: 4px; }
+  .turn-card .a { color: var(--muted); margin-bottom: 6px; }
+  .chip { display: inline-block; padding: 2px 6px; font-size: 10px; border-radius: 3px; margin-right: 4px; font-weight: 500; }
+  .chip.good { background: #e7f4eb; color: var(--green); border: 1px solid #b8dec3; }
+  .chip.warn { background: #fef3e7; color: var(--yellow); border: 1px solid #f3d5a8; }
+  .chip.bad  { background: #fbe7e7; color: var(--red);    border: 1px solid #f0bcbc; }
+  .ai-note { background: var(--surface); border-left: 2px solid var(--indigo); padding: 6px 8px; font-size: 11px; margin-top: 6px; }
+  .suggestions { list-style: none; }
+  .suggestions li { padding: 8px 0; border-bottom: 1px solid var(--border-light); font-size: 12px; display: flex; gap: 8px; }
+  .suggestions li:last-child { border-bottom: none; }
+  .suggestions .num { background: var(--text); color: var(--bg); font-size: 10px; padding: 1px 6px; border-radius: 10px; height: fit-content; }
+  .suggestions .meta { color: var(--muted); font-size: 11px; display: block; margin-top: 2px; }
+
+  /* ============ SCREEN 7: word view ============ */
+  .word-toolbar {
+    display: flex; align-items: center; gap: 4px;
+    padding: 6px 12px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-size: 11px;
+  }
+  .word-toolbar button { border: 1px solid var(--border); background: var(--bg); padding: 3px 8px; font-size: 11px; border-radius: 3px; cursor: pointer; }
+  .word-toolbar button.primary { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .word-toolbar .sep { width: 1px; height: 16px; background: var(--border); margin: 0 4px; }
+  .review-bar {
+    padding: 8px 20px;
+    background: #fff7e6;
+    border-bottom: 1px solid var(--yellow);
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .doc-body { display: flex; min-height: 480px; }
+  .doc-page { flex: 1; padding: 24px 28px; font-family: Georgia, serif; font-size: 13px; line-height: 1.7; background: var(--bg); }
+  .doc-page h3 { font-family: -apple-system, sans-serif; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .turn { margin-bottom: 14px; position: relative; }
+  .speaker-inline { font-weight: 600; color: var(--muted); font-family: -apple-system, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; display: inline; margin-right: 6px; }
+  .ins { color: var(--green); text-decoration: underline; }
+  .del { color: var(--red); text-decoration: line-through; }
+  .ins.partner { color: var(--pink); text-decoration: underline; }
+  .comments-rail {
+    width: 240px;
+    border-left: 1px solid var(--border);
+    background: var(--surface);
+    padding: 16px 12px;
+  }
+  .comment-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--yellow);
+    border-radius: 3px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .comment-card.partner { border-left-color: var(--pink); }
+  .comment-card.lawyer { border-left-color: var(--indigo); }
+  .comment-card .author { font-weight: 600; font-size: 10px; margin-bottom: 2px; }
+  .comment-card .author .badge { background: var(--surface2); color: var(--muted); padding: 1px 4px; border-radius: 2px; font-size: 9px; margin-left: 4px; font-weight: 500; }
+  .comment-card .body { color: var(--muted); }
+  .comment-card.partner .body { color: var(--text); }
+
+  /* ============ SCREEN 8: cross-session iteration ============ */
+  .iteration-body { padding: 20px; }
+  .iteration-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .progress-chart { background: var(--bg); border: 1px solid var(--border-light); border-radius: 4px; padding: 14px; }
+  .pattern-card { background: var(--bg); border: 1px solid var(--border-light); border-radius: 4px; padding: 14px; }
+  .pattern-item {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+  }
+  .pattern-item:last-child { border-bottom: none; }
+  .pattern-item .label { display: flex; justify-content: space-between; align-items: center; }
+  .pattern-item .lbl-text { font-weight: 500; }
+  .pattern-item .change { font-size: 11px; }
+  .pattern-item.improving .change { color: var(--green); }
+  .pattern-item.regressing .change { color: var(--red); }
+  .pattern-item.stable .change { color: var(--muted); }
+  .pattern-item .meta { color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .session-row {
+    display: grid;
+    grid-template-columns: 50px 1fr 100px 100px 100px 100px;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+  }
+  .session-row.head { background: var(--surface); font-weight: 600; font-size: 10px; text-transform: uppercase; color: var(--muted); letter-spacing: 0.04em; }
+  .strategy-note {
+    background: #eef4fb;
+    border-left: 3px solid var(--indigo);
+    padding: 12px 14px;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+  .strategy-note strong { color: var(--indigo); }
+
+  /* flow arrow between screens */
+  .flow-arrow {
+    max-width: 1200px;
+    margin: -16px auto 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .flow-arrow .down { font-size: 18px; display: block; line-height: 1; }
+</style>
+</head>
+<body>
+
+<div class="doc-header">
+  <h1>Atelier — Full Product Walkthrough</h1>
+  <p>An 8-screen wireframe showing the integrated experience: case docs → personas → live session → dual-view feedback → cross-session iteration.</p>
+  <div class="toc">
+    <a href="#s1">1 · Case Library</a>
+    <a href="#s2">2 · Documents</a>
+    <a href="#s3">3 · Personas</a>
+    <a href="#s4">4 · Live Session</a>
+    <a href="#s5">5 · Post-Session Hub</a>
+    <a href="#s6">6 · Dashboard (Path B)</a>
+    <a href="#s7">7 · Word View (Path A)</a>
+    <a href="#s8">8 · Cross-Session Iteration</a>
+  </div>
+</div>
+
+<!-- ============ SCREEN 1 ============ -->
+<div class="screen" id="s1">
+  <div class="screen-label">
+    <span><span class="num">1</span> Case Library<span class="desc"> — landing page after login; matter-level organization</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav>
+        <a href="#" class="active">Cases</a>
+        <a href="#">Personas</a>
+        <a href="#">Sessions</a>
+        <a href="#">Library</a>
+      </nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="case-library">
+      <div class="page-header-row">
+        <div>
+          <h2>Your cases</h2>
+          <div style="color: var(--muted); font-size: 12px; margin-top: 2px;">Active matters with associated personas and practice sessions.</div>
+        </div>
+        <div>
+          <button class="btn secondary">Import case file</button>
+          <button class="btn">+ New case</button>
+        </div>
+      </div>
+      <div class="case-grid">
+        <div class="case-card">
+          <div class="name">Acme v. Beta Industries</div>
+          <div class="matter">Commercial litigation · M.D. Cal. 24-cv-1183</div>
+          <div class="stats">
+            <span><strong>14</strong> docs</span>
+            <span><strong>3</strong> personas</span>
+            <span><strong>12</strong> sessions</span>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="name">Hayes Deposition Prep</div>
+          <div class="matter">Securities · pre-deposition</div>
+          <div class="stats">
+            <span><strong>8</strong> docs</span>
+            <span><strong>1</strong> persona</span>
+            <span><strong>4</strong> sessions</span>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="name">United States v. Reyes</div>
+          <div class="matter">Criminal · cross of cooperating witness</div>
+          <div class="stats">
+            <span><strong>22</strong> docs</span>
+            <span><strong>2</strong> personas</span>
+            <span><strong>7</strong> sessions</span>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="name">Estate of Whitfield</div>
+          <div class="matter">Probate dispute · contested will</div>
+          <div class="stats">
+            <span><strong>6</strong> docs</span>
+            <span><strong>2</strong> personas</span>
+            <span><strong>2</strong> sessions</span>
+          </div>
+        </div>
+        <div class="case-card">
+          <div class="name">Stanford Clinic — Sample</div>
+          <div class="matter">Training matter · for student practice</div>
+          <div class="stats">
+            <span><strong>5</strong> docs</span>
+            <span><strong>3</strong> personas</span>
+            <span><strong>21</strong> sessions</span>
+          </div>
+        </div>
+        <div class="case-card" style="border-style: dashed; color: var(--muted); display: flex; align-items: center; justify-content: center; min-height: 120px;">
+          + Create your next case
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Notes:</strong> Cases are the top-level container — each holds documents, personas built from those docs, and a session history. Replaces today's single-flow "Configure → Examine" with a persistent project model.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> open a case</div>
+
+<!-- ============ SCREEN 2 ============ -->
+<div class="screen" id="s2">
+  <div class="screen-label">
+    <span><span class="num">2</span> Case Detail — Documents<span class="desc"> — native doc upload, versioning, multi-format ingest</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav>
+        <a href="#" class="active">Cases</a>
+        <a href="#">Personas</a>
+        <a href="#">Sessions</a>
+        <a href="#">Library</a>
+      </nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb">
+      <a href="#">Cases</a><span class="sep">›</span><span class="current">Hayes Deposition Prep</span>
+    </div>
+    <div class="case-detail">
+      <div class="case-sidebar">
+        <h3>Hayes Deposition Prep</h3>
+        <div style="color: var(--muted); font-size: 11px; margin-bottom: 16px;">Securities · pre-deposition</div>
+        <div class="tab-list">
+          <div class="tab-item active">Documents <span class="count">8</span></div>
+          <div class="tab-item">Personas <span class="count">1</span></div>
+          <div class="tab-item">Sessions <span class="count">4</span></div>
+          <div class="tab-item">Strategy notes <span class="count">2</span></div>
+          <div class="tab-item">Settings</div>
+        </div>
+      </div>
+      <div class="case-main">
+        <div class="doc-toolbar">
+          <input class="search" placeholder="Search documents...">
+          <button class="btn secondary">Tags</button>
+          <button class="btn">+ Upload</button>
+        </div>
+        <div class="doc-list">
+          <div class="doc-row head">
+            <div></div>
+            <div>Name</div>
+            <div>Type</div>
+            <div>Size</div>
+            <div>Updated</div>
+            <div>Ver</div>
+          </div>
+          <div class="doc-row">
+            <div class="doc-icon">DOCX</div>
+            <div>
+              <div class="doc-name">Hayes — Original deposition transcript.docx</div>
+              <span class="pill indigo">deposition</span>
+              <span class="pill">indexed</span>
+            </div>
+            <div class="doc-meta">Transcript</div>
+            <div class="doc-meta">428 KB</div>
+            <div class="doc-meta">Jun 1, 2026</div>
+            <div class="doc-meta">v3</div>
+          </div>
+          <div class="doc-row">
+            <div class="doc-icon">PDF</div>
+            <div>
+              <div class="doc-name">Exhibit 7 — March email thread.pdf</div>
+              <span class="pill yellow">exhibit</span>
+              <span class="pill">indexed</span>
+            </div>
+            <div class="doc-meta">Exhibit</div>
+            <div class="doc-meta">112 KB</div>
+            <div class="doc-meta">May 28, 2026</div>
+            <div class="doc-meta">v1</div>
+          </div>
+          <div class="doc-row">
+            <div class="doc-icon">PDF</div>
+            <div>
+              <div class="doc-name">Hayes — Witness statement (signed).pdf</div>
+              <span class="pill indigo">witness statement</span>
+              <span class="pill">indexed</span>
+            </div>
+            <div class="doc-meta">Statement</div>
+            <div class="doc-meta">88 KB</div>
+            <div class="doc-meta">May 22, 2026</div>
+            <div class="doc-meta">v1</div>
+          </div>
+          <div class="doc-row">
+            <div class="doc-icon">DOCX</div>
+            <div>
+              <div class="doc-name">Background memo — Hayes career history.docx</div>
+              <span class="pill green">background</span>
+              <span class="pill">indexed</span>
+            </div>
+            <div class="doc-meta">Memo</div>
+            <div class="doc-meta">34 KB</div>
+            <div class="doc-meta">May 20, 2026</div>
+            <div class="doc-meta">v2</div>
+          </div>
+          <div class="doc-row">
+            <div class="doc-icon">PDF</div>
+            <div>
+              <div class="doc-name">SEC complaint (redacted).pdf</div>
+              <span class="pill">filing</span>
+              <span class="pill">indexed</span>
+            </div>
+            <div class="doc-meta">Filing</div>
+            <div class="doc-meta">1.2 MB</div>
+            <div class="doc-meta">May 18, 2026</div>
+            <div class="doc-meta">v1</div>
+          </div>
+        </div>
+        <div class="upload-zone">
+          Drop files here or click upload · DOC, DOCX, PDF, TXT · max 25 MB per file
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Native build (no Mike dependency):</strong> upload zone, version column, type pills, indexed status (chunked + embedded into Pinecone). The "indexed" pill matters — it indicates the doc is available as persona context.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> switch to Personas tab</div>
+
+<!-- ============ SCREEN 3 ============ -->
+<div class="screen" id="s3">
+  <div class="screen-label">
+    <span><span class="num">3</span> Case Detail — Personas<span class="desc"> — personas built from selected case documents</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Deposition Prep</a><span class="sep">›</span><span class="current">Personas</span></div>
+    <div style="display: flex;">
+      <div class="case-sidebar" style="min-height: 500px;">
+        <h3>Hayes Deposition Prep</h3>
+        <div style="color: var(--muted); font-size: 11px; margin-bottom: 16px;">Securities · pre-deposition</div>
+        <div class="tab-list">
+          <div class="tab-item">Documents <span class="count">8</span></div>
+          <div class="tab-item active">Personas <span class="count">1</span></div>
+          <div class="tab-item">Sessions <span class="count">4</span></div>
+          <div class="tab-item">Strategy notes <span class="count">2</span></div>
+          <div class="tab-item">Settings</div>
+        </div>
+      </div>
+      <div style="flex: 1;">
+        <div style="padding: 16px 20px 0; display: flex; justify-content: space-between; align-items: center;">
+          <h2 style="font-size: 16px; font-weight: 600;">Personas in this case</h2>
+          <button class="btn">+ Build new persona</button>
+        </div>
+        <div class="persona-grid">
+          <div class="persona-card">
+            <div class="head">
+              <div class="persona-avatar">RH</div>
+              <div>
+                <div class="name">Robert Hayes</div>
+                <div class="role">CFO · adverse witness</div>
+              </div>
+            </div>
+            <div class="body">
+              <div class="meta-row"><span>Demeanor</span><strong>Evasive, controlled</strong></div>
+              <div class="meta-row"><span>Voice</span><strong>ash</strong></div>
+              <div class="meta-row"><span>Sessions</span><strong>4 completed</strong></div>
+              <div style="margin-top: 8px;">
+                <div style="font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px;">Source documents (5)</div>
+                <div class="source-docs">
+                  <span class="src-chip">Deposition</span>
+                  <span class="src-chip">Witness stmt</span>
+                  <span class="src-chip">Career memo</span>
+                  <span class="src-chip">Exhibit 7</span>
+                  <span class="src-chip">SEC compl.</span>
+                </div>
+              </div>
+            </div>
+            <div class="actions">
+              <button class="btn">Start session</button>
+              <button class="btn secondary">Edit</button>
+              <button class="btn secondary" style="margin-left: auto;">···</button>
+            </div>
+          </div>
+          <div class="persona-card" style="border-style: dashed; color: var(--muted); display: flex; align-items: center; justify-content: center; min-height: 200px;">
+            <div style="text-align: center;">
+              <div style="margin-bottom: 8px;">+ Build a new persona from this case's documents</div>
+              <button class="btn secondary" style="font-size: 11px;">Choose source docs</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Persona = persistent voice character + RAG context.</strong> Source documents are explicitly named so the user knows what context the witness "has." Building a new persona = pick docs from this case + define demeanor/voice.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> click "Start session" on Robert Hayes</div>
+
+<!-- ============ SCREEN 4 ============ -->
+<div class="screen" id="s4">
+  <div class="screen-label">
+    <span><span class="num">4</span> Live Voice Session<span class="desc"> — current Examine view, lightly enhanced</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Deposition Prep</a><span class="sep">›</span><a href="#">Sessions</a><span class="sep">›</span><span class="current">Session 5 · Live</span></div>
+    <div class="session-layout">
+      <div class="session-main">
+        <div class="session-header">
+          <div class="witness-bar">
+            <div class="persona-avatar" style="width: 32px; height: 32px; font-size: 12px;">RH</div>
+            <div>
+              <div style="font-weight: 600; font-size: 13px;">Robert Hayes</div>
+              <div style="font-size: 11px; color: var(--muted);">CFO · adverse witness · turn 18</div>
+            </div>
+          </div>
+          <div class="voice-status">
+            <span class="pulse-dot"></span> Listening
+          </div>
+        </div>
+        <div class="transcript-area">
+          <div class="voice-bubble user">
+            <div class="speaker">You</div>
+            <div class="text">Mr. Hayes, you testified earlier the email was sent on March 15th, is that correct?</div>
+          </div>
+          <div class="voice-bubble">
+            <div class="speaker">Robert Hayes</div>
+            <div class="text">That's what I remember, yes.</div>
+          </div>
+          <div class="voice-bubble user">
+            <div class="speaker">You</div>
+            <div class="text">Let me show you Exhibit 7. Take a moment to review it. Is this the email?</div>
+          </div>
+          <div class="voice-bubble">
+            <div class="speaker">Robert Hayes</div>
+            <div class="text">Yes, that appears to be it.</div>
+          </div>
+          <div class="voice-bubble user">
+            <div class="speaker">You</div>
+            <div class="text">Please read aloud the date stamped in the header.</div>
+          </div>
+          <div class="voice-bubble">
+            <div class="speaker">Robert Hayes</div>
+            <div class="text">It... says March 17th.</div>
+          </div>
+        </div>
+        <div class="end-session-bar">
+          <div style="font-size: 11px; color: var(--muted);">14:23 elapsed · 18 turns · auto-saving</div>
+          <div>
+            <button class="btn secondary">Pause</button>
+            <button class="btn">End session →</button>
+          </div>
+        </div>
+      </div>
+      <div class="session-side">
+        <div class="side-card">
+          <h4>Witness state (live)</h4>
+          <div class="state-bar"><span class="lbl">Composure</span><span class="bar"><span class="fill" style="width: 42%;"></span></span><span style="color: var(--muted); font-size: 10px;">42%</span></div>
+          <div class="state-bar"><span class="lbl">Candor</span><span class="bar"><span class="fill" style="width: 68%;"></span></span><span style="color: var(--muted); font-size: 10px;">68%</span></div>
+          <div class="state-bar"><span class="lbl">Cognitive</span><span class="bar"><span class="fill" style="width: 71%;"></span></span><span style="color: var(--muted); font-size: 10px;">71%</span></div>
+        </div>
+        <div class="side-card">
+          <h4>Persona context (5 docs)</h4>
+          <span class="doc-pill">Deposition</span>
+          <span class="doc-pill">Witness stmt</span>
+          <span class="doc-pill">Career memo</span>
+          <span class="doc-pill">Exhibit 7</span>
+          <span class="doc-pill">SEC compl.</span>
+          <div style="font-size: 11px; color: var(--muted); margin-top: 6px;">Witness "knows" these documents and will respond consistently with them.</div>
+        </div>
+        <div class="side-card">
+          <h4>Suggested next question</h4>
+          <div style="font-size: 12px;">"So when you said March 15th earlier, that wasn't accurate?"</div>
+          <div style="font-size: 11px; color: var(--muted); margin-top: 4px;">Lock the contradiction before moving on.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Existing functionality + small additions:</strong> witness portrait + name in header (vs. raw "persona"), live state bars on right (you already track this), and persona-context docs shown for grounding awareness.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> click "End session"</div>
+
+<!-- ============ SCREEN 5 ============ -->
+<div class="screen" id="s5">
+  <div class="screen-label">
+    <span><span class="num">5</span> Post-Session Hub<span class="desc"> — choose your view (or do both)</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="post-hub">
+      <div class="hub-header">
+        <h2>Session 5 complete</h2>
+        <p>14:23 elapsed · 18 turns · Cross-examination of Robert Hayes</p>
+      </div>
+      <div class="hub-options">
+        <div class="hub-card">
+          <div class="icon-block" style="background: #eef4fb; color: var(--indigo);">▦</div>
+          <h3>Dashboard review</h3>
+          <div class="desc">At-a-glance overview: score, performance dimensions, witness state trajectory, key moments, and pattern-based suggestions for next session.</div>
+          <div class="tags">
+            <span class="tag">Self-review</span>
+            <span class="tag">Trajectory</span>
+            <span class="tag">~3 min</span>
+          </div>
+        </div>
+        <div class="hub-card">
+          <div class="icon-block" style="background: #fff7e6; color: var(--yellow);">¶</div>
+          <h3>Annotated transcript (Word)</h3>
+          <div class="desc">DOCX-style tracked-changes view with AI suggestions and margin comments. Shareable with a supervising partner for written feedback.</div>
+          <div class="tags">
+            <span class="tag">Partner review</span>
+            <span class="tag">Note-taking</span>
+            <span class="tag">DOCX export</span>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 24px; color: var(--muted); font-size: 11px;">
+        You can come back to the other view anytime from Sessions → Session 5.
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Hub instead of forcing one view:</strong> both are reachable, and the analyzer JSON runs once at session end so neither view has any "cold start" delay.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> pick "Dashboard review"</div>
+
+<!-- ============ SCREEN 6 ============ -->
+<div class="screen" id="s6">
+  <div class="screen-label">
+    <span><span class="num">6</span> Path B — Dashboard Review<span class="desc"> — self-coaching, trajectory, suggestions</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Deposition Prep</a><span class="sep">›</span><a href="#">Sessions</a><span class="sep">›</span><span class="current">Session 5 — Dashboard</span></div>
+    <div class="word-toolbar" style="background: var(--bg);">
+      <button class="primary">Dashboard</button>
+      <button>Annotated transcript</button>
+      <span class="sep"></span>
+      <button>Share with partner</button>
+      <button>Add strategy note</button>
+      <button style="margin-left: auto;">Export PDF</button>
+    </div>
+    <div class="dash-body">
+      <div class="dash-grid">
+        <div>
+          <div class="dash-section">
+            <div class="score-hero">
+              <span class="num">6.8</span>
+              <span class="denom">/ 10 · Cross-exam effectiveness</span>
+              <span class="delta">+0.4 vs S4</span>
+            </div>
+            <div style="color: var(--muted); font-size: 12px;">Strong on impeachment setup, weaker on question form. Witness destabilized at turn 18 — your best moment of the session.</div>
+          </div>
+          <div class="dash-section">
+            <h4>Witness state trajectory</h4>
+            <div class="trajectory">
+              <svg viewBox="0 0 300 100" preserveAspectRatio="none" style="width:100%; height:100%;">
+                <polyline points="0,25 30,28 60,30 90,35 120,42 150,50 180,60 210,72 240,68 270,65 300,62" fill="none" stroke="#3730a3" stroke-width="1.5"/>
+                <polyline points="0,35 30,38 60,35 90,40 120,45 150,42 180,32 210,22 240,25 270,28 300,32" fill="none" stroke="#0e7490" stroke-width="1.5" stroke-dasharray="3,2"/>
+                <line x1="210" y1="6" x2="210" y2="92" stroke="#b45309" stroke-width="1" stroke-dasharray="2,2"/>
+                <text x="214" y="14" font-size="8" fill="#b45309" font-family="sans-serif">Q18: Exhibit 7 confronted</text>
+              </svg>
+            </div>
+            <div style="display: flex; gap: 16px; font-size: 11px; color: var(--muted); margin-top: 6px;">
+              <span><span style="color: var(--indigo);">━</span> Composure</span>
+              <span><span style="color: var(--cyan);">┅</span> Candor</span>
+            </div>
+          </div>
+          <div class="dash-section">
+            <h4>Key moments</h4>
+            <div class="turn-card">
+              <div class="q">Q15: "...you testified the email was sent on March 15th, right?"</div>
+              <div class="a">A: That's what I remember, yes.</div>
+              <span class="chip warn">Leading w/ tag question</span>
+              <span class="chip warn">Invites equivocation</span>
+              <div class="ai-note">"Right?" gives witness room to soften. Closed form forces a yes/no on the record.</div>
+            </div>
+            <div class="turn-card">
+              <div class="q">Q18: "...what date does it show?"</div>
+              <div class="a">A: It... says March 17th.</div>
+              <span class="chip good">Impeachment landed</span>
+              <span class="chip good">Composure −18%</span>
+              <div class="ai-note">Best moment. Asking witness to read aloud locked the contradiction on the record.</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="dash-section">
+            <h4>Performance dimensions</h4>
+            <div class="metric-row"><span class="lbl">Question control</span><span class="bar"><span class="fill" style="width: 72%;"></span></span><span class="val">7.2</span></div>
+            <div class="metric-row"><span class="lbl">State shifts induced</span><span class="bar"><span class="fill" style="width: 64%;"></span></span><span class="val">6.4</span></div>
+            <div class="metric-row"><span class="lbl">Impeachment setup</span><span class="bar"><span class="fill" style="width: 81%;"></span></span><span class="val">8.1</span></div>
+            <div class="metric-row"><span class="lbl">Pacing</span><span class="bar"><span class="fill" style="width: 78%;"></span></span><span class="val">7.8</span></div>
+            <div class="metric-row"><span class="lbl">Form (leading, vague)</span><span class="bar"><span class="fill" style="width: 52%;"></span></span><span class="val">5.2</span></div>
+          </div>
+          <div class="dash-section">
+            <h4>Try next session</h4>
+            <ol class="suggestions">
+              <li><span class="num">1</span><span><span style="font-weight:500;">Tighten question form before impeachment.</span><span class="meta">6 of 22 questions used soft tag forms. Aim for &lt;2.</span></span></li>
+              <li><span class="num">2</span><span><span style="font-weight:500;">Slow down before the exhibit reveal.</span><span class="meta">9 seconds from Q16 to Q18. Break the witness's rhythm first.</span></span></li>
+              <li><span class="num">3</span><span><span style="font-weight:500;">Close the "I don't remember" loop.</span><span class="meta">Witness left a door open at Q19. Practice closing it.</span></span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Toolbar at top:</strong> dashboard ⇄ transcript toggle, share, strategy note, export. Same analyzer JSON powers both views — no recomputation switching between them.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> toggle to "Annotated transcript"</div>
+
+<!-- ============ SCREEN 7 ============ -->
+<div class="screen" id="s7">
+  <div class="screen-label">
+    <span><span class="num">7</span> Path A — Annotated Transcript<span class="desc"> — Word-style; partner comments + lawyer notes</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Deposition Prep</a><span class="sep">›</span><a href="#">Sessions</a><span class="sep">›</span><span class="current">Session 5 — Transcript</span></div>
+    <div class="word-toolbar">
+      <button>Dashboard</button>
+      <button class="primary">Annotated transcript</button>
+      <span class="sep"></span>
+      <button>Accept</button>
+      <button>Reject</button>
+      <button>Next change</button>
+      <button>Add comment</button>
+      <span class="sep"></span>
+      <button>Share with partner</button>
+      <button>Export DOCX</button>
+    </div>
+    <div class="review-bar">
+      <span>Shared with <strong>Sarah Park</strong> (Partner) on Jun 5 · 3 comments awaiting your review</span>
+      <span style="font-size: 10px;">Tracked changes: 3 AI · 2 partner · 1 yours</span>
+    </div>
+    <div class="doc-body">
+      <div class="doc-page">
+        <h3>Cross-examination of Mr. Hayes — turns 14-22</h3>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          Mr. Hayes, you testified earlier the email was sent on March 15th,
+          <span class="del">right?</span><span class="ins">is that correct?</span>
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> That's what I remember, yes.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          Let me show you Exhibit 7.<span class="ins"> I'll hand you a copy. Take a moment to review it.</span> Is this the email?
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> Yes, that appears to be it.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span>
+          <span class="del">And the metadata at the top of the page — what date does it show?</span>
+          <span class="ins">Please read aloud the date stamped in the header.</span>
+          <span class="ins partner"> — and pause before turning the page.</span>
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> It... says March 17th.
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">Q (You):</span> So you were mistaken about the date?
+        </div>
+        <div class="turn">
+          <span class="speaker-inline">A:</span> I suppose so. I don't remember exactly.
+        </div>
+      </div>
+      <div class="comments-rail">
+        <div class="comment-card">
+          <div class="author">Atelier <span class="badge">AI</span></div>
+          <div class="body">"Right?" invites disagreement. Closed lead is harder to evade.</div>
+        </div>
+        <div class="comment-card partner">
+          <div class="author">Sarah Park <span class="badge">Partner</span></div>
+          <div class="body">Good instinct on the metadata. Try slowing it down — let the courtroom feel the witness see the contradiction.</div>
+        </div>
+        <div class="comment-card">
+          <div class="author">Atelier <span class="badge">AI</span></div>
+          <div class="body">Asking witness to read aloud locks contradiction on the record.</div>
+        </div>
+        <div class="comment-card partner">
+          <div class="author">Sarah Park <span class="badge">Partner</span></div>
+          <div class="body">Don't ask "so you were mistaken" — too argumentative. Let the document speak.</div>
+        </div>
+        <div class="comment-card lawyer">
+          <div class="author">You <span class="badge">Note</span></div>
+          <div class="body">For real depo: rehearse exhibit handoff. Pause beats matter.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>Three annotation layers visible:</strong> AI suggestions (green/red track changes), partner additions (pink underline), your own notes (indigo). The review-bar at top shows partner's status. Export DOCX preserves all three for offline circulation.</div>
+</div>
+
+<div class="flow-arrow"><span class="down">↓</span> after several sessions, view aggregate progress</div>
+
+<!-- ============ SCREEN 8 ============ -->
+<div class="screen" id="s8">
+  <div class="screen-label">
+    <span><span class="num">8</span> Cross-Session Iteration<span class="desc"> — strategy & training development view</span></span>
+  </div>
+  <div class="frame">
+    <div class="app-topbar">
+      <div class="brand">atelier</div>
+      <nav><a href="#" class="active">Cases</a><a href="#">Personas</a><a href="#">Sessions</a><a href="#">Library</a></nav>
+      <div class="user"><span class="avatar">MM</span>Megan Ma</div>
+    </div>
+    <div class="breadcrumb"><a href="#">Cases</a><span class="sep">›</span><a href="#">Hayes Deposition Prep</a><span class="sep">›</span><span class="current">Progress</span></div>
+    <div class="iteration-body">
+      <div class="strategy-note">
+        <strong>Atelier observed across 5 sessions:</strong> Your impeachment technique on documentary contradictions is now consistently strong (avg 8.1). Your weakest pattern remains tag-question form at the start of cross-exam sequences — this has improved 5.2 → 5.8 → 5.2, suggesting it's a habit that returns under cognitive load. Recommended drill: short "form-only" practice sessions focused exclusively on the first 5 questions.
+      </div>
+      <div class="iteration-grid">
+        <div class="progress-chart">
+          <h4 style="font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 10px;">Effectiveness over sessions</h4>
+          <svg viewBox="0 0 320 140" style="width: 100%; height: 140px;">
+            <line x1="20" y1="120" x2="320" y2="120" stroke="#d8d8d8" stroke-width="1"/>
+            <line x1="20" y1="20" x2="20" y2="120" stroke="#d8d8d8" stroke-width="1"/>
+            <polyline points="40,85 110,72 180,68 250,52 320,46" fill="none" stroke="#111" stroke-width="2"/>
+            <circle cx="40" cy="85" r="3" fill="#111"/>
+            <circle cx="110" cy="72" r="3" fill="#111"/>
+            <circle cx="180" cy="68" r="3" fill="#111"/>
+            <circle cx="250" cy="52" r="3" fill="#111"/>
+            <circle cx="320" cy="46" r="3" fill="#111"/>
+            <text x="40" y="135" font-size="9" fill="#717171" text-anchor="middle">S1</text>
+            <text x="110" y="135" font-size="9" fill="#717171" text-anchor="middle">S2</text>
+            <text x="180" y="135" font-size="9" fill="#717171" text-anchor="middle">S3</text>
+            <text x="250" y="135" font-size="9" fill="#717171" text-anchor="middle">S4</text>
+            <text x="320" y="135" font-size="9" fill="#717171" text-anchor="middle">S5</text>
+            <text x="14" y="25" font-size="8" fill="#717171" text-anchor="end">10</text>
+            <text x="14" y="123" font-size="8" fill="#717171" text-anchor="end">0</text>
+          </svg>
+        </div>
+        <div class="pattern-card">
+          <h4 style="font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 10px;">Pattern trajectory</h4>
+          <div class="pattern-item improving">
+            <div class="label"><span class="lbl-text">Impeachment setup</span><span class="change">▲ +1.7 over 5 sessions</span></div>
+            <div class="meta">From 6.4 to 8.1 · clear improvement</div>
+          </div>
+          <div class="pattern-item stable">
+            <div class="label"><span class="lbl-text">Question control</span><span class="change">● stable at 7.0-7.2</span></div>
+            <div class="meta">Consistent strength</div>
+          </div>
+          <div class="pattern-item regressing">
+            <div class="label"><span class="lbl-text">Form (leading, vague)</span><span class="change">▼ regressed in S5</span></div>
+            <div class="meta">Improved S2-S4, slipped back in S5</div>
+          </div>
+          <div class="pattern-item improving">
+            <div class="label"><span class="lbl-text">Pacing</span><span class="change">▲ +0.6 over 5 sessions</span></div>
+            <div class="meta">Slowing exhibit reveals is paying off</div>
+          </div>
+        </div>
+      </div>
+      <div style="background: var(--bg); border: 1px solid var(--border-light); border-radius: 4px; overflow: hidden;">
+        <div class="session-row head">
+          <div>#</div>
+          <div>Date</div>
+          <div>Score</div>
+          <div>Δ</div>
+          <div>Duration</div>
+          <div>Notes</div>
+        </div>
+        <div class="session-row"><div>S5</div><div>Jun 6, 2026</div><div>6.8</div><div style="color: var(--green);">+0.4</div><div>14:23</div><div style="color: var(--muted);">2 partner notes</div></div>
+        <div class="session-row"><div>S4</div><div>Jun 2, 2026</div><div>6.4</div><div style="color: var(--green);">+0.5</div><div>17:08</div><div style="color: var(--muted);">1 partner note</div></div>
+        <div class="session-row"><div>S3</div><div>May 30, 2026</div><div>5.9</div><div style="color: var(--green);">+0.3</div><div>12:51</div><div style="color: var(--muted);">—</div></div>
+        <div class="session-row"><div>S2</div><div>May 27, 2026</div><div>5.6</div><div style="color: var(--green);">+0.4</div><div>16:42</div><div style="color: var(--muted);">—</div></div>
+        <div class="session-row"><div>S1</div><div>May 24, 2026</div><div>5.2</div><div style="color: var(--muted);">—</div><div>11:09</div><div style="color: var(--muted);">baseline</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="annotation"><strong>The iteration loop in one screen:</strong> overall trajectory + dimension-level patterns + per-session list. The AI's "observed across 5 sessions" callout uses the same analyzer JSON, just aggregated — no separate ML pipeline needed.</div>
+</div>
+
+</body>
+</html>

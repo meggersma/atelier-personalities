@@ -22,6 +22,8 @@ try:
     from .state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from .prompt_builder import build_system_prompt, tone_label
     from .realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
+    from .analysis.adapters import session_to_transcript
+    from .analysis.analyzer import analyze_transcript, distill_reviewer, REVIEWERS
 except ImportError:
     import session_store
     from document_processor import ingest_files
@@ -30,6 +32,8 @@ except ImportError:
     from state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from prompt_builder import build_system_prompt, tone_label
     from realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
+    from analysis.adapters import session_to_transcript
+    from analysis.analyzer import analyze_transcript, distill_reviewer, REVIEWERS
 
 app = FastAPI(title="Witness Simulator API")
 
@@ -95,6 +99,18 @@ class RealtimeSessionRequest(BaseModel):
 class VoiceInstructionsRequest(BaseModel):
     session_id: Optional[str] = None
     session: Optional[Dict[str, Any]] = None
+
+
+class AnalysisRequest(BaseModel):
+    session_id: Optional[str] = None
+    session: Optional[Dict[str, Any]] = None
+    reviewer_id: Optional[str] = None
+    reviewer: Optional[Dict[str, Any]] = None  # custom profile, client-supplied
+
+
+class BuildReviewerRequest(BaseModel):
+    name: str
+    materials: str
 
 
 # ── Routes ───────────────────────────────────────────────────────────────────
@@ -548,6 +564,60 @@ def get_suggested_questions(session_id: str, req: Optional[SuggestedQuestionsReq
         questions = [l for l in lines if l and "?" in l][:4]
 
     return {"questions": questions[:4]}
+
+
+@app.post("/api/analysis")
+def create_analysis(req: AnalysisRequest):
+    """Run the retrospective analyzer on a completed session."""
+    session = copy.deepcopy(req.session) if req.session else None
+    if not session and req.session_id:
+        session = session_store.get(req.session_id)
+    if not session:
+        raise HTTPException(status_code=404, detail="Session not found")
+    if not session.get("messages"):
+        raise HTTPException(status_code=400, detail="Session has no turns to analyze")
+
+    reviewer = None
+    if req.reviewer:
+        if not req.reviewer.get("emphasis") or not req.reviewer.get("reviewer_id"):
+            raise HTTPException(status_code=400, detail="Custom reviewer needs reviewer_id and emphasis")
+        reviewer = req.reviewer
+    elif req.reviewer_id:
+        reviewer = REVIEWERS.get(req.reviewer_id)
+        if not reviewer:
+            raise HTTPException(status_code=400, detail=f"Unknown reviewer: {req.reviewer_id}")
+
+    transcript = session_to_transcript(session)
+    analysis = analyze_transcript(transcript, get_client(), reviewer)
+    session_store.analyses_set(analysis.analysis_id, analysis.model_dump())
+    return analysis.model_dump()
+
+
+@app.get("/api/reviewers")
+def list_reviewers():
+    return {"reviewers": [
+        {"reviewer_id": r["reviewer_id"], "name": r["name"], "blurb": r.get("blurb", "")}
+        for r in REVIEWERS.values()
+    ]}
+
+
+@app.post("/api/reviewers/build")
+def build_reviewer(req: BuildReviewerRequest):
+    """Distill a custom reviewer profile from samples of a partner's feedback."""
+    if not req.name.strip() or not req.materials.strip():
+        raise HTTPException(status_code=400, detail="Name and feedback samples are required")
+    try:
+        return distill_reviewer(req.name.strip(), req.materials, get_client())
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Could not distill reviewer: {e}")
+
+
+@app.get("/api/analysis/{analysis_id}")
+def get_analysis(analysis_id: str):
+    analysis = session_store.analyses_get(analysis_id)
+    if not analysis:
+        raise HTTPException(status_code=404, detail="Analysis not found")
+    return analysis
 
 
 # ── Static frontend serving ──────────────────────────────────────────────────
