@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { analyzeSession, getReviewers, buildReviewer } from '../api'
+import { analyzeSession, analyzeUpload, getReviewers, buildReviewer } from '../api'
 
 const SEVERITY = {
   critical: { label: 'CRITICAL', color: '#b91c1c', bg: '#fee2e2', border: '#fecaca' },
@@ -301,6 +301,87 @@ function AddReviewerPanel({ onSave, onCancel }) {
   )
 }
 
+function UploadTranscriptPanel({ onRun, onCancel }) {
+  const [file, setFile] = useState(null)
+  const [witnessName, setWitnessName] = useState('')
+  const [mode, setMode] = useState('deposition')
+  const [caseContext, setCaseContext] = useState('')
+
+  return (
+    <div className="card" style={{ padding: 20, marginBottom: 16, border: '1px solid var(--text)', textAlign: 'left' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6 }}>
+        <div className="section-title" style={{ marginBottom: 0 }}>Upload a Transcript</div>
+        <button
+          onClick={onCancel}
+          aria-label="Close"
+          style={{
+            border: 'none', background: 'transparent', color: 'var(--muted)',
+            fontSize: 16, lineHeight: 1, cursor: 'pointer', padding: 4, fontFamily: 'inherit',
+          }}
+        >
+          ✕
+        </button>
+      </div>
+      <p style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 14, lineHeight: 1.55, maxWidth: 560 }}>
+        Upload a prior deposition or cross-examination (.pdf or .txt, Q./A. court-reporter
+        format). It goes through the same reviewer as a live session.
+      </p>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+          <label className="btn" style={{ ...controlBtnStyle, cursor: 'pointer' }}>
+            Choose File
+            <input
+              type="file"
+              accept=".pdf,.txt,.text,.md"
+              onChange={e => setFile(e.target.files[0] || null)}
+              style={{ display: 'none' }}
+            />
+          </label>
+          <span style={{ fontSize: 12, color: file ? 'var(--text)' : 'var(--muted)' }}>
+            {file ? file.name : 'No file selected'}
+          </span>
+        </div>
+        <div style={{ display: 'flex', gap: 10 }}>
+          <input
+            value={witnessName}
+            onChange={e => setWitnessName(e.target.value)}
+            placeholder="Witness name (optional — read from the caption if present)"
+            style={fieldStyle}
+          />
+          <select
+            value={mode}
+            onChange={e => setMode(e.target.value)}
+            style={{ ...fieldStyle, width: 220, flex: '0 0 auto', cursor: 'pointer' }}
+          >
+            <option value="deposition">Deposition</option>
+            <option value="cross_examination">Cross-examination</option>
+            <option value="direct_examination">Direct examination</option>
+          </select>
+        </div>
+        <textarea
+          value={caseContext}
+          onChange={e => setCaseContext(e.target.value)}
+          placeholder="Case context (optional — helps the reviewer judge strategy)"
+          rows={2}
+          style={{ ...fieldStyle, fontSize: 12.5, resize: 'vertical' }}
+        />
+      </div>
+
+      <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: 12 }}>
+        <button
+          className="btn btn-primary"
+          style={controlBtnStyle}
+          disabled={!file}
+          onClick={() => onRun({ file, witnessName, mode, caseContext })}
+        >
+          Analyze Transcript
+        </button>
+      </div>
+    </div>
+  )
+}
+
 export default function Review({ session, analyses, setAnalyses, customReviewers, setCustomReviewers }) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
@@ -309,6 +390,7 @@ export default function Review({ session, analyses, setAnalyses, customReviewers
   const [selectedId, setSelectedId] = useState(null)
   const [tab, setTab] = useState('summary')
   const [adding, setAdding] = useState(false)
+  const [uploadOpen, setUploadOpen] = useState(false)
 
   useEffect(() => {
     getReviewers()
@@ -358,6 +440,33 @@ export default function Review({ session, analyses, setAnalyses, customReviewers
     }
   }
 
+  const runUpload = async ({ file, witnessName, mode, caseContext }) => {
+    setLoading(true)
+    setError(null)
+    try {
+      const custom = customReviewers.find(r => r.reviewer_id === reviewerId) || null
+      // Uploads come back with turns and witness_name already attached —
+      // there's no session for the client to snapshot them from.
+      const result = await analyzeUpload(file, {
+        witnessName, mode, caseContext,
+        reviewerId: custom ? null : reviewerId,
+        reviewer: custom,
+      })
+      const entry = {
+        ...result,
+        reviewer_name: reviewers.find(r => r.reviewer_id === result.reviewer_id)?.name || result.reviewer_id,
+      }
+      setAnalyses(prev => [...prev, entry])
+      setSelectedId(entry.analysis_id)
+      setTab('summary')
+      setUploadOpen(false)
+    } catch (err) {
+      setError(err.message)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const saveReviewer = (profile) => {
     setCustomReviewers(prev => [...prev.filter(r => r.reviewer_id !== profile.reviewer_id), profile])
     setReviewerId(profile.reviewer_id)
@@ -381,21 +490,29 @@ export default function Review({ session, analyses, setAnalyses, customReviewers
     return (
       <div className="view" style={{ maxWidth: 700, margin: '0 auto' }}>
         {adding && <AddReviewerPanel onSave={saveReviewer} onCancel={() => setAdding(false)} />}
+        {uploadOpen && <UploadTranscriptPanel onRun={runUpload} onCancel={() => setUploadOpen(false)} />}
         <div className="empty-state">
           <h3>No analysis yet</h3>
-          {canAnalyze ? (
-            <>
-              <p>Run a reviewer on your current session ({session.messages.length / 2 | 0} exchanges with {session.persona?.name || 'the witness'}).</p>
-              <div style={{ display: 'flex', gap: 10, justifyContent: 'center', alignItems: 'flex-start', marginTop: 12 }}>
-                <ReviewerSelect reviewers={reviewers} reviewerId={reviewerId} setReviewerId={setReviewerId} onAdd={() => setAdding(true)} />
-                <button className="btn btn-primary" style={controlBtnStyle} onClick={runAnalysis}>
-                  Analyze Session
-                </button>
-              </div>
-            </>
-          ) : (
-            <p>Complete an examination in the Examine tab, then come back here for feedback.</p>
-          )}
+          <p>
+            {canAnalyze
+              ? `Run a reviewer on your current session (${session.messages.length / 2 | 0} exchanges with ${session.persona?.name || 'the witness'}), or upload a prior transcript.`
+              : 'Complete an examination in the Examine tab, or upload a prior deposition or cross-examination for feedback.'}
+          </p>
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'center', alignItems: 'flex-start', marginTop: 12 }}>
+            <ReviewerSelect reviewers={reviewers} reviewerId={reviewerId} setReviewerId={setReviewerId} onAdd={() => setAdding(true)} />
+            {canAnalyze && (
+              <button className="btn btn-primary" style={controlBtnStyle} onClick={runAnalysis}>
+                Analyze Session
+              </button>
+            )}
+            <button
+              className={canAnalyze ? 'btn' : 'btn btn-primary'}
+              style={controlBtnStyle}
+              onClick={() => setUploadOpen(true)}
+            >
+              Upload Transcript
+            </button>
+          </div>
           {error && <div className="error-msg" style={{ marginTop: 12 }}>{error}</div>}
         </div>
       </div>
@@ -425,15 +542,17 @@ export default function Review({ session, analyses, setAnalyses, customReviewers
             reviewed by {reviewerLabel(analysis)} · {new Date(analysis.created_at).toLocaleString()}
           </div>
         </div>
-        {canAnalyze && (
-          <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
-            <ReviewerSelect reviewers={reviewers} reviewerId={reviewerId} setReviewerId={setReviewerId} onAdd={() => setAdding(true)} />
+        <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
+          <ReviewerSelect reviewers={reviewers} reviewerId={reviewerId} setReviewerId={setReviewerId} onAdd={() => setAdding(true)} />
+          {canAnalyze && (
             <button className="btn" style={controlBtnStyle} onClick={runAnalysis}>Analyze</button>
-          </div>
-        )}
+          )}
+          <button className="btn" style={controlBtnStyle} onClick={() => setUploadOpen(true)}>Upload</button>
+        </div>
       </div>
 
       {adding && <AddReviewerPanel onSave={saveReviewer} onCancel={() => setAdding(false)} />}
+      {uploadOpen && <UploadTranscriptPanel onRun={runUpload} onCancel={() => setUploadOpen(false)} />}
 
       {/* History */}
       {analyses.length > 1 && (
@@ -582,7 +701,7 @@ export default function Review({ session, analyses, setAnalyses, customReviewers
                     fontSize: 10, fontWeight: 700, letterSpacing: 0.5,
                     color: 'var(--muted)', minWidth: 76, paddingTop: 2,
                   }}>
-                    [{turn.turn_id}] {isExaminer ? 'EXAMINER' : 'WITNESS'}
+                    [{turn.turn_id}] {(turn.speaker || 'witness').toUpperCase()}
                   </span>
                   <div style={{ flex: 1, fontSize: 13, lineHeight: 1.6 }}>
                     <HighlightedText text={turn.text} annotations={anns} />

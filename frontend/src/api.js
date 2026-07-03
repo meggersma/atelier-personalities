@@ -103,6 +103,19 @@ export async function analyzeSession(session, reviewerId = null, reviewer = null
   return res.json()
 }
 
+export async function analyzeUpload(file, { witnessName = '', mode = '', caseContext = '', reviewerId = null, reviewer = null } = {}) {
+  const form = new FormData()
+  form.append('file', file)
+  if (witnessName) form.append('witness_name', witnessName)
+  if (mode) form.append('mode', mode)
+  if (caseContext) form.append('case_context', caseContext)
+  if (reviewerId) form.append('reviewer_id', reviewerId)
+  if (reviewer) form.append('reviewer', JSON.stringify(reviewer))
+  const res = await fetch(`${BASE}/analysis/upload`, { method: 'POST', body: form })
+  if (!res.ok) throw new Error(`Upload analysis failed: ${await errorDetail(res)}`)
+  return res.json()
+}
+
 export async function buildReviewer(name, materials) {
   const res = await fetch(`${BASE}/reviewers/build`, {
     method: 'POST',

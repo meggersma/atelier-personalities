@@ -2,7 +2,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -16,23 +16,23 @@ import os
 
 try:
     from . import session_store
-    from .document_processor import ingest_files
+    from .document_processor import ingest_files, parse_pdf, parse_text
     from .persona_builder import extract_candidates, build_persona, index_segments_in_pinecone, rank_segments_by_relevance
     from .pinecone_store import pinecone_enabled
     from .state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from .prompt_builder import build_system_prompt, tone_label
     from .realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
-    from .analysis.adapters import session_to_transcript
+    from .analysis.adapters import session_to_transcript, parse_uploaded_transcript
     from .analysis.analyzer import analyze_transcript, distill_reviewer, REVIEWERS
 except ImportError:
     import session_store
-    from document_processor import ingest_files
+    from document_processor import ingest_files, parse_pdf, parse_text
     from persona_builder import extract_candidates, build_persona, index_segments_in_pinecone, rank_segments_by_relevance
     from pinecone_store import pinecone_enabled
     from state_engine import encode_question, update_state, update_memory, compute_scores, detect_events
     from prompt_builder import build_system_prompt, tone_label
     from realtime_auth import create_ephemeral_token, build_voice_persona_prompt, voice_for_persona
-    from analysis.adapters import session_to_transcript
+    from analysis.adapters import session_to_transcript, parse_uploaded_transcript
     from analysis.analyzer import analyze_transcript, distill_reviewer, REVIEWERS
 
 app = FastAPI(title="Witness Simulator API")
@@ -566,6 +566,19 @@ def get_suggested_questions(session_id: str, req: Optional[SuggestedQuestionsReq
     return {"questions": questions[:4]}
 
 
+def _resolve_reviewer(reviewer: Optional[Dict], reviewer_id: Optional[str]) -> Optional[Dict]:
+    if reviewer:
+        if not reviewer.get("emphasis") or not reviewer.get("reviewer_id"):
+            raise HTTPException(status_code=400, detail="Custom reviewer needs reviewer_id and emphasis")
+        return reviewer
+    if reviewer_id:
+        profile = REVIEWERS.get(reviewer_id)
+        if not profile:
+            raise HTTPException(status_code=400, detail=f"Unknown reviewer: {reviewer_id}")
+        return profile
+    return None
+
+
 @app.post("/api/analysis")
 def create_analysis(req: AnalysisRequest):
     """Run the retrospective analyzer on a completed session."""
@@ -577,20 +590,67 @@ def create_analysis(req: AnalysisRequest):
     if not session.get("messages"):
         raise HTTPException(status_code=400, detail="Session has no turns to analyze")
 
-    reviewer = None
-    if req.reviewer:
-        if not req.reviewer.get("emphasis") or not req.reviewer.get("reviewer_id"):
-            raise HTTPException(status_code=400, detail="Custom reviewer needs reviewer_id and emphasis")
-        reviewer = req.reviewer
-    elif req.reviewer_id:
-        reviewer = REVIEWERS.get(req.reviewer_id)
-        if not reviewer:
-            raise HTTPException(status_code=400, detail=f"Unknown reviewer: {req.reviewer_id}")
+    reviewer = _resolve_reviewer(req.reviewer, req.reviewer_id)
 
     transcript = session_to_transcript(session)
     analysis = analyze_transcript(transcript, get_client(), reviewer)
     session_store.analyses_set(analysis.analysis_id, analysis.model_dump())
     return analysis.model_dump()
+
+
+@app.post("/api/analysis/upload")
+async def create_analysis_from_upload(
+    file: UploadFile = File(...),
+    witness_name: str = Form(""),
+    mode: str = Form(""),
+    case_context: str = Form(""),
+    reviewer_id: str = Form(""),
+    reviewer: str = Form(""),
+):
+    """Run the analyzer on an uploaded deposition/cross-examination transcript.
+
+    `reviewer` is a JSON-encoded custom profile (multipart forms can't nest
+    objects); built-in reviewers come through `reviewer_id`.
+    """
+    reviewer_profile = None
+    if reviewer:
+        try:
+            reviewer_profile = json.loads(reviewer)
+        except json.JSONDecodeError:
+            raise HTTPException(status_code=400, detail="reviewer must be a JSON object")
+    reviewer_profile = _resolve_reviewer(reviewer_profile, reviewer_id or None)
+
+    data = await file.read()
+    filename = file.filename or "transcript.txt"
+    try:
+        if filename.lower().endswith(".pdf"):
+            pages = parse_pdf(data, filename)
+        else:
+            pages = parse_text(data, filename)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Could not read file: {e}")
+    text = "\n".join(p["text"] for p in pages)
+    if not text.strip():
+        raise HTTPException(status_code=400, detail="No text could be extracted from the file")
+
+    transcript = parse_uploaded_transcript(
+        text,
+        get_client(),
+        witness_name=witness_name.strip() or None,
+        mode=mode.strip() or None,
+        case_context=case_context.strip() or None,
+    )
+    if len(transcript.turns) < 2:
+        raise HTTPException(status_code=400, detail="Could not find Q&A turns in the uploaded transcript")
+
+    analysis = analyze_transcript(transcript, get_client(), reviewer_profile)
+    result = analysis.model_dump()
+    # Uploads have no session for the client to snapshot turns from —
+    # ship the parsed turns with the analysis.
+    result["turns"] = [t.model_dump() for t in transcript.turns]
+    result["witness_name"] = transcript.witness_name
+    session_store.analyses_set(analysis.analysis_id, result)
+    return result
 
 
 @app.get("/api/reviewers")
