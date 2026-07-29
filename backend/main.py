@@ -655,9 +655,15 @@ async def create_analysis_from_upload(
 
 @app.get("/api/reviewers")
 def list_reviewers():
+    # Generic reviewers lead; named partners follow alphabetically.
+    leads = ["default_senior_litigator", "senior_arbitration_counsel"]
+    ordered = [REVIEWERS[i] for i in leads if i in REVIEWERS] + sorted(
+        (r for r in REVIEWERS.values() if r["reviewer_id"] not in leads),
+        key=lambda r: r["name"],
+    )
     return {"reviewers": [
         {"reviewer_id": r["reviewer_id"], "name": r["name"], "blurb": r.get("blurb", "")}
-        for r in REVIEWERS.values()
+        for r in ordered
     ]}
 
 
